@@ -1,0 +1,243 @@
+BE-10 PROTOTYPE SELFTEST
+========================
+Timestamp: 2026-11-17 19:38:28
+Tests: 26; passed: 26; failed: 0
+
+[PASS] ADX-01 — ADX KEIHIN container structure
+  Input    : ADX KEIHIN BE.adx
+  Method   : Static inspection: magic, header boundary, fixed block, payload tag, entropy, signatures
+  Expected : magic=05 22 97 00; header=0x83; payload=39891 bytes; tag=0x03; no zlib/gzip/zip; entropy>=7.9; printable consistent with random (0.33-0.42); 43-byte prefix equal to SHINDENGEN
+  Actual   : magic=True; header=0x83; payload=39891; tag=0x03; entropy=7.995; printable=0.3752; prefix43Equal=True; zlib=False; gzip=False; zip=False
+  HashBefore: ADX KEIHIN BE.adx=6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85; ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  HashAfter : ADX KEIHIN BE.adx=6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85; ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  Output   : SHA256=6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85
+  Notes    : No decryption attempted; container only.
+
+[PASS] ADX-02 — ADX SHINDENGEN container structure
+  Input    : ADX SHINDENGEN BE.adx
+  Method   : Static inspection of second ADX
+  Expected : magic=true; header=0x83; payload=23472; tag=0x02; entropy>=7.9; no compression signatures
+  Actual   : magic=True; header=0x83; payload=23472; tag=0x02; entropy=7.993
+  HashBefore: ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  HashAfter : ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  Output   : SHA256=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  Notes    : ADX tag byte differs from KEIHIN file.
+
+[PASS] ADX-03 — ADX files are not modified
+  Input    : both ADX files
+  Method   : Compare SHA-256 recorded before and after all prototype work
+  Expected : hashes identical before/after
+  Actual   : hashes unchanged
+  HashBefore: ADX KEIHIN BE.adx=6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85; ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  HashAfter : ADX KEIHIN BE.adx=6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85; ADX SHINDENGEN BE.adx=c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+  Notes    : Read-only guarantee.
+
+[PASS] DB-01 — Map database parse
+  Input    : 3D_MAP_DATABASE.csv
+  Method   : CSV parse into MapDefinition records
+  Expected : 152 models; K1AA-N03: cols=29 rows=35 tpsh=0x39BFE rpmh=0x39C38 feul1=0x3815E ig1=0x39CA1 limit1=0x39858 kon=1.0
+  Actual   : count=152; K1AA=cols=29 rows=35 tpsh=0x39BFE rpmh=0x39C38 feul1=0x3815E ig1=0x39CA1 limit1=0x39858 kon=1
+  HashBefore: 3D_MAP_DATABASE.csv=d1326d59ea70b93b0ee213a12164824b757e0d5d0487596b6ea753a52e0098a3
+  HashAfter : 3D_MAP_DATABASE.csv=d1326d59ea70b93b0ee213a12164824b757e0d5d0487596b6ea753a52e0098a3
+  Notes    : Offsets are file offsets, not ECU addresses.
+
+[PASS] DB-02 — ECU ID database parse
+  Input    : 3D_ECU_ID_DATABASE.csv
+  Method   : CSV parse and family count
+  Expected : 169 rows: KEIHIN=97, SHINDENGEN=72; first KEIHIN 0101F30F11 / VERZA 150 (K18G-941) start=0x8000 ck=0
+  Actual   : rows=169; KEIHIN=97; SHINDENGEN=72; first=0101F30F11/VERZA 150 (K18G-941)
+  HashBefore: 3D_ECU_ID_DATABASE.csv=e84ccce23993bf3717a9352148f1bb0548a88d0dd2790581abddcbe54fcdc0cd
+  HashAfter : 3D_ECU_ID_DATABASE.csv=e84ccce23993bf3717a9352148f1bb0548a88d0dd2790581abddcbe54fcdc0cd
+  Notes    : Some ChecksumOffset values are literal 'auto' (resolved at runtime by signature scan).
+
+[PASS] MAP-01 — 3D map parse K1AA-N03
+  Input    : k1aa_n03.bin
+  Method   : BinTableReader: TPS /10, RPM /kon, uint16 table /1000, endianness by table offset
+  Expected : cols=29 rows=35 BE=False; TPS=0/0.4/74.3; RPM=900/1200/9200; fuel first=3.88 last=10.149 min=0.464 max=12.584
+  Actual   : cols=29 rows=35 BE=False; TPS=0.0/0.4/74.3; RPM=900/1200/9200; fuel first=3.880 last=10.149 min=0.464 max=12.584
+  HashBefore: k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  HashAfter : k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  Output   : tableOffset=0x3815E
+
+[PASS] MAP-02 — 3D map parse K59A-A11
+  Input    : k59a_a11.bin
+  Method   : BinTableReader: TPS /10, RPM /kon, uint16 table /1000, endianness by table offset
+  Expected : cols=25 rows=29 BE=False; TPS=0/0.4/74.3; RPM=900/1100/9600; fuel first=0.885 last=2.359 min=0.174 max=3.381
+  Actual   : cols=25 rows=29 BE=False; TPS=0.0/0.4/74.3; RPM=900/1100/9600; fuel first=0.885 last=2.359 min=0.174 max=3.381
+  HashBefore: k59a_a11.bin=d07d1772ccb47b2cd69f8e8244d51482af914beeca53986ff29ec304c0412536
+  HashAfter : k59a_a11.bin=d07d1772ccb47b2cd69f8e8244d51482af914beeca53986ff29ec304c0412536
+  Output   : tableOffset=0x190EC
+
+[PASS] MAP-03 — 3D map parse 30400-K25G-601
+  Input    : k25g_601.bin
+  Method   : BinTableReader: TPS /10, RPM /kon, uint16 table /1000, endianness by table offset
+  Expected : cols=25 rows=29 BE=False; TPS=0/0.4/74.3; RPM=1000/1200/9500; fuel first=1.261 last=3.026 min=0.141 max=3.821
+  Actual   : cols=25 rows=29 BE=False; TPS=0.0/0.4/74.3; RPM=1000/1200/9500; fuel first=1.261 last=3.026 min=0.141 max=3.821
+  HashBefore: k25g_601.bin=b307aaa329297dc4a7713d3a7ef0fa1e244ebd92b964d57b43e71efef4ced406
+  HashAfter : k25g_601.bin=b307aaa329297dc4a7713d3a7ef0fa1e244ebd92b964d57b43e71efef4ced406
+  Output   : tableOffset=0x19130
+
+[PASS] MAP-04 — 3D map parse kzrb31.bin
+  Input    : kzrb31.bin
+  Method   : BinTableReader: TPS /10, RPM /kon, uint16 table /1000, endianness by table offset
+  Expected : cols=25 rows=29 BE=False; TPS=0/0.5/74.3; RPM=900/1100/9850; fuel first=1.261 last=2.619 min=0.066 max=3.587
+  Actual   : cols=25 rows=29 BE=False; TPS=0.0/0.5/74.3; RPM=900/1100/9850; fuel first=1.261 last=2.619 min=0.066 max=3.587
+  HashBefore: kzrb31.bin=edd346a41d0f747e0bb40de207d1e11e73042ae8cd0e9ddb61e006d22c27b790
+  HashAfter : kzrb31.bin=edd346a41d0f747e0bb40de207d1e11e73042ae8cd0e9ddb61e006d22c27b790
+  Output   : tableOffset=0x194C0
+
+[PASS] MAP-05 — 3D map parse k46n21.bin
+  Input    : k46n21.bin
+  Method   : BinTableReader: TPS /10, RPM /kon, uint16 table /1000, endianness by table offset
+  Expected : cols=25 rows=29 BE=True; TPS=0/0.4/74.3; RPM=1000/1200/9500; fuel first=3.363 last=8.069 min=0.376 max=10.19
+  Actual   : cols=25 rows=29 BE=True; TPS=0.0/0.4/74.3; RPM=1000/1200/9500; fuel first=3.363 last=8.069 min=0.376 max=10.190
+  HashBefore: k46n21.bin=48f0f5eed6daebdb4923750fd88ea3cf5a1916e9ca89fef8b2b1c8b095ad7a27
+  HashAfter : k46n21.bin=48f0f5eed6daebdb4923750fd88ea3cf5a1916e9ca89fef8b2b1c8b095ad7a27
+  Output   : tableOffset=0x3911C
+
+[PASS] CK-01 — Honda frame checksum vectors
+  Input    : synthetic byte vectors
+  Method   : ChecksumHonda = (sum ^ 0xFF) + 1; BuildFrame; ParseFrames
+  Expected : 72 05 71 10 -> 08; 72 05 71 20 -> F8; 7D 06 01 01 03 -> 78; FE 04 72 -> 8C; built frame 72 05 71 10 08
+  Actual   : c1=0x08 c2=0xF8 c3=0x78 c4=0x8C frame=7205711008
+  HashBefore: 
+  HashAfter : 
+
+[PASS] CK-02 — Keihin 8-bit sum complement
+  Input    : synthetic bytes 01..0A
+  Method   : KeihinChecksum(offset=0) and (offset=5); verify total sum == 0 mod 256 after write
+  Expected : offset0=CA; offset5=CF; post-write byte sums 0
+  Actual   : offset0=0xCA sum=0; offset5=0xCF sum=0
+  HashBefore: 
+  HashAfter : 
+  Notes    : Matches Form1.cs KeihinAutoChecksum.
+
+[PASS] CK-03 — Shindengen 32-bit sum complement
+  Input    : synthetic 32-byte buffer, bytes 0..31, checksum field 12..15 zeroed, num=16
+  Method   : ShindengenChecksum + Apply; verify sum32(all 32 bytes)==0
+  Expected : checksum=0x868D949C; post-write sum32=0
+  Actual   : checksum=0x868D949C; sum32=0x00000000
+  HashBefore: 
+  HashAfter : 
+  Notes    : num is the D0 07 marker offset; field at num-4.
+
+[PASS] SK-01 — Shindengen seed/key arithmetic
+  Input    : seed=0x1234, c0=0x0102, c1=0x0003, c2=0x0011
+  Method   : key = c1*(seed+c0) + (c2>0 ? seed%c2 : seed), 16-bit truncation
+  Expected : 0x39A4 (high 39, low A4)
+  Actual   : key=0x39A4 high=0x39 low=0xA4
+  HashBefore: 
+  HashAfter : 
+  Notes    : No ECU contacted.
+
+[PASS] LD-01 — dat10 live decode
+  Input    : synthetic 21-byte response
+  Method   : LiveData.DecodeDat10 exact source offsets
+  Expected : RPM=3600; TPS=2.5V/50%; ECT=1.953125V/50C; IAT=1.953125V/0C; MAP=1.953125V/50; BAT=12.0V; VSS=60; INJ=5.0ms; ADV=0deg
+  Actual   : RPM=3600; TPS=2.500000V/50.000000%; ECT=1.953125V/50C; IAT=1.953125V/0C; MAP=1.953125V/50; BAT=12.000000V; VSS=60; INJ=5.000000ms; ADV=0.000000
+  HashBefore: 
+  HashAfter : 
+
+[PASS] LD-02 — dat13 live decode (compact layout)
+  Input    : synthetic 18-byte response
+  Method   : LiveData.DecodeDat13: BAT@14, INJ@15-16, ADV@17
+  Expected : BAT=12.0V; INJ=1.0ms; ADV=0deg
+  Actual   : RPM=900; BAT=12.000000V; INJ=1.000000ms; ADV=0.000000
+  HashBefore: 
+  HashAfter : 
+
+[PASS] LD-03 — dat16 live decode (dual sensors)
+  Input    : synthetic 25-byte response
+  Method   : LiveData.DecodeDat16 exact source offsets
+  Expected : RPM=3600; AP1=5.0V AP2=2.5V; TP1=30deg TP2=20deg; COR=7; ECT=2.5V/50C; IAT=2.5V/0C; MAP=2.5V/99; BAT=12V; VSS=60; INJ=1.0ms; ADV=0
+  Actual   : RPM=3600; AP1=4.980469V AP2=2.500000V; TP1=30.000000 TP2=20.000000; COR=7; ECT=2.500000/50; IAT=2.500000/0; MAP=2.500000/99; BAT=12.000000; VSS=60; INJ=1.000000; ADV=0.000000
+  HashBefore: 
+  HashAfter : 
+
+[PASS] LD-04 — dat17 mode/table decode
+  Input    : synthetic 20-byte response
+  Method   : LiveData.DecodeDat17: ECT fallback when 0xFF, MODE map, FIZ flag
+  Expected : RPM=1500; TPS=2.5V/50%; ECT=2.5V/50C; MODE=1; FIZ=ON; tableType=2; VSS=60
+  Actual   : RPM=1500; TPS=2.500000/50.000000; ECT=2.500000/50; MODE=1; FIZ=True; tableType=2; VSS=60
+  HashBefore: 
+  HashAfter : 
+
+[PASS] LD-05 — dat20 AFR formula
+  Input    : b[4]=64, b[5]=128
+  Method   : LiveData.DecodeDat20: O2, O2V, STF, AFR
+  Expected : O2=2.498115; O2V=1.255057; STF=0.998000; AFR=10.984190
+  Actual   : O2=2.498115; O2V=1.255057; STF=0.998000; AFR=10.984190
+  HashBefore: 
+  HashAfter : 
+  Notes    : AFR is a software estimate, not an ECU-reported value.
+
+[PASS] LD-06 — datD1 status decode
+  Input    : synthetic 11-byte response
+  Method   : LiveData.DecodeDatD1 switch mapping
+  Expected : b4=01: BAS=ON, SSS=ON, SSW=OFF, GGS=Netral; b8=05: POM=ON; b9=01: FAN=ON; b10=80: gear 6
+  Actual   : BAS=ON SSS=ON SSW=OFF GGS=Netral POM=ON FAN=ON GEAR=6
+  HashBefore: 
+  HashAfter : 
+
+[PASS] FX-01 — Formula evaluator
+  Input    : expressions x*5/256; -5.351*x+17.7; (a+b)*2
+  Method   : SimpleFormula shunting-yard evaluator
+  Expected : x=128 -> 2.5; x=1.25505699723691 -> 10.984190; a=1,b=2 -> 6
+  Actual   : v1=2.500000; v2=10.984190; v3=6.000000
+  HashBefore: 
+  HashAfter : 
+
+[PASS] IN-01 — Bilinear interpolation and clamping
+  Input    : xs=[0,10], ys=[0,100], z={{0,10},{20,30}}
+  Method   : Interpolation.Bilinear + NearestIndex
+  Expected : (5,50)=15; (0,0)=0; (20,200)=30 clamped; nearest x=7 -> index 1
+  Actual   : center=15.000000; corner=0.000000; clamped=30.000000; nearestIndex=1
+  HashBefore: 
+  HashAfter : 
+  Notes    : Interpolation is an addition; the source only uses nearest-point pointer logic.
+
+[PASS] ED-01 — Table edit round-trip on a copy
+  Input    : k1aa_n03.bin (copied to RESULTS/work_k1aa.bin)
+  Method   : Copy, WriteRaw(feul1,row0,col0,5000), reload, re-read
+  Expected : reloaded value=5.000; bytes at 0x3815E = 13 88; source SHA-256 unchanged
+  Actual   : value=5.000; raw=0x1388; bytes=88 13; sourceHashUnchanged=True
+  HashBefore: k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  HashAfter : k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  Output   : work file: C:\Users\Lord Otoy\Documents\REVCORE_BE10_RESEARCH\PROTOTYPES\RESULTS\work_k1aa.bin
+  Notes    : Only the copy is written.
+
+[PASS] EX-01 — 3D graph export and re-import
+  Input    : k1aa_n03.bin
+  Method   : ExportCsv(fuel map) then ReadExportedCsv
+  Expected : 35 data rows x 29 data columns; first=3.880; last=10.149
+  Actual   : rows=35 cols=29 first=3.880 last=10.149
+  HashBefore: k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  HashAfter : k1aa_n03.bin=47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+  Output   : export: C:\Users\Lord Otoy\Documents\REVCORE_BE10_RESEARCH\PROTOTYPES\RESULTS\BE10_K1AA_FUEL_GRAPH.csv
+
+[PASS] CP-01 — BIN comparison
+  Input    : k59a_a11.bin vs kzrb31.bin
+  Method   : BinTableReader.Compare byte scan
+  Expected : both 393216 bytes; 131901 differing bytes; first diff 0; last diff 196495
+  Actual   : sizes=393216/393216; diffs=131901; first=0; last=196495
+  HashBefore: k59a_a11.bin=d07d1772ccb47b2cd69f8e8244d51482af914beeca53986ff29ec304c0412536; kzrb31.bin=edd346a41d0f747e0bb40de207d1e11e73042ae8cd0e9ddb61e006d22c27b790
+  HashAfter : k59a_a11.bin=d07d1772ccb47b2cd69f8e8244d51482af914beeca53986ff29ec304c0412536; kzrb31.bin=edd346a41d0f747e0bb40de207d1e11e73042ae8cd0e9ddb61e006d22c27b790
+
+[PASS] FR-01 — Frame stream parser
+  Input    : two concatenated frames, second checksum corrupted
+  Method   : HondaProtocol.ParseFrames
+  Expected : 2 frames; first valid; second invalid; format/length preserved
+  Actual   : frames=2; ok1=True; ok2=False; format=0x72; len=2
+  HashBefore: 
+  HashAfter : 
+
+INPUT HASH STABILITY
+UNCHANGED 3D_ECU_ID_DATABASE.csv e84ccce23993bf3717a9352148f1bb0548a88d0dd2790581abddcbe54fcdc0cd
+UNCHANGED 3D_MAP_DATABASE.csv d1326d59ea70b93b0ee213a12164824b757e0d5d0487596b6ea753a52e0098a3
+UNCHANGED ADX KEIHIN BE.adx 6b1d9b97d1db76fc6e600bba305230991628008cad57edf9276816bb5dda7a85
+UNCHANGED ADX SHINDENGEN BE.adx c3df2e7817e890c27a40cca32ead33c3e6cb7affae5a6d96a9cfe867cc51e249
+UNCHANGED k1aa_n03.bin 47dae56a8fa8a7527e30a3ed6cd4779a6f6558bfd5aef203eddd45c7666e61aa
+UNCHANGED k25g_601.bin b307aaa329297dc4a7713d3a7ef0fa1e244ebd92b964d57b43e71efef4ced406
+UNCHANGED k46n21.bin 48f0f5eed6daebdb4923750fd88ea3cf5a1916e9ca89fef8b2b1c8b095ad7a27
+UNCHANGED k59a_a11.bin d07d1772ccb47b2cd69f8e8244d51482af914beeca53986ff29ec304c0412536
+UNCHANGED kzrb31.bin edd346a41d0f747e0bb40de207d1e11e73042ae8cd0e9ddb61e006d22c27b790
