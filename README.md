@@ -69,7 +69,7 @@ Tidak ada file biner aplikasi, BIN, XDF terenkripsi, ADX terenkripsi, LOG, atau 
 
 ## 4. Klasifikasi dan pengecualian
 
-Total paket: **176 file** — 148 DIRECTLY_READABLE, 27 READABLE_WITH_LIMITATIONS (PNG), 0 NOT_DIRECTLY_READABLE yang diunggah (seluruh biner dikecualikan), 0 SENSITIVE_OR_RESTRICTED. Dua file infrastruktur (`.gitattributes` dan manifest) tidak termasuk klasifikasi konten.
+Total paket: **177 file** — 148 DIRECTLY_READABLE, 27 READABLE_WITH_LIMITATIONS (PNG), 0 NOT_DIRECTLY_READABLE yang diunggah (seluruh biner dikecualikan), 0 SENSITIVE_OR_RESTRICTED, ditambah 1 `.gitattributes` dan 1 manifest sebagai infrastruktur.
 
 | Kelas | Perlakuan |
 |---|---|

@@ -160,7 +160,7 @@ name,extension,bytes,sha256
 "17_INDEKS_BUKTI.md",md,6499,90b6e16f4af3900a93857bbb3403aa6ab6579dc9c26df4edebcd781deb4c714f
 "18_KETERBATASAN_DAN_RISIKO.md",md,5017,208cb1bed61770a4a73c4dd3aa41855a844af7a8d5f6f5d10b69ff5fea2ad90f
 "19_CAKUPAN_DAN_KEYAKINAN.md",md,5026,f8cb208821ef57b2af4c4e900c6012b9ce51df69ea4e42dcb3ba1fc77d3757bc
-"README.md",md,7162,ed11e7d4fc525ea97e4ffd1779c2dab00b817edb9075f64bfa16df4cda7d4728
+"README.md",md,7138,97cfe3b7d9fe8f601dd10bb8c81fb4972814bdaa4e67fd881e9dc9f80c6ab363
 "dataset/readable_definitions/MAPPING.csv",csv,3255,c101d458698450e531035bf8c5866c806d3ad67461f4a914b72e21f5fb2e88e3
 "dataset/readable_definitions/xdf_01_ADV_150_K0WF-T01_(Philipina)_(Shindengen)_(mbah_Kung).xdf",xdf,79267,97da8307078e74508be1c5e70e0dbff44e85b298b60a9bb83a0775c36a456ff5
 "dataset/readable_definitions/xdf_02_30400-K1AA-N03.xdf",xdf,33667,4e09f1fbbf229e530c88438ddcf622f8206fc961447012cae8e1fe6d511c1905
