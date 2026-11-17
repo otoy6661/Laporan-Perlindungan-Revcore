@@ -1,0 +1,5 @@
+﻿"Type","Id","Lang","RVA","Size","FileOffset","Output"
+"ICON","30001","0","0x1D130","3280","114992","ICON_30001_0.bin"
+"GROUP_ICON","1","0","0x1DE00","20","118272","GROUP_ICON_1_0.bin"
+"VERSION","1","1033","0x1DE14","492","118292","VERSION_1_1033.bin"
+"MANIFEST","1","1033","0x1E000","999","118784","MANIFEST_1_1033.bin"

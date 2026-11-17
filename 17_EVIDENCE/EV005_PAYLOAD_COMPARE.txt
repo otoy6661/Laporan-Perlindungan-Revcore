@@ -1,0 +1,31 @@
+BE-12 PAYLOAD vs INSTALLER ORIGINAL — byte comparison (captured 2026-11-18 local)
+Source of originals: C:\Users\<USER>\Documents\Qoder\flashpro_analysis\embedded_2026\{app}\
+Hashes recomputed by BE-12 on 2026-11-18.
+
+1) FLASHPRO.exe
+   installer original : 33,321,984 B  sha256 9fafdc8e795b2809cc02356bb2d4f5e79432fa3f72ab65ff7a8b56039bd02eb3
+   wrapper payload    : 33,321,984 B  sha256 9fafdc8e795b2809cc02356bb2d4f5e79432fa3f72ab65ff7a8b56039bd02eb3
+   comparison         : cmp over full length -> no differing byte (EXACT MATCH)
+
+2) AUTO UPDATE.exe
+   installer original :  9,671,680 B  sha256 181db74b0e282e91cefa18c4d9d8f7975b0bee55df4bd32e51187cfec397d9ec
+   wrapper payload    :  9,671,680 B  sha256 181db74b0e282e91cefa18c4d9d8f7975b0bee55df4bd32e51187cfec397d9ec
+   comparison         : cmp first 9,671,680 B -> no differing byte (EXACT MATCH)
+   note               : wrapper stores an additional 25-byte trailer after the payload
+
+3) unins000.exe
+   installer original : not available (installer archive absent)
+   wrapper payload    :  3,693,285 B  sha256 7392f14a21b453126924dff5c2faaba73e57e4e3b50e2dd068caec060e95187a
+   identification     : PE32 x86, 11 sections, ProductName FLASHPRO, FileDescription Setup/Uninstall,
+                        FileVersion 51.1052.0.0 (Inno Setup uninstaller)
+   comparison         : N/A
+
+4) flashpro.exe + U+00A0 (installed name, code point 160)
+   source file        : created 2026-11-17 12:06:10-11 UTC (after wrapper rewrite)
+   bytes / sha256     : 33,321,984 B / 9fafdc8e795b2809cc02356bb2d4f5e79432fa3f72ab65ff7a8b56039bd02eb3
+   comparison         : identical to installer original and to FLASHPRO.exe wrapper payload
+
+Structural consequence (verified):
+   FLASHPRO.exe   = 122,880 stub + 15,458 filler + 25 header + 33,321,984 payload + 25 trailer = 33,460,372
+   AUTO UPDATE.exe= 122,880 stub + 15,547 filler + 25 header +  9,671,680 payload + 25 trailer =  9,810,157
+   unins000.exe   = 122,880 stub + 15,431 filler + 25 header +  3,693,285 payload + 25 trailer =  3,831,646

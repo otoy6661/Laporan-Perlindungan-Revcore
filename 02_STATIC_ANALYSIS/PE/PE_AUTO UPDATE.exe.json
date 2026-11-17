@@ -1,0 +1,302 @@
+{
+  "File": "AUTO UPDATE.exe",
+  "Bytes": 9810157,
+  "Machine": "0x014C",
+  "MachineName": "x86",
+  "PE32Plus": false,
+  "Sections": 3,
+  "TimeDateStamp": 1364800102,
+  "TimeDateStampUtc": "2013-04-01 07.08.22",
+  "Characteristics": "0x010F",
+  "DllCharacteristics": "0x0000",
+  "Subsystem": "GUI",
+  "EntryPointRVA": "0x0000290C",
+  "ImageBase": "0x400000",
+  "SectionAlignment": 4096,
+  "FileAlignment": 4096,
+  "SizeOfImage": 126976,
+  "SizeOfHeaders": 4096,
+  "OverlayBytes": 9687277,
+  "HasCLR": false,
+  "AuthenticodeDir": {
+    "Offset": 0,
+    "Size": 0
+  },
+  "DataDirectories": [
+    {
+      "Index": 0,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 1,
+      "RVA": "0x000198F4",
+      "Size": 40
+    },
+    {
+      "Index": 2,
+      "RVA": "0x0001D000",
+      "Size": 5104
+    },
+    {
+      "Index": 3,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 4,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 5,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 6,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 7,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 8,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 9,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 10,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 11,
+      "RVA": "0x00000228",
+      "Size": 32
+    },
+    {
+      "Index": 12,
+      "RVA": "0x00001000",
+      "Size": 544
+    },
+    {
+      "Index": 13,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 14,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 15,
+      "RVA": "0x00000000",
+      "Size": 0
+    }
+  ],
+  "SectionTable": [
+    {
+      "Name": ".text",
+      "VA": "0x00001000",
+      "VirtualSize": 102868,
+      "RawPointer": "0x00001000",
+      "RawSize": 106496,
+      "Flags": "0xE0000020",
+      "Entropy": 5.7348
+    },
+    {
+      "Name": ".data",
+      "VA": "0x0001B000",
+      "VirtualSize": 6156,
+      "RawPointer": "0x0001B000",
+      "RawSize": 4096,
+      "Flags": "0xC0000040",
+      "Entropy": 0
+    },
+    {
+      "Name": ".rsrc",
+      "VA": "0x0001D000",
+      "VirtualSize": 5104,
+      "RawPointer": "0x0001C000",
+      "RawSize": 8192,
+      "Flags": "0xE0000040",
+      "Entropy": 3.858
+    }
+  ],
+  "Imports": [
+    {
+      "DLL": "MSVBVM60.DLL",
+      "Functions": [
+        "EVENT_SINK_GetIDsOfNames",
+        "#690",
+        "_CIcos",
+        "_adj_fptan",
+        "__vbaStrI4",
+        "__vbaVarVargNofree",
+        "__vbaFreeVar",
+        "__vbaLenBstr",
+        "__vbaLateIdCall",
+        "__vbaPut3",
+        "__vbaEnd",
+        "__vbaFreeVarList",
+        "_adj_fdiv_m64",
+        "EVENT_SINK_Invoke",
+        "__vbaRaiseEvent",
+        "__vbaFreeObjList",
+        "#516",
+        "__vbaStrErrVarCopy",
+        "#517",
+        "_adj_fprem1",
+        "__vbaRecAnsiToUni",
+        "#519",
+        "__vbaCopyBytes",
+        "__vbaStrCat",
+        "__vbaLsetFixstr",
+        "__vbaRecDestruct",
+        "__vbaSetSystemError",
+        "#661",
+        "__vbaHresultCheckObj",
+        "__vbaNameFile",
+        "_adj_fdiv_m32",
+        "Zombie_GetTypeInfo",
+        "__vbaAryDestruct",
+        "#669",
+        "#593",
+        "__vbaExitProc",
+        "#594",
+        "__vbaOnError",
+        "__vbaObjSet",
+        "_adj_fdiv_m16i",
+        "__vbaObjSetAddref",
+        "_adj_fdivr_m16i",
+        "#598",
+        "__vbaFpR4",
+        "#705",
+        "__vbaStrFixstr",
+        "_CIsin",
+        "#631",
+        "#709",
+        "#525",
+        "__vbaChkstk",
+        "__vbaFileClose",
+        "EVENT_SINK_AddRef",
+        "__vbaGenerateBoundsError",
+        "__vbaGet3",
+        "__vbaStrCmp",
+        "#529",
+        "__vbaGet4",
+        "__vbaPutOwner3",
+        "__vbaAryConstruct2",
+        "__vbaVarTstEq",
+        "__vbaI2I4",
+        "DllFunctionCall",
+        "__vbaFpUI1",
+        "__vbaRedimPreserve",
+        "__vbaStrR4",
+        "_adj_fpatan",
+        "__vbaLateIdCallLd",
+        "Zombie_GetTypeInfoCount",
+        "__vbaRedim",
+        "__vbaRecUniToAnsi",
+        "EVENT_SINK_Release",
+        "__vbaNew",
+        "#600",
+        "__vbaUI1I2",
+        "_CIsqrt",
+        "EVENT_SINK_QueryInterface",
+        "__vbaExceptHandler",
+        "#712",
+        "__vbaStrToUnicode",
+        "#606",
+        "_adj_fprem",
+        "_adj_fdivr_m64",
+        "#714",
+        "#609",
+        "__vbaFPException",
+        "#319",
+        "__vbaGetOwner3",
+        "__vbaUbound",
+        "#535",
+        "__vbaFileSeek",
+        "#537",
+        "_CIlog",
+        "__vbaErrorOverflow",
+        "__vbaFileOpen",
+        "#648",
+        "#570",
+        "__vbaNew2",
+        "__vbaInStr",
+        "_adj_fdiv_m32i",
+        "#572",
+        "_adj_fdivr_m32i",
+        "__vbaStrCopy",
+        "__vbaI4Str",
+        "__vbaFreeStrList",
+        "_adj_fdivr_m32",
+        "_adj_fdiv_r",
+        "#100",
+        "__vbaI4Var",
+        "#689",
+        "__vbaAryLock",
+        "__vbaVarAdd",
+        "#611",
+        "#320",
+        "__vbaVarDup",
+        "__vbaStrToAnsi",
+        "#321",
+        "__vbaFpI2",
+        "__vbaFpI4",
+        "#616",
+        "__vbaLateMemCallLd",
+        "_CIatan",
+        "__vbaStrMove",
+        "#618",
+        "__vbaCastObj",
+        "__vbaR8IntI4",
+        "#650",
+        "_allmul",
+        "_CItan",
+        "__vbaAryUnlock",
+        "_CIexp",
+        "__vbaFreeObj",
+        "__vbaFreeStr",
+        "#580",
+        "#581"
+      ]
+    }
+  ],
+  "DelayImports": [],
+  "Exports": [],
+  "Resources": [
+    {
+      "Path": "ICON/ID_30001/ID_0",
+      "RVA": "0x0001D130",
+      "Size": 3280
+    },
+    {
+      "Path": "GROUP_ICON/CURSOR/ID_0",
+      "RVA": "0x0001DE00",
+      "Size": 20
+    },
+    {
+      "Path": "VERSION/CURSOR/ID_1033",
+      "RVA": "0x0001DE14",
+      "Size": 492
+    },
+    {
+      "Path": "MANIFEST/CURSOR/ID_1033",
+      "RVA": "0x0001E000",
+      "Size": 999
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+BE-12 — FASE VI PROTOTYPE RUN ENVIRONMENT
+=========================================
+Waktu run (UTC)      : 2026-11-17T19:08:52Z
+Host OS              : Windows 10.0.22631 (x64)
+Shell                : Git Bash (C:\Program Files\Git\bin\bash.exe)
+
+Node.js
+-------
+Distribusi           : node-v24.22.1-win-x64.zip (resmi nodejs.org)
+Lokasi ekstraksi     : %LOCALAPPDATA%\Temp\be12-node\node-v24.22.1-win-x64
+Verifikasi           : SHASUMS256.txt resmi -> "node-v24.22.1-win-x64.zip: OK"
+SHA-256 arsip        : d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95fa5
+node --version       : v24.22.1
+
+Catatan: Node tidak ada di PATH host; runtime portabel diunduh hanya untuk menjalankan
+prototipe. Runtime berada di luar workspace dan tidak termasuk artefak publikasi.
+
+Hash skrip prototipe (SHA-256)
+------------------------------
+87826fd2c43a5c5fd69caaff87d30ff3e22210058b9d74b65015c7c76e23ce89  tools/checksum.js
+17819c9891016841c8b5380b2c317dcf236144c318a07e725bd72b475bf3253b  tools/frame_validator.js
+2eb29a174440de9e8262b35758b92f64b304faccc28ecc639d548168965c909c  tools/dtc_gap.js
+6af16ad8a022c802b9649a156048f105da2d75304b3e6f3164514742a71a8295  tools/profile_audit.js
+43e0bcd9bcff044ed1d321683e110c5f52318f26edbc89ebeb3dab5c1ab909fc  tests/run_tests.js
+
+Hasil: 12/12 PASS (lihat 01_TEST_HARNESS_OUTPUT.txt)

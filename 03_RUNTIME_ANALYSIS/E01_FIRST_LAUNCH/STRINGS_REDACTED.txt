@@ -1,0 +1,2084 @@
+﻿Calibri
+OK
+Cencel
+gagal
+error
+{0}%
+Invalid enum
+;
+Function string cannot contain semicolon
+using {1};
+public class Eval
+{{
+	public static double e  {{ get {{ return System.Math.E;  }}  }}
+	public static double pi {{ get {{ return System.Math.PI; }}  }}
+	public static double abs  (double x)           {{ return System.Math.Abs(x);      }}
+	public static double acos (double x)           {{ return System.Math.Acos(x);     }}
+	public static double asin (double x)           {{ return System.Math.Asin(x);     }}
+	public static double atan (double x)           {{ return System.Math.Atan(x);     }}
+	public static double atan2(double x, double y) {{ return System.Math.Atan2(x, y); }}
+	public static double ceil (double x)           {{ return System.Math.Ceiling(x);  }}
+	public static double cos  (double x)           {{ return System.Math.Cos(x);      }}
+	public static double cosh (double x)           {{ return System.Math.Cosh(x);     }}
+	public static double exp  (double x)           {{ return System.Math.Exp(x);      }}
+	public static double floor(double x)           {{ return System.Math.Floor(x);    }}
+	public static double log  (double x)           {{ return System.Math.Log(x);      }}
+	public static double log2 (double x)           {{ return System.Math.Log(x, 2.0); }}
+	public static double log10(double x)           {{ return System.Math.Log10(x);    }}
+	public static double max  (double x, double y) {{ return System.Math.Max(x, y);   }}
+	public static double min  (double x, double y) {{ return System.Math.Min(x, y);   }}
+	public static double pow  (double x, double y) {{ return System.Math.Pow(x, y);   }}
+	public static double round(double x)           {{ return System.Math.Round(x);    }}
+	public static double sign (double x)           {{ return System.Math.Sign(x);     }}
+	public static double sin  (double x)           {{ return System.Math.Sin(x);      }}
+	public static double sinh (double x)           {{ return System.Math.Sinh(x);     }}
+	public static double sqrt (double x)           {{ return System.Math.Sqrt(x);     }}
+	public static double tan  (double x)           {{ return System.Math.Tan(x);      }}
+	public static double tanh (double x)           {{ return System.Math.Tanh(x);     }}
+	public static double __eval(params double[] __X)
+	{{
+		double x = __X[0];
+		double y = __X[1];
+		return {0};
+	}}
+	public static {2} __get()
+	{{
+		return __eval;
+	}}
+}}
+/t:library
+mscorlib.dll
+System.dll
+Compilation error:
+
+{0} Compilation errors:
+
+
+
+
+Supported math functions are:
+e, pi, abs(), acos(), asin(), atan(), atan2(), ceil(), cos(), cosh(), exp(), floor(), log(), log2(), log10(), max(), min(), pow(), round(), sign(), sin(), sinh(), sqrt(), tan(), tanh()
+
+Eval
+__get
+i_Theta
+Insufficient 3D points specified
+0.000
+{0}: {1}
+Rotation:
+Elevation:
+Distance:
+{0:+#;-#;0}Â°
+{0:0}
+Value : {0:F2}
+Value : {0:0.00}
+Digital-7
+Selected {0} point(s)
+F2
+chkLivePointer
+Live
+Segoe UI
+LivePointerEnabled
+Default
+Warm Fire
+Ice Cool
+Toxic Alien
+Custom Stealth
+Save as PNG image
+PNG Image|*.png
+.png
+Error
+Data grid kosong!
+X Axis
+Y Axis
+Z Axis
+Form1 instance tidak tersedia.
+Data disimpan!
+Saved
+comboColors
+Graph
+comboDataSrc
+comboRaster
+btnScreenshot
+Screenshot
+btnReset
+Reset
+button3
+Save Value
+refresh.BackgroundImage
+refresh
+Microsoft Sans Serif
+graph3D
+$this.Icon
+Graph3DMainForm
+0123456789
+GaugeRange
+GaugeLabel
+Value: {0:F2}
+panel1
+_2d
+2D
+Arial
+ðŸ“Œ
+INFORMASI APLIKASI
+Kontak Layanan: [REDACTED_EMAIL]
+WhatsApp: [REDACTED_PHONE]
+FLASHPRO dirancang sebagai solusi edukasi dan penyetelan ECU sepeda motor Honda secara efisien dan aman.
+â€¼
+DISCLAIMER PENGGUNAAN
+Penggunaan aplikasi ini sepenuhnya menjadi tanggung jawab pengguna.
+Pihak pengembang tidak bertanggung jawab atas:
+â€¢ Kerusakan perangkat keras atau ECU
+â€¢ Gangguan sistem kendaraan bermotor
+â€¢ Kehilangan atau kerusakan data
+Pastikan Anda memahami risiko sebelum melanjutkan penggunaan.
+Segala bentuk penyalahgunaan, penggunaan tidak sesuai petunjuk, atau tindakan modifikasi ilegal dapat menimbulkan risiko tambahan, termasuk kerusakan sistem dan pelanggaran hukum. Selalu gunakan aplikasi sesuai dengan panduan resmi.
+âœ…
+Dengan menggunakan aplikasi ini, Anda setuju pada seluruh syarat dan ketentuan yang berlaku.
+ðŸ™
+Terima kasih atas kepercayaan Anda kepada FLASHPRO.
+itech Â© 2025
+Segoe UI Emoji
+ 
+Saya menyetujui syarat dan ketentuan di atas
+Jangan tampilkan lagi saat startup
+NEXT
+Pause Auto-Scroll
+MAX RPM: 0 | MAX TPS: 0,0% | MAX AD: 0,0 | MAX AFR: 0,0
+DoubleBuffered
+RPM {0}
+TPS {0:0.0}
+AD {0:0.0}
+AFR {0:0.0}
+MAX RPM {0}
+MAX TPS {0:0.0}%
+MAX AD {0:0.0}
+MAX AFR {0:0.0}
+MAX RPM: {0} | 
+MAX TPS: {0:0.0}% | 
+MAX AD: {0:0.0} | 
+MAX AFR: {0:0.0} | 
+ | 
+back
+Back
+panelCheck
+chkRPM
+RPM
+chkTPS
+TPS
+chkAD
+AD
+chkAFR
+AFR
+ChartLiveMap
+Monitor
+Resume Auto-Scroll
+x
+3
+ Error: Setting file not found
+0
+54
+1
+{f5f17125-fa4a-4162-8f21-5123bfdc199b}
+-
+Parameter
+Value
+Engine RPM
+Throttle Position Volt
+Throttle Position 
+Engine Temp Volt
+Engine Temp 
+Intake Air Temperartur Volt
+Intake Air Temperartur 
+Manifold Absolute Pressure Volt
+Manifold Absolute Pressure
+Voltage Battery
+Injection Duration
+MODE
+Ignition Timming
+Vehicle Speed Sensor
+TableType
+Handle grip position 1 Volt
+Handle grip position 2 Volt
+Handle grip position 1 Â°
+Handle grip position 2 Â°
+Throttle Position 1 Volt
+Throttle Position 2 Volt
+Throttle Position 1 Â°
+Throttle Position 2 Â°
+COR
+Oxygen Sensor
+Oxygen Sensor Volt
+Short term Fuel Trim
+Air Fuel Ratio
+Fast Idle Step
+Bank Angle Sensor
+Switch Starter
+Side Stand Switch
+Gear Status
+Fuel Pump
+Cooling Fan
+Gear Position
+{0}-{1}, {2}-{3}, {4}-{5}
+, 
+1-1
+MAP sensor circuit low voltage
+1-2
+MAP sensor circuit high voltage
+2-1
+MAP sensor performance problem
+7-1
+ECT sensor circuit low voltage
+7-2
+ECT sensor circuit high voltage
+8-1
+TP sensor circuit low voltage
+8-2
+TP sensor circuit high voltage
+9-1
+IAT sensor circuit low voltage
+9-2
+IAT sensor circuit high voltage
+11-1
+VS sensor no signal
+12-1
+No.1 primary injector circuit malfunction
+13-1
+No.2 primary injector circuit malfunction
+14-1
+No.3 primary injector circuit malfunction
+15-1
+No.4 primary injector circuit malfunction
+16-1
+No.1 secondary injector circuit malfunction
+17-1
+No.2 secondary injector circuit malfunction
+18-1
+CMP sensor no signal
+19-1
+CKP sensor no signal
+21-1
+0â‚‚ sensor malfunction
+23-1
+0â‚‚ sensor heater malfunction
+25-2
+Knock sensor circuit malfunction
+25-3
+29-1
+IACV circuit malfunction
+33-2
+ECM EEPROM malfunction
+34-1
+ECV POT low voltage malfunction
+34-2
+ECV POT high voltage malfunction
+35-1
+EGCA malfunction
+48-1
+No.3 secondary injector circuit malfunction
+49-1
+No.4 secondary injector circuit malfunction
+51-1
+HESD linear solenoid malfunction
+54-1
+Bank angle sensor circuit low voltage
+54-2
+Bank angle sensor circuit high voltage
+56-1
+Knock sensor IC malfunction
+57-1
+Engine coolant over temperature
+57-2
+86-1
+Serial communication malfunction
+91-1
+Coil Ignition Primary Malfungtion
+91-2
+{0}. {1}
+Response dat10: 
+Response array is too small to be parsed.
+Error decoding data: 
+array9 (Hex): 
+OFF
+Netral
+ON
+OnGear
+6
+5
+4
+2
+N
+Data updated in GridView.
+Updating GridView with bas: 
+, sss: 
+, ssw: 
+, ggs: 
+, pom: 
+, fan: 
+, ggv: 
+F4
+ Volt
+ : 1
+Response 11: 
+Response 13: 
+Response 16: 
+Response 17: 
+ RPM
+ Â°
+ Â°C
+ ms
+ km/h
+STOP
+Stopping...
+Gagal menutup dengan aman: 
+Informasi
+Reset ECM Berhasil
+Gagal menutup Diag dengan aman: 
+Gagal menghentikan resource: 
+button4
+Reset ECM
+panel4
+listBox1
+DTC
+panel3
+button2
+Start
+button1
+Exit
+panel2
+Diag
+Thread error: 
+START
+Run
+0.00
+Stop
+Max HP: {0:F2}
+RPM at Max HP: {0}
+Max TQ: {0:F2}
+AFR: {0:F2}
+RPM: {0}, HP: {1}, AFR: {2}, TQ: {3}
+label1
+Max HP
+label2
+Max Rpm
+label3
+Afr NR
+label4
+Max Torque
+Refresh
+DYNO
+Simple Dyno
+Delete
+0123456789ABCDEF
+ABCDEF0123456789
+lastimage.txt
+FLASHPRO ECM MANAGER       |      
+FLASHPRO
+0%
+4000
+7600
+DFEF
+8000
+E0000
+B000
+auto
+3FFF8
+7FFF8
+FFFF8
+D
+Lisensi tidak valid ! Silahkan Hubungi pengembang.
+âš«
+REMAP ECU Â©2026
+SILAHKAN HUBUNGKAN ECM KE DAYA
+ECM ID
+ECM PART CODE
+Star
+Checksum
+ID tidak valid
+0000
+Mode Recovery ECM
+ECM Recovery Mode
+Unknown !Please Restart ECM
+Unknown Part Code
+BaseMap Tersedia :
+ 
+10000
+A000
+X
+Flashing, Please Wait!
+Erasing flash failed, block error
+Erasing flash failed
+Failed challenging Seed/Key
+Failed generating Seed/Key
+F0
+ %
+Flashing, Please Wait
+WRITE FLASH FAILED!
+BAD Flash ! Please Restar ECM
+WRITE FLASH COMPLETE
+Writing Data Completed Result = GOOD
+Please Restart ECM
+write flash completed result = BAD!!
+Please restart the ECU and try to flash it again
+DELETE FAILED, BLOCK ERROR
+Erasing Flash Failed
+âš« 
+Database : {0}
+â–¶ 
+Calibri Semibold
+âŒ Database Tidak ditemukan
+â–¼ 
+VARIO
+Honda VARIO Series
+VARIO 125
+Honda VARIO 125 Series
+VARIO 150
+Honda VARIO 150 Series
+PCX 150
+Honda PCX 150 Series
+PCX 160
+Honda PCX 160 Series
+REVO
+Honda REVO Series
+GENIO
+Honda GENIO Series
+Grom
+Honda Grom Series
+CB150R
+Honda CB150R Series
+Dream
+Honda Dream Series
+Click
+Honda Click Series
+Wave
+Honda Wave Series
+VERZA
+Honda VERZA Series
+WAVE
+Honda WAVE Series
+CRF150
+Honda CRF150 Series
+SCOOPY
+Honda SCOOPY Series
+SONIC
+Honda SONIC Series
+BeAT
+Honda BeAT Series
+ADV 150
+Honda ADV 150 Series
+ADV 160
+Honda ADV 160 Series
+CBR150
+Honda CBR Series
+XRM
+Honda XRM Series
+SUPRA
+Honda SUPRA Series
+CB150
+Honda CB150 Series
+SPACY
+Honda SPACY Series
+STYLO
+Honda STYLO Series
+BLADE
+Honda BLADE Series
+MEGAPRO
+Honda MEGAPRO Series
+Other Series
+Map
+BeAT 110-38770-K25-901
+ADV 150-KOWA-N01
+ADV 160-30400-KOWL-NA1
+ADV 160-30400-KOWL-NB1-IN01
+ADV 160-30400-KOWL-NB1-IN11
+ADV 150-30400-K0WA-N11
+BeAT 110-30400-K25G-601
+BeAT 110-30400-K81A-N02
+BeAT 110-30400-K81A-N11
+BeAT 110-30400-K81A-N12
+BeAT 110-30400-K81H-N52
+BeAT 110-30400-K81H-N62
+BeAT 110-K1AA-30400-N01
+BeAT 110-K1AA-30400-N02
+BeAT 110-K1AA-30400-N03
+BeAT 110-K1AA-30400-N11
+BeAT 110-K1AA-30400-N12
+BeAT 110-K1AA-30400-N13
+BeAT 110-30400-K1AL-N81-IN11
+BeAT 110-30400-K1AL-N81-IN01
+BeAT 110-30400-K1AL-NB1
+BeAT 110-30400-K1AL-N91
+VARIO 125-30400-K60A-B01
+VARIO 125-30400-K60A-B11
+VARIO 125-30400-K60K-B21
+VARIO 125-30400-K60K-B31
+VARIO 125-30400-K60R-B61
+VARIO 125-30400-K60R-B71
+VARIO 150 K59A-A11
+VARIO 150 K59F-A01
+VARIO 150-K59J-A71-IN-01
+VARIO 125 KZRA-601
+VARIO 125 KZRA-651
+VARIO 125 KZRJ-B11
+VARIO 125 KZRM-B21
+VARIO 125 KZRM-B31
+VARIO 125-30400-K2VG-N42
+VARIO 125-30400-K2VG-N32
+VARIO160-30400-K2SA-N02
+GENIO 110-30400-KOJ-N01
+GENIO 110-30400-KOJ-N11
+GENIO 110-30400-KOJ-N61
+GENIO 110-30400-KOJ-N71
+SCOOPY-30400-K2F-N01
+SCOOPY-30400-K2F-N11
+SCOOPY-30400-K2F-N81
+SCOOPY-30400-K2F-N91
+SCOOPY-30400-K93-N01
+PCX 150-30400-K97G-N01
+PCX 150-30400-K97G-N31
+PCX 160-30400-K1ZG-N21
+PCX 160-30400-K1ZG-N31
+PCX 160-30400-K1ZN-N41
+PCX 160-30400-K1ZN-N51
+CB150R-38770-K15-903
+CB150R-38770-K15-921
+CB150R-38770-K15-601
+CBR150-38770-K45-N01
+CBR150-38770-K45-N11
+CBR150-38770-K45-N42
+CBR150-38770-K45-NA1
+CBR150-38770-K45-NL1-PP1
+SONIC-38770-K56-N01
+SONIC-38770-K56-N11
+SUPRA GTR150-38770-K56-Nj1
+SUPRA GTR150-38770-K56-N11
+CRF150L-38770-K84-901
+VERZA-38770-K18G-941
+VERZA-38770-K18-941
+VERZA-38770-K18-902
+VERZA_38770-K18-961
+REVO-38770-K03-N32
+VARIO-BeAT-38770-K46-N01
+BLADE-38770-K41-N01
+VARIO11O-30400-K46-N21
+VARIO11O-30400-K46-NA1
+VARIO11O-30400-K46-NB1
+SPACY 110 38770-KZL-C31
+STYLO K3VA-NO1
+SCOOPY 110 K25G 611
+CB150 X-38770-K3B-N01
+SUPRA X 125 38770-K41-NC1
+SUPRA X 125 HELM IN KYZ-713
+CB150-38770-K15-711
+MEGAPRO 150 38770-KYE-942
+ADV 160 TH 30400-K0WM-TA1
+ADV 150 TH 30400-K0WF-T01
+PCX 160 TH 30400-K1ZF-T01
+PCX 160 TH 30400-K1ZF-T11
+PCX 160 TH 30400-K1ZP-T51
+PCX 160 TH 30400-K1ZP-T71
+PCX 150 TH 30400-K36F-T01
+PCX 150 TH 30400-K36S-T31
+PCX 150 TH 30400-K97F-T01
+LEAD 125 TH 30400-K2TA-T02
+Zoomer X TH 30400-K20J-T21
+Zoomer X TH 38770-K20-901
+Zoomer X TH 38770-K20-T01
+SCOOPY 110 TH 30400-K2F-T21
+SCOOPY 110 TH 30400-K2F-T81
+SCOOPY 110 TH 30400-K2F-T91
+SCOOPY 110 TH 30400-K93-T01
+SCOOPY 110 TH 30400-K93-T21
+Click 160 TH 30400-K2SF-T01
+VARIO 125 TH 30400-K60F-T01
+Click 125 TH 30400-K2VH-T11
+Giorno 125 TH 30400-K3MF-T01
+VARIO 150 TH 30400-K59K-T11
+Click 125i TH 30400-K60S-M61
+Click 125i TH 30400-K60S-T73
+Wave 110 TH 38770-K58-TC1
+Wave 110 TH 38770-K58-TC2
+REVO-38770-K58-N41
+Wave 110 TH 38770-K58-T81
+Wave 110 TH 38770-K2J-TH1
+Wave 110 TH 38770-K2J-T01
+Wave 110 TH 38770-K03-T61
+Wave 110 TH 38770-K03-H01
+Wave 110 TH 38770-KWW-643
+REVO-38770-K58-N81
+REVO-38770-K58R-N81
+SUPRA X 125 HELM IN KYZ-712
+SUPRA X 125 38770-K41K-NC1
+WAVE 125i TH 38770-K3F-T01
+WAVE 125i TH 38770-K73-T32
+WAVE 125i TH 38770-K73-TC1
+WAVE 125i TH 38770-KYZ-T41
+FUTURE 125 TH 38770-KYZ-T03
+Dream Super Cub 38770-K76-T62
+Click 110 38770-KVB-S52
+SPACY 110 38770-KZL-C01
+CT 125 38770-K2E-T11
+Grom-MSX 125 38770-K26-B02
+Grom-MSX 125 38770-K26-921
+Grom-MSX 125 38770-K26-911
+Grom-MSX 125 38770-K26-901
+Dream 110 38770-K1M-T01
+Dream 110 38770-K1M-T31
+BeAT 110-30400-K1AL-N81-NA1
+PCX-125 30400-K35A-T01
+PCX-125 30400-K35A-V01
+PCX-150 30400-K97A-U01
+XRM 125 38770-CAP-H01
+RS 125 38770-KPG-H01
+RS 125 38770-KPG-H21
+XRM 125 38770-KPY-H01
+XRM 125 38770-KPY-H61
+VARIO 110 30400-K46-N31
+PCX 160-30400-K1ZV-NA1
+PCX 160-30400-K1ZV-NC1
+PCX 160 ROADSYNC 30400-K1ZV-NF1
+SCOOPY 110-30400-K2F-NC1
+SCOOPY 110-30400-K2F-ND1
+SONIC-38770-K56-M01
+ADV 160 K0WW-ND2 IN01 (2025)
+ADV 160 K0WW-NE2 IN01 (2025)
+VARIO 125-30400-K2VJ-H31 (2025)
+GENIO 110-30400-KOJJ-NA1-(2026)
+GENIO 110-30400-KOJ-NB1-(2026)
+VARIO 125-30400-K2VM-N81-(2026)
+VARIO 125-30400-K2VM-NA1-(2026)
+FLASHPRO.BeAT110-38770-K25-901.bin
+FLASHPRO.ADV 150-KOWA-N01.bin
+FLASHPRO.ADV 160-30400-KOWL-NA1.bin
+FLASHPRO.ADV 160-30400-KOWL-NB1-IN01.bin
+FLASHPRO.ADV 160-30400-KOWL-NB1-IN11.bin
+FLASHPRO.ADV 150-30400-K0WA-N11.bin
+FLASHPRO.BeAT 110-30400-K25G-601.bin
+FLASHPRO.BeAT 110-30400-K81A-N02.bin
+FLASHPRO.BeAT 110-30400-K81A-N11.bin
+FLASHPRO.BeAT 110-30400-K81A-N12.bin
+FLASHPRO.BeAT 110-30400-K81H-N52.bin
+FLASHPRO.BeAT 110-30400-K81H-N62.bin
+FLASHPRO.BeAT 110-K1AA-30400-N01.bin
+FLASHPRO.BeAT 110-K1AA-30400-N02.bin
+FLASHPRO.BeAT 110-K1AA-30400-N03.bin
+FLASHPRO.BeAT 110-K1AA-30400-N11.bin
+FLASHPRO.BeAT 110-K1AA-30400-N12.bin
+FLASHPRO.BeAT 110-K1AA-30400-N13.bin
+FLASHPRO.BeAT 110-30400-K1AL-N81-IN11.bin
+FLASHPRO.BeAT 110-30400-K1AL-N81-IN01.bin
+FLASHPRO.BeAT 110-30400-K1AL-NB1.bin
+FLASHPRO.BeAT 110-30400-K1AL-N91.bin
+FLASHPRO.VARIO 125 - K60A-B01-ORI.bin
+FLASHPRO.VARIO 125 -- 30400-K60A-B11.bin
+FLASHPRO.VARI 125 - K60K-B21.bin
+FLASHPRO.VARIO 125 - K60K-B31.bin
+FLASHPRO.VARIO 125 - K60R-B61.bin
+FLASHPRO.VARIO 125 K60R-B71.bin
+FLASHPRO.VARIO 150 K59A-A11-RAT.bin
+FLASHPRO.VARIO 150 K59F A01 IN 01.bin
+FLASHPRO.VARIO 150-K59J-A71-IN-01.bin
+FLASHPRO.601read.bin
+FLASHPRO.651READ.bin
+FLASHPRO.kzrb11.bin
+FLASHPRO.kzrb21.bin
+FLASHPRO.kzrb31.bin
+FLASHPRO.VARIO 125-30400-K2VG-N42 ORIGINAL.bin
+FLASHPRO.VARIO 125-30400-K2VG-N32 ORIGINAL.bin
+FLASHPRO.VARIO160-30400-K2SA-N02.bin
+FLASHPRO.GENIO 110-30400-KOJ-N01.bin
+FLASHPRO.GENIO 110-30400-KOJ-N11.bin
+FLASHPRO.GENIO 110-30400-KOJ-N61.bin
+FLASHPRO.GENIO 110-30400-KOJ-N71.bin
+FLASHPRO.SCOOPY-30400-K2F-N01.bin
+FLASHPRO.30400-K2F-N11.bin
+FLASHPRO.SCOOPY-30400-K2F-N81.bin
+FLASHPRO.SCOOPY-30400-K2F-N91.bin
+FLASHPRO.STD32.bin
+FLASHPRO.PCX 150 - K97G-N01.bin
+FLASHPRO.PCX 150 - K97G-N31.bin
+FLASHPRO.PCX 160-K1ZG-N 21.bin
+FLASHPRO.pcx_160_k1zg_n31.bin
+FLASHPRO.PCX 160-30400-K1ZN-N41 ORIGINAL.bin
+FLASHPRO.PCX 160-30400-K1ZN-N51 ORIGINAL.bin
+FLASHPRO.CB150R-38770-K15-903.bin
+FLASHPRO.CB150R-38770-K15-921.bin
+FLASHPRO.CB150R-38770-K15-601.bin
+FLASHPRO.CBR150-38770-K45-N01.bin
+FLASHPRO.CBR150-38770-K45-N11.bin
+FLASHPRO.CBR150-38770-K45-N42.bin
+FLASHPRO.CBR150-38770-K45-NA1.bin
+FLASHPRO.CBR150-38770-K45-NL1-PP1.bin
+FLASHPRO.k56 sonic.bin
+FLASHPRO.38770-K56-NJ1.bin
+FLASHPRO.9_SUPRAGTR-38770-K56-N11-BIN.bin
+FLASHPRO.CRF150L-38770-K84-901.bin
+FLASHPRO.12_VERZA-38770-K18G-941-BIN.bin
+FLASHPRO.CB150-K18-941.bin
+FLASHPRO.1_VERZA-38770-K18-902_BIN.bin
+FLASHPRO.verza_38770_k18_961.bin
+FLASHPRO.13_REVO-38770-K03-N32-BIN.bin
+FLASHPRO.14_VARIO110_BEAT110-38770-K46-N01.bin
+FLASHPRO.BLADE-38770-K41-N01.bin
+FLASHPRO.k46n21.bin
+FLASHPRO.vario 110 2018-30400-k46-na1.bin
+FLASHPRO.VARIO 110-30400-K46KNB1.bin
+FLASHPRO.SPACY.bin
+FLASHPRO.STYLO K3VA-N01 ORIGINAL.bin
+FLASHPRO.30400-K25G-611.bin
+FLASHPRO.CB150 X-38770-K38-N01.bin
+FLASHPRO.SUPRA X 125 38770-K41-NC1.bin
+FLASHPRO.SUPRA X 125 HELM IN 38770-KYZ-713.bin
+FLASHPRO.CB150-38770-K15-711.bin
+FLASHPRO.MEGAPRO 150 38770-KYE-942.bin
+FLASHPRO.ADV 160 TH 30400-K0WM-TA1.bin
+FLASHPRO.ADV 150 TH 30400-K0WF-T01.bin
+FLASHPRO.30400-K1ZF-T01.bin
+FLASHPRO.PCX 160 - 30400-K1ZF-T11.bin
+FLASHPRO.30400-K1ZP-T51.bin
+FLASHPRO.30400-K1ZP-T71.bin
+FLASHPRO.30400-K36F-T01.bin
+FLASHPRO.30400-K36S-T31.bin
+FLASHPRO.30400-K97F-T01.bin
+FLASHPRO.LEAD 125 TH 30400-K2TA-T02.bin
+FLASHPRO.30400-K20J-T21.bin
+FLASHPRO.38770-K20-901 Vendor- Keihin -0101270D01-48.bin
+FLASHPRO.38770-K20-T01 Vendor- Keihin-0101C60D01-64.bin
+FLASHPRO.30400-K2F-T21-0104140D01.bin
+FLASHPRO.30400-K2F-T81.bin
+FLASHPRO.30400-K2F-T91.bin
+FLASHPRO.30400-K93-T01.bin
+FLASHPRO.30400-K93-T21.bin
+FLASHPRO.Click 160 TH 30400-K2SF-T01.bin
+FLASHPRO.30400-K60F-T01.bin
+FLASHPRO.Click 125 TH 30400-K2VH-T11.bin
+FLASHPRO.Giorno 125 TH 30400-K3MF-T01.bin
+FLASHPRO.30400-K59K-T11.bin
+FLASHPRO.Click 125i TH 30400-K60S-M61.bin
+FLASHPRO.Click 125i TH 30400-K60S-T73.bin
+FLASHPRO.38770-K58-TC1.bin
+FLASHPRO.38770-K58-TC2.bin
+FLASHPRO.38770-K58-N41.bin
+FLASHPRO.38770-K58-T81-0102B90D01.bin
+FLASHPRO.38770-K2J-TH1.bin
+FLASHPRO.38770-K2J-T01.bin
+FLASHPRO.38770-K03-T61.bin
+FLASHPRO.38770-K03-H01.bin
+FLASHPRO.38770-KWW-643.bin
+FLASHPRO.38770-K58-N81.bin
+FLASHPRO.38770-K58R-N81.bin
+FLASHPRO.38770-KYZ-712.bin
+FLASHPRO.38770-K41K-NC1.bin
+FLASHPRO.38770-K3F-T01.bin
+FLASHPRO.38770-K73-T32.bin
+FLASHPRO.38770-K73-TC1.bin
+FLASHPRO.38770-KYZ-T41.bin
+FLASHPRO.FUTURE 125 TH 38770-KYZ-T03.bin
+FLASHPRO.Dream Super Cub 38770-K76-T62.bin
+FLASHPRO.Click 110 38770-KVB-S52.bin
+FLASHPRO.38770-KZL-C01.bin
+FLASHPRO.CT 125 38770-K2E-T11.bin
+FLASHPRO.Grom-MSX 125 38770-K26-B02.bin
+FLASHPRO.Grom-MSX 125 38770-K26-921.bin
+FLASHPRO.Grom-MSX 125 38770-K26-911.bin
+FLASHPRO.Grom-MSX 125 38770-K26-901.bin
+FLASHPRO.Dream 110 38770-K1M-T01.bin
+FLASHPRO.Dream 110 38770-K1M-T31.bin
+FLASHPRO.BeAT 110-30400-K1AL-N81-NA1.bin
+FLASHPRO.30400-K35A-T01.bin
+FLASHPRO.30400-K35A-V01.bin
+FLASHPRO.30400-K97A-U01.bin
+FLASHPRO.38770-CAP-H01.bin
+FLASHPRO.38770-KPG-H01.bin
+FLASHPRO.38770-KPG-H21.bin
+FLASHPRO.38770-KPY-H01.bin
+FLASHPRO.38770-KPY-H61.bin
+FLASHPRO.VARIO110 FI LED 30400 K46-N31_BIN.bin
+FLASHPRO.30400-K1ZV-NA1.bin
+FLASHPRO.30400-PCX 160-K1ZV-NC1.bin
+FLASHPRO.30400-PCX 160-K1ZV NF1.bin
+FLASHPRO.30400-K2F-NC1 2025.bin
+FLASHPRO.30400-K2F-ND1-2025 Keyless.bin
+FLASHPRO.RSonic-THAI 38770 K56-M01.bin
+FLASHPRO.ADV160-K0WW-ND2.bin
+FLASHPRO.ADV160 30400-K0WW-NE2 - 0106250F01-STD PABRIK.bin
+FLASHPRO.VARIO -125-30400-K2VJ-H31.bin
+FLASHPRO.30400-K0JJ-NA1-0106770F11-STD.bin
+FLASHPRO.30400-K0J-NB1-0106780F11-STD.bin
+FLASHPRO.30400-K2VM-N81-0106400F01-STD-STAGE-01.bin
+FLASHPRO.30400-K2VM-NA1-0106410F01-STD-STAGE-01.bin
+ECU Model tidak dikenali!
+AFR:{0:0.0}
+Resource not found.
+F1
+F3
+N/A
+({0:+0.000;-0.000;0.000})
+{0:F3}
+{1:+0.000;-0.000;0.000}
+Invalid value at row {0}, column {1}
+Index out of bounds at row {0}, column {1}. Could not write to binBytes.
++
+({0}{1})
+({0}{1:+0.0;-0.0;0.0})
+Selected Address: 0x{0:X}, Stride: {1}, MinorStride: {2}
+Switch {0}
+Switch{0}
+ðŸ”´ OFF
+ðŸ”´ ON
+Error: Active address or mask is invalid. Address: {0}, Mask: {1}
+Maping
+Map File (*.map)|*.map|All Files (*.*)|*.*
+Simpan File Map
+map
+File berhasil disimpan sebagai:
+
+Sukses
+Gagal menyimpan file:
+
+O2
+O2C
+IMMO
+MODE 0
+MODE 1
+MODE 2
+MODE 3
+MODE 4
+Nilai awal di cell ({0}, {1}): {2}
+percentage ({0}, {1}): {2}
+Nilai baru di cell ({0}, {1}): {2}
+SHA256
+[REDACTED_CRYPTO_LITERAL]
+[REDACTED_CRYPTO_LITERAL]
+Win32_Processor
+ProcessorId
+Win32_BIOS
+SerialNumber
+Win32_DiskDrive
+Software\Win32Sub\SystemCtrl
+SysCFG
+Lisensi tidak valid. Silahkan hubungi pengembang.
+Software\Win32Sub\SystemApp
+NamaAplikasiKamu
+Tidak ada value yang valid untuk ditampilkan dalam grafik.
+Tidak ada baris yang dipilih.
+	
+
+
+
+
+  cm3
+Mohon masukkan angka yang valid
+Input Error
+Copy
+Paste
+Untitled
+Open Binary or Map File
+Binary/Map File (*.bin;*.map)|*.bin;*.map|All Files (*.*)|*.*
+âŒ Error saat membuka file:
+
+,
+.
+Tambah Value
+Tambah Value (%)
+Kurangi Value
+Kurangi Value (%)
+Fill / Set Value
+Interpolasi (%)
+Input tidak valid. Harap masukkan angka yang benar.
+COMPARE MODE ON
+TPS vs RPM 
+HH:mm:ss
+TPS Area
+TPS Value
+0.##
+IAP Area
+IAP
+IAP Value
+RPM Area
+RPM Value
+Gagal menampilkan form: 
+Apakah Anda yakin ingin melanjutkan proses flash ECU?
+Konfirmasi Flash ECU
+Value Saved âœ…
+Gagal menyimpan data:
+
+Lisensi tidak valid! Silakan hubungi pengembang.
+Apakah Anda yakin ingin mereset Flash Count ECU?
+Error saat membuka form Reset:
+
+Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif
+Select Image
+Image not found !: 
+Apakah Anda yakin ingin Read Memory Flash ECU?
+TxtPartCode
+CbFastWrite
+TbStartOffset
+TxtFlashCount
+TbChecksumOffset
+lblPrompt
+TxtEcmId
+panel12
+panel6
+button12
+Action
+label11
+Hourse Power
+label13
+Volume Silinder ( CC )
+Javanese Text
+DATA BASE MAP
+textBox1
+Diameter Piston
+button10
+Hasil
+textBox2
+Stroke
+label12
+panel9
+label34
+0,0Â° C
+label32
+0,0Â°
+label30
+Microsoft Tai Le
+label28
+TempÂ°
+label26
+IgÂ°
+label25
+TPSÂ°
+label22
+label35
+0,0 :1
+label33
+0.000Ms
+label31
+label29
+label27
+Inj (ms)
+Calibri Light
+TxtConnStat
+TxtPb
+PbProgress
+pictureBox1
+panel5
+txtSearch
+textBox3
+flowPanelECU
+panel11
+basemapToolStripMenuItem1
+Basemap
+grafToolStripMenuItem
+graf
+label18
+TEMP Â°
+label19
+label20
+LOAD %
+label21
+IDC
+label10
+0,0
+label17
+IG Â°
+label9
+0,000
+label5
+label15
+TPS Â°
+label6
+0.0Â°
+label14
+RPM X 1000
+label7
+label16
+INJ (ms)
+label8
+00.000
+autoSizeCheckBox
+Grid mode
+button8
+Save DATA
+TbFileName
+menuStrip6
+toolStripMenuItem15
+âš™ï¸ Options
+toolStripMenuItem16
+ðŸ”Œ Off Immobilizer
+toolStripMenuItem17
+ðŸ”Œ Off DTC O2
+toolStripMenuItem18
+ðŸ”Œ Off O2 Correction
+toolStripMenuItem19
+ðŸ”Œ Off Mode 0
+toolStripMenuItem20
+ðŸ”Œ Off Mode 1
+toolStripMenuItem21
+ðŸ”Œ Off Mode 2
+toolStripMenuItem22
+ðŸ”Œ Off Mode 3
+offMode4ToolStripMenuItem
+ðŸ”Œ Off Mode 4
+offBASSensorToolStripMenuItem
+ðŸ”Œ Off BAS Sensor
+offMAPSensorToolStripMenuItem
+ðŸ”Œ Off IACV Sensor
+offECTSensorToolStripMenuItem
+ðŸ”Œ Off ECT Sensor
+offIATSensorToolStripMenuItem
+ðŸ”Œ Off IAT Sensor
+offVSSSensorToolStripMenuItem
+Off VSS Sensor
+offMAPSensorToolStripMenuItem1
+Off MAP Sensor
+menuStrip4
+toolStripMenuItem5
+ðŸ“Š Ignition Map
+toolStripMenuItem6
+ðŸ“‹ Ignition 1
+toolStripMenuItem7
+ðŸ“‹ Ignition 2
+toolStripMenuItem8
+ðŸ“‹ Ignition 3
+ignition4ToolStripMenuItem
+ðŸ“‹ Ignition 4
+ignition5ToolStripMenuItem
+ðŸ“‹ Ignition 5
+menuStrip5
+toolStripMenuItem9
+ðŸ“Š Limiter
+toolStripMenuItem10
+ðŸ“‰ Limiter 1
+toolStripMenuItem11
+ðŸ“‰ Limiter 2
+toolStripMenuItem12
+ðŸ“‰ Limiter 3
+toolStripMenuItem13
+ðŸ“‰ Limiter 4
+toolStripMenuItem14
+ðŸ“‰ Limiter 5
+limiter6ToolStripMenuItem
+ðŸ“‰ Limiter 6
+limiter7ToolStripMenuItem
+ðŸ“‰ Limiter 7
+menuStrip1
+breakpointToolStripMenuItem
+ðŸ“Š Breakpoint
+breakpointTPSToolStripMenuItem
+ðŸ“‘ Breakpoint TPS
+breakpoinRPMToolStripMenuItem
+ðŸ“‘ Breakpoint RPM
+breakpointIAPToolStripMenuItem
+ðŸ“‘ Breakpoint IAP
+menuStrip2
+feulToolStripMenuItem
+ðŸ“Š Feul Map
+rpmVsTps1ToolStripMenuItem
+ðŸ“‹ TPS VS RPM 1
+rpmVsTps2ToolStripMenuItem
+ðŸ“‹ TPS VS RPM 2
+rpmVsToolStripMenuItem
+ðŸ“‹ TPS VS RPM 3
+rpmVsIAPToolStripMenuItem
+ðŸ“‹ IAP VS RPM
+toolsToolStripMenuItem
+Smartkey
+smartkeyToolStripMenuItem
+Smartkey HONDA
+smaerkeyYamahaToolStripMenuItem
+Smartkey YAMAHA 24C02 - 24C04
+smartkeySuzuki2402ToolStripMenuItem
+Smartkey SUZUKI
+optionToolStripMenuItem
+Tools
+simpleDynoToolStripMenuItem1
+diagnosticToolStripMenuItem
+Diagnostic
+updateSoftwareToolStripMenuItem
+Update Software Version
+resetcount
+Hapus Flash Count (Auto)
+baseMapToolStripMenuItem
+Database
+Automaping
+Auto Map
+Live Data
+âš« Connect 
+BtnWrite
+Write Flash
+menuStrip7
+pictureBox2
+button2.Image
+menuToolStripMenuItem.Image
+menuToolStripMenuItem
+ Menu
+openFileToolStripMenuItem
+Open File
+saveFileToolStripMenuItem
+Save
+saveAsToolStripMenuItem
+Save As
+infoSoftwareToolStripMenuItem
+Informasi Software
+button6.Image
+button6
+button3.Image
+panel8.BackgroundImage
+panel8
+tps2d.Image
+tps2d
+rpm2d.Image
+rpm2d
+iap2d.Image
+iap2d
+comboBox1
+Base Map
+btnApplyInput.Image
+btnApplyInput
+inputComboBox
+label24
+Function :
+label23
+Value :
+button11
+button9
+Live Chart
+button7
+Dasboard
+textBoxInput
+show_all.Image
+show_all
+compare.Image
+compare
+button5.Image
+button5
+count
+recovery
+FLASHPRO ECU REMAP Â© 2026
+
+aGauge5
+aGauge3
+aGauge1
+aGauge6
+aGauge4
+aGauge2
+Form1
+VERZA 150 (K18G-941)
+VERZA 150 (K18-941)
+CB 150 VERZA (K18-961)
+MEGAPRO 150 (KYE-942)
+BeAT POP (K61-601)
+BeAT-SCOOPY 110 (K25A-901)
+BeAT-SCOOPY 110 (K25-901)
+BLADE-SUPRA X 125 (K41-N01)
+CBR 250R (KYJ-971)
+CBR 250R (KYJ-922)
+CBR 250R (KYJ-901)
+REVO 110 (K03-N32)
+REVO 110 (K58-N41)
+REVO 110 (K58R-N81)
+CRF250 RALLY (KZZL-L41)
+CRF250 RALLY (KZZ-L41)
+SCOOPY DONAT (K93-N01)
+SCOOPY DONAT (K93-M01)
+SCOOPY 110 NEW (K2F-N01)
+SCOOPY 110 NEW (K2F-N11)
+SCOOPY 110 NEW (K2F-N81)
+SCOOPY 110 NEW (K2F-N91)
+CBR 150R Facelift (K45-N42)
+CBR 150R Facelift (K45-N11)
+CBR 150R Facelift (K45-NL1)
+CBR 150R ASIA (K45-NA1)
+CBR 150R Facelift (K45-N01)
+CBR 150R (KPP-N02)
+CBR 150R (KPP-602)
+CB 150 X (K3B-N01)
+CB 150R (K15-771)
+CB 150R CIP (K15-601)
+CB 150R (K15-601)
+CB 150R OLD (K15-903)
+CB 150R OLD (K15-921)
+CB 150R Thailand (K15-888)
+GENIO 110 (K0J-N11)
+GENIO 110 (K0J-N61)
+GENIO 110 (K0J-N01)
+GENIO 110 (K0J-N71)
+CRF 150L (K84-901)
+SUPRA GTR150 (K56-N11)
+SUPRA GTR150 (K56-NJ1)
+SUPRA X125 (K41K-NC1)
+SUPRA X125 (K41-NC1)
+SUPRA X125 HELM-IN (KYZ-712)
+SUPRA X125 HELM-IN (KYZ-713)
+VARIO 110 ACG (K46-N21)
+VARIO 110 ACG (K46-N31)
+VARIO 110 ACG (K46-NA1)
+VARIO 110 ACG (K46-NB1)
+SUPRA X ANF (KTM-781)
+SUPRA X ANF (KVL-N21)
+VERZA 150 38770-K18G-941
+SCOOPY 110 NEW NON ISS (2020) 38770-K2F-N01
+VARIO||BeAT 110 K46-N01
+Zoomer X 38770-K20-901
+Zoomer X 38770-K20-T01
+SCOOPY 110 THAILAND 30400-K2F-T21
+SCOOPY 110 THAILAND 30400-K2F-T81
+SCOOPY 110 THAILAND 30400-K2F-T91
+SCOOPY 110 THAILAND 30400-K93-T01
+SCOOPY 110 THAILAND 30400-K93-T21
+Wave 110 THAILAND 38770-K58-TC1
+Wave 110 THAILAND 38770-K58-TC2
+Wave 110 THAILAND 38770-K58-T81
+Wave 110 THAILAND 38770-K2J-TH1
+Wave 110 THAILAND 38770-K2J-T01
+Wave 110 THAILAND 38770-K03-T61
+Wave 110 THAILAND 38770-K03-H01
+Wave 110 THAILAND 38770-KWW-643
+REVO 110 (K58-N81)
+WAVE 125i THAILAND 38770-K3F-T01
+WAVE 125i THAILAND 38770-K73-T32
+WAVE 125i THAILAND 38770-K73-TC1
+WAVE 125i THAILAND 38770-KYZ-T41
+FUTURE 125 THAILAND 38770-KYZ-T03
+Spacy 110 38770-KZL-C01
+SCOOPY 110 - 30400-K2F-NC1
+SCOOPY 110 - 30400-K2F-ND1
+CBR150-38770-K45-NL1
+0101F30F11
+0101F30F01
+0102E70F01
+0101700F01
+0102D80F01
+0101340F11
+0101340F01
+01018B0F01
+0100B80F01
+0100B80502
+0100B80D01
+0101870F02
+0102E40F01
+0104960F11
+0102360F01
+0102360F11
+01027F0F01
+0102831901
+0104080F01
+0104130F01
+0104F10F01
+0104F00F01
+0102040F01
+0101B11100
+0104110F11
+0103250F01
+0101B10F01
+0100FA1001
+0101110F01
+0104530F01
+0104290F01
+0803130F01
+0103130F01
+01011B0F02
+0101DA0F01
+0103130F11
+0103100F01
+0104A40F01
+0103110F01
+0104A50F01
+0102320F01
+0101CA0F11
+0103920F01
+0104AF0F11
+0104AF0F01
+0100E80F01
+0100E80F02
+0101FA0F01
+0101F80F01
+0102F80F01
+0102F70F01
+01002D0F01
+01005F0F01
+0101A10F01
+01011E0F01
+0101C90F01
+0101270D01
+0101C60D01
+0104140D01
+0104F30D01
+0104F20D01
+0102810D01
+0102800D01
+01034C0D11
+01034C0D01
+0102B90D01
+0105550D01
+01040F0D01
+0101200F01
+0101610D01
+0101880D01
+0100CE0D02
+0104960F01
+01047B0D01
+0102580D01
+01033E0D01
+0101B30D01
+01010E0D01
+0102B50D01
+0100DF0D02
+0101010D02
+01047E0D01
+0102130D01
+0101350601
+0101350501
+0101350D01
+0103FA0D01
+0105260D01
+01029B1F01
+0102D71F01
+0104421F01
+01041A1F01
+01039A1F01
+0105A70F01
+0105A80F01
+0101CA0F01
+0101C90F11
+0104110F01
+0106770F11
+0106780F11
+7FEF
+BeAT 110-30400-K1AL-N91 ISS
+ADV150 30400 K0WA-N01 (2018-2021)
+ADV150 30400 K0WA-N11 (2018-2021)
+ADV160 NON ABS K0WL-NA1 (2022-2023)
+ADV160 ABS K0WL-NB1 IN11 (2022-2023)
+ADV160 ABS K0WL-NB1 IN01 (2022-2023)
+BeAT 110 30400 K1AA-N01 (2020-2022)
+BeAT 110 30400 K1AA-N02 (2020-2022)
+BeAT 110 30400 K1AA-N03 (2020-2022)
+BeAT 110 30400 K1AA-N11 (2020-2022)
+BeAT 110 30400 K1AA-N12 (2020-2022)
+BeAT 110 30400 K1AA-N13 (2020-2022)
+BeAT 110 30400 K25G-601 (2015-2017)
+BeAT 110 30400 K81A-N02 (2017-2018)
+BeAT 110 30400 K81A-N12 (2018-2019)
+BeAT 110 30400 K81H-N52 (2017-2018)
+BeAT 110 30400 K81H-N62 (2017-2018)
+PCX 150 30400 K36J-N11 (2017-2019)
+PCX 150 30400 K97G-N01 (2018-2019)
+PCX 150 30400 K97G-N31 (2019-2020)
+PCX 160 30400 K1ZG-N31 (2020-2021)
+PCX 160 30400 K1ZG-N21 (2020-2021)
+PCX 160 30400 K1ZN-N41 (2023-2023)
+PCX 160 30400 K1ZN-N51 (2023-2023)
+SCOOPY OLD 30400 K25-601 (2016-2018)
+SCOOPY 30400 K25G-611 (2015-2017)
+VARIO 125 NEW K2VG-N42 (2022-2023)
+VARIO 125 NEW K2VG-N32 (2022-2023)
+VARIO 125 30400 K60A-B01 (2015-2016)
+VARIO 125 30400 K60K-B11 (2015-2016)
+VARIO 125 30400 K60K-B21 (2016-2018)
+VARIO 125 30400 K60K-B31 (2016-2018)
+VARIO 125 30400 K60R-B61 (2018-2019)
+VARIO 125 30400 K60R-B71 (2018-2019)
+VARIO 150 30400 K59A-A11 (2015-2017)
+VARIO 150 30400 K59F-A01 (2017-2018)
+VARIO 150 30400 K59J-A71 (2018-2021)
+VARIO 150 30400 K59J-A711 (2018-2021)
+VARIO 160 30400 K2SA-N02 (2022-2023)
+VARIO 125 OLD KZRA-601 (2011-2012)
+VARIO 125 OLD KZRA-651 (2012-2013)
+VARIO 125 OLD KZRJ-B11 (2012-2013)
+VARIO 125 OLD KZRM-B21 (2012-2013)
+VARIO 125 OLD KZRJ-B31 (2012-2013)
+ADV 160 THAILAND 30400-K0WM-TA1
+ADV 150 THAILAND 30400-K0WF-T01
+PCX 160 THAILAND 30400-K1ZF-T01
+PCX 160 THAILAND 30400-K1ZF-T11
+PCX 160 THAILAND 30400-K1ZP-T51
+PCX 160 THAILAND 30400-K1ZP-T71
+PCX 150 THAILAND 30400-K36F-T01
+PCX 150 THAILAND 30400-K36S-T31
+PCX 150 THAILAND 30400-K97F-T01
+LEAD 125 THAILAND 30400-K2TA-T02
+Zoomer X THAILAND 30400-K20J-T21
+Click 160 THAILAND 30400-K2SF-T01
+VARIO 125 THAILAND 30400-K60F-T01
+Click 125 THAILAND 30400-K2VH-T11
+Giorno 125 THAILAND 30400-K3MF-T01
+VARIO 150 THAILAND 30400-K59K-T11
+Click 125i THAILAND 30400-K60S-M61
+Click 125i THAILAND 30400-K60S-T73
+BeAT 110 30400 K81A-N11 (2018-2019)
+PCX 160 - 30400-K1ZV-NA1
+PCX 160 - 30400-K1ZV-NC1
+PCX 160 ROADSYNC - 30400-K1ZV-NF1
+VARIO GEN 3 125-30400-K2VM-N81-(2026)
+VARIO GEN 3 125-30400-K2VM-NA1-(2026)
+0102420F01
+01058E0F01
+01058C0F01
+01037B0F01
+01037B0F11
+01048C0F01
+01048D0F11
+01048D0F01
+01037A0F01
+01037A0F02
+01037A0F03
+0103790F01
+0103790F02
+0103790F03
+0101D40F01
+0102410F01
+0102E30F01
+0102E20F01
+0101CE0F01
+0102C70F01
+0103470F01
+0104030F01
+0104040F01
+0105030F01
+0105020F01
+0101D30F02
+0101D30F01
+0104D80F01
+0104D90F01
+0101E20F01
+0101C50F01
+0102470F01
+0102460F01
+0103080F01
+0103090F01
+0101C40F01
+0102450F01
+0103060F01
+0103060F11
+01046B0F01
+0101230F01
+0101730F01
+0101690F01
+0101BE0F01
+0101AE0F01
+01058B0F11
+01058B0F01
+01048E0D01
+01037C0D01
+0103D00D01
+0103CF0D01
+0105050D01
+0105040D01
+0101990D01
+0102180D01
+0102990D01
+0104780D01
+0101FF0D01
+01046D0D01
+0101D00D01
+0104DC0D01
+01052A0D01
+0103070D01
+01030B0F03
+01030A0D01
+01058D0F01
+0101980101
+0101981101
+0102970701
+0102410F11
+0105B80F01
+0105B70F01
+0105B60F01
+0106240F01
+0106250F01
+0105770F01
+0104DA0F01
+0106400F01
+0106410F01
+0101CD1801
+Grafik 
+Area
+IAP (%)
+TPS (%)
+Legend
+90%+
+75-89%
+50-74%
+25-49%
+<25%
+Z: {0}
+X: {0}
+Y: {1:0.##}
+Data disimpan !
+Gagal menyimpan data
+FormChart
+Update Info
+Release Notes
+Segoe UI Semibold
+Yang baru di versi ini
+v
+Tidak ada catatan untuk versi ini.
+Tutup
+# 
+- 
+â€¢ 
+* 
+â€¢
+%
+Update Software
+Updating...
+Preparingâ€¦
+Cancel
+Pembaruan tersedia
+Versi baru siap dipasang.
+Versi saat ini
+:
+Versi pembaruan
+Lihat catatan perubahanâ€¦
+Update Now
+Later
+FormUpdatePrompt
+root\cimv2
+SELECT * FROM Win32_PnPEntity WHERE Name LIKE '%(COM[0-9]%'
+Name
+(
+)
+PNPDeviceID
+cboEeprom
+Please enter a valid HEX value.
+Input HEX: 
+Swapped HEX: 
+Decimal: 
+Octal: 
+Last 6 Octal Digits: 
+After Adding 111111: 
+Reversed Result: 
+Data conversion failed
+READ
+An error occurred while processing data: 
+The number of bytes must be a multiple of 4.
+{0:X2} {1:X2} {2:X2} {3:X2}
+There is an error: 
+Input cannot be empty.
+Open file
+All files (*.*)|*.*
+{0}
+YAMAHA TMAX
+YAMAHA-SUZUKI
+default
+readkey
+btnWriteEEPROM
+Connect to SCU
+Device not found!
+Device is connected, but SCU is not responding.
+Cek wiring,SDA/SCL, GND, VCC
+SCU Connected
+Detected SCU EEPROM â‰ˆ {0} ({1})
+
+EEPROM write timeout (polling).
+No ACK dev (WRITE).
+No ACK word address.
+No ACK data.
+X8
+: 
+X2
+The device is not responding. Please click Connect first.
+SCU not responding Check wiring, SCL-SDA, Ground, and voltage.
+No ACK word address 0x00.
+No ACK dev (READ).
+YAMAHA
+EEPROM {0} read key selesai.
+Saved: {1}
+Gagal menyimpan file: 
+Read failed: 
+Consolas
+{0:X8}: 
+{0:X2} 
+   
+Verify: no ACK dev(WRITE).
+Verify: no ACK word addr.
+Verify: no ACK dev(READ).
+Belum terhubung.
+Range salah.
+Selesai, tapi {0} byte != 0x{1:X2} (cek WP).
+Fill range gagal: 
+
+Pastikan pin WP LOW (nonaktif).
+Delete key 2 ?
+Confirmation
+Delete key 3 ?
+Delete key 4 ?
+Read OK.
+
+Write OK.
+
+Verify done. Mismatch: 
+Not connected yet. Click Connect first.
+COPY SCU
+Source SCU not responding, Check ground wiring, positive, SCL, SDA
+Reading source SCU...
+
+backup_src_
+_
+yyyyMMdd_HHmmss
+.bin
+Saved backup: 
+Data sumber sudah dibaca.
+Sekarang pindahkan konektor ke SCU TARGET (yang mau diisi),
+pastikan Wiring terpasang dengan baik,
+lalu klik OK untuk menulis
+
+
+The source data has been read.
+Now move the connector to the TARGET SCU
+(the one you want to fill),
+make sure the Wiring is properly installed,
+then click OK to write
+Canceled before writing to target.
+
+Target SCU is not responding. Check wiring/ground/voltage/SCL/SDA
+The detected target type â‰ˆ 
+ is different from the source 
+.
+Continue writing according to the source size?
+Writing to target SCU...
+
+Verifying target...
+
+VERIFY OK (0 mismatch).
+
+COPY SCU completed.
+All bytes match.
+COPY SCU completed, but 
+ bytes do not match.
+Check SCU Wiring.
+COPY SCU failed: 
+Not connected to SCU/EEPROM. Click Connect first.
+WRITE
+There are no files opened yet. Click OPEN FILE first.
+Write data to EEPROM from file:
+
+
+Make sure WP is LOW (disabled). Continue?
+Confirmation WRITE
+Start writing (retry) EEPROM {0} ({1} bytes)...
+
+Failed to write @0x{0:X4} after retry.
+{0:X4}: tulis {1}B OK
+
+Write (with verify per page) completed.
+Write failed: 
+The image in pictureBox1 is still empty.
+SUZUKI
+C:\READ ID SMARTKEY
+eeprom_{0}_scu_{1}_{2:yyyyMMdd_HHmmss}.bin
+explorer.exe
+/select,"
+"
+READ ID SMARTKEY
+Tutorial
+hexInputTextBox
+resultLabel
+textBox4
+textBox5
+textBox6
+textBox7
+HEX 1
+KEY 1
+HEX 2
+HEX 3
+HEX 4
+KEY 2
+KEY 3
+KEY 4
+groupBox1
+pictureBox1.Image
+READ SUZUKI
+READ YAMAHA
+groupBox2
+groupBox3
+textBox9
+OFFSET  : 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F  | Decoded Teks      
+progressBar1
+textBox8
+connect
+delete3
+DELETE KEY
+delete4
+delete2
+mENUToolStripMenuItem1
+MENU
+oPENFILEToolStripMenuItem
+OPEN FILE
+mENUToolStripMenuItem
+TOOLS
+copySCUToolStripMenuItem
+Copy SCU
+writeEEPROMToolStripMenuItem
+Write EEPROM
+hELPToolStripMenuItem
+HELP
+cARAREADSCUToolStripMenuItem
+Form11
+SMART KEY YAMAHA SUZUKI
+License Activation
+Hub Admin ! Klik WhatsApp untuk dapatkan License Key
+WhatsApp Admin
+ID License
+Username
+License Key
+Register
+Hardware ID berhasil disalin.
+Info
+Gagal menyalin Hardware ID.
+Halo Admin FLASHPRO,
+
+Saya Butuh lisensi Key
+
+*Username : *
+
+
+
+*ID License : *
+
+
+
+Terima kasih !
+https://wa.me/[REDACTED_PHONE]?text=
+Tidak dapat membuka WhatsApp.
+Masukkan License Key!
+Peringatan
+Registrasi Berhasil!
+Lisensi tidak valid !
+Exiting.
+lstLog
+LogForm
+LogData
+SELECT SerialNumber FROM Win32_BaseBoard
+UNKNOWN_MB
+[REDACTED_LICENSE_SALT]
+MbAct
+MbBeng
+ECM MANAGER - Activation
+TEAM TECH TUNNER
+ID
+Username ( Isi dengan Nama Bengkel )
+Activation Key
+Activate
+Masukkan Nama Bengkel!
+Masukkan Activation Key!
+Selamat Datang !
+
+
+Activation
+Activation Key tidak valid
+Halo Admin FLASHPRO,
+
+Mohon aktivasi FLASHPRO
+
+*ID:*
+
+
+
+Terima kasih.
+ID berhasil disalin.
+read48k.log
+[{0:F4}] à¸«à¸¢à¸¸à¸”: replySize <= {1} at offset={2}
+>
+<
+[
+] 0 
+ [
+]
+Keihin
+Please Turn OFF
+Shindengen
+Please Turn OFF - ON
+Please Wait...
+[DEBUG] Balasan ({0}): {1}
+labelTitle
+ReadECU FLASH
+hexViewer
+ReadECU
+READING DATA FROM MCU
+RESET FLASH
+Flash Count
+Reset Berhasil 100%
+Reset Berhasil, Silahkan Restart ECM
+Reset Flash Count Shindengen
+SCOOPY 110 - 30400-K2F-NXX
+SCOOPY 110 - 30400-K2F-N11
+SCOOPY 110 - 30400-K2F-N91
+VARIO 150 - 30400-K59J-A71
+VARIO 160 - 30400-K1ZP-N01
+VARIO 160 - 30400-K2SA-N01
+VARIO 160 - 30400-K2SA-N02
+VARIO 125 - 30400-K2VG-N01
+VARIO 125 - 30400-K2VG-N42
+VARIO 125 - 30400-KZR-L01
+PCX 150 - 30400-K97-T01
+ADV 150 - 30400-K0WA-N01
+ADV 160 - 30400-K0WL-NXX
+BEAT 110 - 30400-K1AL-NB1
+PCX 160 - 30400-K1ZG-NXX
+PCX 160 - 30400-K1ZN-NXX
+PCX 160 ROADSYCN 2025 - 30400-K1ZV-NF1
+PCX 160 ABS 2025 - 30400-K1ZV-NC1
+STYLO 160 - 30400-K3VA-N01
+PCX 150 - 30400-K97G-NXX
+TYPE ECM
+HONDA
+{0}_{1:yyyy-MM-dd_HHmmss}.bin
+Disimpan ke: 
+Tidak ada data yang dikumpulkan. Silakan jalankan fungsi EEPROM terlebih dahulu.
+Gagal Read Eeprom
+Silahkan Restart ECM
+Ulangi Dari Awal
+Read Eeprom
+PCX 150 - 30400-K97G-N31
+PCX 160 - 30400-K1ZG-N21
+PCX 160 - 30400-K1ZN-N51
+ADV 160 - 30400-K0WL-NB1
+Model ECM tidak dikenali.
+Terjadi kesalahan saat memproses data: 
+Jumlah byte harus kelipatan 4.
+000000000
+00 00 00 00
+Terjadi kesalahan: 
+Input harus terdiri dari 4 byte hexadecimal, dipisahkan oleh spasi.
+D9
+Error in conversion: 
+Input tidak boleh kosong.
+SHINDENGEN
+       KEIHIN
+Response: 
+Response2: 
+Response7: 
+Response8: 
+Response Data:
+Data kosong.
+Data eeprom belum terbaca
+{0:X4}: 00  -- WRITTEN
+File bin terlalu kecil atau belum dimuat (min 8 byte).
+{0:X4}: {1:X2}  {2}
+-- WRITE FAIL âŒ (Resp: 
+-- WRITTEN âœ…
+File bin belum dipilih atau tidak ditemukan.
+Silakan buka file terlebih dahulu.
+Isi file bin terlalu kecil atau rusak (min 2 byte).
+Silakan pilih tipe ECM terlebih dahulu.
+KEIHIN
+Tipe ECM tidak dikenali sebagai KEIHIN atau SHINDENGEN.
+Anda akan menulis file .bin ke EEPROM 
+.
+
+Pastikan ECM dalam keadaan ON.
+Lanjutkan proses tulis?
+Konfirmasi Tulis EEPROM
+Proses sedang berjalan.
+Anda akan melakukan Renew ID ECM 
+.
+
+Untuk melanjutkan, silahkan tekan OK.
+Renew ID 
+ðŸ”‘ Keihin Access
+ðŸ”Œ MATIKAN KUNCI KONTAK OFF
+ðŸ”‘ Shindengen Access
+ðŸ”Œ MATIKAN-HIDUPKAN KUNCI KONTAK OFF-ON
+Agency FB
+*
+buttonRenewID
+RENEW ID
+Write
+read
+READ KEY
+readEepromToolStripMenuItem
+Help
+pictureBox3.Image
+pictureBox3
+pictureBoxBarcode
+textBoxHex
+SMK
+ID Key Barcode
+âŒ Gagal tulis ke offset 0x{0:X2}
+ðŸ§¨ Renew selesai dalam {0}ms
+ðŸ”‘ SHINDENGEN write selesai dalam {0}ms
+ðŸ”‘
+PETUNJUK READ ID KEYLESS
+Panduan penggunaan fitur Read ID untuk Honda Keyless
+Berikut langkah resmi yang harus diikuti:
+1. Pastikan ECU terhubung ke modul K-Line yang benar:
+     ðŸ”¹ KUNING âžœ K-Line ECU
+     ðŸ”¹ HITAM âžœ GND ECU
+     ðŸ”¹ MERAH +12V PSU âžœ +12V ECU
+âš™ï¸
+2. Nyalakan ECU (kontak ON), pastikan tegangan stabil (12V).
+ðŸ–±ï¸
+3. Klik tombol 'READ ID' di aplikasi untuk memulai.
+ðŸ”„
+4. Saat diminta:
+     ðŸ”» Matikan kontak ECU (OFF) Â±2 detik
+     ðŸ”º Hidupkan kembali (ON)
+     ðŸŸ¢ Pembacaan akan berjalan otomatis saat ECU terdeteksi aktif
+âš ï¸
+Jika koneksi gagal:
+     â€¢ Cek sambungan K-line , GND, dan +12V
+     â€¢ Pastikan modul K-Line terbaca & ECU menyala
+Setelah berhasil, ID KEYLESS akan tampil di bawah.
+ðŸš¨
+PERINGATAN:
+Segala kesalahan dalam proses sambungan atau pembacaan dapat menyebabkan kerusakan permanen pada ECU/sistem kendaraan.
+Gunakan aplikasi dengan hati-hati sesuai prosedur.
+ðŸ“µ Kesalahan polaritas, tegangan, atau koneksi dapat berakibat fatal.
+READ ID KEYLESS
+Panduan resmi penggunaan fitur Read ID
+Jangan tampilkan lagi saat Read ID
+id
+en
+EN
+Tidak ada langkah.
+No steps.
+IN
+Close
+BACA ID KEY
+1. Pasangkan modul ke PC. Pastikan driver terpasang dan perangkat terdeteksi.
+2. Hubungkan kabel sesuai pinout: SDA, SCL, GND, dan VCC (positif). Periksa polaritas dan kekencangan jumper.
+3. Buka software lalu klik "Connect". Lanjut hanya jika status sudah terkoneksi.
+4. Klik "READ" untuk mulai membaca EEPROM. Jangan lepaskan kabel saat proses berlangsung.
+5. Pastikan kabel/jumper terkoneksi dengan baik. Jika gagal, cek ulang wiring (SDA/SCL/GND/VCC) dan coba lagi.
+1. Hubungkan SCU SUMBER yang akan disalin.
+2. Klik COPY SCU untuk membaca data sumber
+3. Lepas konektor dari sumber lalu pasang ke SCU TARGET yang baru.
+4. Klik OK untuk menulis data ke SCU target.
+5. Tunggu proses tulis dan verifikasi sampai selesai.
+6. Pastikan koneksi SDA, SCL, GND, dan VCC terhubung dengan baik sepanjang proses.
+READ ID KEY
+1. Plug the module into the PC. Ensure the driver is installed and the device is detected.
+2. Wire the pins per pinout: SDA, SCL, GND, and VCC (positive). Check polarity and jumper tightness.
+3. Open the software and click "Connect". Proceed only when the status shows connected.
+4. Click "READ" to start dumping the EEPROM. Do not disconnect any cable during the process.
+5. Make sure all jumpers/cables are firmly connected. If it fails, recheck wiring (SDA/SCL/GND/VCC) and retry.
+1. Connect the SOURCE SCU to be copied.
+2. Click COPY SCU to read the source data and save a backup if needed.
+3. Disconnect from the source and connect the NEW TARGET SCU.
+4. Click OK to write the data to the target SCU.
+5. Wait for the write and verification to complete.
+6. Make sure SDA, SCL, GND, and VCC are firmly connected throughout the process.
+FLASHPRO-Updater/1.0
+version.txt
+Total ukuran ekstraksi melebihi batas.
+Paket update kosong.
+Password arsip salah. Periksa ZipPassword.
+Arsip ZIP rusak: 
+..
+/
+\
+Unsafe entry: 
+Path traversal terdeteksi: 
+ GB
+ MB
+ KB
+ B
+Auto Update.exe
+Auto Update.exe tidak ditemukan di folder aplikasi.
+"{0}" "{1}" "{2}" {3}
+runas
+UsrNm
+UsrMb
+worker
+weights required
+FLASHPRO.Properties.Resources
+Down
+Erase
+graph-16
+K1AA
+K2F
+K2SA
+K59
+K81
+KH
+KZR
+logo
+PCX150
+Pie chart
+public_encrypted
+Redo
+Save1
+table-heatmap
+Undo
+unknown
+UPDATE
+VARIO125
+SkipReadIdTutorial
+SkipAboutOnStartup
+AutoSize
+{0:0.00}, {1:0.00}, {2:0.00}
+{0:0.00}, {1:0.00}
+App Exiting...
+Informasi !
+Verifikasi Data...
+Input Data Value
+Compare Data
+Grafik Data
+Data BaseMap
+Silahkan Hubungi Pengembang
+Koneksi Gagal !
+Flashing gagal: 
+Â°
+Â°C
+ :1
+Ms
+No updates available. Your application is up to date.
+Check for Update
+Gagal memeriksa pembaruan.
+Cek koneksi internet atau file updater.
+Error: 
+{0} s
+{0} %
+x2
+[{0:F4}] 0 > [{1}]
+[{0:F4}] 0 < [{1}]
+PILIH LOKASI DAN NAMA BERKAS UNTUK MENYIMPAN EEPROM
+File EEPROM READ ID
+{0} {1:dd-MM-yyyy}.bin
+Reading data from mcu
+Binary files (*.bin)|*.bin|All files (*.*)|*.*
+bin
+Data berhasil disimpan ke: 
+Good !
+Reset Flash Count Keihin
+ðŸ”‘ Renew Keihin Selesai, silakan baca ulang untuk memastikan!
+ðŸ”‘ Write KEIHIN selesai, Silahkan baca ulang untuk memastikan !
+Data EEPROM belum terbaca.
+Silakan lakukan pembacaan terlebih dahulu.
+ðŸ§¨ Renew ECM Shindengen selesai.
+Silahkan baca ulang untuk memastikan.
+File BIN tidak valid atau belum dibaca.
+Downloadingâ€¦
+Launching Updaterâ€¦
+Update failed:
+
+Failed
+FLASHPRO_Update_
+update.zip
+staging
+[REDACTED_UPDATE_PASSWORD]
+Validatingâ€¦
+Extractingâ€¦
+html
+zipUrl bukan link unduhan langsung (mengembalikan HTML).
+zipUrl mengarah ke halaman HTML, bukan file ZIP.
+.part
+Server mengembalikan HTML, bukan file ZIP.
+Ukuran file 
+ melebihi batas 
+File bukan ZIP (signature tidak cocok).
+Downloadingâ€¦ 
+ / 
+Ukuran file melebihi batas 
+https://raw.githubusercontent.com/flashpro2025/hondaflashprokline/refs/heads/main/hondaflashprokline.json
+Field kosong. Wajib ada 'version' & 'zipUrl'.
+Gagal mengambil informasi pembaruan.
+Detail: 
+
+
+Cek koneksi internet.
+

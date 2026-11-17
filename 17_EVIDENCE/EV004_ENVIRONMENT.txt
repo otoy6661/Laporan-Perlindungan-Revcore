@@ -1,0 +1,6 @@
+BE-12 ENVIRONMENT (read-only capture)
+UTC now: 2026-11-17 18:46:52
+Microsoft Windows 11 Pro | build 22631
+PowerShell 5.1.22621.6133
+dotnet: 8.0.204
+gh: gh version 2.104.0 (2026-11-12)

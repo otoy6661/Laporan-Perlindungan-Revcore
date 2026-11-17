@@ -1,0 +1,16 @@
+﻿BE-12 FILESYSTEM + REGISTRY TIMELINE (UTC)
+
+AUTO UPDATE.exe | 9810157 | C=2026-11-13 11.53.21 | W=2026-11-17 11.38.51
+DotNetZip.dll | 472064 | C=2026-11-13 11.53.21 | W=2021-11-16 08.49.10
+FLASHPRO.exe | 33460372 | C=2026-11-13 11.53.20 | W=2026-11-17 11.38.52
+flashpro.exe  | 33321984 | C=2026-11-17 12.06.10 | W=2026-11-17 12.06.11
+lastimage.txt | 67 | C=2026-11-13 11.53.21 | W=2026-01-30 08.33.06
+unins000.dat | 5537 | C=2026-11-13 11.53.20 | W=2026-11-13 11.53.21
+unins000.exe | 3831646 | C=2026-11-13 11.53.20 | W=2026-11-17 11.38.52
+
+REGISTRY:
+DisplayName     : FLASHPRO
+DisplayVersion  : 7
+InstallLocation : C:\Program Files (x86)\FLASHPRO.inc\
+InstallDate     : 20261113
+UninstallString : "C:\Program Files (x86)\FLASHPRO.inc\unins000.exe"

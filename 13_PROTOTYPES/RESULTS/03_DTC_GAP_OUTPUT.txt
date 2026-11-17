@@ -1,0 +1,30 @@
+flashpro=37 revcore=15 missing_in_revcore=24 extra_in_revcore=2
+code,flashpro_description,revcore_pcode
+2-1,"MAP sensor performance problem",
+13-1,"No.2 primary injector circuit malfunction",
+14-1,"No.3 primary injector circuit malfunction",
+15-1,"No.4 primary injector circuit malfunction",
+16-1,"No.1 secondary injector circuit malfunction",
+17-1,"No.2 secondary injector circuit malfunction",
+18-1,"CMP sensor no signal",
+19-1,"CKP sensor no signal",
+23-1,"0â‚‚ sensor heater malfunction",
+25-2,"Knock sensor circuit malfunction",
+25-3,"29-1",
+33-2,"ECM EEPROM malfunction",
+34-1,"ECV POT low voltage malfunction",
+34-2,"ECV POT high voltage malfunction",
+35-1,"EGCA malfunction",
+48-1,"No.3 secondary injector circuit malfunction",
+49-1,"No.4 secondary injector circuit malfunction",
+51-1,"HESD linear solenoid malfunction",
+54-2,"Bank angle sensor circuit high voltage",
+56-1,"Knock sensor IC malfunction",
+57-1,"Engine coolant over temperature",
+57-2,"86-1",
+86-1,"Serial communication malfunction",
+91-1,"Coil Ignition Primary Malfungtion",
+
+--- extra_in_revcore ---
+7-0,P0115
+33-1,P0605

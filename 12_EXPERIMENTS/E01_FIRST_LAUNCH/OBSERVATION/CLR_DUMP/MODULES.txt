@@ -1,0 +1,21 @@
+AD id=1 name=FLASHPRO_original.exe
+  MOD[0] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll meta=0x7FF945138B98 len=2800276 imagebase=0x7FF944890000
+    meta_read=2800276 sig=BSJB
+  MOD[1] name=C:\Users\<USER>\Documents\REVCORE_BE12_FLASHPRO_AUTOPSY\12_EXPERIMENTS\E01_FIRST_LAUNCH\APP\FLASHPRO_original.exe asm=C:\Users\<USER>\Documents\REVCORE_BE12_FLASHPRO_AUTOPSY\12_EXPERIMENTS\E01_FIRST_LAUNCH\APP\FLASHPRO_original.exe meta=0x7FF63D260864 len=235832 imagebase=0x7FF63D200000
+    meta_read=235832 sig=BSJB
+  MOD[2] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll meta=0x7FF8B7D325B8 len=2667560 imagebase=0x7FF8B7770000
+    meta_read=2667560 sig=BSJB
+  MOD[3] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll meta=0x7FF94207FEA0 len=2090664 imagebase=0x7FF941B40000
+    meta_read=2090664 sig=BSJB
+  MOD[4] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll meta=0x7FF90A58E5B0 len=353272 imagebase=0x7FF90A4D0000
+    meta_read=353272 sig=BSJB
+  MOD[5] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Security\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Security\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.dll meta=0x216EAFFBC18 len=177852 imagebase=0x216EAFE0000
+    meta_read=177852 sig=BSJB
+  MOD[6] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll meta=0x7FF93DD0C7CC len=236364 imagebase=0x7FF93DC80000
+    meta_read=236364 sig=BSJB
+  MOD[7] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll meta=0x7FF93FBDC4E0 len=978420 imagebase=0x7FF93F740000
+    meta_read=978420 sig=BSJB
+  MOD[8] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll meta=0x7FF93D6BEDF4 len=1148072 imagebase=0x7FF93D360000
+    meta_read=1148072 sig=BSJB
+  MOD[9] name=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Management\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Management.dll asm=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Management\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Management.dll meta=0x7FF9254066C4 len=227552 imagebase=0x7FF9253A0000
+    meta_read=227552 sig=BSJB

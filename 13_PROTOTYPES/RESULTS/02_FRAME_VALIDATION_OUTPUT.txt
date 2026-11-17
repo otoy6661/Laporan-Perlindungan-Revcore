@@ -1,0 +1,16 @@
+BE-12 FASE VI — FRAME VALIDATOR OUTPUT (ekstrak dari 01_TEST_HARNESS_OUTPUT.txt)
+=============================================================================
+Struktur yang diuji adalah struktur RevCore (header, length, service, checksum),
+bukan capture FLASHPRO. Tidak ada RAW RX CAPTURE.
+
+PASS | frame valid 72 04 03 87 | service=0x3
+PASS | frame reject bad checksum | bad-checksum
+PASS | frame reject length mismatch | length-mismatch,bad-checksum
+PASS | frame reject unknown header | bad-header,bad-checksum
+PASS | buildFrame roundtrip + negative response flag | 72057F10FA
+
+Catatan:
+- 72 04 03 87: checksum = dua-komplemen(0x72+0x04+0x03) = 0x87.
+- Frame cacat mengembalikan daftar alasan eksplisit; validator tidak "menebak".
+- buildFrame(0x72, 0x7F, [0x10]) -> 72 05 7F 10 FA, negative=true.
+- Header yang diterima: 72, 02, 7E, 7C, FE, 7D, 7B (whitelist RevCore).

@@ -1,0 +1,65 @@
+
+
+File                    : FLASHPRO.exe
+Bytes                   : 33460372
+PayloadMzOffset         : 138363
+FillerLenField          : 15458
+FillerActualLen         : 15458
+FillerLenMatches        : True
+FillerBreak             : -1
+FillerPeriodic          : True
+HeaderTagAtPlus4        : 0x0E10
+Header25Hex             : 623c0000100e137d64671a2f25c8979ecea09c565e45dab2a4
+PayloadLen              : 33321984
+TrailerSizeField        : 33321984
+SizeFieldMatches        : True
+TrailerTagAtPlus4       : 0x0E10
+SizeEquationHolds       : True
+PayloadSha256           : 9fafdc8e795b2809cc02356bb2d4f5e79432fa3f72ab65ff7a8b56039bd02eb3
+FillerBlock256Sha       : bd1328b9a611ca26ed307ff3ac0828be4e480d33a0adfca5335013128e3c061d
+InstallerOriginalSha256 : 9fafdc8e795b2809cc02356bb2d4f5e79432fa3f72ab65ff7a8b56039bd02eb3
+PayloadVsOriginal       : EXACT MATCH
+
+File                    : AUTO UPDATE.exe
+Bytes                   : 9810157
+PayloadMzOffset         : 138452
+FillerLenField          : 15547
+FillerActualLen         : 15547
+FillerLenMatches        : True
+FillerBreak             : -1
+FillerPeriodic          : True
+HeaderTagAtPlus4        : 0x0E10
+Header25Hex             : bb3c0000100e1a7d646d1a2f2ac89796cea095565e46dab2a3
+PayloadLen              : 9671680
+TrailerSizeField        : 9671680
+SizeFieldMatches        : True
+TrailerTagAtPlus4       : 0x0E10
+SizeEquationHolds       : True
+PayloadSha256           : 181db74b0e282e91cefa18c4d9d8f7975b0bee55df4bd32e51187cfec397d9ec
+FillerBlock256Sha       : 40dce7e79ae1f8c1e155448dd29ecf630efa6a17d5e69ee0991785f2e9da8477
+InstallerOriginalSha256 : 181db74b0e282e91cefa18c4d9d8f7975b0bee55df4bd32e51187cfec397d9ec
+PayloadVsOriginal       : EXACT MATCH
+
+File                    : unins000.exe
+Bytes                   : 3831646
+PayloadMzOffset         : 138336
+FillerLenField          : 15431
+FillerActualLen         : 15431
+FillerLenMatches        : True
+FillerBreak             : -1
+FillerPeriodic          : True
+HeaderTagAtPlus4        : 0x0E10
+Header25Hex             : 473c0000100e177d646c1a2f29c89798cea09d565e48dab29a
+PayloadLen              : 3693285
+TrailerSizeField        : 3693285
+SizeFieldMatches        : True
+TrailerTagAtPlus4       : 0x0E10
+SizeEquationHolds       : True
+PayloadSha256           : 7392f14a21b453126924dff5c2faaba73e57e4e3b50e2dd068caec060e95187a
+FillerBlock256Sha       : 2df3cef6adde2e3b8d0113a7273b7f05bd1e9fef474239cae087726dac3976f9
+InstallerOriginalSha256 : 
+PayloadVsOriginal       : N/A (no installer original available)
+
+
+
+
