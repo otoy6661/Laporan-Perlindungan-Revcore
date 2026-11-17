@@ -1,0 +1,2 @@
+# Preserve published report bytes exactly; no end-of-line normalization.
+* -text
