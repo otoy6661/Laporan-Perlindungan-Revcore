@@ -1,0 +1,362 @@
+{
+  "File": "TPMoatesEmulatorPlugin.dll",
+  "Bytes": 73728,
+  "Machine": "0x014C",
+  "MachineName": "x86",
+  "PE32Plus": false,
+  "Sections": 5,
+  "TimeDateStamp": 1792030865,
+  "TimeDateStampUtc": "2026-10-15 02.21.05",
+  "Characteristics": "0x2102",
+  "DllCharacteristics": "0x0140",
+  "Subsystem": "GUI",
+  "EntryPointRVA": "0x0000439C",
+  "ImageBase": "0x10000000",
+  "SectionAlignment": 4096,
+  "FileAlignment": 512,
+  "SizeOfImage": 90112,
+  "SizeOfHeaders": 1024,
+  "OverlayBytes": 0,
+  "HasCLR": false,
+  "AuthenticodeDir": {
+    "Offset": 0,
+    "Size": 0
+  },
+  "DataDirectories": [
+    {
+      "Index": 0,
+      "RVA": "0x00010E80",
+      "Size": 120
+    },
+    {
+      "Index": 1,
+      "RVA": "0x00010EF8",
+      "Size": 280
+    },
+    {
+      "Index": 2,
+      "RVA": "0x00014000",
+      "Size": 2536
+    },
+    {
+      "Index": 3,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 4,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 5,
+      "RVA": "0x00015000",
+      "Size": 3184
+    },
+    {
+      "Index": 6,
+      "RVA": "0x00010388",
+      "Size": 112
+    },
+    {
+      "Index": 7,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 8,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 9,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 10,
+      "RVA": "0x000102C8",
+      "Size": 64
+    },
+    {
+      "Index": 11,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 12,
+      "RVA": "0x0000E000",
+      "Size": 464
+    },
+    {
+      "Index": 13,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 14,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 15,
+      "RVA": "0x00000000",
+      "Size": 0
+    }
+  ],
+  "SectionTable": [
+    {
+      "Name": ".text",
+      "VA": "0x00001000",
+      "VirtualSize": 50003,
+      "RawPointer": "0x00000400",
+      "RawSize": 50176,
+      "Flags": "0x60000020",
+      "Entropy": 6.3748
+    },
+    {
+      "Name": ".rdata",
+      "VA": "0x0000E000",
+      "VirtualSize": 14876,
+      "RawPointer": "0x0000C800",
+      "RawSize": 15360,
+      "Flags": "0x40000040",
+      "Entropy": 5.344
+    },
+    {
+      "Name": ".data",
+      "VA": "0x00012000",
+      "VirtualSize": 6348,
+      "RawPointer": "0x00010400",
+      "RawSize": 1024,
+      "Flags": "0xC0000040",
+      "Entropy": 3.0457
+    },
+    {
+      "Name": ".rsrc",
+      "VA": "0x00014000",
+      "VirtualSize": 2536,
+      "RawPointer": "0x00010800",
+      "RawSize": 2560,
+      "Flags": "0x40000040",
+      "Entropy": 3.8348
+    },
+    {
+      "Name": ".reloc",
+      "VA": "0x00015000",
+      "VirtualSize": 3184,
+      "RawPointer": "0x00011200",
+      "RawSize": 3584,
+      "Flags": "0x42000040",
+      "Entropy": 6.3168
+    }
+  ],
+  "Imports": [
+    {
+      "DLL": "SHLWAPI.dll",
+      "Functions": [
+        "PathAppendW"
+      ]
+    },
+    {
+      "DLL": "RPCRT4.dll",
+      "Functions": [
+        "UuidFromStringA"
+      ]
+    },
+    {
+      "DLL": "KERNEL32.dll",
+      "Functions": [
+        "CloseHandle",
+        "WriteFile",
+        "MultiByteToWideChar",
+        "CreateFileA",
+        "GetLastError",
+        "CreateFileW",
+        "CreateDirectoryW",
+        "Sleep",
+        "ReadFile",
+        "GetCurrentThreadId",
+        "InitializeSListHead",
+        "GetSystemTimeAsFileTime",
+        "GetCurrentProcessId",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "TerminateProcess",
+        "GetCurrentProcess",
+        "SetUnhandledExceptionFilter",
+        "UnhandledExceptionFilter",
+        "SleepEx",
+        "CreateThread",
+        "CreateEventA",
+        "SetEvent",
+        "WaitForSingleObject",
+        "SetCommState",
+        "SetCommTimeouts",
+        "GetCommState",
+        "SetupComm",
+        "GetCommTimeouts",
+        "PurgeComm",
+        "QueryPerformanceCounter"
+      ]
+    },
+    {
+      "DLL": "USER32.dll",
+      "Functions": [
+        "MapVirtualKeyExA",
+        "GetParent",
+        "CheckDlgButton",
+        "IsDlgButtonChecked",
+        "EndDialog",
+        "DialogBoxParamA",
+        "GetDlgItem",
+        "SendMessageA",
+        "EnableWindow",
+        "MessageBoxA",
+        "CharLowerBuffA",
+        "GetKeyState",
+        "GetWindowRect",
+        "DestroyWindow",
+        "SetWindowPos",
+        "InsertMenuA",
+        "ScreenToClient",
+        "CallNextHookEx",
+        "SetWindowTextW",
+        "CreatePopupMenu",
+        "TrackPopupMenu",
+        "GetKeyNameTextA",
+        "GetDlgItemTextA",
+        "SetTimer",
+        "SetWindowLongA",
+        "CallWindowProcA",
+        "SetWindowsHookExA",
+        "CharUpperBuffA",
+        "GetWindowLongA",
+        "UnhookWindowsHookEx",
+        "DefWindowProcA",
+        "DestroyMenu",
+        "CreateWindowExA",
+        "SetDlgItemTextA",
+        "GetClientRect",
+        "KillTimer",
+        "GetDesktopWindow",
+        "GetKeyboardLayout",
+        "SetWindowTextA",
+        "MoveWindow"
+      ]
+    },
+    {
+      "DLL": "SHELL32.dll",
+      "Functions": [
+        "SHGetFolderPathW"
+      ]
+    },
+    {
+      "DLL": "VCRUNTIME140.dll",
+      "Functions": [
+        "memcpy",
+        "_purecall",
+        "__std_exception_destroy",
+        "__std_exception_copy",
+        "__std_terminate",
+        "memset",
+        "_except_handler4_common",
+        "_CxxThrowException",
+        "__std_type_info_destroy_list",
+        "__CxxFrameHandler3"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-convert-l1-1-0.dll",
+      "Functions": [
+        "atoi"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "Functions": [
+        "__stdio_common_vsprintf"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-utility-l1-1-0.dll",
+      "Functions": [
+        "rand"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-string-l1-1-0.dll",
+      "Functions": [
+        "isprint"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "Functions": [
+        "_cexit",
+        "_initterm_e",
+        "_seh_filter_dll",
+        "_configure_narrow_argv",
+        "_initialize_narrow_environment",
+        "_initterm",
+        "_register_onexit_function",
+        "_execute_onexit_table",
+        "_crt_atexit",
+        "_initialize_onexit_table",
+        "_invoke_watson"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-heap-l1-1-0.dll",
+      "Functions": [
+        "malloc",
+        "_callnewh",
+        "free"
+      ]
+    },
+    {
+      "DLL": "GDI32.dll",
+      "Functions": [
+        "DeleteObject"
+      ]
+    }
+  ],
+  "DelayImports": [],
+  "Exports": [
+    {
+      "DLL": "TPMoatesEmulatorPlugin.dll",
+      "Name": "TPCreatePlugin"
+    },
+    {
+      "DLL": "TPMoatesEmulatorPlugin.dll",
+      "Name": "TPReleasePlugin"
+    }
+  ],
+  "Resources": [
+    {
+      "Path": "AFX_DIALOG_LAYOUT/ID_102/ID_1033",
+      "RVA": "0x00014860",
+      "Size": 2
+    },
+    {
+      "Path": "DIALOG/ID_101/ID_1033",
+      "RVA": "0x000144F0",
+      "Size": 392
+    },
+    {
+      "Path": "DIALOG/ID_102/ID_1033",
+      "RVA": "0x00014678",
+      "Size": 482
+    },
+    {
+      "Path": "VERSION/CURSOR/ID_1033",
+      "RVA": "0x00014190",
+      "Size": 860
+    },
+    {
+      "Path": "MANIFEST/BITMAP/ID_1033",
+      "RVA": "0x00014868",
+      "Size": 381
+    }
+  ]
+}

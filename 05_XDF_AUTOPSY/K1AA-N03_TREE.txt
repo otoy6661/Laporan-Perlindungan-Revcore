@@ -1,0 +1,21 @@
+﻿Tables
+  TPS vs RPM Fast Idle #1
+  TPS vs RPM Fast Idle #2
+  TPS vs RPM
+  Fuel Deccel
+  Ignition
+  S.O.I -- Cold
+  S.O.I -- Warm
+  DTC
+  Limiter 1
+  Limiter 2
+  Limiter 3
+  Limiter 4
+  Limiter 5
+  Target Idle RPM #1
+  Target Idle RPM #2
+  SW Version
+  ECM ID
+  Breakpoint TPS
+  Breakpoint RPM
+  AFR TARGET Maps

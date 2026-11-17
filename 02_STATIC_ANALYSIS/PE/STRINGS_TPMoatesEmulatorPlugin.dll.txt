@@ -1,0 +1,712 @@
+0x0000004D	A	!This program cannot be run in DOS mode.
+0x000001F8	A	.text
+0x0000021F	A	`.rdata
+0x00000247	A	@.data
+0x00000270	A	.rsrc
+0x00000297	A	@.reloc
+0x00000B2F	A	wWSVW
+0x00000D99	A	tUVhL
+0x00001AC0	A	PQSVW
+0x000026B0	A	Qj0WV
+0x00003827	A	5ntel
+0x00003833	A	5Genu
+0x00003904	A	j$X9E
+0x000040B7	A	j2j(j
+0x000040E0	A	jZj(jZh
+0x00004135	A	L$$QP
+0x00004145	A	D$ +D$
+0x00004152	A	D$0+D$(
+0x0000416E	A	D$,+D$$
+0x0000417B	A	D$<+D$4
+0x0000418C	A	D$4Pj
+0x000041BB	A	_^][3
+0x000041DB	A	D$dSUj
+0x000042B2	A	D$|PU
+0x000042C4	A	L$l][3
+0x000042F2	A	T$8j2
+0x00004387	A	SUWjd
+0x0000451D	A	_][^3
+0x000046D4	A	D$8PW
+0x0000475C	A	D$(Pj
+0x0000477E	A	t$(Pj
+0x000048B0	A	PPPPPW
+0x000048D8	A	D$LPj
+0x00004BCE	A	t$ RW
+0x00004E69	A	l$L+l$
+0x00005052	A	D$(+D$ 
+0x0000506E	A	D$$+D$
+0x0000507B	A	D$4+D$,
+0x0000508C	A	D$,Pj
+0x0000509A	A	L$,_^3
+0x00005156	A	^_][Y
+0x000053FE	A	_^][Y
+0x00006096	A	L$$Qj
+0x0000609D	A	L$ QP
+0x000060E6	A	L$$Qh
+0x0000612C	A	L$$Qj
+0x00006216	A	tk~bSVW
+0x00006262	A	t$$2D$
+0x00006271	A	.E;l$(|
+0x000063D8	A	L$$_[
+0x000074CF	A	D$DSU
+0x0000773F	A	9\$Xt
+0x00007794	A	_^][3
+0x00007876	A	L$ Qj
+0x0000787D	A	L$ QP
+0x000078C5	A	L$ Qj
+0x00007904	A	L$ Qj
+0x00007BCA	A	D$ PUVR
+0x00007C1D	A	L$ Qj
+0x00007D67	A	D$ Uj
+0x00007E39	A	D$0PUVR
+0x00007E4F	A	L$ Vh(
+0x00007E9F	A	L$0QPUR
+0x00007EB5	A	L$ Uh
+0x00007F1E	A	L$0Qj
+0x00007F57	A	D$0PU
+0x000085DF	A	D$LSUV
+0x00008861	A	9l$`t
+0x000088ED	A	_^][3
+0x000089E6	A	L$ QP
+0x00008A64	A	9\$$uB
+0x00008D0B	A	D$4SVWQ
+0x00008D42	A	D$H8D$(
+0x00008DB7	A	d$5h0
+0x00008E6D	A	L$@QP
+0x00008E88	A	D$8Ph(
+0x000091D2	A	t$$UP
+0x00009236	A	_^][Y
+0x000092B5	A	t$$UP
+0x00009519	A	l$PUh
+0x000096BB	A	D$(PS
+0x000096C1	A	\$(SR
+0x0000971D	A	D$(PUVR
+0x00009769	A	L$(Qj
+0x00009770	A	L$#QP
+0x00009B49	A	T$(t[
+0x00009C70	A	T$,RVQP
+0x00009CC5	A	L$,Qj
+0x00009EF2	A	)D$Pf
+0x00009F9A	A	t$8RP
+0x0000A19F	A	;D$,u-
+0x0000A432	A	;L$@r
+0x0000A50C	A	D$,;L$
+0x0000A574	A	L$8QPVR
+0x0000A58E	A	L$HVh(
+0x0000A5D3	A	L$ QP
+0x0000A643	A	D$(f;
+0x0000A672	A	L$$)E
+0x0000A7F4	A	\$TUVWj2
+0x0000A852	A	D$$j2P
+0x0000A860	A	9|$dt
+0x0000A8F3	A	L$ QP
+0x0000A96D	A	D$$Ph
+0x0000A99D	A	D$ Ph
+0x0000A9D8	A	_^][3
+0x0000AA6B	A	D$@SVWj23
+0x0000AAB5	A	9|$Xt.h(
+0x0000ABA0	A	L$ QP
+0x0000AC16	A	D$ Ph
+0x0000AC29	A	9|$\t
+0x0000AF7E	A	G @t2
+0x0000B2FF	A	D$4PQ
+0x0000B369	A	L$4QPVR
+0x0000B37F	A	L$@Vh
+0x0000B3BB	A	L$4Qj
+0x0000B3C2	A	L$#QP
+0x0000B4F2	A	t$,h(
+0x0000B643	A	\$<Sh
+0x0000BA31	A	t=9D$
+0x0000BA40	A	t$$QR
+0x0000BAA0	A	D$$SWP
+0x0000BACF	A	D$$;t$
+0x0000BD07	A	D$4SP
+0x0000BE0E	A	D$(PQSR
+0x0000BE24	A	L$4Sh
+0x0000BFB3	A	D$ PQ
+0x0000C3A4	A	L$$QP
+0x0000CA2C	A	bad allocation
+0x0000CA48	A	Standard Serial
+0x0000CA58	A	Shared with Emulator
+0x0000CA70	A	Data Acquisition Cable
+0x0000CA88	A	Cable not found or not functioning (tested at 8192 baud).
+0x0000CAC2	A	Disconnect cable from vehicle before testing.
+0x0000CAF0	A	Cable found and functional
+0x0000CB0C	A	\\.\COM%i
+0x0000CB18	A	74036B8D-5446-4683-BCF1-98AC5D3C5ED0
+0x0000CB40	A	TunerPro Data Acquisition I/O Interface
+0x0000CB70	A	This component allows TunerPro to interface with serial and COM port based interfaces, Moates, and MAFTPro hardware.
+0x0000CBE8	A	1.0.0
+0x0000CC50	A	44CF4160-0BB4-4efa-AC5C-411F991089C2
+0x0000CC80	A	TunerPro Emulator Interface
+0x0000CCA0	A	This component allows TunerPro to interface with Moates, XTronics, and other hardware. See website for details.
+0x0000CD10	A	%i.%i.%c
+0x0000CD98	A	\\.\COM1
+0x0000CDD0	A	7A7C9B5D-3D27-4a30-AB3F-2A719050ACBF
+0x0000CE00	A	TunerPro Hardware Interface Plug-in
+0x0000CE30	A	This plug-in allows TunerPro to interface with Moates, Xtronics, and other hardware.
+0x0000CE90	A	Mark Mansur (www.tunerpro.net)
+0x0000CEE8	A	8FCC44A0-0301-4287-8089-149B5697F143
+0x0000CF10	A	478D401B-1D12-45c1-8BE0-D84C02DEB888
+0x0000CF7C	A	Unknown exception
+0x0000CF90	A	bad array new length
+0x0000CFB8	A	Courier
+0x0000CFC0	A	Debug Output
+0x0000CFD0	A	MMDEBUGOUTPUT
+0x0000CFE0	A	MMDEBUGOUTPUT
+0x0000CFF0	A	%02X 
+0x0000D000	A	%04X: %s
+0x0000D014	A	Clear
+0x0000D01C	A	%s\%s
+0x0000D030	A	%i.%.2i.%.4i.%.2i
+0x0000D05C	A	%.2X%c
+0x0000D06C	A	DllGetVersion
+0x0000D084	A	COM%i
+0x0000D08C	A	{COM%i}
+0x0000D0A4	A	BUTTON
+0x0000D0AC	A	Cancel
+0x0000D0B4	A	BUTTON
+0x0000D0D4	A	Static
+0x0000D0E0	A	BUTTON
+0x0000D0E8	A	Cancel
+0x0000D0F0	A	BUTTON
+0x0000D0F8	A	Enter key combination
+0x0000D110	A	Unavailable combo
+0x0000D124	A	Key Combo Unavailable. Please choose an alternate.
+0x0000D158	A	test1
+0x0000D160	A	test2
+0x0000D168	A	test3
+0x0000D170	A	test2
+0x0000D178	A	0d1234567890
+0x0000D188	A	0d1234567890
+0x0000D198	A	1234567890
+0x0000D1A4	A	0h1234567890
+0x0000D1B4	A	0h1234567890
+0x0000D1C4	A	d1234567890
+0x0000D1D0	A	D1234567890
+0x0000D1DC	A	0D1234567890
+0x0000D1EC	A	12345D67890
+0x0000D1F8	A	d1234567890d
+0x0000D218	A	01.00213
+0x0000D224	A	131234
+0x0000D22C	A	1.0.123
+0x0000D234	A	-1.123
+0x0000D244	A	0123456789ABCDEF
+0x0000D258	A	0x0123456789ABCDEF
+0x0000D26C	A	0x0123456789ABCDEF
+0x0000D280	A	x0123456789ABCDEF
+0x0000D294	A	FF981243780043
+0x0000D2A4	A	FF98124378004
+0x0000D2B4	A	Markus
+0x0000D2C0	A	forty
+0x0000D2C8	A	fifty
+0x0000D2D0	A	fifty
+0x0000D2D8	A	notfound
+0x0000D2F0	A	\\.\COM%u
+0x0000D2FC	A	MMSerial: Open Port %s Failed
+0x0000D31C	A	MMSerial: Successfully opened %s
+0x0000D340	A	MMSerial: GetCommState Failed
+0x0000D360	A	MMSerial: SetCommState Failed
+0x0000D380	A	MMSerial: %s opened at %i baud
+0x0000D3A0	A	MMSerial: Port Closed
+0x0000D3B8	A	MMSerial: GetCommState Failed
+0x0000D3D8	A	MMSerial: SetCommState Failed
+0x0000D3F8	A	MMSerial: Baud changed to %i
+0x0000D418	A	MMSerial: Read
+0x0000D428	A	MMSerial: Write
+0x0000D43C	A	MMAutoProm: COM Port closed.
+0x0000D45C	A	MMAutoProm: Firmware Version string requested
+0x0000D48C	A	MMAutoProm: EEPROM Information requested
+0x0000D4B8	A	Demon2 device ID fixup applied
+0x0000D4D8	A	MMAutoProm: Writing EEPROM information
+0x0000D508	A	FALSE
+0x0000D510	A	MMAutoProm: SetUSBBaud to %i, Force = %s SUCCEEDED
+0x0000D54C	A	FALSE
+0x0000D554	A	MMAutoProm: SetUSBBaud to %i, Force = %s FAILED with %s
+0x0000D58C	A	MMAutoProm: GetTime called
+0x0000D5B0	A	MMAutoProm: SetTime called
+0x0000D5CC	A	MMAutoProm: ReadEEPROM requested, %i bytes from address %X
+0x0000D608	A	MMAutoProm: ReadEEPROM failed with missing or invalid response.
+0x0000D648	A	MMAutoProm: ReadEEPROM: Invalid external data checksum
+0x0000D681	A	CS of recvd data: %.2X
+0x0000D69A	A	CS from device: %.2x
+0x0000D6B0	A	MMAutoProm: WriteEEPROM requested, %i bytes to address %X
+0x0000D6F4	A	RoadRunner: Serial requested
+0x0000D714	A	Serial request timed out
+0x0000D730	A	RoadRunner: Setting Device Vendor ID
+0x0000D758	A	RoadRunner: Setting Device Serial
+0x0000D77C	A	\\.\COM%i
+0x0000D788	A	Romulator I
+0x0000D794	A	Romulator II
+0x0000D7A4	A	Translator Pro
+0x0000D7B4	A	AutoProm
+0x0000D7C0	A	Flash & Burn
+0x0000D7D0	A	BoostedNW Burner
+0x0000D7E4	A	Ostrich
+0x0000D7EC	A	Ostrich II
+0x0000D7F8	A	Roadrunner
+0x0000D804	A	Demon II
+0x0000D810	A	Demon
+0x0000D81C	A	Jaybird
+0x0000D824	A	Quarterhorse
+0x0000D840	A	Destiny Programmer
+0x0000D85C	A	NEMU2
+0x0000D864	A	Superlogger
+0x0000D870	A	CobraRTP
+0x0000D87C	A	FlashOnline
+0x0000D888	A	Reflex Lite
+0x0000D894	A	Reflex Plus
+0x0000D8A0	A	MMAutoProm: Could not determine hardware type from version ID.
+0x0000D8E0	A	 v%i.%i
+0x0000D8E8	A	MoatesWare: Could not get communication interface type.
+0x0000D920	A	Encryption possible, but disabled
+0x0000D944	A	Encryption Enabled
+0x0000D958	A	MMAutoProm: Sending data to raw port (passthrough)...
+0x0000D990	A	MMAutoProm: Reading data from raw port (passthrough)...
+0x0000D9C8	A	MMAutoProm: Setting port read timeout to %u (passthrough)
+0x0000DA04	A	FirmwareUpdateProc completed with result: %i
+0x0000DA34	A	AP_S_OK
+0x0000DA3C	A	AP_E_GENERAL_ERROR
+0x0000DA50	A	AP_E_PORT_NOT_INITIALIZED
+0x0000DA6C	A	AP_E_REQUEST_NOT_SUPPORTED
+0x0000DA88	A	AP_E_COMM_WRITE_FAILURE
+0x0000DAA0	A	AP_E_COMM_READ_FAILURE
+0x0000DAB8	A	AP_E_DEVICE_NOT_FOUND
+0x0000DAD0	A	AP_E_INVALID_RESPONSE
+0x0000DAE8	A	AP_E_UNKNOWN_COMMAND
+0x0000DB00	A	AP_E_BAD_CHECKSUM
+0x0000DB14	A	AP_E_ALT_WRITE_BAD_CHECKSUM
+0x0000DB30	A	AP_E_EXTERNAL_CS_INVALID
+0x0000DB4C	A	AP_E_NVRAM_BUFFERING_FAILED
+0x0000DB68	A	AP_E_INTERNAL_CS_INVALID
+0x0000DB84	A	AP_E_INVALID_FIRMWARE_IMAGE
+0x0000DBA0	A	AP_E_FIRMWARE_FLASH_FAILED
+0x0000DBBC	A	AP_E_THREAD_TIMEOUT
+0x0000DBD0	A	AP_E_COMM_READ_TIMEOUT
+0x0000DBE8	A	AP_E_INVALID_FUNC_PARAM
+0x0000DC00	A	AP_E_OPERATION_CANCELED
+0x0000DC18	A	AP_E_PORT_BUSY
+0x0000DC28	A	AP_E_INVALID_HARDWARE_ID
+0x0000DC44	A	AP_E_INVALID_VERSION
+0x0000DC5C	A	AP_E_LARGE_BIN_BANK_FAILED
+0x0000DC78	A	AP_E_INVALID_REQUEST_PARAM
+0x0000DC94	A	AP_E_INVALID_TUNE_REG
+0x0000DCAC	A	AP_E_TRIALS_EXPIRED
+0x0000DCC0	A	AP_E_TUNEDB_FULL
+0x0000DCD4	A	AP_E_INVALID_ALIGNMENT
+0x0000DCEC	A	(ERROR NOT IN LIST)
+0x0000DD2C	A	Persistent Emulation
+0x0000DD44	A	Non-persistent Emulation
+0x0000DD60	A	MMAutoProm: Set %s Bank Failed!
+0x0000DD80	A	MMAutoProm: Set %s Bank Succeeded: Bank %i
+0x0000DDB0	A	Active Emulation
+0x0000DDC4	A	Static Emulation
+0x0000DDD8	A	MMAutoProm: Get %s Bank Failed!
+0x0000DDF8	A	MMAutoProm: Get %s Bank Succeeded: Bank %i
+0x0000DE24	A	MMAutoProm: ReadBlock requested on uninitialized port
+0x0000DE5C	A	MMAutoProm: Slow Reading %i bytes
+0x0000DE80	A	MMAutoProm: RoadRunner I/O request address/size alignment error
+0x0000DEC0	A	MMAutoProm ReadBlock Request initiated for %i bytes.
+0x0000DEF8	A	MMAutoProm: ReadBlock - Operation Canceled
+0x0000DF28	A	MMAutoProm: ReadBlock: Read timed-out after %i bytes. Expected %i bytes.
+0x0000DF78	A	MMAutoProm Read Error - invalid packet checksum. Expected %.2X, Received %.2X.
+0x0000DFC8	A	MMAutoProm: Slow writing %i bytes
+0x0000DFEC	A	MMAutoProm: Device I/O request address/size alignment error
+0x0000E028	A	MMAutoProm: WriteBlock - Operation Canceled
+0x0000E058	A	MoatesWare: BulkWrite failure. Size/Address must be divisible by 256.
+0x0000E0A0	A	MoatesWare: BulkWrite failure. Uninitialized Port.
+0x0000E0D4	A	MMAutoProm: Bulk writing %iKB
+0x0000E0F4	A	MoatesWare: BulkWrite failure. Failed to acquire port lock.
+0x0000E130	A	MoatesWare: BulkWrite - Operation Canceled
+0x0000E160	A	MoatesWare: BulkRead failure. Size/Address must be divisible by 256.
+0x0000E1A8	A	MoatesWare: BulkRead requested on uninitialized port
+0x0000E1E0	A	MMAutoProm: Bulk reading %iKB
+0x0000E200	A	MoatesWare: Bulk Read Request initiated for %i bytes.
+0x0000E238	A	MoatesWare: Bulk Read - Operation Canceled
+0x0000E268	A	MoatesWare: BulkRead: Read timed-out after %i bytes. Expected %i bytes.
+0x0000E2B0	A	MoatesWare Bulk Read Error - invalid packet checksum. Expected %.2X, Received %.2X.
+0x0000E304	A	MMAutoProm: %i-length Verify requested
+0x0000E32C	A	MMAutoProm: Shadow verification failed in bank 1.
+0x0000E360	A	MMAutoProm: Roadrunner verification failed in bank 2.
+0x0000E398	A	MMAutoProm: ERROR! Verify failed with %i differences.
+0x0000E3D0	A	MMAutoProm: SUCCESS! Verify succeeded with 0 differences
+0x0000E40C	A	Roadrunner: Get Emulation Mode Failed!
+0x0000E434	A	Roadrunner: Get Emulation Mode Failed!
+0x0000E45C	A	RoadRunner: Get Emulation Mode Succeeded: Mode %c
+0x0000E490	A	Roadrunner: Set Emulation Mode Failed!
+0x0000E4B8	A	RoadRunner: Set Emulation Mode Succeeded: Mode %c
+0x0000E4EC	A	MMAutoProm: Quarterhorse mode retrieved: %i
+0x0000E518	A	MMAutoProm: Quarterhorse mode retrieval FAILED
+0x0000E548	A	MMAutoProm: Quarterhorse mode set: %i
+0x0000E570	A	MMAutoProm: Quarterhorse mode set FAILED
+0x0000E5A0	A	MMAutoProm: Software data passthrough mode entry SUCCESS: %i baud
+0x0000E5E4	A	MMAutoProm: Software data passthrough mode entry FAILED
+0x0000E61C	A	MMAutoProm: Software data passthrough mode exit SUCCESS
+0x0000E654	A	MMAutoProm: Software data passthrough mode exit FAILED
+0x0000E68C	A	Trace timed out
+0x0000E69C	A	MMAutoProm: Trace mode entered. Monitoring addresses %X -> %X
+0x0000E6DC	A	MMAutoProm: Trace mode entry failed.
+0x0000E704	A	MMAutoProm: Trace mode exited
+0x0000E724	A	MMAutoProm: Trace mode exit failed.
+0x0000E75C	A	0x%.2X
+0x0000E76C	A	MMAutoProm: GetFlashInfo requested
+0x0000E790	A	MMAutoProm: GetFlashInfo: Invalid external data checksum
+0x0000E7CB	A	CS of recvd data: %.2X
+0x0000E7E4	A	CS from device: %.2x
+0x0000E800	A	ReadDataFlash: %i bytes requested from %.6X.
+0x0000E82D	A	PageSize: %.2X, StartPage: %.2X, EndPage: %.2X, PageCount: %.2X
+0x0000E870	A	MMAutoProm: ReadDataFlash - Operation Canceled
+0x0000E8A0	A	MMAutoProm: ReadDataFlash requested, %i bytes from address 0x%X (Page 0x%X)
+0x0000E8EC	A	MMAutoProm: ReadBlock - Operation Canceled
+0x0000E918	A	MMAutoProm: WriteDataFlash requested, %i bytes to address %X
+0x0000E958	A	MMAutoProm: EraseDataFlash requested
+0x0000E980	A	Enabled
+0x0000E988	A	Disabled
+0x0000E994	A	MMAutoProm: Onboard logging option toggled to %s
+0x0000E9C8	A	Enabled
+0x0000E9D0	A	Disabled
+0x0000E9DC	A	MMAutoProm: Packet compression option toggled to %s
+0x0000EA10	A	Enabled
+0x0000EA18	A	Disabled
+0x0000EA24	A	MMAutoProm: Onboard logging option toggled to %s
+0x0000EA58	A	MMAutoProm: Onboard logging option toggled to %x
+0x0000EA8C	A	MMAutoProm: Only SUperLogger supports session summary
+0x0000F0D4	A	C:\Projects\TunerPro\TunerPro\Release\TPMoatesEmulatorPlugin.pdb
+0x0000F138	A	.text$di
+0x0000F14C	A	.text$mn
+0x0000F160	A	.text$x
+0x0000F170	A	.text$yd
+0x0000F184	A	.idata$5
+0x0000F198	A	.00cfg
+0x0000F1A8	A	.CRT$XCA
+0x0000F1BC	A	.CRT$XCU
+0x0000F1D0	A	.CRT$XCZ
+0x0000F1E4	A	.CRT$XIA
+0x0000F1F8	A	.CRT$XIZ
+0x0000F20C	A	.CRT$XPA
+0x0000F220	A	.CRT$XPZ
+0x0000F234	A	.CRT$XTA
+0x0000F248	A	.CRT$XTZ
+0x0000F25C	A	.rdata
+0x0000F26C	A	.rdata$r
+0x0000F280	A	.rdata$sxdata
+0x0000F298	A	.rdata$voltmd
+0x0000F2B0	A	.rdata$zzzdbg
+0x0000F2C8	A	.rtc$IAA
+0x0000F2DC	A	.rtc$IZZ
+0x0000F2F0	A	.rtc$TAA
+0x0000F304	A	.rtc$TZZ
+0x0000F318	A	.xdata$x
+0x0000F32C	A	.edata
+0x0000F33C	A	.idata$2
+0x0000F350	A	.idata$3
+0x0000F364	A	.idata$4
+0x0000F378	A	.idata$6
+0x0000F38C	A	.data
+0x0000F39C	A	.data$r
+0x0000F3AC	A	.data$rs
+0x0000F3D0	A	.rsrc$01
+0x0000F3E4	A	.rsrc$02
+0x0000F6BC	A	TPMoatesEmulatorPlugin.dll
+0x0000F6D7	A	TPCreatePlugin
+0x0000F6E6	A	TPReleasePlugin
+0x0000F9E2	A	PathAppendW
+0x0000F9EE	A	SHLWAPI.dll
+0x0000F9FC	A	UuidFromStringA
+0x0000FA0C	A	RPCRT4.dll
+0x0000FA1A	A	Sleep
+0x0000FA22	A	CreateDirectoryW
+0x0000FA36	A	CreateFileW
+0x0000FA44	A	GetLastError
+0x0000FA54	A	ReadFile
+0x0000FA60	A	CloseHandle
+0x0000FA6E	A	WriteFile
+0x0000FA78	A	KERNEL32.dll
+0x0000FA88	A	GetParent
+0x0000FA94	A	CheckDlgButton
+0x0000FAA6	A	IsDlgButtonChecked
+0x0000FABC	A	EndDialog
+0x0000FAC8	A	DialogBoxParamA
+0x0000FADA	A	GetDlgItem
+0x0000FAE8	A	SendMessageA
+0x0000FAF8	A	EnableWindow
+0x0000FB08	A	MessageBoxA
+0x0000FB14	A	USER32.dll
+0x0000FB22	A	SHGetFolderPathW
+0x0000FB34	A	SHELL32.dll
+0x0000FB42	A	__CxxFrameHandler3
+0x0000FB58	A	__std_terminate
+0x0000FB6A	A	_purecall
+0x0000FB76	A	__std_exception_destroy
+0x0000FB90	A	__std_exception_copy
+0x0000FBA8	A	memset
+0x0000FBB2	A	_except_handler4_common
+0x0000FBCC	A	_CxxThrowException
+0x0000FBE2	A	__std_type_info_destroy_list
+0x0000FC00	A	VCRUNTIME140.dll
+0x0000FC1C	A	__stdio_common_vsprintf
+0x0000FC3E	A	isprint
+0x0000FC48	A	_invoke_watson
+0x0000FC5A	A	_seh_filter_dll
+0x0000FC6C	A	_configure_narrow_argv
+0x0000FC86	A	_initialize_narrow_environment
+0x0000FCA8	A	_initialize_onexit_table
+0x0000FCC4	A	_register_onexit_function
+0x0000FCE0	A	_execute_onexit_table
+0x0000FCF8	A	_crt_atexit
+0x0000FD06	A	_cexit
+0x0000FD10	A	_callnewh
+0x0000FD1C	A	malloc
+0x0000FD26	A	_initterm
+0x0000FD32	A	_initterm_e
+0x0000FD46	A	api-ms-win-crt-convert-l1-1-0.dll
+0x0000FD68	A	api-ms-win-crt-stdio-l1-1-0.dll
+0x0000FD88	A	api-ms-win-crt-utility-l1-1-0.dll
+0x0000FDAA	A	api-ms-win-crt-string-l1-1-0.dll
+0x0000FDCC	A	api-ms-win-crt-runtime-l1-1-0.dll
+0x0000FDEE	A	api-ms-win-crt-heap-l1-1-0.dll
+0x0000FE10	A	GetCurrentThreadId
+0x0000FE26	A	MultiByteToWideChar
+0x0000FE3C	A	CreateFileA
+0x0000FE4A	A	QueryPerformanceCounter
+0x0000FE64	A	PurgeComm
+0x0000FE70	A	GetCommTimeouts
+0x0000FE82	A	SetupComm
+0x0000FE8E	A	GetCommState
+0x0000FE9E	A	SetCommTimeouts
+0x0000FEB0	A	SetCommState
+0x0000FEC0	A	WaitForSingleObject
+0x0000FED6	A	SetEvent
+0x0000FEE2	A	CreateEventA
+0x0000FEF2	A	CreateThread
+0x0000FF02	A	SleepEx
+0x0000FF0C	A	UnhandledExceptionFilter
+0x0000FF28	A	SetUnhandledExceptionFilter
+0x0000FF46	A	GetCurrentProcess
+0x0000FF5A	A	TerminateProcess
+0x0000FF6E	A	IsProcessorFeaturePresent
+0x0000FF8A	A	IsDebuggerPresent
+0x0000FF9E	A	GetCurrentProcessId
+0x0000FFB4	A	GetSystemTimeAsFileTime
+0x0000FFCE	A	InitializeSListHead
+0x0000FFE4	A	MapVirtualKeyExA
+0x0000FFF8	A	GetDesktopWindow
+0x0001000C	A	KillTimer
+0x00010018	A	GetClientRect
+0x00010028	A	SetDlgItemTextA
+0x0001003A	A	CreateWindowExA
+0x0001004C	A	DestroyMenu
+0x0001005A	A	DefWindowProcA
+0x0001006C	A	UnhookWindowsHookEx
+0x00010082	A	MoveWindow
+0x00010090	A	SetWindowTextA
+0x000100A2	A	GetKeyboardLayout
+0x000100B6	A	GetWindowLongA
+0x000100C8	A	CharUpperBuffA
+0x000100DA	A	SetWindowsHookExA
+0x000100EE	A	CallWindowProcA
+0x00010100	A	SetWindowLongA
+0x00010112	A	SetTimer
+0x0001011E	A	GetDlgItemTextA
+0x00010130	A	GetKeyNameTextA
+0x00010142	A	TrackPopupMenu
+0x00010154	A	CreatePopupMenu
+0x00010166	A	SetWindowTextW
+0x00010178	A	CallNextHookEx
+0x0001018A	A	ScreenToClient
+0x0001019C	A	InsertMenuA
+0x000101AA	A	SetWindowPos
+0x000101BA	A	DestroyWindow
+0x000101CA	A	GetWindowRect
+0x000101DA	A	GetKeyState
+0x000101E8	A	CharLowerBuffA
+0x000101FA	A	DeleteObject
+0x00010208	A	GDI32.dll
+0x00010214	A	memcpy
+0x000104F8	A	.?AVbad_alloc@std@@
+0x00010514	A	.?AVexception@std@@
+0x00010530	A	.?AVbad_array_new_length@std@@
+0x00010558	A	.?AVtype_info@@
+0x00010570	A	.?AVTPDataAcqIODriver@@
+0x00010590	A	.?AVITPDataAcqIO@@
+0x000105AC	A	.?AVITPPluginComponent@@
+0x000105D0	A	.?AVTPEmulationDriver@@
+0x000105F0	A	.?AVITPEmulator@@
+0x0001060C	A	.?AVTPMoatesEmulatorPlugin@@
+0x00010634	A	.?AVITPPlugin@@
+0x0001064C	A	.?AVTPPrivateHardware@@
+0x0001066C	A	.?AVTPComponentSecurity@@
+0x00010690	A	.?AVITPPrivateHardware@@
+0x000106B4	A	.?AVITPPrivateAuth@@
+0x00011068	A	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+0x000110A1	A	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+0x000110EC	A	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+0x00011124	A	    <security>
+0x00011134	A	      <requestedPrivileges>
+0x00011151	A	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+0x00011199	A	      </requestedPrivileges>
+0x000111B7	A	    </security>
+0x000111C8	A	  </trustInfo>
+0x000111D8	A	</assembly>
+0x0001120B	A	0!0(02080W0
+0x00011227	A	0Q1W1_1s1
+0x00011235	A	2*202Y2`2t2
+0x0001124D	A	3$3_3o3
+0x0001125D	A	4N4j4
+0x00011271	A	4B5H5j5
+0x00011281	A	6*6d6i6
+0x0001129F	A	8U8[8c8
+0x000112A9	A	849G9R9X9
+0x000112B5	A	:4:`:
+0x000112C5	A	;.<:<
+0x000112D9	A	=!=&=0=5=T=d=~=
+0x000112EF	A	=3>e>k>
+0x00011307	A	> ?0?
+0x00011325	A	0'0-030=0|0
+0x00011345	A	272D2t2{2
+0x00011357	A	3!3R3
+0x00011385	A	8F8T8z8
+0x000113A1	A	<2<;<V<x<
+0x000113D3	A	2(2-2:2I2q2~2
+0x000113E3	A	2'3|3
+0x000113ED	A	4;4l4
+0x00011401	A	5&636Y6h6x6
+0x00011413	A	7Q7l7p7t7x7
+0x00011421	A	8A8v8|8
+0x00011445	A	;#;<;N;W;|;
+0x0001145D	A	<(=[=
+0x0001148F	A	?1???E?K?Q?W?]?d?k?r?y?
+0x000114D9	A	1 1%121t1|1
+0x000114ED	A	1f2x2:3w3
+0x00011501	A	4-535<5E5N5T5Z5o5x5
+0x00011529	A	6-636=6C6L6R6Z6_6s6x6
+0x00011557	A	8!8>8
+0x0001156D	A	9(9>9x9
+0x0001158B	A	:":(:.:4:::@:F:L:R:X:^:d:j:p:v:|:
+0x000115B5	A	:';8;
+0x000115BB	A	;/<;<@<G<V<\<b<j<r<|<
+0x000115E3	A	= =*=0=
+0x00011619	A	0#0H0^0v0
+0x00011625	A	0;1I1Z1d1s1z1
+0x0001163B	A	1*2J2Q2X2p2
+0x0001164D	A	3(3>3J3h3
+0x00011669	A	4E4J4\4f4|4
+0x0001167D	A	5/5?5}5
+0x0001168D	A	777J7b7j7o7|7
+0x000116A5	A	8"848;8Z8a8
+0x000116BF	A	9>9M9g9
+0x000116C7	A	:H:v:
+0x000116D1	A	;,;p;
+0x000116DD	A	<*<0<
+0x000116E3	A	<f=x=
+0x000116F1	A	>S>b>
+0x000116F9	A	>7?F?
+0x00011708	A	20F0h0o0
+0x00011713	A	151L1v1
+0x00011723	A	2-282
+0x00011729	A	3S3d3z3
+0x00011739	A	4Q4Z4g4
+0x0001174D	A	5(6M6d6
+0x0001177B	A	:&:.:T:X:\:`:d:h:l:p:
+0x000117C1	A	;$;*;0;6;<;B;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+0x00011809	A	<C<a<m<
+0x00011817	A	=:=O=
+0x0001182D	A	101g1
+0x0001183F	A	304w4
+0x0001185D	A	9Q9q9
+0x000118A7	A	0 0$0(0,0004080
+0x000118DB	A	1T2]2
+0x000118E5	A	2m3x3
+0x000118ED	A	3-4J4Z4
+0x000118FD	A	5'5?5r5
+0x00011919	A	7+8@8
+0x00011929	A	:B:T:
+0x00011933	A	:,;B;y;
+0x0001193F	A	<H<c<
+0x0001194D	A	=P=a=
+0x00011959	A	>3>M>
+0x00011967	A	?)?D?y?
+0x00011995	A	1 1$14181<1@1D1
+0x000119A7	A	24292
+0x000119C3	A	4@5t5
+0x000119CD	A	696N6
+0x000119DD	A	707F7K7U7_7i7s7}7
+0x00011A17	A	8&8-878=8G8d8h8l8p8t8x8|8
+0x00011A71	A	9":9:I:t:
+0x00011A81	A	:D;f;t;
+0x00011A93	A	<>=^=
+0x00011AA1	A	=0>n>
+0x00011AAD	A	???f?
+0x00011AC7	A	1?2G2
+0x00011ACF	A	2&373w3
+0x00011AD7	A	3A4~4
+0x00011AED	A	6U7b7y8
+0x00011AFF	A	:,:K:
+0x00011B09	A	<l=s=
+0x00011B11	A	>i>q>
+0x00011B31	A	3L3i3
+0x00011B49	A	3@4I4g4
+0x00011B55	A	5;5P5r5
+0x00011B75	A	8?8l889
+0x00011B85	A	<U=\=
+0x00011B8D	A	=1>9>s>{>
+0x00011BAF	A	0+1M1z1
+0x00011BD1	A	3K3g3
+0x00011BDB	A	4G6[6:7
+0x00011BE5	A	7M9b9
+0x00011C03	A	<#<@<t<y<
+0x00011C1F	A	>!>(>
+0x00011C25	A	>$?V?m?}?
+0x00011C43	A	1Q1t1
+0x00011C4D	A	132q2
+0x00011C83	A	2 2$2(2<2@2D2
+0x00011CA7	A	4 4$4(4,44484<4@4D4H4L4$5(5,5054585<5@5D5H5L5P5T5X5\5`5d5h5l5p5t5
+0x00011D03	A	687<7@7D7H7L7P7T7X7\7`7d7h7l7p7t7x7
+0x00011D3D	A	4 4$4,4D4H4L4P4X4\4d4l4
+0x00011D6F	A	5 5(5,545L5P5h5x5
+0x00011D9B	A	6,6064686<6D6H6L6T6X6`6d6l6
+0x00011DCB	A	7(7,7<7@7P7T7X7\7`7h7l7t7
+0x00011DFF	A	<(<4<T<`<
+0x00011E17	A	= =@=L=d=h=p=x=
+0x00011E41	A	>$>,>
+0x00011E53	A	1(1P1h1
+0x00011E63	A	2,2D2d2
+0x00004A40	W	jjjjj
+0x00004B52	W	jjjj
+0x0000CD78	W	TunerPro Files\
+0x0000CDB0	W	TPEmuPlugin.dat
+0x00010962	W	AFX_DIALOG_LAYOUT
+0x00010996	W	VS_VERSION_INFO
+0x000109F2	W	StringFileInfo
+0x00010A16	W	040904b0
+0x00010A2E	W	CompanyName
+0x00010A48	W	RusnaMark Software
+0x00010A76	W	FileDescription
+0x00010A98	W	Emulation Device Plugin for TunerPro
+0x00010AEA	W	FileVersion
+0x00010B04	W	1, 0, 0, 1
+0x00010B22	W	InternalName
+0x00010B3C	W	TPM.dll
+0x00010B52	W	LegalCopyright
+0x00010B70	W	Copyright (C) Creational Technologies
+0x00010BC2	W	OriginalFilename
+0x00010BE4	W	TPMoates.dll
+0x00010C06	W	ProductName
+0x00010C20	W	Emulation Device Plugin for TunerPro
+0x00010C72	W	ProductVersion
+0x00010C90	W	1, 0, 0, 1
+0x00010CAE	W	VarFileInfo
+0x00010CCE	W	Translation
+0x00010D0E	W	Emulation Plug-in Configuration
+0x00010D54	W	MS Shell Dlg
+0x00010DB0	W	Cancel
+0x00010DDC	W	Enable Dual Emulator (16-bit)
+0x00010E38	W	Use High Speed if USB detected
+0x00010E96	W	Data Acquisition Plug-in Configuration
+0x00010EEA	W	MS Shell Dlg
+0x00010F20	W	Cancel
+0x00010F4C	W	Test For Echo (Rx/Tx coupled)
+0x00010F98	W	K"Qh
+0x00010FB8	W	K2QS
+0x0001100C	W	Port Type
+0x00011040	W	Port Number

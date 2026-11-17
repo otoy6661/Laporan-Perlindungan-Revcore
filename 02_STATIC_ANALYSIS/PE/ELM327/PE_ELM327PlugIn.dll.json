@@ -1,0 +1,308 @@
+{
+  "File": "ELM327PlugIn.dll",
+  "Bytes": 37888,
+  "Machine": "0x014C",
+  "MachineName": "x86",
+  "PE32Plus": false,
+  "Sections": 5,
+  "TimeDateStamp": 1792030865,
+  "TimeDateStampUtc": "2026-10-15 02.21.05",
+  "Characteristics": "0x2102",
+  "DllCharacteristics": "0x0140",
+  "Subsystem": "GUI",
+  "EntryPointRVA": "0x00004616",
+  "ImageBase": "0x10000000",
+  "SectionAlignment": 4096,
+  "FileAlignment": 512,
+  "SizeOfImage": 53248,
+  "SizeOfHeaders": 1024,
+  "OverlayBytes": 0,
+  "HasCLR": false,
+  "AuthenticodeDir": {
+    "Offset": 0,
+    "Size": 0
+  },
+  "DataDirectories": [
+    {
+      "Index": 0,
+      "RVA": "0x000082F0",
+      "Size": 108
+    },
+    {
+      "Index": 1,
+      "RVA": "0x0000835C",
+      "Size": 200
+    },
+    {
+      "Index": 2,
+      "RVA": "0x0000B000",
+      "Size": 480
+    },
+    {
+      "Index": 3,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 4,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 5,
+      "RVA": "0x0000C000",
+      "Size": 1604
+    },
+    {
+      "Index": 6,
+      "RVA": "0x00007A68",
+      "Size": 112
+    },
+    {
+      "Index": 7,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 8,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 9,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 10,
+      "RVA": "0x000079A8",
+      "Size": 64
+    },
+    {
+      "Index": 11,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 12,
+      "RVA": "0x00007000",
+      "Size": 392
+    },
+    {
+      "Index": 13,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 14,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 15,
+      "RVA": "0x00000000",
+      "Size": 0
+    }
+  ],
+  "SectionTable": [
+    {
+      "Name": ".text",
+      "VA": "0x00001000",
+      "VirtualSize": 24515,
+      "RawPointer": "0x00000400",
+      "RawSize": 24576,
+      "Flags": "0x60000020",
+      "Entropy": 6.3656
+    },
+    {
+      "Name": ".rdata",
+      "VA": "0x00007000",
+      "VirtualSize": 7350,
+      "RawPointer": "0x00006400",
+      "RawSize": 7680,
+      "Flags": "0x40000040",
+      "Entropy": 4.9211
+    },
+    {
+      "Name": ".data",
+      "VA": "0x00009000",
+      "VirtualSize": 6628,
+      "RawPointer": "0x00008200",
+      "RawSize": 2048,
+      "Flags": "0xC0000040",
+      "Entropy": 1.0928
+    },
+    {
+      "Name": ".rsrc",
+      "VA": "0x0000B000",
+      "VirtualSize": 480,
+      "RawPointer": "0x00008A00",
+      "RawSize": 512,
+      "Flags": "0x40000040",
+      "Entropy": 4.7086
+    },
+    {
+      "Name": ".reloc",
+      "VA": "0x0000C000",
+      "VirtualSize": 1604,
+      "RawPointer": "0x00008C00",
+      "RawSize": 2048,
+      "Flags": "0x42000040",
+      "Entropy": 5.796
+    }
+  ],
+  "Imports": [
+    {
+      "DLL": "RPCRT4.dll",
+      "Functions": [
+        "UuidFromStringA"
+      ]
+    },
+    {
+      "DLL": "KERNEL32.dll",
+      "Functions": [
+        "MultiByteToWideChar",
+        "CloseHandle",
+        "ReadFile",
+        "CreateFileA",
+        "WriteFile",
+        "GetCurrentThreadId",
+        "GetModuleFileNameA",
+        "GetLastError",
+        "GetCommTimeouts",
+        "InitializeSListHead",
+        "GetSystemTimeAsFileTime",
+        "GetCurrentProcessId",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "TerminateProcess",
+        "GetCurrentProcess",
+        "SetUnhandledExceptionFilter",
+        "UnhandledExceptionFilter",
+        "Sleep",
+        "SetCommState",
+        "SetCommTimeouts",
+        "GetCommState",
+        "PurgeComm",
+        "QueryPerformanceCounter"
+      ]
+    },
+    {
+      "DLL": "VCRUNTIME140.dll",
+      "Functions": [
+        "__std_exception_copy",
+        "_except_handler4_common",
+        "__std_type_info_destroy_list",
+        "_CxxThrowException",
+        "memset",
+        "strstr",
+        "__std_exception_destroy",
+        "_purecall",
+        "__std_terminate",
+        "__CxxFrameHandler3",
+        "memcpy"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-string-l1-1-0.dll",
+      "Functions": [
+        "isprint"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "Functions": [
+        "_invoke_watson",
+        "_seh_filter_dll",
+        "_initialize_narrow_environment",
+        "_initialize_onexit_table",
+        "_register_onexit_function",
+        "_execute_onexit_table",
+        "_crt_atexit",
+        "_cexit",
+        "_initterm",
+        "_configure_narrow_argv",
+        "_initterm_e"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "Functions": [
+        "__stdio_common_vsprintf"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-heap-l1-1-0.dll",
+      "Functions": [
+        "malloc",
+        "_callnewh",
+        "free"
+      ]
+    },
+    {
+      "DLL": "USER32.dll",
+      "Functions": [
+        "GetKeyboardLayout",
+        "SetWindowsHookExA",
+        "GetWindowLongA",
+        "CharUpperBuffA",
+        "SetWindowTextA",
+        "CharLowerBuffA",
+        "GetKeyState",
+        "GetWindowRect",
+        "DestroyWindow",
+        "SetWindowPos",
+        "InsertMenuA",
+        "ScreenToClient",
+        "CallNextHookEx",
+        "EndDialog",
+        "SetWindowTextW",
+        "CreatePopupMenu",
+        "TrackPopupMenu",
+        "GetKeyNameTextA",
+        "GetDlgItemTextA",
+        "SetTimer",
+        "SetWindowLongA",
+        "MessageBoxA",
+        "MoveWindow",
+        "UnhookWindowsHookEx",
+        "DefWindowProcA",
+        "DestroyMenu",
+        "CreateWindowExA",
+        "SetDlgItemTextA",
+        "GetParent",
+        "MapVirtualKeyExA",
+        "GetDesktopWindow",
+        "KillTimer",
+        "GetDlgItem",
+        "GetClientRect",
+        "SendMessageA",
+        "CallWindowProcA"
+      ]
+    },
+    {
+      "DLL": "GDI32.dll",
+      "Functions": [
+        "DeleteObject"
+      ]
+    }
+  ],
+  "DelayImports": [],
+  "Exports": [
+    {
+      "DLL": "ELM327PlugIn.dll",
+      "Name": "TPCreatePlugin"
+    },
+    {
+      "DLL": "ELM327PlugIn.dll",
+      "Name": "TPReleasePlugin"
+    }
+  ],
+  "Resources": [
+    {
+      "Path": "MANIFEST/BITMAP/ID_1033",
+      "RVA": "0x0000B060",
+      "Size": 381
+    }
+  ]
+}

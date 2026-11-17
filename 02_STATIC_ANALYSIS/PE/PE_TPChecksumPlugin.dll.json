@@ -1,0 +1,293 @@
+{
+  "File": "TPChecksumPlugin.dll",
+  "Bytes": 19968,
+  "Machine": "0x014C",
+  "MachineName": "x86",
+  "PE32Plus": false,
+  "Sections": 5,
+  "TimeDateStamp": 1792030863,
+  "TimeDateStampUtc": "2026-10-15 02.21.03",
+  "Characteristics": "0x2102",
+  "DllCharacteristics": "0x0140",
+  "Subsystem": "GUI",
+  "EntryPointRVA": "0x00001D16",
+  "ImageBase": "0x10000000",
+  "SectionAlignment": 4096,
+  "FileAlignment": 512,
+  "SizeOfImage": 40960,
+  "SizeOfHeaders": 1024,
+  "OverlayBytes": 0,
+  "HasCLR": false,
+  "AuthenticodeDir": {
+    "Offset": 0,
+    "Size": 0
+  },
+  "DataDirectories": [
+    {
+      "Index": 0,
+      "RVA": "0x00004DB0",
+      "Size": 208
+    },
+    {
+      "Index": 1,
+      "RVA": "0x00004E80",
+      "Size": 180
+    },
+    {
+      "Index": 2,
+      "RVA": "0x00008000",
+      "Size": 480
+    },
+    {
+      "Index": 3,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 4,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 5,
+      "RVA": "0x00009000",
+      "Size": 728
+    },
+    {
+      "Index": 6,
+      "RVA": "0x00004950",
+      "Size": 112
+    },
+    {
+      "Index": 7,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 8,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 9,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 10,
+      "RVA": "0x00004890",
+      "Size": 64
+    },
+    {
+      "Index": 11,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 12,
+      "RVA": "0x00004000",
+      "Size": 300
+    },
+    {
+      "Index": 13,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 14,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 15,
+      "RVA": "0x00000000",
+      "Size": 0
+    }
+  ],
+  "SectionTable": [
+    {
+      "Name": ".text",
+      "VA": "0x00001000",
+      "VirtualSize": 11021,
+      "RawPointer": "0x00000400",
+      "RawSize": 11264,
+      "Flags": "0x60000020",
+      "Entropy": 6.3697
+    },
+    {
+      "Name": ".rdata",
+      "VA": "0x00004000",
+      "VirtualSize": 5610,
+      "RawPointer": "0x00003000",
+      "RawSize": 5632,
+      "Flags": "0x40000040",
+      "Entropy": 5.1023
+    },
+    {
+      "Name": ".data",
+      "VA": "0x00006000",
+      "VirtualSize": 6132,
+      "RawPointer": "0x00004600",
+      "RawSize": 512,
+      "Flags": "0xC0000040",
+      "Entropy": 0.3594
+    },
+    {
+      "Name": ".rsrc",
+      "VA": "0x00008000",
+      "VirtualSize": 480,
+      "RawPointer": "0x00004800",
+      "RawSize": 512,
+      "Flags": "0x40000040",
+      "Entropy": 4.7032
+    },
+    {
+      "Name": ".reloc",
+      "VA": "0x00009000",
+      "VirtualSize": 728,
+      "RawPointer": "0x00004A00",
+      "RawSize": 1024,
+      "Flags": "0x42000040",
+      "Entropy": 5.2932
+    }
+  ],
+  "Imports": [
+    {
+      "DLL": "RPCRT4.dll",
+      "Functions": [
+        "UuidFromStringA"
+      ]
+    },
+    {
+      "DLL": "VCRUNTIME140.dll",
+      "Functions": [
+        "memset",
+        "_except_handler4_common",
+        "__std_type_info_destroy_list",
+        "__CxxFrameHandler3",
+        "memcpy"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "Functions": [
+        "_initterm",
+        "_initterm_e",
+        "_invoke_watson",
+        "_seh_filter_dll",
+        "_configure_narrow_argv",
+        "_initialize_narrow_environment",
+        "_initialize_onexit_table",
+        "_execute_onexit_table",
+        "_cexit"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "Functions": [
+        "__stdio_common_vsprintf"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-heap-l1-1-0.dll",
+      "Functions": [
+        "free"
+      ]
+    },
+    {
+      "DLL": "KERNEL32.dll",
+      "Functions": [
+        "GetCurrentThreadId",
+        "IsDebuggerPresent",
+        "InitializeSListHead",
+        "GetSystemTimeAsFileTime",
+        "GetCurrentProcessId",
+        "IsProcessorFeaturePresent",
+        "TerminateProcess",
+        "GetCurrentProcess",
+        "SetUnhandledExceptionFilter",
+        "UnhandledExceptionFilter",
+        "MultiByteToWideChar",
+        "QueryPerformanceCounter",
+        "CloseHandle"
+      ]
+    },
+    {
+      "DLL": "USER32.dll",
+      "Functions": [
+        "SetWindowsHookExA",
+        "CharUpperBuffA",
+        "GetWindowLongA",
+        "GetKeyboardLayout",
+        "SetWindowTextA",
+        "CharLowerBuffA",
+        "GetKeyState",
+        "GetWindowRect",
+        "DestroyWindow",
+        "SetWindowPos",
+        "InsertMenuA",
+        "ScreenToClient",
+        "CallNextHookEx",
+        "EndDialog",
+        "SetWindowTextW",
+        "CreatePopupMenu",
+        "TrackPopupMenu",
+        "GetKeyNameTextA",
+        "GetDlgItemTextA",
+        "SetTimer",
+        "SetWindowLongA",
+        "MessageBoxA",
+        "MoveWindow",
+        "UnhookWindowsHookEx",
+        "DefWindowProcA",
+        "DestroyMenu",
+        "CreateWindowExA",
+        "GetParent",
+        "MapVirtualKeyExA",
+        "GetDesktopWindow",
+        "KillTimer",
+        "GetDlgItem",
+        "GetClientRect",
+        "SetDlgItemTextA",
+        "SendMessageA",
+        "CallWindowProcA"
+      ]
+    },
+    {
+      "DLL": "GDI32.dll",
+      "Functions": [
+        "DeleteObject"
+      ]
+    }
+  ],
+  "DelayImports": [],
+  "Exports": [
+    {
+      "DLL": "TPChecksumPlugin.dll",
+      "Name": "MMCSCalculateChecksum"
+    },
+    {
+      "DLL": "TPChecksumPlugin.dll",
+      "Name": "MMCSGetChecksumInfo"
+    },
+    {
+      "DLL": "TPChecksumPlugin.dll",
+      "Name": "MMCSGetChecksumPluginInfo"
+    },
+    {
+      "DLL": "TPChecksumPlugin.dll",
+      "Name": "MMCSGetLastErrorMessage"
+    },
+    {
+      "DLL": "TPChecksumPlugin.dll",
+      "Name": "MMMH"
+    }
+  ],
+  "Resources": [
+    {
+      "Path": "MANIFEST/BITMAP/ID_1033",
+      "RVA": "0x00008060",
+      "Size": 381
+    }
+  ]
+}

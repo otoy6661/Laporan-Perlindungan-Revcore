@@ -1,0 +1,351 @@
+0x0000004D	A	!This program cannot be run in DOS mode.
+0x000000E8	A	Richkf
+0x000001F8	A	.text
+0x0000021F	A	`.rdata
+0x00000247	A	@.data
+0x00000270	A	.rsrc
+0x00000297	A	@.reloc
+0x000010FC	A	x1h8s
+0x000014DD	A	wXSVW
+0x000014F2	A	t$ VW
+0x000018D9	A	;;v$P
+0x00001A37	A	;;v$P
+0x00001B81	A	;;v$P
+0x00001CE2	A	;;v$P
+0x00001EB6	A	;;v$P
+0x0000206E	A	;;v$P
+0x00002224	A	;;v$P
+0x000023BD	A	;;v$P
+0x0000256F	A	;;v$P
+0x00002725	A	;;v$P
+0x000028D8	A	;;v$P
+0x00002A8E	A	;;v$P
+0x00003CD1	A	5ntel
+0x00003CDD	A	5Genu
+0x00003DAE	A	j$X9E
+0x00004557	A	j2j(j
+0x00004580	A	jZj(jZh
+0x000045D5	A	L$$QP
+0x000045E5	A	D$ +D$
+0x000045F2	A	D$0+D$(
+0x0000460E	A	D$,+D$$
+0x0000461B	A	D$<+D$4
+0x0000462C	A	D$4Pj
+0x0000465B	A	_^][3
+0x0000467B	A	D$dSUj
+0x00004752	A	D$|PU
+0x00004764	A	L$l][3
+0x00004792	A	T$8j2
+0x00004CA6	A	_^][3
+0x00004E64	A	D$8PW
+0x00004EEC	A	D$(Pj
+0x00004F0E	A	t$(Pj
+0x00005040	A	PPPPPW
+0x00005068	A	D$LPj
+0x00005172	A	D$(+D$ 
+0x0000518E	A	D$$+D$
+0x0000519B	A	D$4+D$,
+0x000051AC	A	D$,Pj
+0x000051BA	A	L$,_^3
+0x000053EE	A	t$ RW
+0x000057F9	A	l$L+l$
+0x00005EA3	A	u:hTx
+0x000065EC	A	bad allocation
+0x00006608	A	F097DE2E-7434-4aba-9749-4B803E79032E
+0x00006630	A	ELM327 OBDII Parser Plug-in
+0x0000664C	A	This plug-in communicates with ELM327-based hardware.
+0x00006684	A	0.6.0
+0x0000668C	A	Mark Mansur (www.tunerpro.net)
+0x000066AC	A	1DFC81EE-CAE1-4c07-9982-FC94899C901B
+0x000066D4	A	ELM327 OBDII Interface Driver Component
+0x000066FC	A	This component communicates with ELM327 hardware.
+0x00006730	A	0.5.0
+0x00006738	A	ELM327: Request for Mode %i PID %.4X succeeded
+0x00006768	A	ELM327: Reply: 
+0x00006778	A	ELM327: Request for Mode %i PID %.4X failed!
+0x000067B0	A	ELM327PlugIn.dat
+0x00006858	A	Unknown exception
+0x0000686C	A	bad array new length
+0x0000688C	A	Courier
+0x00006894	A	Debug Output
+0x000068A4	A	MMDEBUGOUTPUT
+0x000068B4	A	MMDEBUGOUTPUT
+0x000068C4	A	%02X 
+0x000068D4	A	%04X: %s
+0x000068E8	A	Clear
+0x000068F0	A	%s\%s
+0x00006904	A	%i.%.2i.%.4i.%.2i
+0x00006930	A	%.2X%c
+0x00006940	A	DllGetVersion
+0x00006958	A	COM%i
+0x00006960	A	{COM%i}
+0x00006978	A	BUTTON
+0x00006980	A	Cancel
+0x00006988	A	BUTTON
+0x000069A8	A	Static
+0x000069B4	A	BUTTON
+0x000069BC	A	Cancel
+0x000069C4	A	BUTTON
+0x000069CC	A	Enter key combination
+0x000069E4	A	Unavailable combo
+0x000069F8	A	Key Combo Unavailable. Please choose an alternate.
+0x00006A2C	A	test1
+0x00006A34	A	test2
+0x00006A3C	A	test3
+0x00006A44	A	test2
+0x00006A4C	A	0d1234567890
+0x00006A5C	A	0d1234567890
+0x00006A6C	A	1234567890
+0x00006A78	A	0h1234567890
+0x00006A88	A	0h1234567890
+0x00006A98	A	d1234567890
+0x00006AA4	A	D1234567890
+0x00006AB0	A	0D1234567890
+0x00006AC0	A	12345D67890
+0x00006ACC	A	d1234567890d
+0x00006AEC	A	01.00213
+0x00006AF8	A	131234
+0x00006B00	A	1.0.123
+0x00006B08	A	-1.123
+0x00006B18	A	0123456789ABCDEF
+0x00006B2C	A	0x0123456789ABCDEF
+0x00006B40	A	0x0123456789ABCDEF
+0x00006B54	A	x0123456789ABCDEF
+0x00006B68	A	FF981243780043
+0x00006B78	A	FF98124378004
+0x00006B88	A	Markus
+0x00006B94	A	forty
+0x00006B9C	A	fifty
+0x00006BA4	A	fifty
+0x00006BAC	A	notfound
+0x00006BCC	A	0x%.2X
+0x00006BE4	A	\\.\COM%u
+0x00006BF0	A	MMSerial: Open Port %s Failed
+0x00006C10	A	MMSerial: Successfully opened %s
+0x00006C34	A	MMSerial: GetCommState Failed
+0x00006C54	A	MMSerial: SetCommState Failed
+0x00006C74	A	MMSerial: %s opened at %i baud
+0x00006C94	A	MMSerial: Port Closed
+0x00006CAC	A	MMSerial: GetCommState Failed
+0x00006CCC	A	MMSerial: SetCommState Failed
+0x00006CEC	A	MMSerial: Baud changed to %i
+0x00006D0C	A	MMSerial: Read
+0x00006D1C	A	MMSerial: Write
+0x00006D74	A	ATSPA
+0x00006D9C	A	 %.1X
+0x00007224	A	C:\Projects\TunerPro\TunerPro\Release\ELM327PlugIn.pdb
+0x0000727C	A	.text$di
+0x00007290	A	.text$mn
+0x000072A4	A	.text$x
+0x000072B4	A	.text$yd
+0x000072C8	A	.idata$5
+0x000072DC	A	.00cfg
+0x000072EC	A	.CRT$XCA
+0x00007300	A	.CRT$XCU
+0x00007314	A	.CRT$XCZ
+0x00007328	A	.CRT$XIA
+0x0000733C	A	.CRT$XIZ
+0x00007350	A	.CRT$XPA
+0x00007364	A	.CRT$XPZ
+0x00007378	A	.CRT$XTA
+0x0000738C	A	.CRT$XTZ
+0x000073A0	A	.rdata
+0x000073B0	A	.rdata$r
+0x000073C4	A	.rdata$sxdata
+0x000073DC	A	.rdata$voltmd
+0x000073F4	A	.rdata$zzzdbg
+0x0000740C	A	.rtc$IAA
+0x00007420	A	.rtc$IZZ
+0x00007434	A	.rtc$TAA
+0x00007448	A	.rtc$TZZ
+0x0000745C	A	.xdata$x
+0x00007470	A	.edata
+0x00007480	A	.idata$2
+0x00007494	A	.idata$3
+0x000074A8	A	.idata$4
+0x000074BC	A	.idata$6
+0x000074D0	A	.data
+0x000074E0	A	.data$r
+0x000074F0	A	.data$rs
+0x00007514	A	.rsrc$01
+0x00007528	A	.rsrc$02
+0x0000772C	A	ELM327PlugIn.dll
+0x0000773D	A	TPCreatePlugin
+0x0000774C	A	TPReleasePlugin
+0x000079AE	A	UuidFromStringA
+0x000079BE	A	RPCRT4.dll
+0x000079CC	A	GetLastError
+0x000079DC	A	GetModuleFileNameA
+0x000079F2	A	CreateFileA
+0x00007A00	A	ReadFile
+0x00007A0C	A	CloseHandle
+0x00007A1A	A	WriteFile
+0x00007A24	A	KERNEL32.dll
+0x00007A34	A	__CxxFrameHandler3
+0x00007A4A	A	__std_terminate
+0x00007A5C	A	_purecall
+0x00007A68	A	__std_exception_destroy
+0x00007A82	A	__std_exception_copy
+0x00007A9A	A	strstr
+0x00007AA4	A	memset
+0x00007AAE	A	_except_handler4_common
+0x00007AC8	A	__std_type_info_destroy_list
+0x00007AE8	A	_CxxThrowException
+0x00007AFC	A	VCRUNTIME140.dll
+0x00007B10	A	isprint
+0x00007B1A	A	_invoke_watson
+0x00007B2C	A	__stdio_common_vsprintf
+0x00007B46	A	_seh_filter_dll
+0x00007B58	A	_configure_narrow_argv
+0x00007B72	A	_initialize_narrow_environment
+0x00007B94	A	_initialize_onexit_table
+0x00007BB0	A	_register_onexit_function
+0x00007BCC	A	_execute_onexit_table
+0x00007BE4	A	_crt_atexit
+0x00007BF2	A	_cexit
+0x00007BFC	A	_initterm
+0x00007C08	A	_initterm_e
+0x00007C16	A	_callnewh
+0x00007C22	A	malloc
+0x00007C32	A	api-ms-win-crt-string-l1-1-0.dll
+0x00007C54	A	api-ms-win-crt-runtime-l1-1-0.dll
+0x00007C76	A	api-ms-win-crt-stdio-l1-1-0.dll
+0x00007C96	A	api-ms-win-crt-heap-l1-1-0.dll
+0x00007CB8	A	GetCurrentThreadId
+0x00007CCE	A	MultiByteToWideChar
+0x00007CE4	A	QueryPerformanceCounter
+0x00007CFE	A	PurgeComm
+0x00007D0A	A	GetCommTimeouts
+0x00007D1C	A	GetCommState
+0x00007D2C	A	SetCommTimeouts
+0x00007D3E	A	SetCommState
+0x00007D4E	A	Sleep
+0x00007D56	A	UnhandledExceptionFilter
+0x00007D72	A	SetUnhandledExceptionFilter
+0x00007D90	A	GetCurrentProcess
+0x00007DA4	A	TerminateProcess
+0x00007DB8	A	IsProcessorFeaturePresent
+0x00007DD4	A	IsDebuggerPresent
+0x00007DE8	A	GetCurrentProcessId
+0x00007DFE	A	GetSystemTimeAsFileTime
+0x00007E18	A	InitializeSListHead
+0x00007E2E	A	GetParent
+0x00007E3A	A	MapVirtualKeyExA
+0x00007E4E	A	GetDesktopWindow
+0x00007E62	A	KillTimer
+0x00007E6E	A	GetDlgItem
+0x00007E7C	A	GetClientRect
+0x00007E8C	A	SendMessageA
+0x00007E9C	A	SetDlgItemTextA
+0x00007EAE	A	CreateWindowExA
+0x00007EC0	A	DestroyMenu
+0x00007ECE	A	DefWindowProcA
+0x00007EE0	A	UnhookWindowsHookEx
+0x00007EF6	A	MoveWindow
+0x00007F04	A	MessageBoxA
+0x00007F12	A	SetWindowTextA
+0x00007F24	A	GetKeyboardLayout
+0x00007F38	A	GetWindowLongA
+0x00007F4A	A	CharUpperBuffA
+0x00007F5C	A	SetWindowsHookExA
+0x00007F70	A	CallWindowProcA
+0x00007F82	A	SetWindowLongA
+0x00007F94	A	SetTimer
+0x00007FA0	A	GetDlgItemTextA
+0x00007FB2	A	GetKeyNameTextA
+0x00007FC4	A	TrackPopupMenu
+0x00007FD6	A	CreatePopupMenu
+0x00007FE8	A	SetWindowTextW
+0x00007FFA	A	EndDialog
+0x00008006	A	CallNextHookEx
+0x00008018	A	ScreenToClient
+0x0000802A	A	InsertMenuA
+0x00008038	A	SetWindowPos
+0x00008048	A	DestroyWindow
+0x00008058	A	GetWindowRect
+0x00008068	A	GetKeyState
+0x00008076	A	CharLowerBuffA
+0x00008086	A	USER32.dll
+0x00008094	A	DeleteObject
+0x000080A2	A	GDI32.dll
+0x000080AE	A	memcpy
+0x00008754	A	.?AVbad_alloc@std@@
+0x00008770	A	.?AVexception@std@@
+0x0000878C	A	.?AVbad_array_new_length@std@@
+0x000087B4	A	.?AVtype_info@@
+0x000087CC	A	.?AVELM327Parser@@
+0x000087E8	A	.?AVELM327PlugIn@@
+0x00008804	A	.?AVITPDataAcqIO@@
+0x00008820	A	.?AVITPPlugin@@
+0x00008838	A	.?AVITPPluginComponent@@
+0x00008A60	A	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+0x00008A99	A	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+0x00008AE4	A	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+0x00008B1C	A	    <security>
+0x00008B2C	A	      <requestedPrivileges>
+0x00008B49	A	        <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+0x00008B91	A	      </requestedPrivileges>
+0x00008BAF	A	    </security>
+0x00008BC0	A	  </trustInfo>
+0x00008BD0	A	</assembly>
+0x00008C0B	A	0#0;0B0P0V0`0j0z0
+0x00008C2F	A	1L1r1
+0x00008C3D	A	242o2
+0x00008C51	A	4.4T4
+0x00008C5D	A	5/5b5
+0x00008C65	A	7C8[8f8
+0x00008C75	A	=0=x=|=
+0x00008C87	A	>1>7>
+0x00008C8F	A	?(?^?e?l?
+0x00008CAF	A	0=0C0\0n0w0
+0x00008CC1	A	1W1a1l1t1|1
+0x00008CF7	A	6<7L7Z7
+0x00008D29	A	>p>,?<?J?j?q?
+0x00008D57	A	3q3,4<4J4j4
+0x00008D79	A	7$8(8,8084888<8@8D8H8L8P8j8
+0x00008D95	A	8:9D9
+0x00008D9B	A	9=:T:^:};
+0x00008DB3	A	? ?$?(?m?
+0x00008DCF	A	0(1N1]1t1z1
+0x00008DEF	A	1V2c2
+0x00008DF9	A	3N3[3|3
+0x00008E0B	A	3)434A4_4w4
+0x00008E1F	A	6E6N6Y6`6s6
+0x00008E55	A	7,7<7L7U7{7
+0x00008E89	A	8-828
+0x00008EA7	A	:":0:8:n:w:
+0x00008ED1	A	;";V;d;l;r;x;
+0x00008EF1	A	<0=5=X=g=p=}=
+0x00008F0D	A	> >%>8>L>Q>d>
+0x00008F3D	A	?#?)?/?5?;?A?N?
+0x00008F6D	A	1$1=1B1c1h1
+0x00008F87	A	1>2D2J2t2
+0x00008F95	A	2G3M3_3
+0x00008F9F	A	3=4M4o4|4
+0x00008FAB	A	5D5J5s5
+0x00008FB7	A	6`6k6|6
+0x00008FD7	A	9,909S9
+0x00008FEB	A	:_:m:
+0x00008FFB	A	;*;5;@;L;a;f;s;
+0x00009017	A	<%<H<q<
+0x0000902B	A	=4=J=P=
+0x00009037	A	>$?W?j?
+0x00009057	A	0.030B0T0[0z0
+0x00009087	A	4'4L4
+0x0000908F	A	5;7L7
+0x0000909B	A	8F8e8|8
+0x000090A5	A	8F9w9
+0x000090AF	A	9#:2:B:Z:c:
+0x000090C1	A	; ;M;X;3<s<
+0x000090E1	A	?!?K?t?
+0x00009147	A	4 4$4(4,4044484<4@4D4H4L4P4T4
+0x00009169	A	9H:`:
+0x00009171	A	; ;$;,;D;H;L;P;X;\;d;h;p;x;
+0x000091A1	A	<(<8<H<X<h<l<|<
+0x000091D1	A	=(=8=<=L=\=l=p=t=
+0x000091EC	A	P1p1x1
+0x00009201	A	2,20282@2H2L2T2X2\2d2x2
+0x0000922F	A	0L5h5
+0x00000DB8	W	jjjh
+0x00005260	W	jjjjj
+0x00005372	W	jjjj

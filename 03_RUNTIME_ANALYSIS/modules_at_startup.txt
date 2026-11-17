@@ -1,0 +1,7 @@
+﻿C:\Users\Lord Otoy\Documents\REVCORE_BE11_TUNERPRO_AUTOPSY\00_SOURCE_INVENTORY\APP_COPY\TunerPro.exe
+C:\WINDOWS\SYSTEM32\ntdll.dll
+C:\WINDOWS\System32\wow64.dll
+C:\WINDOWS\System32\wow64base.dll
+C:\WINDOWS\System32\wow64win.dll
+C:\WINDOWS\System32\wow64con.dll
+C:\WINDOWS\System32\wow64cpu.dll

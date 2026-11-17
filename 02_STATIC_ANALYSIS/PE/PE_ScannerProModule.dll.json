@@ -1,0 +1,765 @@
+{
+  "File": "ScannerProModule.dll",
+  "Bytes": 498688,
+  "Machine": "0x014C",
+  "MachineName": "x86",
+  "PE32Plus": false,
+  "Sections": 5,
+  "TimeDateStamp": 1792030891,
+  "TimeDateStampUtc": "2026-10-15 02.21.31",
+  "Characteristics": "0x2102",
+  "DllCharacteristics": "0x0140",
+  "Subsystem": "GUI",
+  "EntryPointRVA": "0x00008108",
+  "ImageBase": "0x10000000",
+  "SectionAlignment": 4096,
+  "FileAlignment": 512,
+  "SizeOfImage": 520192,
+  "SizeOfHeaders": 1024,
+  "OverlayBytes": 0,
+  "HasCLR": false,
+  "AuthenticodeDir": {
+    "Offset": 0,
+    "Size": 0
+  },
+  "DataDirectories": [
+    {
+      "Index": 0,
+      "RVA": "0x0005F9D0",
+      "Size": 1908
+    },
+    {
+      "Index": 1,
+      "RVA": "0x00060144",
+      "Size": 380
+    },
+    {
+      "Index": 2,
+      "RVA": "0x00069000",
+      "Size": 66120
+    },
+    {
+      "Index": 3,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 4,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 5,
+      "RVA": "0x0007A000",
+      "Size": 19540
+    },
+    {
+      "Index": 6,
+      "RVA": "0x0005DC40",
+      "Size": 112
+    },
+    {
+      "Index": 7,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 8,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 9,
+      "RVA": "0x0005DCC0",
+      "Size": 24
+    },
+    {
+      "Index": 10,
+      "RVA": "0x0005DB80",
+      "Size": 64
+    },
+    {
+      "Index": 11,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 12,
+      "RVA": "0x00059000",
+      "Size": 1240
+    },
+    {
+      "Index": 13,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 14,
+      "RVA": "0x00000000",
+      "Size": 0
+    },
+    {
+      "Index": 15,
+      "RVA": "0x00000000",
+      "Size": 0
+    }
+  ],
+  "SectionTable": [
+    {
+      "Name": ".text",
+      "VA": "0x00001000",
+      "VirtualSize": 357213,
+      "RawPointer": "0x00000400",
+      "RawSize": 357376,
+      "Flags": "0x60000020",
+      "Entropy": 6.5239
+    },
+    {
+      "Name": ".rdata",
+      "VA": "0x00059000",
+      "VirtualSize": 35938,
+      "RawPointer": "0x00057800",
+      "RawSize": 36352,
+      "Flags": "0x40000040",
+      "Entropy": 5.1701
+    },
+    {
+      "Name": ".data",
+      "VA": "0x00062000",
+      "VirtualSize": 26364,
+      "RawPointer": "0x00060600",
+      "RawSize": 17408,
+      "Flags": "0xC0000040",
+      "Entropy": 0.6368
+    },
+    {
+      "Name": ".rsrc",
+      "VA": "0x00069000",
+      "VirtualSize": 66120,
+      "RawPointer": "0x00064A00",
+      "RawSize": 66560,
+      "Flags": "0x40000040",
+      "Entropy": 7.1766
+    },
+    {
+      "Name": ".reloc",
+      "VA": "0x0007A000",
+      "VirtualSize": 19540,
+      "RawPointer": "0x00074E00",
+      "RawSize": 19968,
+      "Flags": "0x42000040",
+      "Entropy": 6.7452
+    }
+  ],
+  "Imports": [
+    {
+      "DLL": "COMCTL32.dll",
+      "Functions": [
+        "ImageList_Create",
+        "ImageList_AddMasked",
+        "InitCommonControlsEx"
+      ]
+    },
+    {
+      "DLL": "UxTheme.dll",
+      "Functions": [
+        "DrawThemeParentBackground",
+        "CloseThemeData",
+        "OpenThemeData",
+        "SetWindowTheme"
+      ]
+    },
+    {
+      "DLL": "KERNEL32.dll",
+      "Functions": [
+        "GetLastError",
+        "AcquireSRWLockExclusive",
+        "WakeAllConditionVariable",
+        "SleepConditionVariableSRW",
+        "ReleaseSRWLockExclusive",
+        "InitializeSListHead",
+        "GetSystemTimeAsFileTime",
+        "GetCurrentProcessId",
+        "IsDebuggerPresent",
+        "IsProcessorFeaturePresent",
+        "TerminateProcess",
+        "GetCurrentProcess",
+        "SetUnhandledExceptionFilter",
+        "UnhandledExceptionFilter",
+        "Sleep",
+        "CreateFileW",
+        "SetEndOfFile",
+        "UnmapViewOfFile",
+        "SetFilePointer",
+        "InitializeCriticalSection",
+        "DeleteCriticalSection",
+        "LeaveCriticalSection",
+        "EnterCriticalSection",
+        "MulDiv",
+        "GetDateFormatA",
+        "GetTimeFormatA",
+        "lstrcpyA",
+        "lstrlenA",
+        "GetProcessHeap",
+        "HeapAlloc",
+        "HeapFree",
+        "WriteFile",
+        "ReadFile",
+        "GlobalUnlock",
+        "QueryPerformanceCounter",
+        "GetFileSize",
+        "GlobalLock",
+        "CloseHandle",
+        "GlobalAlloc",
+        "QueryPerformanceFrequency",
+        "MultiByteToWideChar",
+        "GetCurrentThreadId",
+        "GetModuleHandleA"
+      ]
+    },
+    {
+      "DLL": "USER32.dll",
+      "Functions": [
+        "DestroyMenu",
+        "CreateWindowExA",
+        "SendMessageA",
+        "GetClientRect",
+        "GetDlgItem",
+        "GetMenuItemInfoA",
+        "GetWindowLongA",
+        "SetWindowLongA",
+        "ShowWindow",
+        "CreateMenu",
+        "CreatePopupMenu",
+        "GetMenuItemCount",
+        "SetWindowPos",
+        "IsWindowVisible",
+        "DestroyWindow",
+        "SetDlgItemTextA",
+        "IsDlgButtonChecked",
+        "MessageBoxA",
+        "GetDlgItemTextA",
+        "DialogBoxParamA",
+        "EndDialog",
+        "GetParent",
+        "MoveWindow",
+        "GetSysColor",
+        "GetScrollInfo",
+        "GetWindowRect",
+        "ShowScrollBar",
+        "SetScrollInfo",
+        "EnableWindow",
+        "LoadBitmapA",
+        "InsertMenuItemA",
+        "UpdateWindow",
+        "InvalidateRect",
+        "SendDlgItemMessageA",
+        "CreateDialogParamA",
+        "TrackPopupMenu",
+        "RemovePropA",
+        "SetPropA",
+        "GetWindow",
+        "GetClassNameA",
+        "GetClassInfoExA",
+        "MapVirtualKeyExA",
+        "GetDesktopWindow",
+        "KillTimer",
+        "DefWindowProcA",
+        "UnhookWindowsHookEx",
+        "RegisterClassA",
+        "SetWindowTextA",
+        "GetKeyboardLayout",
+        "CharUpperBuffA",
+        "SetWindowsHookExA",
+        "CallWindowProcA",
+        "RedrawWindow",
+        "SetTimer",
+        "GetKeyNameTextA",
+        "SetWindowTextW",
+        "CallNextHookEx",
+        "ScreenToClient",
+        "InsertMenuA",
+        "LoadCursorA",
+        "GetKeyState",
+        "CharLowerBuffA",
+        "EndPaint",
+        "BeginPaint",
+        "ReleaseDC",
+        "RegisterClassExA",
+        "FillRect",
+        "GetDC",
+        "GetMenu",
+        "ReleaseCapture",
+        "PtInRect",
+        "DrawEdge",
+        "GetSysColorBrush",
+        "GetWindowDC",
+        "SetCapture",
+        "ClientToScreen",
+        "DrawTextA",
+        "OffsetRect",
+        "PostMessageA",
+        "GetCursorPos",
+        "SetScrollPos",
+        "ShowCaret",
+        "IsClipboardFormatAvailable",
+        "SystemParametersInfoA",
+        "SetScrollRange",
+        "SetCursor",
+        "SetClipboardData",
+        "DestroyCaret",
+        "GetClipboardData",
+        "DrawTextExA",
+        "SetFocus",
+        "CreateCaret",
+        "EmptyClipboard",
+        "CloseClipboard",
+        "GetScrollRange",
+        "OpenClipboard",
+        "SetCaretPos",
+        "GetScrollPos",
+        "MessageBeep",
+        "HideCaret",
+        "GetFocus",
+        "SetParent",
+        "SetRectEmpty",
+        "FrameRect",
+        "InflateRect",
+        "GetAsyncKeyState",
+        "SetCursorPos",
+        "ShowCursor",
+        "DrawFrameControl",
+        "ClipCursor",
+        "GetPropA",
+        "MapWindowPoints",
+        "GetWindowTextA",
+        "GetDlgCtrlID",
+        "GetCapture"
+      ]
+    },
+    {
+      "DLL": "GDI32.dll",
+      "Functions": [
+        "SetBkMode",
+        "SetTextAlign",
+        "DPtoLP",
+        "LineTo",
+        "CreateFontIndirectA",
+        "LPtoDP",
+        "SetMapMode",
+        "GetDeviceCaps",
+        "CreatePenIndirect",
+        "Arc",
+        "SetArcDirection",
+        "SetPolyFillMode",
+        "SetViewportOrgEx",
+        "Polygon",
+        "Ellipse",
+        "SetPixel",
+        "SetBkColor",
+        "CreateRectRgn",
+        "SelectClipRgn",
+        "GetObjectA",
+        "ExtTextOutA",
+        "GetTextMetricsA",
+        "SetROP2",
+        "GetROP2",
+        "BitBlt",
+        "CreateCompatibleBitmap",
+        "GetTextExtentPoint32A",
+        "CreateSolidBrush",
+        "DeleteObject",
+        "Rectangle",
+        "CreatePen",
+        "SelectObject",
+        "CreateFontA",
+        "TextOutA",
+        "CreateCompatibleDC",
+        "GetStockObject",
+        "SetWindowExtEx",
+        "SetViewportExtEx",
+        "DeleteDC",
+        "SetTextColor",
+        "MoveToEx"
+      ]
+    },
+    {
+      "DLL": "RPCRT4.dll",
+      "Functions": [
+        "UuidFromStringA"
+      ]
+    },
+    {
+      "DLL": "MSVCP140.dll",
+      "Functions": [
+        "?_Xlength_error@std@@YAXPBD@Z"
+      ]
+    },
+    {
+      "DLL": "VCRUNTIME140.dll",
+      "Functions": [
+        "__std_exception_copy",
+        "__std_exception_destroy",
+        "__std_terminate",
+        "_purecall",
+        "memcpy",
+        "_CxxThrowException",
+        "_except_handler4_common",
+        "memset",
+        "__std_type_info_destroy_list",
+        "memmove",
+        "__current_exception_context",
+        "__CxxFrameHandler3",
+        "__current_exception"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-runtime-l1-1-0.dll",
+      "Functions": [
+        "_seh_filter_dll",
+        "_crt_atexit",
+        "_configure_narrow_argv",
+        "_invoke_watson",
+        "_initialize_onexit_table",
+        "_initialize_narrow_environment",
+        "_register_onexit_function",
+        "_cexit",
+        "_execute_onexit_table",
+        "_initterm",
+        "_initterm_e",
+        "terminate"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-stdio-l1-1-0.dll",
+      "Functions": [
+        "fclose",
+        "__stdio_common_vsscanf",
+        "__stdio_common_vfprintf",
+        "fopen_s",
+        "__stdio_common_vsprintf",
+        "__stdio_common_vsnprintf_s"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-string-l1-1-0.dll",
+      "Functions": [
+        "strcpy_s",
+        "_stricmp",
+        "strncpy_s",
+        "strtok_s",
+        "isalnum",
+        "isspace",
+        "_strupr_s",
+        "iswspace",
+        "strncmp",
+        "isdigit",
+        "toupper",
+        "tolower",
+        "isalpha"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-convert-l1-1-0.dll",
+      "Functions": [
+        "wcstombs_s",
+        "atoi",
+        "_ltoa_s",
+        "atof",
+        "_itoa_s",
+        "atol"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-math-l1-1-0.dll",
+      "Functions": [
+        "_CIfmod",
+        "_CItanh",
+        "_CIcosh",
+        "_libm_sse2_atan_precise",
+        "_libm_sse2_acos_precise",
+        "_libm_sse2_exp_precise",
+        "_libm_sse2_log10_precise",
+        "_libm_sse2_log_precise",
+        "_libm_sse2_pow_precise",
+        "_libm_sse2_sin_precise",
+        "_libm_sse2_sqrt_precise",
+        "_libm_sse2_tan_precise",
+        "_CIsinh",
+        "_finite",
+        "_libm_sse2_asin_precise",
+        "ceil",
+        "floor",
+        "_libm_sse2_cos_precise"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-heap-l1-1-0.dll",
+      "Functions": [
+        "_callnewh",
+        "calloc",
+        "malloc",
+        "free"
+      ]
+    },
+    {
+      "DLL": "api-ms-win-crt-multibyte-l1-1-0.dll",
+      "Functions": [
+        "_mbsicmp",
+        "_mbscmp"
+      ]
+    },
+    {
+      "DLL": "COMDLG32.dll",
+      "Functions": [
+        "ChooseFontA",
+        "GetSaveFileNameA",
+        "ChooseColorA",
+        "GetOpenFileNameA"
+      ]
+    },
+    {
+      "DLL": "SHELL32.dll",
+      "Functions": [
+        "SHGetDesktopFolder",
+        "SHGetPathFromIDListA",
+        "SHBrowseForFolderA",
+        "SHGetMalloc"
+      ]
+    },
+    {
+      "DLL": "ADVAPI32.dll",
+      "Functions": [
+        "CryptDestroyKey",
+        "CryptReleaseContext"
+      ]
+    }
+  ],
+  "DelayImports": [],
+  "Exports": [
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPC_LOG_TB_SEEK_BAR@@3KA"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateCmdSenderToolbar@@YAPAUHWND__@@PAU1@PAUISPCmdSenderToolbar@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateDashWindow@@YAPAUHWND__@@PAU1@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateHistoWindow@@YAPAUHWND__@@PAU1@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateLogToolbar@@YAPAUHWND__@@PAU1@PAUISPLogToobar@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateMonitorView@@YAPAUHWND__@@PAU1@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPCreateViewWindow@@YAPAUHWND__@@PAU1@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPDashSetNotificationHandler@@YAXPAUISPDashNotificationHandler@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPEnableCmdSenderToolbar@@YAHPAUHWND__@@H@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPExportDataLog@@YAJPAUHWND__@@PAD1PAVADXDef@@KK0@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPHistoSetNotificationHandler@@YAXPAUISPHistogramNotificationHandler@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsArePopulatedFromCache@@YAHXZ"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsAutoScrollEnable@@YAXH@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsClearAllSeries@@YAXXZ"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsGetVisibleTimeRange@@YAMXZ"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsIsAutoScrollEnabled@@YAHXZ"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsPopulateDataFromCache@@YAXPAVDataLogCache@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsSetCursor@@YAXK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsSetNotificationHandler@@YAXPAUISPMonitorNotificationHandler@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsSetVisiblePos@@YAXM@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsSetVisibleTimeRange@@YAXM@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPMonitorsUpdate@@YAXPAVADXDef@@MPAEKK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPPopulateHistogramData@@YAXPAVADXHistoryTable@@W4ADXHISTCALC@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPSetCmdSenderToolbarStatus@@YAIPAUHWND__@@W4SPSTATUS@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPSetDebug@@YAXPAVMMDebugOutput@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPSetDefinition@@YAXPAVADXDef@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPSetLastPacketInfo@@YAXPAEKKK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPUpdateDash@@YAXPAEKK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPUpdateDataAcqUITabs@@YAXXZ"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPUpdateHistogramData@@YAXPAEKK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPUpdateTransportButtonState@@YAXW4SPSTATUS@@PAVDataLogEngine@@@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPUpdateView@@YAXPAEKK@Z"
+    },
+    {
+      "DLL": "ScannerProModule.dll",
+      "Name": "?SPViewSetNotificationHandler@@YAXPAUISPDataListNotificationHandler@@@Z"
+    }
+  ],
+  "Resources": [
+    {
+      "Path": "AFX_DIALOG_LAYOUT/ID_129/ID_1033",
+      "RVA": "0x000790C0",
+      "Size": 2
+    },
+    {
+      "Path": "AFX_DIALOG_LAYOUT/ID_142/ID_1033",
+      "RVA": "0x000790B0",
+      "Size": 2
+    },
+    {
+      "Path": "AFX_DIALOG_LAYOUT/ID_143/ID_1033",
+      "RVA": "0x000790B8",
+      "Size": 2
+    },
+    {
+      "Path": "BITMAP/ID_130/ID_1033",
+      "RVA": "0x0006AFF8",
+      "Size": 56084
+    },
+    {
+      "Path": "BITMAP/ID_136/ID_1033",
+      "RVA": "0x00069C20",
+      "Size": 3944
+    },
+    {
+      "Path": "BITMAP/ID_137/ID_1033",
+      "RVA": "0x0006AB88",
+      "Size": 1136
+    },
+    {
+      "Path": "BITMAP/ID_138/ID_1033",
+      "RVA": "0x00078C40",
+      "Size": 1136
+    },
+    {
+      "Path": "BITMAP/ID_139/ID_1033",
+      "RVA": "0x00078BE0",
+      "Size": 92
+    },
+    {
+      "Path": "BITMAP/ID_140/ID_1033",
+      "RVA": "0x00078B10",
+      "Size": 208
+    },
+    {
+      "Path": "DIALOG/ID_102/ID_1033",
+      "RVA": "0x00069770",
+      "Size": 880
+    },
+    {
+      "Path": "DIALOG/ID_129/ID_1033",
+      "RVA": "0x000694C0",
+      "Size": 152
+    },
+    {
+      "Path": "DIALOG/ID_135/ID_1033",
+      "RVA": "0x00069558",
+      "Size": 416
+    },
+    {
+      "Path": "DIALOG/ID_141/ID_1033",
+      "RVA": "0x00069440",
+      "Size": 128
+    },
+    {
+      "Path": "DIALOG/ID_142/ID_1033",
+      "RVA": "0x000696F8",
+      "Size": 116
+    },
+    {
+      "Path": "DIALOG/ID_143/ID_1033",
+      "RVA": "0x00069400",
+      "Size": 64
+    },
+    {
+      "Path": "DIALOG/ID_144/ID_1033",
+      "RVA": "0x00069AE0",
+      "Size": 136
+    },
+    {
+      "Path": "DIALOG/ID_145/ID_1033",
+      "RVA": "0x00069B68",
+      "Size": 180
+    },
+    {
+      "Path": "MANIFEST/BITMAP/ID_1033",
+      "RVA": "0x000790C8",
+      "Size": 381
+    }
+  ]
+}

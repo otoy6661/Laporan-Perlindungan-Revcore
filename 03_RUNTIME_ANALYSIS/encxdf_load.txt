@@ -1,0 +1,31 @@
+﻿START TITLE=TunerPro RT - edited_9999.bin | XDF File - 30400-k1aa-n03.xdf | ADX File - keihin.adx
+AFTER XDF TITLE=TunerPro RT - edited_9999.bin | XDF File - ADV 150 -- 30400-K0WA-N01.xdf | ADX File - keihin.adx
+--- DIALOGS ---
+TOP 8391456 class=TUNERPRO text='TunerPro RT - edited_9999.bin | XDF File - ADV 150 -- 30400-K0WA-N01.xdf | ADX File - keihin.adx'
+  [msctls_statusbar32] id=1004 en=True text=''
+  [MMTEXTPROGRESS] id=0 en=True text=''
+  [MMRICHSTATIC] id=0 en=True text=''
+  [ReBarWindow32] id=126 en=True text=''
+  [#32770] id=0 en=True text=''
+  [msctls_trackbar32] id=1014 en=True text=''
+  [ToolbarWindow32] id=20000 en=True text=''
+  [ToolbarWindow32] id=10008 en=True text=''
+  [ToolbarWindow32] id=10002 en=True text=''
+  [ToolbarWindow32] id=10004 en=True text=''
+  [ToolbarWindow32] id=10001 en=True text=''
+  [MMTABSHEET] id=0 en=True text='Parameter Tree'
+  [#32770] id=0 en=True text=''
+  [SysTreeView32] id=20094 en=True text=''
+  [Static] id=20143 en=True text='View By:'
+  [ComboBox] id=20095 en=True text=''
+  [MDIClient] id=3244 en=True text='Workspace'
+  [MMTABSHEET] id=0 en=True text='Lists'
+  [SysTabControl32] id=0 en=True text=''
+  [#32770] id=0 en=True text=''
+  [SysListView32] id=1000 en=True text=''
+  [SysHeader32] id=0 en=True text=''
+  [ComboBox] id=1010 en=True text=''
+MAIN_TREE hwnd=0x8D0780
+  T|Scalars
+  T|  [ Kompatible Ecu : K0WA ]
+SHOT_SAVED

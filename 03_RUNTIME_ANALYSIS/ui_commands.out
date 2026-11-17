@@ -1,0 +1,38 @@
+==== Plug-ins (33127) ====
+DLG 0x14C0C66 'About Plug-ins'
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== System Check (32991) ====
+DLG 0x14D0C66 'All is well!'
+  Button id=2 'OK'
+  Static id=65535 'Everything I checked passed. This is good,
+but doesn't guarantee everything will work.'
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Initialize Hardware (32854) ====
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Emulation Upload (32897) ====
+DLG 0x14F0C66 'You messed up (I think.)'
+  Button id=2 'OK'
+  Static id=65535 'FAILURE: Bin is larger than emulation RAM! Perhaps you meant to use bank 8?'
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Emulation Download (32904) ====
+DLG 0x1500C66 'You messed up (I think.)'
+  Button id=2 'OK'
+  Static id=65535 'FAILURE: Bin is larger than emulation RAM! Perhaps you meant to use bank 8?'
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Emulation Verify (32899) ====
+DLG 0x1510C66 'You messed up (I think.)'
+  Button id=2 'OK'
+  Static id=65535 'FAILURE: Bin is larger than emulation RAM! Perhaps you meant to use bank 8?'
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Enable Live Tuning (32900) ====
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
+==== Release Hardware (33104) ====
+STATUS= | 	Hardware Not Found |  |  | 
+TITLE=TunerPro RT - SUPRA-K41NC1_resaved.bin | XDF File - SUPRA-K41NC1.xdf | ADX File - keihin.adx
