@@ -1,5 +1,0 @@
-name=FLASHPRO
-version=0.0.1.6
-culture=
-flags=0
-hashalg=Sha1

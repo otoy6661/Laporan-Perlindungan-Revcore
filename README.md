@@ -1,91 +1,79 @@
-# BE-12 — FLASHPRO.inc FULL AUTOPSY & THREE-WAY TECHNICAL COMPARISON
+# Laporan RevCore — Reference Autopsy (H-Diag + 3D Chart Remap K-Line)
 
-Workspace penelitian untuk work order **BE-12**: autopsi penuh FLASHPRO.inc dan perbandingan teknis tiga aplikasi (FLASHPRO.inc vs TunerPro RT vs RevCore).
+Status: analisis referensi teknis. Bukan implementasi, bukan clone, bukan aplikasi baru.
 
-**Tanggal:** 2026-11-18 (lokal)
-**Target utama:** `C:\Program Files (x86)\FLASHPRO.inc` (dibaca dari salinan kerja `00_SOURCE_INVENTORY/APP_COPY`)
-**Pembanding:** TunerPro RT 5.0.10335.0 (baseline BE-11) dan source RevCore (`work/revcore`; repo publik v0.3.0 = `4160763`)
-**Status:** FASE 0–VI selesai · 22 laporan final · dipublikasikan 2026-11-18
-**Sanitasi publikasi:** [`PUBLICATION_SANITIZATION.md`](PUBLICATION_SANITIZATION.md) · **Manifest hash:** [`PUBLICATION_MANIFEST.csv`](PUBLICATION_MANIFEST.csv)
+Tanggal: 2026-11-19
+Work order: REVCORE REFERENCE AUTOPSY — BAGIAN I & II
 
----
+## Isi
 
-## 1. Aturan yang berlaku
+| Folder | Isi |
+|---|---|
+| `00_INVENTORY/` | Inventaris 869 file (H-Diag 29, 3D Chart 840) dengan SHA-256 |
+| `01_HDIAG/` | Ekstraksi string `HDiag.exe` |
+| `03_EVIDENCE/` | Register bukti statis, verifikasi checksum frame, file yang dibatasi |
+| `04_FINAL_REPORTS/` | Tujuh dokumen wajib |
+| `05_ARTIFACTS/` | Artefak pendukung (screenshot lama yang dipertahankan) |
+| `06_REPOSITORY/` | Daftar file lama yang diganti + laporan pembaruan repository |
 
-- Instalasi FLASHPRO.inc, TunerPro RT, dan proyek RevCore **tidak diubah**. Semua eksperimen memakai salinan kerja.
-- Hash SHA-256 dicatat sebelum/sesudah eksperimen.
-- Tidak ada penulisan ke ECU fisik; tidak ada crack/keygen/aktivator.
-- Tidak ada publikasi, push, ZIP final, atau perubahan repository sebelum persetujuan eksplisit pemilik.
-- Status bukti hanya memakai: SOURCE VERIFIED, STATIC VERIFIED, RUNTIME VERIFIED, SIMULATION VERIFIED, HARDWARE VERIFIED, NOT FOUND, NOT TESTED, BLOCKED.
-- Tidak ada klaim 100%; cakupan diukur terhadap ruang lingkup yang dapat diakses.
+## Laporan wajib
 
----
+### H-Diag
+- [HDIAG_AUTOPSY_REPORT.md](04_FINAL_REPORTS/HDIAG_AUTOPSY_REPORT.md)
+- [HDIAG_FUNCTION_MAPPING.md](04_FINAL_REPORTS/HDIAG_FUNCTION_MAPPING.md)
+- [HDIAG_PROTOCOL_ANALYSIS.md](04_FINAL_REPORTS/HDIAG_PROTOCOL_ANALYSIS.md)
+- [HDIAG_REVCORE_REQUIREMENTS_04_10.md](04_FINAL_REPORTS/HDIAG_REVCORE_REQUIREMENTS_04_10.md)
 
-## 2. Temuan inti
+### 3D Chart Graph Remap K-Line
+- [REVCORE_SENSOR_READING_ANALYSIS.md](04_FINAL_REPORTS/REVCORE_SENSOR_READING_ANALYSIS.md)
+- [REVCORE_REMAP_FUNCTION_ANALYSIS.md](04_FINAL_REPORTS/REVCORE_REMAP_FUNCTION_ANALYSIS.md)
 
-1. Tiga EXE terpasang adalah **wrapper VB6** (`TJprojMain`, v1.00, unsigned) yang memuat executable asli utuh.
-2. Payload `FLASHPRO.exe` **identik** dengan file installer: x64 Enigma Protector 5.x, v**0.0.1.6**, vendor **Team Tech Tunner / itech**.
-3. Wrapper ditulis ulang **2026-11-17 11:38:51–52 UTC**; payload asli muncul sebagai `flashpro.exe`+U+00A0 pada **12:06 UTC**.
-4. Aplikasi berhenti di **gerbang aktivasi** offline (WMI + registry + RSA); tidak ada koneksi jaringan saat start.
-5. Transport hanya **FTDI D2XX**; tidak ada COM/CAN/ELM327/J2534.
-6. Permukaan perintah `dat10/11/13/16/17/20/D1`, `dtc`..`dtc4`, `rst`..`rst4`; **wire-level tidak terbaca**.
-7. Model BIN/map memakai **VomConfig** yang identik dengan RevCore; `.map` terenkripsi AES.
-8. Checksum/flash/recovery ada sebagai **nama & pesan**, bukan algoritma terbukti.
-9. Prototipe FASE VI: **12/12 tes lulus** (checksum, frame, DTC gap, audit profil).
-10. Tidak ada pemenang tiga arah; posisi tiap aplikasi berbeda.
+### Ringkasan
+- [REVCORE_REFERENCE_ANALYSIS_SUMMARY.md](04_FINAL_REPORTS/REVCORE_REFERENCE_ANALYSIS_SUMMARY.md)
 
-Detail: [`EXECUTIVE_SUMMARY.md`](EXECUTIVE_SUMMARY.md) · [`18_FINAL_REPORTS/22_KESIMPULAN_TEKNIS.md`](18_FINAL_REPORTS/22_KESIMPULAN_TEKNIS.md)
+## Bukti utama
 
----
+- [HDIAG_STATIC_EVIDENCE.md](03_EVIDENCE/HDIAG_STATIC_EVIDENCE.md)
+- [3DCHART_SOURCE_EVIDENCE.md](03_EVIDENCE/3DCHART_SOURCE_EVIDENCE.md)
+- [PROTOCOL_FRAME_VALIDATION.csv](03_EVIDENCE/PROTOCOL_FRAME_VALIDATION.csv)
+- [UNREADABLE_OR_BLOCKED.md](03_EVIDENCE/UNREADABLE_OR_BLOCKED.md)
 
-## 3. Peta workspace
+## Tingkat bukti
 
-| Folder | Isi | Status |
-|---|---|---|
-| `00_SOURCE_INVENTORY` | inventaris, provenance, verifier, salinan kerja | Selesai |
-| `01_APPLICATION_ANATOMY` | arsitektur, UI/menu | Selesai |
-| `02_STATIC_ANALYSIS` | metadata, updater, proteksi | Selesai |
-| `03_RUNTIME_ANALYSIS` | E01, string catalog | Selesai; E02/E03 NOT TESTED |
-| `04_PROTOCOL_AUTOPSY` | transport, command surface | Selesai |
-| `05_ECU_IDENTIFICATION` | ECU, DTC, part codes | Selesai |
-| `06_LIVE_DATA_AUTOPSY` | 36 parameter | Selesai |
-| `07_BIN_MAP_AUTOPSY` | BIN/ROM, map | Selesai |
-| `08_CHECKSUM_AUTOPSY` | checksum | Selesai (NOT VERIFIED) |
-| `09_FLASHING_RECOVERY` | flash/recovery | Selesai (NOT TESTED) |
-| `10_HARDWARE_DRIVER` | FTDI, wiring, environment | Selesai |
-| `11_LICENSE_ARCHITECTURE` | lisensi (analisis) | Selesai |
-| `12_EXPERIMENTS` | log E01 + hash | Selesai |
-| `13_PROTOTYPES` | 4 tool + 12 tes + hasil | Selesai |
-| `14_TUNERPRO_COMPARISON` | komparasi | Selesai |
-| `15_REVCORE_COMPARISON` | komparasi + gap | Selesai |
-| `16_THREE_WAY_COMPARISON` | matriks kapabilitas/protokol | Selesai |
-| `17_EVIDENCE` | EV-001…EV-026 | Selesai |
-| `18_FINAL_REPORTS` | 22 laporan | Selesai |
+| Label | Arti |
+|---|---|
+| FAKTA / SOURCE VERIFIED | Terbaca langsung dari string, konstanta, kode, atau aritmetika |
+| REKONSTRUKSI | Diturunkan dari disassembly; bukan source |
+| DUGAAN | Indikasi kuat, belum terbukti |
+| SIMULASI | Hasil simulasi (tidak ada dalam pekerjaan ini) |
+| UJI PERANGKAT | Pengujian perangkat fisik (tidak ada) |
+| UJI ECU | Pengujian ECU nyata (tidak ada) |
+| TIDAK DITEMUKAN | Tidak ada bukti |
+| BELUM DIUJI | Ada implementasi, belum diverifikasi |
 
----
+Prinsip: **IMPLEMENTED ≠ VERIFIED**. Tidak ada klaim keberhasilan ECU.
 
-## 4. Verifikasi cepat
+## Batas publikasi
 
-```powershell
-# Inventaris 7 file (hash, PE, versi)
-Import-Csv 00_SOURCE_INVENTORY\FLASHPRO_FILE_INVENTORY.csv | Format-Table filename,bytes,pe_machine,file_version,sha256
+Tidak dipublikasikan:
 
-# Verifikasi format wrapper
-powershell -NoProfile -ExecutionPolicy Bypass -File 00_SOURCE_INVENTORY\verify_wrapper.ps1
-Get-Content 00_SOURCE_INVENTORY\WRAPPER_LAYOUT_VERIFIED.txt
-```
+- `login.ini` atau kode lisensi.
+- Key/IV AES lisensi.
+- `keygen.exe` / alat bypass lisensi.
+- Binary H-Diag, DLL Qt/driver, atau source lengkap pihak ketiga.
+- Credential, token, atau data pribadi.
 
-```bash
-# Prototipe (butuh Node.js)
-cd 13_PROTOTYPES
-node tests/run_tests.js
-```
+Yang dimuat hanya temuan analisis, potongan kode pendek sebagai bukti, tabel protokol, dan hash.
 
----
+## Catatan penting untuk RevCore
 
-## 5. Peringatan distribusi
+1. Format frame dan checksum K-line terbukti dan dapat dipakai.
+2. Formula sensor berasal dari source 3D Chart, belum diuji ECU.
+3. H-Diag tidak membuktikan perintah/byte per parameter; jangan menganggap nama di UI sebagai dukungan penuh.
+4. Altitude Mode: hanya pembacaan yang ditemukan; set Mode 1–4 **tidak terbukti**.
+5. Remap: tidak ada read-back verification pada aplikasi referensi; RevCore harus menambahkannya.
 
-- `00_SOURCE_INVENTORY/APP_COPY` berisi **binary pihak ketiga** (FLASHPRO, payload, uninstaller). **Tidak boleh dipublikasikan** dan tidak boleh dimasukkan ke ZIP/repository.
-- Artefak sensitif Enigma (project berisi private key, keygen, salinan termodifikasi) tidak disalin ke workspace ini.
-- Laporan publik hanya memuat temuan, hash, dan artefak yang boleh didistribusikan.
-- Node.js portabel yang dipakai untuk tes berada di luar workspace dan tidak termasuk artefak.
+## Sanitasi & manifest
+
+- [PUBLICATION_SANITIZATION.md](PUBLICATION_SANITIZATION.md)
+- [PUBLICATION_MANIFEST.csv](PUBLICATION_MANIFEST.csv)

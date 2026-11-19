@@ -1,43 +1,51 @@
-# Catatan Publikasi — Apa yang Disertakan, Disamarkan, dan Dikecualikan
+# Publication Sanitization
 
-**Tujuan:** transparansi penuh atas proses publikasi. Tidak ada temuan, kesimpulan, metode, atau bukti analitis yang dihilangkan. Yang dikecualikan hanya materi yang memang di luar izin distribusi (biner pihak ketiga) dan data yang wajib disamarkan menurut work order (PII vendor, password, salt, literal kripto).
+Tanggal: 2026-11-19
+Repository: `otoy6661/Laporan-Revcore` (branch `main`)
+Tindakan: mengganti seluruh isi laporan lama dengan hasil analisis terbaru, tanpa force push dan tanpa menulis ulang sejarah.
 
-**Tanggal:** 2026-11-18 · **Sumber:** `C:\Users\<USER>\Documents\REVCORE_BE12_FLASHPRO_AUTOPSY` (tidak diubah)
+## 1. Prinsip
 
----
+1. Hanya hasil analisis yang dipublikasikan.
+2. Binary pihak ketiga tidak dipublikasikan.
+3. Source lengkap pihak ketiga tidak dipublikasikan; hanya potongan pendek sebagai bukti teknis.
+4. Data lisensi/kredensial tidak dipublikasikan.
+5. Bahan asli di PC tidak diubah.
 
-## 1. Disertakan (132 file)
+## 2. Yang tidak dipublikasikan
 
-- 19 folder tematik (`00_SOURCE_INVENTORY` … `18_FINAL_REPORTS`), seluruh 22 laporan final, register bukti, coverage matrix, prototype + hasil uji, skrip PowerShell, dump metadata tekstual (tipe/metode/field/memberref), katalog string teredaksi, katalog BIN/DTC/part code, screenshot UI.
-- `PUBLICATION_MANIFEST.csv` — ukuran dan SHA-256 setiap file lain yang dipublikasikan (termasuk catatan ini), agar isi repositori dapat diverifikasi.
-- Semua hash SHA-256, timeline, tabel PE, katalog string, dan angka hasil uji tetap apa adanya.
+| Item | Alasan |
+|---|---|
+| `HDiag.exe` dan DLL Qt/ICU/MSVC | Binary pihak ketiga |
+| `login.ini` (141.022 B) | Daftar kode lisensi sensitif |
+| Isi kode lisensi H-Diag | Kredensial |
+| AES key/IV lisensi 3D Chart | Rahasia lisensi |
+| `ANALIST_PRO - keygen.exe` dan variannya | Alat bypass lisensi |
+| Source lengkap `Form1.cs` / `Diag.cs` | Bahan pihak ketiga; hanya kutipan pendek |
+| File BIN/ROM | Data pihak ketiga |
+| Token/credential/PII | Kebijakan |
 
-## 2. Dikecualikan dari publikasi
+## 3. Redaksi/penghilangan
 
-| Kategori | File | Alasan |
+| Lokasi | Item | Perlakuan |
 |---|---|---|
-| Biner pihak ketiga | `00_SOURCE_INVENTORY/APP_COPY/*` (8 file: 3 wrapper EXE, salinan payload, `AUTO UPDATE.exe`, `unins000.exe`, `DotNetZip.dll`, `lastimage.txt`, `unins000.dat`) | Tidak ada hak distribusi; hash & metadata tetap dipublikasikan di inventaris |
-| Biner kerja | `12_EXPERIMENTS/E01_FIRST_LAUNCH/APP/FLASHPRO_original.exe`, `DotNetZip.dll`, `lastimage.txt` | Sama; hanya salinan kerja |
-| Dump biner | `MOD_1_metadata.bin` (235.832 B), `02_STATIC_ANALYSIS/RESOURCES_*/*.bin` | Bukan teks; hash/ukuran sudah tercatat |
-| Output build | seluruh `bin/`, `obj/` (ClrProbe, PeScope) | Artefak kompilasi, dapat direproduksi dari source yang disertakan |
-| Dump string mentah | `STRINGS_FLASHPRO.exe.txt`, `STRINGS_flashpro_nbsp.exe.txt`, `STRINGS_AUTO UPDATE.exe.txt`, `MOD_1_userstrings.txt`, `US_ONLY.txt` | Memuat seluruh tabel string tanpa saring, termasuk PII vendor; digantikan `STRINGS_REDACTED.txt` + `STRING_CATALOG.md` |
+| Laporan remap | Nilai AES key/IV | Tidak dimuat; disebut sebagai "hardcoded" |
+| Laporan H-Diag | Isi `login.ini` | Hanya ukuran + SHA-256 |
+| Laporan H-Diag | Kode lisensi individual | Tidak dimuat |
+| Laporan | Nama pengguna/telepon/email | Tidak ada dalam bahan yang dianalisis |
 
-## 3. Disamarkan di dalam file yang dipublikasikan
+## 4. File lama yang diganti
 
-Berlaku pada `03_RUNTIME_ANALYSIS/E01_FIRST_LAUNCH/STRINGS_REDACTED.txt` (satu-satunya dump string yang dipublikasikan) dan, untuk nama pengguna host, pada seluruh file teks:
+136 file lama dihapus dari kondisi repository terbaru (lihat `06_REPOSITORY/REMOVED_OLD_FILES.txt`). Riwayat Git tetap utuh; file lama masih dapat diakses dari commit sebelumnya.
 
-| Data | Pengganti | Alasan |
-|---|---|---|
-| Alamat email dukungan vendor | `[REDACTED_EMAIL]` | PII |
-| Nomor WhatsApp/telepon vendor | `[REDACTED_PHONE]` | PII |
-| Tautan `wa.me` | `[REDACTED_PHONE]` | PII |
-| Password ZIP updater | `[REDACTED_UPDATE_PASSWORD]` | Rahasia; nilai tidak diperlukan untuk temuan |
-| Salt lisensi | `[REDACTED_LICENSE_SALT]` | Rahasia |
-| Empat literal kripto hardcoded | `[REDACTED_CRYPTO_LITERAL]` | Kebijakan work order: nilai tidak direproduksi; keberadaannya tetap dilaporkan |
-| Nama pengguna Windows pada path bukti | `<USER>` | PII host; path relatif tetap terbaca |
+Tiga screenshot yang diunggah pemilik repository pada commit `9b7037e` dipertahankan dan dipindahkan ke `05_ARTIFACTS/legacy_screens/` agar tidak hilang.
 
-Semua temuan tentang keberadaan, lokasi baris, dan fungsi data tersebut **tetap dilaporkan** (lihat `STRING_CATALOG.md`). Yang dihilangkan hanya nilai literalnya, bukan kesimpulannya.
+## 5. Verifikasi
 
-## 4. Tidak ada yang lain
+- Semua file publikasi di-hash di `PUBLICATION_MANIFEST.csv`.
+- Pemeriksaan pola sensitif dilakukan sebelum commit (lihat laporan pembaruan repository).
+- Tidak ada file biner baru yang ditambahkan selain screenshot lama yang sudah ada di repository.
 
-Tidak ada laporan yang dipangkas, tidak ada status bukti yang dinaikkan, tidak ada angka yang diubah. Jika sebuah klaim berstatus `NOT TESTED`/`BLOCKED`/`NOT FOUND` di workspace asli, status itu sama di repositori ini.
+## 6. Batas
+
+Dokumen ini tidak menjamin bahwa kutipan kode pendek bebas dari klaim pihak ketiga; kutipan digunakan untuk membuktikan mekanisme dan hanya sepanjang yang diperlukan.

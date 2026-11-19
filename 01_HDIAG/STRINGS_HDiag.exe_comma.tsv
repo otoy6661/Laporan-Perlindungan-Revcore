@@ -1,0 +1,2921 @@
+0000004d	A	!This program cannot be run in DOS mode.
+000000a8	A	Rich
+000000c0	A	f2YQ
+000001b0	A	.text
+000001d8	A	.data
+00000200	A	.rsrc
+00000238	A	MSVBVM60.DLL
+00001d60	W	SA:A 
+00002948	A	Project1
+000029a8	A	uExWatch
+00002a3c	A	frmMain
+0000379f	A	Form1
+000037a3	W	1&'.
+000037cb	A	picIcon
+000037ef	W	c$-;
+00003802	A	uExWatch1
+0000380f	A	Project1.uExWatch
+00003841	W	_extentx
+00003861	W	_extenty
+00003888	A	Timer1
+000038aa	A	tmrPri
+000038cc	A	tmrSec
+00003a84	A	 EMF
+00003adc	A	VB5!
+00003b54	A	TJprojMain
+00003b5f	A	Project1
+00003b69	A	Project1
+00003c8f	A	?C[eH
+00003cf5	A	Project1.uExWatch
+00003d07	A	uExWatch
+00003e7e	W	A*\AF:\RFD\xNewCode\xNewPro\xT\trjFN\Project1.vbp
+0000411a	W	@@,<
+00004a8c	A	frmMain
+00004a94	A	uExWatch
+00004aa0	A	mdlMain
+00004aa8	A	mdlTweaks
+00004ab4	A	mdlJoin
+00004abc	A	mdlPE
+00004ac4	A	mdlReg
+00004acc	A	mdlComp
+00004ad4	A	Project1
+00004ae4	W	SeDebugPrivilege
+00004b2a	W	hZ\1*1
+00004b38	W	dw(/.,J,
+00004bc8	A	user32
+00004be8	A	GetForegroundWindow
+00004c34	A	kernel32.dll
+00004c48	A	FindFirstFileA
+00004c7b	A	hXL@
+00004c90	A	FindNextFileA
+00004cd8	A	FindClose
+00004d1c	A	CreateToolhelp32Snapshot
+00004d5b	A	h8M@
+00004d70	A	Process32First
+00004d84	A	GetExitCodeProcess
+00004de4	A	Process32Next
+00004e2c	A	CloseHandle
+00004e5b	A	h8N@
+00004e70	A	OpenProcess
+00004e9f	A	h|N@
+00004eb4	A	Psapi.dll
+00004ec4	A	GetModuleFileNameExA
+00004f14	A	kernel32
+00004f24	A	TerminateProcess
+00004f5b	A	h8O@
+00004f6c	A	ShellIE
+00004f97	A	htO@
+00004fac	A	GetCurrentProcess
+00004ff8	A	advapi32.dll
+0000500c	A	OpenProcessToken
+00005043	A	h P@
+00005058	A	AdjustTokenPrivileges
+00005093	A	hpP@
+000050a8	A	advapi32
+000050b8	A	LookupPrivilegeValueA
+00005108	A	user32.dll
+00005118	A	GetWindowThreadProcessId
+00005134	A	tmrSec
+0000515f	A	h<Q@
+00005174	A	OpenThread
+000051b8	A	ResumeThread
+00005200	A	Thread32First
+00005248	A	Thread32Next
+0000527b	A	hXR@
+00005290	A	urlmon
+0000529c	A	URLDownloadToFileA
+000052e8	A	wininet.dll
+00005308	A	DeleteUrlCacheEntryA
+00005343	A	h S@
+00005358	A	NTDLL
+00005364	A	RtlGetVersion
+00005397	A	htS@
+000053d0	W	RIKVdO4>+
+00005434	A	tmrPri
+0000544c	A	C:\Program Files\Microsoft Visual Studio\VB98\VB6.OLB
+000054b0	A	uExWatch1
+000054bc	A	C:\Windows\System32\ieframe.dll
+000054dc	A	SHDocVw
+0000551c	A	picIcon
+00005534	A	Form
+0000553c	A	Timer1
+00005548	A	DeleteFileA
+00005577	A	hTU@
+00005588	A	ShellIE_WindowRegistered
+0000560e	W	$1':
+0000573c	A	GetFileAttributesA
+00005773	A	hPW@
+000057ee	W	mp.844>1OW@
+00005856	W	ms.834>1OWF
+000058aa	W	JW>yu
+000058bc	W	MGH+$2
+000058d0	W	t{=9?
+00005914	W	yb|X
+00005930	W	DO; ;*|c`CECsee
+00005990	W	8:3+
+0000599e	W	^p73?
+000059d4	W	bTIjE]1'7
+000059f4	W	yu\sR
+00005a34	W	lhIK=
+00005a5e	W	vW^=<8
+00005ab4	W	yLY@.A1*273>
+00005aec	W	_7+oL
+00005b48	A	RegOpenKeyA
+00005b77	A	hT[@
+00005b8c	A	RegCloseKey
+00005bd0	A	RegCreateKeyA
+00005bf2	W	/ toa
+00005c06	W	o\pL
+00005c2c	W	v<y=
+00005c3e	W	I0[dCi
+00005c62	W	"Yb(_jCxq
+00005c7c	W	OdhIB
+00005c92	W	pf_voe=NE.M6
+00005cb6	W	UrOd
+00005cc6	A	0 & R
+00005cce	W	7*P(&QVai\gl
+00005d18	A	shell32.dll
+00005d28	A	SHGetFileInfoA
+00005d5b	A	h8]@
+00005d70	A	DrawIconEx
+00005d9f	A	h|]@
+00005db4	A	DestroyIcon
+00005df8	A	RegDeleteValueA
+00005e40	A	RegSetValueExA
+00005e73	A	hP^@
+00005eae	W	^k765
+00005f0a	W	}hsV
+00005f36	W	I-_bLk
+00005f50	W	GZDp}t
+00005f68	W	bEP>46
+00005f7c	W	tv|ckVXN
+00005f9c	W	bEM>43
+00005fac	A	0 9 g
+00005fba	W	VXR4>,
+00005fd8	W	+uPD
+0000600c	W	x~F4@
+00006026	W	!F7E
+0000603c	W	loIKH
+0000605a	W	h?1xN
+0000607e	W	vWc=<=
+000060a4	W	_9+oR
+000060b4	W	yLa@.;1*273?
+000060ec	W	_B+oL
+00006104	W	Un1'<vZ]
+00006116	W	mv.8,
+0000613a	W	hF1xM
+00006180	W	kqYPK
+000061a6	W	[e"&$
+000061b2	W	}~CBC
+000061e4	W	QP1`
+000061fe	W	U?idr
+00006226	A	"!  B
+00006236	W	T^biYjZ\nod M)z
+00006284	W	brD=G
+000062a4	W	ksn]_
+000062c2	W	jH]1*6
+000062f4	A	: "!
+0000630e	W	jHY1*7
+00006350	W	Once
+0000636c	W	MG?+!5F4C
+00006392	W	uoOTHh
+000063b4	W	v<{=
+000063c6	W	I0bdCq
+000063ea	W	"Y_(_iCxy
+00006404	W	OlhIE
+00006417	A	 0 p
+0000641a	W	pf]voj=N<.M1
+0000643e	W	UrLd
+0000644e	A	! & R
+00006456	W	7*W(&QVam
+0000646e	W	:DMjdr
+00006480	W	+iqp
+0000648c	W	7xq|<
+000064a0	W	jc: !
+000064c2	W	7Z8(V.
+000064d4	W	MGGjE[1*4
+000064f8	W	^[QOTG
+00006505	A	 ! v
+00006540	W	YYItoc
+00006574	W	y1xW"
+0000658e	W	I0Z:,X
+000065b4	A	" & =
+000065ca	W	wJHU!2dT`
+000065e1	A	 & p
+00006666	W	xjjQ
+0000667c	A	RtlMoveMemory
+000066d0	A	CreateFileA
+00006720	W	YYStod
+00006754	W	x1xU"
+0000676e	W	I0U:,Y
+00006794	A	"   =
+000067aa	W	wJHU!(dTW
+000067e7	A	 "!y
+000067f2	W	j?t1
+0000684e	W	CB64D2OTC
+00006886	W	CB64D0OTM
+000068d2	W	kyL@L
+00006904	W	+70=
+00006934	W	_1{Q7
+00006940	W	Qg5s
+00006962	W	;S+Qn
+00006998	A	& : +
+000069a4	W	svvrf
+000069b4	W	CZ@4S1OiD
+000069ea	W	mSvIE[ON]
+00006a14	W	7{v(
+00006a78	W	J13S
+00006aa8	W	~+~j1
+00006ace	W	OE5@>.%T4
+00006c00	W	Start
+00006c18	A	! 0 & ^
+00006c2a	W	pxVjJ\dO
+00006c58	W	hwnd
+00006cdc	A	ReadFile
+00006d20	A	WriteFile
+00006d4f	A	h,m@
+00006d64	A	SetFilePointer
+00006d97	A	htm@
+00006de0	W	Process
+00006e10	A	VBA6.DLL
+00006e1c	A	__vbaNameFile
+00006e2c	A	__vbaLsetFixstr
+00006e3c	A	__vbaStrFixstr
+00006e54	A	__vbaLateMemCallLd
+00006e68	A	__vbaLateIdCallLd
+00006e7c	A	__vbaI4Var
+00006e88	A	__vbaVarTstEq
+00006e98	A	__vbaAryDestruct
+00006eac	A	IEObject
+00006eb8	A	__vbaExitProc
+00006ec8	A	__vbaLateIdCall
+00006ed8	A	__vbaFreeObjList
+00006eec	A	__vbaI2I4
+00006ef8	A	__vbaCastObj
+00006f08	A	AddSubClass
+00006f18	A	__vbaLenBstr
+00006f28	A	__vbaStrToUnicode
+00006f3c	A	__vbaGenerateBoundsError
+00006f58	A	__vbaStrToAnsi
+00006f68	A	__vbaRecAnsiToUni
+00006f7c	A	__vbaRecUniToAnsi
+00006f90	A	__vbaAryConstruct2
+00006fa4	A	__vbaErrorOverflow
+00006fb8	A	__vbaFpR4
+00006fd3	A	MIEKey
+00006fdc	A	__vbaFreeVarList
+00006ff0	A	__vbaInStr
+00006ffc	A	__vbaNew
+00007008	A	__vbaObjSet
+00007014	A	__vbaSetSystemError
+00007028	A	__vbaFreeVar
+00007038	A	__vbaOnError
+00007058	A	UserControl
+00007068	A	__vbaStrCopy
+00007078	A	__vbaFreeStr
+00007088	A	__vbaStrCat
+00007094	A	__vbaFreeStrList
+000070a8	A	__vbaStrMove
+000070c8	A	__vbaStrCmp
+000070d4	A	__vbaEnd
+000070e0	A	__vbaFreeObj
+000070f0	A	__vbaHresultCheckObj
+00007108	A	__vbaNew2
+00007153	A	lIEObject_DocumentComplete
+00007170	A	IEObject_OnQuit
+00007180	A	SetIENothing
+00007190	A	ValidatePath
+000071a0	A	PathChange
+000071ac	A	IEClosed
+00007200	W	file:///
+00007224	A	__vbaVarVargNofree
+00007238	A	__vbaStrErrVarCopy
+00007250	W	<Update>
+00007264	A	__vbaObjSetAddref
+00007278	A	__vbaRaiseEvent
+000072c8	W	<xCommand
+000072e0	W	</xCommand>
+000072fc	W	<Download>
+00007318	W	</Download>
+00007340	W	Param
+00007350	W	</Update>
+00007368	W	Version
+0000737c	W	yymmdd
+00007398	A	__vbaStrR4
+000073a4	A	__vbaVarDup
+000073b0	A	__vbaFileClose
+000073c0	A	__vbaGet3
+000073cc	A	__vbaFileOpen
+000073dc	A	__vbaI4Str
+000073e8	A	__vbaVarAdd
+000073f8	W	\??\
+00007408	W	\\?\
+00007418	W	\SystemRoot\
+00007438	W	%systemroot%
+00007484	A	__vbaStrI4
+00007490	A	__vbaCopyBytes
+000074c0	W	&H68
+000074d0	W	&HA8
+000074e0	W	00000000
+00007514	W	0000
+0000753c	A	__vbaRedimPreserve
+00007550	A	__vbaPutOwner3
+00007560	A	__vbaFpUI1
+0000756c	A	__vbaGet4
+00007578	A	__vbaFpI2
+00007584	A	__vbaFpI4
+00007590	A	__vbaR8IntI4
+000075a0	A	__vbaRedim
+000075ac	A	__vbaPut3
+000075b8	A	__vbaFileSeek
+0000761c	A	__vbaRecDestruct
+00007630	A	__vbaUbound
+0000763c	A	__vbaAryUnlock
+0000764c	A	__vbaAryLock
+00007678	A	__vbaGetOwner3
+00007688	A	__vbaUI1I2
+000076f8	A	uExWatch
+000077af	A	`(w@
+000077d3	A	`Pw@
+000077f7	A	`(w@
+0000781b	A	h0w@
+0000783f	A	`@w@
+00007863	A	`Hw@
+00007887	A	`(w@
+000079fc	A	lCookie
+00007a1c	A	Value
+00007a24	A	pDisp
+00007a30	A	nstr
+00007a38	A	strPath
+00007b75	A	}#jhh
+00007c97	A	}#j|h
+00007deb	A	}#jPh
+00007f3c	A	}#jPh
+0000805e	A	}#jPh
+000081c8	A	}#jXh
+0000884f	A	Rh<[@
+00008da9	A	hLa@
+00008ddf	A	PhLa@
+00008e27	A	PhLa@
+00008e6f	A	PhLa@
+00008ec2	A	hLa@
+00008ef8	A	PhLa@
+00008f40	A	PhLa@
+00008f88	A	PhLa@
+00008fdb	A	hLa@
+00009011	A	PhLa@
+0000904c	A	hLa@
+00009081	A	PhLa@
+000090c9	A	PhLa@
+00009112	A	PhLa@
+0000915a	A	PhLa@
+00009257	A	PhTa@
+0000933d	A	}#j\h
+0000954d	A	hLV@
+00009582	A	}#h0
+00009924	A	}#jXh
+00009af7	A	}#j\h
+00009cf1	A	hLa@
+00009d0e	A	PhLa@
+00009d3d	A	PhLa@
+00009ef5	A	Ph`c@
+00009f1a	A	RhPc@
+00009f5c	A	Rh`c@
+00009f80	A	QhPc@
+0000aac9	A	}#j\h
+0000ad37	A	Qh`c@
+0000ad5b	A	PhPc@
+0000ad9c	A	Ph`c@
+0000adc1	A	RhPc@
+0000af8e	A	RhPK@
+0000afbd	A	RhPK@
+0000b1fe	A	RhPK@
+0000b22d	A	RhPK@
+0000b2ed	A	PhTa@
+0000c005	A	Ph`c@
+0000c02a	A	RhPc@
+0000c06c	A	Rh`c@
+0000c090	A	QhPc@
+0000c0cc	A	h<V@
+0000c0fd	A	} h0
+0000c139	A	hLV@
+0000c168	A	} h0
+0000c4fc	A	}#jXh
+0000c78d	A	} h(
+0000c7dc	A	h<V@
+0000c8a8	A	jLhHl@
+0000c93a	A	} h(
+0000c9b9	A	j h<V@
+0000ca6a	A	} h(
+0000caed	A	} j h<V@
+0000cb76	A	j@hHl@
+0000cc6b	A	0SVW
+0000cce2	A	j@hHl@
+0000cd8b	A	xSVW
+0000cdea	A	jLhHl@
+0000ce60	A	j@hHl@
+0000ce9e	A	hXl@
+0000d02a	A	jLhHl@
+0000d0ea	A	j@hHl@
+0000d14b	A	h<V@
+0000d17c	A	} h0
+0000d1f0	A	jLhHl@
+0000d2ea	A	j@hHl@
+0000d397	A	hLV@
+0000d3c6	A	} h0
+0000d41e	A	} h(
+0000d46d	A	h<V@
+0000d545	A	} h(
+0000d5c8	A	} j h<V@
+0000d651	A	j@hHl@
+0000d8f3	A	Qhhl@
+0000dc39	A	Phtl@
+0000dc75	A	Rhtl@
+0000dcc9	A	Rhtl@
+0000ddea	A	Qhtl@
+0000de31	A	Phtl@
+0000de96	A	Phtl@
+0000e26b	A	(SVW
+0000e2b3	A	hDq@
+0000e35b	A	HSVW
+0000e3c3	A	hDq@
+0000e414	A	hDq@
+0000e43e	A	hDq@
+0000e48d	A	hDq@
+0000e71c	A	hDq@
+0000e7f1	A	hDq@
+0000e8cb	A	htf@
+0000e9bc	A	Ph r@
+0000ec1e	A	gfff
+0000ec80	A	gfff
+0000ee8b	A	TSVW
+0000eeb6	A	VUUU
+0000ef14	A	gfff
+0000efca	A	VUUU
+0000f283	A	htf@
+0000f2af	A	htf@
+0000f715	A	PhPr@
+0000f74e	A	RhPs@
+0000fdeb	A	<SVW
+0001023e	A	PhPK@
+0001026d	A	PhPK@
+000103f8	A	QhLa@
+00010416	A	PhLa@
+00010494	A	QhPK@
+000104c3	A	QhPK@
+0001083e	A	PhPK@
+0001086d	A	PhPK@
+00010a71	A	QhPK@
+00010aa0	A	QhPK@
+00010b9b	A	htf@
+00010bc3	A	htf@
+00010c04	A	Rh8t@
+00010c21	A	hXt@
+000111bb	A	lSVW
+0001125d	A	h$K@
+00011282	A	h$K@
+00011671	A	h$K@
+000116a8	A	h$K@
+00011d7a	A	Phtl@
+00011dad	A	Rhtl@
+00011dfe	A	Rhtl@
+00011f26	A	Qhtl@
+00011f91	A	Qhtl@
+00012060	A	h$K@
+0001231b	A	Qhtl@
+00012489	A	h$K@
+000124bc	A	h$K@
+00012543	A	hz%A
+00012669	A	h$K@
+000126a0	A	h$K@
+00012979	A	h$K@
+000129f4	A	h$K@
+00012a22	A	h$K@
+00014b4e	A	hkMA
+00014b79	A	hkMA
+000155f9	A	h4VA
+0001572f	A	h$K@
+0001577d	A	h$K@
+00015b73	A	Rh$u@
+00015c1d	A	Rh$u@
+00015d4b	A	`SVW
+000160b4	A	h&aA
+000160df	A	h&aA
+00016222	A	j@QP
+0001629e	A	PFQj
+0001650f	A	Qj(S
+00018e73	A	h$u@
+00018f4b	A	(SVW
+0001909d	A	QRh$u@
+0001971b	A	,SVW
+0001981b	A	QRh$u@
+000198c4	A	h$u@
+00019b3c	A	MSVBVM60.DLL
+00019b4c	A	EVENT_SINK_GetIDsOfNames
+00019b68	A	_CIcos
+00019b72	A	_adj_fptan
+00019b80	A	__vbaStrI4
+00019b8e	A	__vbaVarVargNofree
+00019ba4	A	__vbaFreeVar
+00019bb4	A	__vbaLenBstr
+00019bc4	A	__vbaLateIdCall
+00019bd6	A	__vbaPut3
+00019be2	A	__vbaEnd
+00019bee	A	__vbaFreeVarList
+00019c02	A	_adj_fdiv_m64
+00019c12	A	EVENT_SINK_Invoke
+00019c26	A	__vbaRaiseEvent
+00019c38	A	__vbaFreeObjList
+00019c4c	A	__vbaStrErrVarCopy
+00019c62	A	_adj_fprem1
+00019c70	A	__vbaRecAnsiToUni
+00019c84	A	__vbaCopyBytes
+00019c96	A	__vbaStrCat
+00019ca4	A	__vbaLsetFixstr
+00019cb6	A	__vbaRecDestruct
+00019cca	A	__vbaSetSystemError
+00019ce0	A	__vbaHresultCheckObj
+00019cf8	A	__vbaNameFile
+00019d08	A	_adj_fdiv_m32
+00019d18	A	Zombie_GetTypeInfo
+00019d2e	A	__vbaAryDestruct
+00019d42	A	__vbaExitProc
+00019d52	A	__vbaOnError
+00019d62	A	__vbaObjSet
+00019d70	A	_adj_fdiv_m16i
+00019d82	A	__vbaObjSetAddref
+00019d96	A	_adj_fdivr_m16i
+00019da8	A	__vbaFpR4
+00019db4	A	__vbaStrFixstr
+00019dc6	A	_CIsin
+00019dd0	A	__vbaChkstk
+00019dde	A	__vbaFileClose
+00019df0	A	EVENT_SINK_AddRef
+00019e04	A	__vbaGenerateBoundsError
+00019e20	A	__vbaGet3
+00019e2c	A	__vbaStrCmp
+00019e3a	A	__vbaGet4
+00019e46	A	__vbaPutOwner3
+00019e58	A	__vbaAryConstruct2
+00019e6e	A	__vbaVarTstEq
+00019e7e	A	__vbaI2I4
+00019e8a	A	DllFunctionCall
+00019e9c	A	__vbaFpUI1
+00019eaa	A	__vbaRedimPreserve
+00019ec0	A	__vbaStrR4
+00019ece	A	_adj_fpatan
+00019edc	A	__vbaLateIdCallLd
+00019ef0	A	Zombie_GetTypeInfoCount
+00019f0a	A	__vbaRedim
+00019f18	A	__vbaRecUniToAnsi
+00019f2c	A	EVENT_SINK_Release
+00019f42	A	__vbaNew
+00019f4e	A	__vbaUI1I2
+00019f5c	A	_CIsqrt
+00019f66	A	EVENT_SINK_QueryInterface
+00019f82	A	__vbaExceptHandler
+00019f98	A	__vbaStrToUnicode
+00019fac	A	_adj_fprem
+00019fba	A	_adj_fdivr_m64
+00019fcc	A	__vbaFPException
+00019fe0	A	__vbaGetOwner3
+00019ff2	A	__vbaUbound
+0001a000	A	__vbaFileSeek
+0001a010	A	_CIlog
+0001a01a	A	__vbaErrorOverflow
+0001a030	A	__vbaFileOpen
+0001a040	A	__vbaNew2
+0001a04c	A	__vbaInStr
+0001a05a	A	_adj_fdiv_m32i
+0001a06c	A	_adj_fdivr_m32i
+0001a07e	A	__vbaStrCopy
+0001a08e	A	__vbaI4Str
+0001a09c	A	__vbaFreeStrList
+0001a0b0	A	_adj_fdivr_m32
+0001a0c2	A	_adj_fdiv_r
+0001a0d0	A	__vbaI4Var
+0001a0de	A	__vbaAryLock
+0001a0ee	A	__vbaVarAdd
+0001a0fc	A	__vbaVarDup
+0001a10a	A	__vbaStrToAnsi
+0001a11c	A	__vbaFpI2
+0001a128	A	__vbaFpI4
+0001a134	A	__vbaLateMemCallLd
+0001a14a	A	_CIatan
+0001a154	A	__vbaStrMove
+0001a164	A	__vbaCastObj
+0001a174	A	__vbaR8IntI4
+0001a184	A	_allmul
+0001a18e	A	_CItan
+0001a198	A	__vbaAryUnlock
+0001a1aa	A	_CIexp
+0001a1b4	A	__vbaFreeObj
+0001a1c4	A	__vbaFreeStr
+0001c004	A	f2YQ
+0001c034	A	f2YQ
+0001c04c	A	f2YQ
+0001c064	A	f2YQ
+0001c094	A	f2YQ
+0001c0ac	A	f2YQ
+0001c0c4	A	f2YQ
+0001c1e6	A	"$"&($)*#(*)-.WX[
+0001c242	A	 '$%*+)026;O,46'-/#')
+0001c258	A	 "123
+0001c2a2	A	$5),743=>48
+0001c2ae	A	<ET09;)/1"&(
+0001c300	A	A!)D.3I<=OKFG
+0001c311	A	:FG08:&+-
+0001c35f	A	!N#,R39XDE`ZQX
+0001c371	A	CRS7AC*13 #$
+0001c3bf	A	#Z$0_6>gJLkuYk
+0001c3d1	A	L_`=JK/78#&(
+0001c41f	A	$f%1j8AsN=[
+0001c431	A	IaxBSS3<>&+-
+0001c47f	A	&s&2u8C~P9S
+0001c494	A	G`X7DC)02
+0001c4df	A	'|'3
+0001c4f4	A	Ln_;RH-:7"&(
+0001c554	A	OwjA`N2H<&0,
+0001c5b7	A	IqY;ZF-B5!+%
+0001c619	A	hHrX;\G-C5%1*"'' "$
+0001c67c	A	iItY;\G0I9+;3(//$(*!$&
+0001c6df	A	iHsW<_H5P?0B9+42%*,!$&
+0001c742	A	qGrY?cM8TC1D:+53$)+
+0001c7af	A	P[}6>O
+0001c802	A	gC}_=oY8bSNmai|w6GA
+0001c865	A	D7v>FxLi
+0001c86e	A	mc}f*D-
+0001c8ce	A	rZ}\HfJ
+0001c92e	A	wDsC}
+0001c98e	A	x)h&
+0001ce1a	W	VS_VERSION_INFO
+0001ce76	W	VarFileInfo
+0001ce96	W	Translation
+0001ceba	W	StringFileInfo
+0001cede	W	040904B0
+0001cef6	W	ProductName
+0001cf10	W	Project1
+0001cf2a	W	FileVersion
+0001cf44	W	1.00
+0001cf56	W	ProductVersion
+0001cf74	W	1.00
+0001cf86	W	InternalName
+0001cfa0	W	TJprojMain
+0001cfbe	W	OriginalFilename
+0001cfe0	W	TJprojMain.exe
+0001d000	A	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+0001d039	A	<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+0001d084	A	   <assemblyIdentity
+0001d09a	A	      name="Microsoft.Windows.MyCoolApp"
+0001d0c4	A	      processorArchitecture="x86"
+0001d0e7	A	      version="1.0.0.0"
+0001d100	A	      type="win32"/>
+0001d116	A	   <description>Application description here</description>
+0001d152	A	   <dependency>
+0001d163	A	      <dependentAssembly>
+0001d17e	A	         <assemblyIdentity
+0001d19a	A	            type="win32"
+0001d1b4	A	            name="Microsoft.Windows.Common-Controls"
+0001d1ea	A	            version="6.0.0.0"
+0001d209	A	            processorArchitecture="x86"
+0001d232	A	            publicKeyToken="6595b64144ccf1df"
+0001d261	A	            language="*"
+0001d27b	A	         />
+0001d288	A	      </dependentAssembly>
+0001d2a4	A	   </dependency>
+0001d2b6	A	   <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+0001d2ef	A	      <security>
+0001d301	A	         <requestedPrivileges>
+0001d321	A	            <requestedExecutionLevel
+0001d347	A	               level="requireAdministrator"
+0001d374	A	               uiAccess="False"/>
+0001d397	A	         </requestedPrivileges>
+0001d3b8	A	      </security>
+0001d3cb	A	   </trustInfo>
+0001d3dc	A	</assembly>
+0001e007	A	~:B%}
+0001e048	A	IR<]
+0001e07a	A	*VY-
+0001e084	A	,w&[&
+0001e0b2	A	w+.;|q
+0001e0bf	A	0ih 
+0001e107	A	~:B%}
+0001e148	A	IR<]
+0001e17a	A	*VY-
+0001e184	A	,w&[&
+0001e1b2	A	w+.;|q
+0001e1bf	A	0ih 
+0001e207	A	~:B%}
+0001e248	A	IR<]
+0001e27a	A	*VY-
+0001e284	A	,w&[&
+0001e2b2	A	w+.;|q
+0001e2bf	A	0ih 
+0001e307	A	~:B%}
+0001e348	A	IR<]
+0001e37a	A	*VY-
+0001e384	A	,w&[&
+0001e3b2	A	w+.;|q
+0001e3bf	A	0ih 
+0001e407	A	~:B%}
+0001e448	A	IR<]
+0001e47a	A	*VY-
+0001e484	A	,w&[&
+0001e4b2	A	w+.;|q
+0001e4bf	A	0ih 
+0001e507	A	~:B%}
+0001e548	A	IR<]
+0001e57a	A	*VY-
+0001e584	A	,w&[&
+0001e5b2	A	w+.;|q
+0001e5bf	A	0ih 
+0001e607	A	~:B%}
+0001e648	A	IR<]
+0001e67a	A	*VY-
+0001e684	A	,w&[&
+0001e6b2	A	w+.;|q
+0001e6bf	A	0ih 
+0001e707	A	~:B%}
+0001e748	A	IR<]
+0001e77a	A	*VY-
+0001e784	A	,w&[&
+0001e7b2	A	w+.;|q
+0001e7bf	A	0ih 
+0001e807	A	~:B%}
+0001e848	A	IR<]
+0001e87a	A	*VY-
+0001e884	A	,w&[&
+0001e8b2	A	w+.;|q
+0001e8bf	A	0ih 
+0001e907	A	~:B%}
+0001e948	A	IR<]
+0001e97a	A	*VY-
+0001e984	A	,w&[&
+0001e9b2	A	w+.;|q
+0001e9bf	A	0ih 
+0001ea07	A	~:B%}
+0001ea48	A	IR<]
+0001ea7a	A	*VY-
+0001ea84	A	,w&[&
+0001eab2	A	w+.;|q
+0001eabf	A	0ih 
+0001eb07	A	~:B%}
+0001eb48	A	IR<]
+0001eb7a	A	*VY-
+0001eb84	A	,w&[&
+0001ebb2	A	w+.;|q
+0001ebbf	A	0ih 
+0001ec07	A	~:B%}
+0001ec48	A	IR<]
+0001ec7a	A	*VY-
+0001ec84	A	,w&[&
+0001ecb2	A	w+.;|q
+0001ecbf	A	0ih 
+0001ed07	A	~:B%}
+0001ed48	A	IR<]
+0001ed7a	A	*VY-
+0001ed84	A	,w&[&
+0001edb2	A	w+.;|q
+0001edbf	A	0ih 
+0001ee07	A	~:B%}
+0001ee48	A	IR<]
+0001ee7a	A	*VY-
+0001ee84	A	,w&[&
+0001eeb2	A	w+.;|q
+0001eebf	A	0ih 
+0001ef07	A	~:B%}
+0001ef48	A	IR<]
+0001ef7a	A	*VY-
+0001ef84	A	,w&[&
+0001efb2	A	w+.;|q
+0001efbf	A	0ih 
+0001f007	A	~:B%}
+0001f048	A	IR<]
+0001f07a	A	*VY-
+0001f084	A	,w&[&
+0001f0b2	A	w+.;|q
+0001f0bf	A	0ih 
+0001f107	A	~:B%}
+0001f148	A	IR<]
+0001f17a	A	*VY-
+0001f184	A	,w&[&
+0001f1b2	A	w+.;|q
+0001f1bf	A	0ih 
+0001f207	A	~:B%}
+0001f248	A	IR<]
+0001f27a	A	*VY-
+0001f284	A	,w&[&
+0001f2b2	A	w+.;|q
+0001f2bf	A	0ih 
+0001f307	A	~:B%}
+0001f348	A	IR<]
+0001f37a	A	*VY-
+0001f384	A	,w&[&
+0001f3b2	A	w+.;|q
+0001f3bf	A	0ih 
+0001f407	A	~:B%}
+0001f448	A	IR<]
+0001f47a	A	*VY-
+0001f484	A	,w&[&
+0001f4b2	A	w+.;|q
+0001f4bf	A	0ih 
+0001f507	A	~:B%}
+0001f548	A	IR<]
+0001f57a	A	*VY-
+0001f584	A	,w&[&
+0001f5b2	A	w+.;|q
+0001f5bf	A	0ih 
+0001f607	A	~:B%}
+0001f648	A	IR<]
+0001f67a	A	*VY-
+0001f684	A	,w&[&
+0001f6b2	A	w+.;|q
+0001f6bf	A	0ih 
+0001f707	A	~:B%}
+0001f748	A	IR<]
+0001f77a	A	*VY-
+0001f784	A	,w&[&
+0001f7b2	A	w+.;|q
+0001f7bf	A	0ih 
+0001f807	A	~:B%}
+0001f848	A	IR<]
+0001f87a	A	*VY-
+0001f884	A	,w&[&
+0001f8b2	A	w+.;|q
+0001f8bf	A	0ih 
+0001f907	A	~:B%}
+0001f948	A	IR<]
+0001f97a	A	*VY-
+0001f984	A	,w&[&
+0001f9b2	A	w+.;|q
+0001f9bf	A	0ih 
+0001fa07	A	~:B%}
+0001fa48	A	IR<]
+0001fa7a	A	*VY-
+0001fa84	A	,w&[&
+0001fab2	A	w+.;|q
+0001fabf	A	0ih 
+0001fb07	A	~:B%}
+0001fb48	A	IR<]
+0001fb7a	A	*VY-
+0001fb84	A	,w&[&
+0001fbb2	A	w+.;|q
+0001fbbf	A	0ih 
+0001fc07	A	~:B%}
+0001fc48	A	IR<]
+0001fc7a	A	*VY-
+0001fc84	A	,w&[&
+0001fcb2	A	w+.;|q
+0001fcbf	A	0ih 
+0001fd07	A	~:B%}
+0001fd48	A	IR<]
+0001fd7a	A	*VY-
+0001fd84	A	,w&[&
+0001fdb2	A	w+.;|q
+0001fdbf	A	0ih 
+0001fe07	A	~:B%}
+0001fe48	A	IR<]
+0001fe7a	A	*VY-
+0001fe84	A	,w&[&
+0001feb2	A	w+.;|q
+0001febf	A	0ih 
+0001ff07	A	~:B%}
+0001ff48	A	IR<]
+0001ff7a	A	*VY-
+0001ff84	A	,w&[&
+0001ffb2	A	w+.;|q
+0001ffbf	A	0ih 
+00020007	A	~:B%}
+00020048	A	IR<]
+0002007a	A	*VY-
+00020084	A	,w&[&
+000200b2	A	w+.;|q
+000200bf	A	0ih 
+00020107	A	~:B%}
+00020148	A	IR<]
+0002017a	A	*VY-
+00020184	A	,w&[&
+000201b2	A	w+.;|q
+000201bf	A	0ih 
+00020207	A	~:B%}
+00020248	A	IR<]
+0002027a	A	*VY-
+00020284	A	,w&[&
+000202b2	A	w+.;|q
+000202bf	A	0ih 
+00020307	A	~:B%}
+00020348	A	IR<]
+0002037a	A	*VY-
+00020384	A	,w&[&
+000203b2	A	w+.;|q
+000203bf	A	0ih 
+00020407	A	~:B%}
+00020448	A	IR<]
+0002047a	A	*VY-
+00020484	A	,w&[&
+000204b2	A	w+.;|q
+000204bf	A	0ih 
+00020507	A	~:B%}
+00020548	A	IR<]
+0002057a	A	*VY-
+00020584	A	,w&[&
+000205b2	A	w+.;|q
+000205bf	A	0ih 
+00020607	A	~:B%}
+00020648	A	IR<]
+0002067a	A	*VY-
+00020684	A	,w&[&
+000206b2	A	w+.;|q
+000206bf	A	0ih 
+00020707	A	~:B%}
+00020748	A	IR<]
+0002077a	A	*VY-
+00020784	A	,w&[&
+000207b2	A	w+.;|q
+000207bf	A	0ih 
+00020807	A	~:B%}
+00020848	A	IR<]
+0002087a	A	*VY-
+00020884	A	,w&[&
+000208b2	A	w+.;|q
+000208bf	A	0ih 
+00020907	A	~:B%}
+00020948	A	IR<]
+0002097a	A	*VY-
+00020984	A	,w&[&
+000209b2	A	w+.;|q
+000209bf	A	0ih 
+00020a07	A	~:B%}
+00020a48	A	IR<]
+00020a7a	A	*VY-
+00020a84	A	,w&[&
+00020ab2	A	w+.;|q
+00020abf	A	0ih 
+00020b07	A	~:B%}
+00020b48	A	IR<]
+00020b7a	A	*VY-
+00020b84	A	,w&[&
+00020bb2	A	w+.;|q
+00020bbf	A	0ih 
+00020c07	A	~:B%}
+00020c48	A	IR<]
+00020c7a	A	*VY-
+00020c84	A	,w&[&
+00020cb2	A	w+.;|q
+00020cbf	A	0ih 
+00020d07	A	~:B%}
+00020d48	A	IR<]
+00020d7a	A	*VY-
+00020d84	A	,w&[&
+00020db2	A	w+.;|q
+00020dbf	A	0ih 
+00020e07	A	~:B%}
+00020e48	A	IR<]
+00020e7a	A	*VY-
+00020e84	A	,w&[&
+00020eb2	A	w+.;|q
+00020ebf	A	0ih 
+00020f07	A	~:B%}
+00020f48	A	IR<]
+00020f7a	A	*VY-
+00020f84	A	,w&[&
+00020fb2	A	w+.;|q
+00020fbf	A	0ih 
+00021007	A	~:B%}
+00021048	A	IR<]
+0002107a	A	*VY-
+00021084	A	,w&[&
+000210b2	A	w+.;|q
+000210bf	A	0ih 
+00021107	A	~:B%}
+00021148	A	IR<]
+0002117a	A	*VY-
+00021184	A	,w&[&
+000211b2	A	w+.;|q
+000211bf	A	0ih 
+00021207	A	~:B%}
+00021248	A	IR<]
+0002127a	A	*VY-
+00021284	A	,w&[&
+000212b2	A	w+.;|q
+000212bf	A	0ih 
+00021307	A	~:B%}
+00021348	A	IR<]
+0002137a	A	*VY-
+00021384	A	,w&[&
+000213b2	A	w+.;|q
+000213bf	A	0ih 
+00021407	A	~:B%}
+00021448	A	IR<]
+0002147a	A	*VY-
+00021484	A	,w&[&
+000214b2	A	w+.;|q
+000214bf	A	0ih 
+00021507	A	~:B%}
+00021548	A	IR<]
+0002157a	A	*VY-
+00021584	A	,w&[&
+000215b2	A	w+.;|q
+000215bf	A	0ih 
+00021607	A	~:B%}
+00021648	A	IR<]
+0002167a	A	*VY-
+00021684	A	,w&[&
+000216b2	A	w+.;|q
+000216bf	A	0ih 
+00021707	A	~:B%}
+00021748	A	IR<]
+0002177a	A	*VY-
+00021784	A	,w&[&
+000217b2	A	w+.;|q
+000217bf	A	0ih 
+00021807	A	~:B%}
+00021848	A	IR<]
+0002187a	A	*VY-
+00021884	A	,w&[&
+000218b2	A	w+.;|q
+000218bf	A	0ih 
+00021907	A	~:B%}
+00021948	A	IR<]
+0002197a	A	*VY-
+00021984	A	,w&[&
+000219b2	A	w+.;|q
+000219bf	A	0ih 
+00021a07	A	~:B%}
+00021a48	A	IR<]
+00021a7a	A	*VY-
+00021a84	A	,w&[&
+00021ab2	A	w+.;|q
+00021abf	A	0ih 
+00021b07	A	~:B%}
+00021b48	A	IR<]
+00021b7a	A	*VY-
+00021b84	A	,w&[&
+00021bb2	A	w+.;|q
+00021bbf	A	0ih 
+00021c07	A	~:B%}
+00021c86	A	!This program cannot be run in DOS mode.
+00021d39	A	Rich%U
+00021e41	A	.text
+00021e68	A	`.rdata
+00021e90	A	@.data
+00021eb9	A	.rsrc
+00021ee0	A	@.reloc
+000221ad	A	Y_^[
+000226a4	A	D$|d
+00022724	A	L$|d
+0002275d	A	SUVW
+00022832	A	D$,P
+00022900	A	D$(P
+00022939	A	D$(P
+00022964	A	D$(P
+000229b4	A	D$(P
+00022a25	A	D$(P
+00022a5a	A	D$,P
+00022aba	A	D$3P
+00022df2	A	h8!A
+00022e22	A	h8"A
+00022e52	A	h8#A
+00022e82	A	h8$A
+00022eb2	A	h0%A
+00022ee2	A	h(&A
+00022f42	A	h0'A
+00022fa2	A	h8(A
+00023002	A	hh)A
+00023032	A	h(*A
+00023170	A	h +A
+0002319d	A	h0+A
+000231ca	A	h8+A
+000231f7	A	hT+A
+00023224	A	h\+A
+00023251	A	ht+A
+0002327e	A	h|+A
+00023413	A	h(,A
+00023440	A	h@,A
+0002346d	A	h\,A
+0002349a	A	ht,A
+00023605	A	h0-A
+00023635	A	hH-A
+00023665	A	hP-A
+00023695	A	hh-A
+00023875	A	h0.A
+000238a5	A	h8.A
+000238d5	A	h@.A
+00023905	A	hd.A
+000240e4	A	h$/A
+0002417c	A	h0/A
+0002421a	A	h8/A
+000242b2	A	h@/A
+00024350	A	hL/A
+000243e8	A	hX/A
+00024480	A	h`/A
+00024518	A	hl/A
+000245b0	A	hx/A
+00024957	A	Y_^][
+00024a06	A	PQSVW
+00024b55	A	Y_^[
+00024f89	A	PQSVW
+00024fcc	A	Y_^[
+00024ffa	A	Y_^[
+0002508c	A	Y_^[
+000250dd	A	Y_^[
+00025144	A	D$ d
+00025153	A	Ph$5A
+0002517c	A	hX5A
+000251b6	A	L$ d
+000251e4	A	D$ d
+00025233	A	Phl5A
+00025281	A	L$ d
+000252b4	A	D$$d
+00025347	A	L$$d
+000253d2	A	L$$d
+00025592	A	Dzbj
+000255ed	A	Y_^[
+000258e7	A	h 5A
+00025a08	A	Y_^[
+00025b1e	A	hd5A
+00025c1b	A	Y_^[
+00025d10	A	Y_^[
+00025e20	A	Y_^[
+00025f5d	A	Y_^[
+000260ed	A	Ru]h
+00026446	A	PSUVW
+00026496	A	D$$P
+000264d0	A	;UH}
+000264e0	A	D$$P
+00026509	A	Y_^][
+000265db	A	Y_^[
+00026629	A	PSUVW
+00026637	A	D$dd
+00026648	A	h04A
+0002665f	A	D$(j
+00026667	A	D$0P
+0002666c	A	D$ P
+000266bf	A	D$PP
+00026727	A	t$$;
+00026841	A	L$$j*j
+00026867	A	L$$j+j
+00026891	A	L$$j,j
+000268bb	A	L$$j%j
+000268e5	A	L$$j&j
+0002690f	A	L$$j'j
+00026939	A	L$$j(j
+00026963	A	L$$j-j
+0002698f	A	L$$j
+000269b2	A	L$$j
+000269d5	A	|$$j
+00026a4e	A	L$ @
+0002712e	A	D$(P
+00027154	A	D$,P
+00027166	A	D$@P
+0002717a	A	D$PP
+0002722b	A	D$(P
+00027254	A	D$,P
+00027266	A	D$@P
+0002727a	A	D$PP
+0002732f	A	D$<P
+00027358	A	D$(P
+00027365	A	D$8P
+00027379	A	D$LP
+00027460	A	D$4P
+00027465	A	D$0P
+000274f2	A	D$8P
+000274f7	A	D$,P
+00027548	A	D$TP
+0002758b	A	D$PP
+0002759b	A	D$XP
+0002761c	A	D$HP
+0002762c	A	D$PP
+00027746	A	D$DP
+0002776f	A	D$HP
+0002777c	A	D$XP
+00027790	A	D$hP
+000277aa	A	D$p 
+0002784c	A	D$Hj
+0002785c	A	D$0j
+00027864	A	D$8P
+00027869	A	D$0PV
+0002788a	A	D$l#
+000278a9	A	D$l$
+000278c5	A	D$$j
+000278cd	A	L$4Q
+000278d2	A	L$(Q
+000278e6	A	L$XP
+000278fc	A	D$l&
+00027915	A	D$<P
+0002792a	A	D$l'
+00027958	A	D$@P
+00027968	A	D$PP
+00027985	A	D$l)
+000279c3	A	D$HP
+000279d3	A	D$XP
+000279ed	A	D$p+
+000279fc	A	D$l*
+00027a0b	A	D$l)
+00027a1a	A	D$l(
+00027a29	A	D$l'
+00027a38	A	D$l&
+00027a47	A	D$l#
+00027aeb	A	L$dd
+00027af5	A	Y_^][
+00027b1a	A	SUVW
+00027b7b	A	9D$,
+00027ba9	A	D$ P
+00027be3	A	L$DQ
+00027bf0	A	d$<P
+00027c22	A	L$DQ
+00027c36	A	D$$P
+00027d3f	A	Y_^][
+00027d6a	A	SUVW
+00027d92	A	D$ h
+00027da1	A	L$,P
+00027dde	A	D$8h
+00027e22	A	D$8h
+00027e66	A	D$8h
+00027ea1	A	D$8h
+00027edd	A	D$$h
+00027f1a	A	Y_^][
+00027f32	A	~!HP
+00027f69	A	8SVW
+00027f76	A	D$Hd
+00027fc2	A	D$ P
+00027ff7	A	D$$P
+00028020	A	D$$Ph
+0002806e	A	h04A
+00028081	A	D$ P
+00028086	A	D$ P
+000280d6	A	D$4P
+00028119	A	h44A
+00028129	A	tch84A
+00028159	A	h@4A
+00028170	A	D$$P
+000281ef	A	D$ P
+00028224	A	D$$P
+00028254	A	h04A
+0002825f	A	D$ j
+00028267	A	D$(P
+0002826c	A	D$ P
+000282bc	A	D$4P
+000282fb	A	h44A
+0002830f	A	hT4A
+00028421	A	D$ P
+00028457	A	h04A
+00028462	A	D$ j
+0002846a	A	D$(P
+0002846f	A	D$0P
+000284ce	A	hl4A
+0002859f	A	D$$P
+000285dc	A	D$8P
+000285ed	A	D$@P
+000285fc	A	L$0QP
+00028602	A	D$HP
+00028616	A	D$ Ph
+000286f1	A	L$Hd
+000286fb	A	Y_^[
+0002871a	A	SUVW
+00028727	A	D$(d
+00028761	A	D$8P
+000287ea	A	D$8P
+00028876	A	D$8P
+00028a04	A	D$8P
+00028a95	A	D$8P
+00028ae6	A	D$ P
+00028b42	A	D$8P
+00028c20	A	D$8P
+00028cfd	A	L$(d
+00028d07	A	Y_^][
+00028d3b	A	SUVW
+000296be	A	D$43
+00029715	A	|$$k
+00029844	A	D$4P
+000299de	A	Y_^][
+00029afa	A	t$$V
+00029b79	A	4SVW
+00029b86	A	D$Dd
+00029ba5	A	u{hT8A
+00029bc8	A	hh8A
+00029c60	A	hh8A
+00029caa	A	L$Dd
+00029cb4	A	Y_^[
+00029cc5	A	hh8A
+00029ce9	A	hh8A
+00029d1e	A	hh8A
+00029d57	A	hh8A
+00029d80	A	L$Dd
+00029d8a	A	Y_^[
+00029e08	A	hd5A
+00029e7d	A	SUVWj
+00029f3b	A	D$DPh
+00029f76	A	h47A
+00029f9c	A	D$0P
+00029fa7	A	Ph\7A
+00029fdb	A	_^][3
+0002a032	A	D$$Pf
+0002a045	A	D$4Pf
+0002a058	A	D$ P
+0002a0aa	A	L$@3
+0002a139	A	dSUVW
+0002a147	A	D$xd
+0002a1d9	A	D$<P
+0002a206	A	D$ P
+0002a235	A	D$$h
+0002a27a	A	D$(P
+0002a2b9	A	D$0P
+0002a2c8	A	D$4P
+0002a3f9	A	D$4h
+0002a414	A	D$$P
+0002a43e	A	D$0P
+0002a44d	A	D$$P
+0002a4c8	A	D$4P
+0002a4dc	A	D$0h
+0002a635	A	'hL8A
+0002a69b	A	L$xd
+0002a6a5	A	Y_^][
+0002a71a	A	D$ P
+0002a7bb	A	SUVW
+0002a7f3	A	D$(P
+0002a82b	A	D4$j
+0002a85c	A	h04A
+0002a867	A	D$$P
+0002a8f6	A	Y_^][
+0002a936	A	D$$d
+0002a969	A	hd5A
+0002a96f	A	D$ Ph,
+0002a9c2	A	h$9A
+0002aa2d	A	L$$d
+0002aa37	A	Y_^[
+0002aa56	A	PQVW
+0002aba4	A	D$0S
+0002aba9	A	\$@W
+0002abe4	A	D$(PS
+0002ac48	A	D$ v
+0002ac61	A	L$03
+0002ac70	A	L$8_[3
+0002af61	A	^][3
+0002b029	A	FLX9A
+0002b074	A	FLp9A
+0002b11d	A	QjCj
+0002b152	A	PjDj
+0002b26f	A	t$,3
+0002b286	A	|$09^
+0002b298	A	FL@=A
+0002b2ac	A	l$<;
+0002b2b7	A	F UP
+0002b2cf	A	]_^[
+0002b30a	A	D$8P
+0002b366	A	D$ ;
+0002b422	A	+L$(
+0002b434	A	D$,;
+0002b43f	A	F WP
+0002b493	A	~$_^[
+0002b4a9	A	FL`=A
+0002b515	A	FLx=A
+0002b585	A	FL|<A
+0002b676	A	^9A8t
+0002ba3f	A	;L$ }
+0002bb74	A	D$ SU
+0002bb7a	A	l$0W
+0002bba7	A	L$ 3
+0002bbc7	A	\$D3
+0002bbf4	A	D$$;
+0002bbfd	A	D$&;
+0002bc0f	A	f9D$$uUf
+0002bc91	A	EL<:A
+0002bc9f	A	L$ 3
+0002bcc0	A	L$ 3
+0002bcda	A	L$0^_
+0002bd08	A	D$,U
+0002bd0d	A	l$@V
+0002bd1a	A	D$<W
+0002bd48	A	FLL:A
+0002bd9b	A	t$@P
+0002bdb8	A	FLd:A
+0002bddf	A	t$HP
+0002bdfc	A	FLd:A
+0002be1f	A	t$PU
+0002be3c	A	FLd:A
+0002be65	A	[_^]
+0002be79	A	L$(_^]3
+0002bf81	A	D$$;
+0002bf8f	A	D$&;
+0002bfba	A	D$4P
+0002bfdb	A	D$8P
+0002c027	A	D$4P
+0002c045	A	D$4VP
+0002c0d9	A	CL4<A
+0002c142	A	CLT<A
+0002c154	A	_^][3
+0002c174	A	D$ SU
+0002c17a	A	l$4V
+0002c17f	A	t$43
+0002c1a7	A	L$ 3
+0002c1c6	A	FLL:A
+0002c1d5	A	L$ 3
+0002c203	A	L$ 3
+0002c233	A	L$ 3
+0002c253	A	9^Pu
+0002c28f	A	L$ 3
+0002c2ca	A	FL ;A
+0002c2d9	A	L$ 3
+0002c314	A	L$ 3
+0002c324	A	FLx;A
+0002c333	A	L$ 3
+0002c367	A	L$ 3
+0002c451	A	L$ 3
+0002c460	A	L$0_
+0002c46b	A	^][3
+0002c4b6	A	FLh<A
+0002c513	A	tm9w
+0002c567	A	GL(=A
+0002c7f8	A	D$(h
+0002c85a	A	SUVW
+0002c867	A	D$$d
+0002c8a5	A	D$4P
+0002c925	A	D$4P
+0002c993	A	D$4P
+0002ca15	A	D$4P
+0002ca97	A	D$4P
+0002cb1a	A	D$HP
+0002cb44	A	D$4P
+0002cb5e	A	L$$d
+0002cb68	A	Y_^][
+0002cba1	A	_^][
+0002ce2f	A	D$$P
+0002cf89	A	<SUVW
+0002cf97	A	D$Pd
+0002cfbc	A	D$(Ph0BA
+0002cfe1	A	h$BA
+0002d021	A	D$dP
+0002d04f	A	D$(Ph0BA
+0002d0c5	A	D$0P
+0002d10b	A	D$4P
+0002d150	A	D$0P
+0002d17e	A	D$0P
+0002d1de	A	D$ P
+0002d210	A	D$0P
+0002d257	A	f;D$
+0002d27e	A	D$,P
+0002d291	A	D$ P
+0002d2e0	A	D$0P
+0002d2ef	A	L$(QP
+0002d349	A	D$4P
+0002d3b5	A	L$Pd
+0002d3bf	A	Y_^][
+0002d40c	A	L$,P
+0002d453	A	D$0P
+0002d475	A	t$,PV
+0002d4d9	A	<SUVW
+0002d4e7	A	D$Pd
+0002d50c	A	D$(Ph
+0002d52e	A	h$BA
+0002d56e	A	D$dP
+0002d59d	A	D$0P
+0002d5df	A	D$0P
+0002d601	A	D$(P
+0002d647	A	D$(P
+0002d67d	A	L$8P
+0002d6c4	A	D$0P
+0002d70b	A	D$$P
+0002d714	A	D$0P
+0002d71e	A	L$$QP
+0002d724	A	D$DP
+0002d7a4	A	D$8P
+0002d806	A	D$ P
+0002d860	A	L$Pd
+0002d86a	A	Y_^][
+0002d8ac	A	L$(P
+0002d8d5	A	D$,P
+0002d8f5	A	t$$PV
+0002dbd2	A	Y_^[
+0002dcc6	A	_^][
+0002dd20	A	}*SVWU
+0002dd51	A	_^][
+0002de43	A	D$,Q
+0002df6c	A	D$0P
+0002df8c	A	D$$P
+0002dfdd	A	D$,Q
+0002e0f0	A	}*SVWU
+0002e121	A	_^][
+0002e1cc	A	D$(Q
+0002e210	A	D$(Q
+0002e2ac	A	D$ P
+0002e2c8	A	D$ P
+0002ee63	A	t%Wh0
+0002f238	A	Y__^[
+0002f43f	A	8csm
+0002f478	A	8csm
+0002f517	A	_^[]
+0002f5aa	A	Y_^[
+0002f5db	A	Y_^[
+0002f713	A	VVVVV
+0002f769	A	QSUV
+0002f803	A	t$ Uj
+0002f909	A	;_^][Y
+0002f933	A	;_^][Y
+0002f95d	A	D$ P
+00031981	A	generic
+00031989	A	unknown error
+000319b5	A	iostream
+000319c1	A	iostream stream error
+000319f5	A	system
+000319fd	A	invalid string position
+00031a15	A	string too long
+00032211	A	H-Diag 2.1
+0003221d	A	MainWindow
+00032229	A	Item
+00032231	A	Value
+00032239	A	Volt
+00032241	A	Info:
+00032249	A	Clear DTC
+00032265	W	MainWindow
+0003228d	W	centralWidget
+000322b9	W	tableWidget
+000322e1	W	label_info
+00032309	W	pushButton_clear
+0003233d	W	comboBox_type
+00032369	W	statusBar
+0003237d	A	:/img/icon.png
+0003238d	A	1send_clicked()
+0003239d	A	2timeout()
+000323a9	A	1cleardtc_clicked()
+000323bd	A	2clicked()
+000323c9	A	1select_type(int)
+000323dd	A	2currentIndexChanged(int)
+000323f9	A	1ftdiwriteError()
+0003240d	A	2ftdiwriteError()
+00032421	A	1connect_clicked()
+00032435	A	1table_clicked()
+00032449	A	2cellClicked(int,int)
+00032461	A	Error pada sensor udara masuk (MAP)                   #Tegangan rendah rangkaian sensor MAP
+000324bd	A	-Sensor MAP atau rangkaianya tidak berfungsi                    #Tegangan tinggi rangkaian sensor MAP
+00032523	A	-Kontak yang longgar pada konektor sensor MAP
+00032551	A	-Sensor MAP atau rangkaianya tidak berfungsi
+00032581	A	Error pada sensor udara masuk (MAP)                   #Masalah performa sensor MAP
+000325d4	A	-Kontak yang longgar pada selang vakum
+000325fb	A	-sensor MAP rusak                    #-
+00032629	A	Error pada sensor oli mesin (EOT)                   #Tegangan rendah rangkaian sensor EOT
+00032683	A	-Sensor EOT atau rangkaianya tidak berfungsi                   #Tegangan tinggi rangkaian sensor EOT
+000326e8	A	-Kontak yang longgar pada konektor sensor EOT
+00032716	A	-Sensor EOT atau rangkaiannya tidak berfungsi
+00032749	A	Error pada sensor posisi throttle (TPS)                   #Tegangan rendah TPS
+00032798	A	-TPS atau rangkaiannya tidak berfungsi                   #Tegangan tinggi TPS
+000327e6	A	-TPS atau rangkaiannya tidak berfungsi
+0003280d	A	-Kontak yang longgar pada konektor TPS
+00032839	A	Error pada sensor temperatur udara masuk (IAT)                   #Tegangan rendah rangkaian sensor IAT
+000328a0	A	-Sensor IAT atau rangkaiannya tidak berfungsi                    #Tegangan tinggi rangkaian sensor IAT
+00032907	A	-Kontak yang longgar pada konektor sensor IAT
+00032935	A	-Sensor IAT atau rangkaiannya tidak berfungsi
+00032969	A	Error pada sensor kecepatan (VS)                    #Kontak yang longgar pada konektor sensor VS
+000329ca	A	-Sensor VS atau rangkaiannya tidak berfungsi                    #-
+00032a11	A	Error pada injektor                    #Kontak yang longgar pada konektor injektor
+00032a64	A	-Injektor atau rangkaiannya tidak berfungsi                    #-
+00032aa9	A	Error pada injektor 2 (kanan)                    #Kontak yang longgar pada konektor injektor
+00032b06	A	-Injektor atau rangkaiannya tidak berfungsi                    #-
+00032b49	A	Error pada sensor CKP                    #Kontak yang longgar pada konektor sensor CKP
+00032ba0	A	-Sensor CKP atau rangkaiannya tidak berfungsi                    #-
+00032be9	A	Error pada sensor O2                    #Tegangan pada sensor O2 rendah
+00032c31	A	-Sensor O2 atau rangkaiannya tidak berfungsi                    #Tegangan pada sensor O2 tinggi
+00032c91	A	-Kontak yang longgar pada konektor sensor O2
+00032cbe	A	-Sensor O2 atau rangkaiannya tidak berfungsi
+00032cf1	A	Error pada pemanas sensor O2                    #Pemanas sensor O2 tidak berfungsi
+00032d44	A	-Kontak yang longgar pada konektor sensor O2
+00032d71	A	-Pemanas sensor O2 atau rangkaiannya tidak berfungsi                    #-
+00032dbd	A	Error pada IACV                    #-                    #-
+00032df9	A	Error pada koil pengapian                    #Kontak yang longgar pada kabel koil pengapian 1
+00032e57	A	-Koil pengapian 1 atau rangkaiannya tidak berfungsi                    #Kerusakan pada memori EEPROM
+00032ec1	A	Error sensor posisi gear                    #Kesalahan fungsi sensor gear atau rangkaiannya                    #-
+00032f39	A	Error pada aliran listrik sistem fuel injection                    #-                    #-
+00032f99	A	Error pada sensor posisi crankshaft(CKPS)                    #Kontak yang longgar pada konektor sensor CKP
+00033004	A	-Sensor CKP atau rangkaiannya tidak berfungsi                    #-
+00033049	A	Error pada sensor kemiringan (BAS)                    #Tegangan rendah pada sensor kemiringan
+000330a7	A	-Kontak yang longgar pada konektor sensor kemiringan
+000330dc	A	-Sensor kemiringan atau rangkaianya tidak berfungsi                    #Tegangan tinggi pada sensor kemiringan
+0003314b	A	-Sensor kemiringan tidak berfungsi
+00033171	A	Error pada sensor posisi throttle 1 (TPS 1)                    #Tegangan rendah TPS 1
+000331c7	A	-TPS 1 atau rangkaiannya tidak berfungsi                    #Tegangan tinggi TPS 1
+0003321a	A	-TPS 1 atau rangkaiannya tidak berfungsi
+00033243	A	-Kontak yang longgar pada konektor unit TBW
+00033271	A	Error pada sensor posisi throttle 2 (TPS 2)                    #Tegangan rendah TPS 2
+000332c7	A	-TPS 2 atau rangkaiannya tidak berfungsi                    #Tegangan tinggi TPS 2
+0003331a	A	-TPS 2 atau rangkaiannya tidak berfungsi
+00033343	A	-Kontak yang longgar pada konektor unit TBW
+00033371	A	Error pada korelasi TPS 1 dan TPS 2                    #Kesalahan fungsi korelasi tegangan TPS 1 dan TPS 2
+000333dc	A	-Sensor TP atau rangkaiannya tidak berfungsi                    #Hubungan arus pendek TPS 1 dan TPS 2
+00033442	A	-Sensor TP atau rangkaiannya tidak berfungsi
+00033471	A	Error pada sensor Handle Gas 1 (APS 1)                    #Tegangan rendah APS 1
+000334c2	A	-APS 1 atau rangkaiannya tidak berfungsi
+000334eb	A	-Kontak yang longgar pada konektor APS                    #Tegangan tinggi APS 1
+0003353c	A	-APS 1 atau rangkaiannya tidak berfungsi
+00033569	A	Error pada sensor Handle Gas 2 (APS 2)                    #Tegangan rendah APS 2
+000335ba	A	-APS 2 atau rangkaiannya tidak berfungsi
+000335e3	A	-Kontak yang longgar pada konektor APS                    #Tegangan tinggi APS 2
+00033634	A	-APS 2 atau rangkaiannya tidak berfungsi
+00033661	A	Error pada korelasi APS 1 dan APS 2                    #Kesalahan fungsi korelasi tegangan APS 1 dan APS 2
+000336cc	A	-APS atau rangkaiannya tidak berfungsi                    #-
+00033709	A	Error pada TBW                    #Kesalahan fungsi pegas pengembali TBW                    #-
+00033769	A	Error pada TBW                    #Kesalahan fungsi motor TBW
+000337a7	A	-Kesalahan rangkaian motor TBW                    #-
+000337e1	A	Error pada TBW                    #Kesalahan fungsi korelasi kontrol sistem TBW
+00033831	A	-Kesalahansistem TBW atau rangkaiannya                    #-
+00033871	A	Error pada ECM                    #Kesalahan fungsi prosesor ECM                    #-
+000338c9	A	Error pada relay TBW                    #Kerusakan relay TBW sisi ON
+0003390e	A	-Kesalahan fungsi relay TBW atau rangkaiannya                    #Kerusakan relay TBW sisi OFF
+0003396d	A	-Kesalahan fungsi relay TBW atau rangkaiannya
+000339a1	A	Error pada koil pengapian no 1 (sisi kiri)                    #Kontak yang longgar pada kabel koil pengapian 1
+00033a10	A	-Koil pengapian 1 atau rangkaiannya tidak berfungsi                    #-
+00033a61	A	Error pada koil pengapian no 2 (sisi kanan)                    #Kontak yang longgar pada kabel koil pengapian 2
+00033ad1	A	-Koil pengapian 2 atau rangkaiannya tidak berfungsi                    #-
+00033b1d	A	RPM - Putaran Mesin
+00033b31	A	RPMV
+00033b39	A	TPS - Posisi Throttle
+00033b51	A	TPSV
+00033b59	A	EOT - Suhu Oli
+00033b69	A	EOTV
+00033b71	A	ECT - Suhu Air Pendingin
+00033b8d	A	ECTV
+00033b95	A	IAT - Suhu Udara Masuk
+00033bad	A	IATV
+00033bb5	A	MAP - Tekanan Udara Manifold
+00033bd5	A	MAPV
+00033bdd	A	O2 - Sensor Oksigen
+00033bf5	A	BAT - Tegangan Baterai
+00033c0d	A	BAS - Sensor Kemiringan
+00033c25	A	BASV
+00033c2d	A	INJ - Lebar Pulsa Injektor
+00033c49	A	ADV - Sudut Pengapian
+00033c61	A	FAN - Kipas Pendingin
+00033c79	A	STF - Campuran Bahan Bakar
+00033c95	A	POM - Pompa Bahan Bakar
+00033cad	A	SS - Standar Samping
+00033cc5	A	STS - Switch Starter
+00033cdd	A	SSW - Switch Starter
+00033cf5	A	FIS - Fast Idle Switch
+00033d0d	A	MOD - Mode Altitude
+00033d21	A	ALT - Koreksi Altitude
+00033d39	A	GG - Gigi Transmisi
+00033d4d	A	SCS - Service Check Signal
+00033d69	A	MIL - Jumlah Kode Error
+00033d81	A	MILV
+00033d89	A	IAC - Katup Udara Masuk
+00033da1	A	VSS - Sensor Kecepatan
+00033dbd	A	EVA - Status Evaporator
+00033dd5	A	PR - Pair Control
+00033de9	A	TPS 1 - Posisi Throttle 1
+00033e05	A	TPS 2 - Posisi Throttle 2
+00033e21	A	TPSV1
+00033e29	A	TPSV2
+00033e31	A	APS 1 - Posisi Handle Gas 1
+00033e4d	A	APS 2 - Posisi Handle Gas 2
+00033e69	A	APSV1
+00033e71	A	APSV2
+00033e79	A	APS-K - Korelasi APS 1 dan APS 2
+00033e9d	A	EOP - Sensor Tekanan Oli
+00033eb9	A	EGCV - Kontrol Katup Gas Buang
+00033ed9	A	EXI - Muatan eksitasi motor
+00033ef5	A	Type
+00033efd	A	SCOOPY
+00033f05	A	BEAT
+00033f0d	A	SPACY
+00033f15	A	VARIO 110
+00033f21	A	VARIO 125
+00033f31	A	SUPRA X
+00033f39	A	SUPRA X AFS
+00033f45	A	REVO AT
+00033f4d	A	BLADE
+00033f55	A	VERZA
+00033f5d	A	CB 150 R
+00033f69	A	CBR 150
+00033f71	A	CBR 250
+00033f79	A	VARIO 150
+00033f85	A	BEAT POP
+00033f91	A	REVO FI
+00033f99	A	MEGAPRO FI
+00033fa5	A	CB150R NEW
+00033fb1	A	SONIC
+00033fb9	A	SUPRA GTR
+00033fc5	A	CBR150 K45G
+00033fd1	A	CBR250 NEW
+00033fdd	A	CRF150
+00033fe5	A	CRF250
+00033ff1	A	Error pada sensor air pendingin (ECT)                       #Tegangan rendah rangkaian sensor ECT
+00034053	A	-Sensor ECT atau rangkaianya tidak berfungsi                       #Tegangan tinggi rangkaian sensor ECT
+000340bc	A	-Kontak yang longgar pada konektor sensor ECT
+000340ea	A	-Sensor ECT atau rangkaiannya tidak berfungsi
+00034119	A	Error pada sensor oli mesin (EOT)                               #Tegangan rendah rangkaian sensor EOT
+0003417f	A	-Sensor EOT atau rangkaianya tidak berfungsi                               #Tegangan tinggi rangkaian sensor EOT
+000341f0	A	-Kontak yang longgar pada konektor sensor EOT
+0003421e	A	-Sensor EOT atau rangkaiannya tidak berfungsi
+00034251	A	Error pada injektor 1 (kiri)                                #Kontak yang longgar pada konektor injektor
+000342b9	A	-Injektor atau rangkaiannya tidak berfungsi                                #-
+00034309	A	Error pada injektor                                #Kontak yang longgar pada konektor injektor
+00034368	A	-Injektor atau rangkaiannya tidak berfungsi                                #-
+000343b9	A	Not Connect.
+000343c9	A	void __thiscall MainWindow::connect_clicked(void)
+000343fd	A	..\HDiag\mainwindow.cpp
+00034415	A	Connected.
+00034421	A	Connected-Engine Off
+00034439	A	void __thiscall MainWindow::send_clicked(void)
+00034471	A	login=1
+00034479	A	Connected-Engine On
+0003448d	A	Connected-Clear DTC...
+000344a5	A	Connected-Clear DTC Done.
+000344cd	A	DTC Code:
+000344e5	A	void __thiscall MainWindow::print_data(class QString)
+0003451d	A	login_error_else=0
+0003455d	A	void __thiscall MainWindow::cleardtc_clicked(void)
+00034591	A	clear dtc
+0003459d	A	1quit()
+000345a5	A	void __thiscall MainWindow::closeEvent(class QCloseEvent *)
+000345e1	A	Disconnected
+000345f1	A	void __thiscall MainWindow::keyPressEvent(class QKeyEvent *)
+00034631	A	enter
+000346c9	A	void __thiscall UsbSerial::findFtdi(void)
+000346f5	A	..\HDiag\usbserial.cpp
+0003470d	A	ftdi_usb_find_all failed: %d (%s)
+00034731	A	Number of FTDI devices found: %d
+00034755	A	Checking device: %d
+0003476d	A	ftdi_usb_get_strings failed: %d (%s)
+00034795	A	Manufacturer: %s, Description: %s, Serial: %s
+000347c5	A	IQ180414
+000347d1	A	IQUTECHE
+000347dd	A	Engine Diagnostic
+000347f1	A	bool __thiscall UsbSerial::ftdiSetDesc(void)
+00034821	A	set desc error
+00034831	A	set desc +
+0003483d	A	login.ini
+0003484d	A	bool __thiscall UsbSerial::logindialog(unsigned int)
+00034885	A	cancel
+0003488d	A	ftdi_new failed
+000348a1	A	bool __thiscall UsbSerial::Connect(void)
+000348cd	A	ftdi_new failed
+000348dd	A	failed
+000348e5	A	unable to open ftdi device
+00034901	A	read id error
+00034911	A	usbconnect
+0003491d	A	unable to set baudrate
+00034935	A	unable to set line parameters
+00034955	A	?usart
+0003495d	A	test
+00034969	A	unknown
+00034991	A	libusb_init() failed
+000349a9	A	Can't malloc struct ftdi_eeprom
+000349c9	A	USB device unavailable
+000349e1	A	Interface can not be changed on an already open device
+00034a19	A	Unknown interface
+00034a2d	A	libusb_get_device_list() failed
+00034a4d	A	libusb_get_device_descriptor() failed
+00034a75	A	out of memory
+00034a85	A	libusb_open() failed
+00034a9d	A	libusb_get_string_descriptor_ascii() failed
+00034ac9	A	ftdi context invalid
+00034ae1	A	libusb_get_config_descriptor() failed
+00034b09	A	libusb_get_configuration () failed
+00034b2d	A	inappropriate permissions on device!
+00034b59	A	unable to set usb configuration. Make sure the default FTDI driver is not in use
+00034bb1	A	unable to claim usb device. Make sure the default FTDI driver is not in use
+00034bfd	A	ftdi_usb_reset failed
+00034c15	A	set baudrate failed
+00034c29	A	all fine
+00034c35	A	usb_open() failed
+00034c49	A	unable to fetch product description
+00034c6d	A	unable to fetch serial number
+00034c8d	A	device not found
+00034ca1	A	FTDI reset failed
+00034cb5	A	Silly baudrate <= 0.
+00034cd1	A	Unsupported baudrate. Note: bitbang baudrates are automatically multiplied by 4
+00034d21	A	Setting new baudrate failed
+00034d3d	A	Setting new line property failed
+00034d61	A	usb bulk write failed
+00034d79	A	max_packet_size is bogus (zero)
+00034d99	A	usb bulk read failed
+00034db1	A	out of memory for readbuffer
+00034dd1	A	set dtr failed
+00034de1	A	No struct ftdi_context
+00034df9	A	No struct ftdi_eeprom
+00034e11	A	No connected device or device not yet opened
+00034e41	A	read of FTDIChip-ID failed
+00035011	A	1accept()
+0003501d	A	2accepted()
+00035029	A	1reject()
+00035035	A	2rejected()
+00035041	A	Login
+00035049	A	Dialog
+00035051	A	Serial:
+00035069	W	Dialog
+00035089	W	gridLayout
+000350b1	W	label
+000350cd	W	lineEdit
+000350f1	W	buttonBox
+000351f9	A	class QByteArray __thiscall SimpleCrypt::encryptToByteArray(class QByteArray)
+00035249	A	..\HDiag\cryp.cpp
+0003525d	A	No key set.
+00035269	A	class QByteArray __thiscall SimpleCrypt::decryptToByteArray(class QByteArray)
+000352b9	A	Invalid version or not a cyphertext.
+000352f1	A	IHDR
+0003530a	A	pHYs
+0003531e	A	 cHRM
+0003534b	A	IDATx
+00035362	A	7I-uki
+000353d1	A	<M/Uik
+00035435	A	D=M*KW:
+0003548a	A	K:.{
+000354c4	A	d6%s
+000354fd	A	~!;j
+00035516	A	X4KLwg8
+0003556c	A	l\HL
+00035599	A	{yta?GZGIm
+000355b4	A	q8Y`
+000355f4	A	BG*Q
+000356a1	A	D% `
+000356b1	A	{Lwg
+000356b8	A	w!|p
+000356bf	A	o?k0
+000356cd	A	xz%D
+00035797	A	^JE!
+000357d4	A	]U[,
+00035829	A	UQeO
+00035834	A	R""v
+00035880	A	&^2x-
+000358ba	A	:Iq82
+0003590c	A	Z(QDJ{
+00035942	A	)J%8&`
+000359ae	A	#'hL/
+00035a3a	A	Zr8q
+00035b57	A	SO; 
+00035bf2	A	:M*:
+00035c02	A	GD:B5
+00035c8c	A	+N`Nq
+00035ce5	A	jFU=
+00035cf4	A	YGuR
+00035e2c	A	8>z^
+00035e61	A	E(QL
+00035e8a	A	jg5&UH
+00035eb6	A	 ^U]?t
+00035ef6	A	*cMP?
+00035f27	A	qlK$
+00035fe0	A	A+pB
+00036053	A	_Y:~
+0003607e	A	cj*!VqNO
+000360e6	A	&P{.
+0003611b	A	X%4u
+0003616d	A	)QE^<
+000361a9	A	cwsbS
+000361be	A	ImF73
+000361cf	A	]c@7
+000361e5	A	6L-N0
+000361f9	A	EGuv
+0003624f	A	d.e)
+00036259	A	kM}9c
+0003627b	A	J|1C
+000362ad	A	u]Fj
+000362b4	A	n7?8}
+00036330	A	4+Gwf
+00036485	A	dx 4
+000364a1	A	)n?p;
+000364b8	A	8'8+8#8
+000364df	A	whQDN
+00036523	A	-j-S
+0003653d	A	EG$*
+000365c0	A	cy]38p
+000365e4	A	()RD
+00036614	A	>BfR
+00036633	A	}=pKU
+00036685	A	i3"N
+000366b8	A	"/-u
+000366df	A	#$Dh
+000367d1	A	Lw'i,v
+000367e6	A	"w!}
+000368d4	A	I8NH
+0003691e	A	0b-(]
+00036952	A	/+Wd
+0003695a	A	YWCj
+000369b9	A	6sWV
+000369be	A	)$d:]|&
+000369f4	A	nlx0lIs}
+00036a20	A	G{=Jh
+00036a74	A	JC(b{
+00036a88	A	XypNv
+00036ab5	A	lf4ffc
+00036ae6	A	QBS{
+00036aeb	A	PS^M
+00036afd	A	},..
+00036b48	A	2m&<|
+00036b75	A	y{Qu
+00036b7c	A	J#t|3
+00036b95	A	P'!!.
+00036bc5	A	".fi
+00036c62	A	%$D~
+00036cf9	A	E||J\
+00036d02	A	c8cQ
+00036d0f	A	eM6s
+00036d15	A	\HM7
+00036d27	A	nJ's
+00036d46	A	G^-h
+00036ddd	A	b+c*s
+00036df0	A	 Q\rT
+00036dfb	A	6Q+%
+00036e10	A	o9!2
+00036e58	A	qy?d
+00036e5e	A	ev>4
+00036ed5	A	M-S$V
+00036ef7	A	 3YPW
+00036f08	A	h+8xa
+00036f3e	A	N=fy
+00036f60	A	mkYR
+00036f90	A	(j*a
+00036ff3	A	F]El{|
+00037008	A	fL{(
+0003704a	A	* A@$
+00037056	A	.RhR
+000370da	A	aYAj,
+000371d8	A	*g]9
+000371eb	A	\Msb[
+00037216	A	GJ0B
+0003725f	A	ARPB
+0003729b	A	TqoL
+000372d4	A	rN=0
+000372de	A	O'V@
+000372ef	A	G*JX
+0003730a	A	O@I^MWz
+0003732b	A	dhUz
+0003736f	A	x+i9
+000373c9	A	1l:8
+000373df	A	`d]C
+000373f3	A	`8)l
+0003740b	A	$BW2RkH
+0003741e	A	m:EY
+00037444	A	EE('h
+0003746a	A	]D+t
+00037477	A	if+6
+000374a9	A	/rS^
+000374b9	A	ahgm2k
+000374c0	A	8lx/
+00037556	A	}rV%}
+000375da	A	yR96
+000375eb	A	.#3i
+00037601	A	udae
+00037663	A	_+uG
+00037676	A	L2:*%
+000376bc	A	;$(k
+00037761	A	4tna
+0003779a	A	KZT]
+000377ce	A	mCg0
+00037861	A	EAr-
+000378a9	A	FZ%T
+000378b4	A	;]|@
+00037906	A	]Wl]
+0003798a	A	w*Go
+000379a1	A	|RP^
+00037a06	A	<_PHE
+00037a0c	A	#gnb
+00037a30	A	AN7kE
+00037a8b	A	XUFxs)I
+00037ab8	A	GOxMnt
+00037bbe	A	y'yUE
+00037bdd	A	-$R<
+00037c06	A	{L9>q
+00037c0f	A	c[=Lj
+00037c74	A	2o3r;
+00037c85	A	l;0-
+00037cd4	A	V&gV
+00037d3f	A	#|YE
+00037d4a	A	1:Lct
+00037de4	A	/UO<
+00037e0e	A	dFymV
+00037e2d	A	ir`v
+00037e34	A	6209
+00037e81	A	J8C*1
+00037e93	A	di-.
+00037ed9	A	FAoK&
+00037ef1	A	Ov[,
+00037f21	A	.K9S;
+00037f30	A	?\Ak
+00037f81	A	m4S<Q{
+00037f9f	A	@T_L
+00037fbc	A	9ld9
+00037fff	A	7=)&U
+00038037	A	3OfB
+00038137	A	aRve
+00038189	A	; '&
+0003832f	A	~;D.
+00038361	A	I[D>
+00038380	A	mEuH
+0003838f	A	:_@ 
+000383d1	A	&_yZ
+00038430	A	VPNk
+00038468	A	*)F(
+000384b5	A	$~ I
+0003851d	A	IEND
+0003852a	W	7img
+00038538	W	icon.png
+00038759	A	MainWindow
+00038764	A	select_type
+00038771	A	type
+00038776	A	setup_table
+00038782	A	print_data
+00038791	A	connect_clicked
+000387a1	A	send_clicked
+000387ae	A	table_clicked
+000387bc	A	delay
+000387c5	A	ftdiwriteError
+000387d4	A	print_table
+000387e8	A	item
+000387ed	A	num1
+000387f2	A	num2
+000387f7	A	convert
+000387ff	A	str1
+00038804	A	str2
+00038809	A	kline_command
+0003881b	A	mil_action
+0003882a	A	cleardtc_clicked
+0003883b	A	closeEvent
+00038846	A	QCloseEvent*
+00038853	A	event
+00038c19	A	UsbSerial
+00038c23	A	sendlog
+00038c2e	A	ftdiwriteError
+00038c3d	A	writeData
+00038c4b	A	writeDataHex
+00038c58	A	unsigned char*
+00038c6b	A	writeDataHex2
+00038c79	A	size
+00038c7e	A	writeDataBit
+00038c8f	A	readData
+00038c98	A	readDataHex
+00038ca4	A	Connect
+00038cac	A	isConnected
+00038cb8	A	Disconnect
+00038cc3	A	testConnection
+00038cd2	A	findFtdi
+00038cdb	A	ftdiSetDesc
+00038ce7	A	logindialog
+00038cfa	A	delay
+00038f71	A	Dialog
+00038f89	A	CoWindow
+0003b8c7	A	libusb_init
+0003b8d5	A	libusb_exit
+0003b8e3	A	libusb_get_device_list
+0003b8fd	A	libusb_free_device_list
+0003b917	A	libusb_ref_device
+0003b92b	A	libusb_get_configuration
+0003b947	A	libusb_get_device_descriptor
+0003b967	A	libusb_get_config_descriptor
+0003b987	A	libusb_free_config_descriptor
+0003b9a7	A	libusb_open
+0003b9b5	A	libusb_close
+0003b9c5	A	libusb_set_configuration
+0003b9e1	A	libusb_claim_interface
+0003b9fb	A	libusb_release_interface
+0003ba17	A	libusb_detach_kernel_driver
+0003ba35	A	libusb_control_transfer
+0003ba4f	A	libusb_bulk_transfer
+0003ba67	A	libusb_get_string_descriptor_ascii
+0003ba8b	A	libusb-1.0.dll
+0003ba9d	A	?show@QWidget@@QAEXXZ
+0003bab5	A	??0QApplication@@QAE@AAHPAPADH@Z
+0003bad9	A	??1QApplication@@UAE@XZ
+0003baf3	A	?exec@QApplication@@SAHXZ
+0003bb0f	A	??0QWidget@@QAE@PAV0@V?$QFlags@W4WindowType@Qt@@@@@Z
+0003bb47	A	??1QWidget@@UAE@XZ
+0003bb5d	A	?isEnabled@QWidget@@QBE_NXZ
+0003bb7b	A	?setEnabled@QWidget@@QAEX_N@Z
+0003bb9b	A	?setFont@QWidget@@QAEXABVQFont@@@Z
+0003bbc1	A	?setWindowTitle@QWidget@@QAEXABVQString@@@Z
+0003bbef	A	?setWindowIcon@QWidget@@QAEXABVQIcon@@@Z
+0003bc1b	A	?resize@QWidget@@QAEXABVQSize@@@Z
+0003bc3f	A	??0QMainWindow@@QAE@PAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+0003bc81	A	??1QMainWindow@@UAE@XZ
+0003bc9b	A	?setStatusBar@QMainWindow@@QAEXPAVQStatusBar@@@Z
+0003bccf	A	?setCentralWidget@QMainWindow@@QAEXPAVQWidget@@@Z
+0003bd03	A	??0QComboBox@@QAE@PAVQWidget@@@Z
+0003bd27	A	??1QComboBox@@UAE@XZ
+0003bd3f	A	?count@QComboBox@@QBEHXZ
+0003bd5b	A	?insertItem@QComboBox@@QAEXHABVQIcon@@ABVQString@@ABVQVariant@@@Z
+0003bd9f	A	??0QSpacerItem@@QAE@HHW4Policy@QSizePolicy@@0@Z
+0003bdd1	A	??1QSpacerItem@@UAE@XZ
+0003bdeb	A	?setContentsMargins@QLayout@@QAEXHHHH@Z
+0003be15	A	??0QGridLayout@@QAE@PAVQWidget@@@Z
+0003be3b	A	??1QGridLayout@@UAE@XZ
+0003be55	A	?setSpacing@QGridLayout@@QAEXH@Z
+0003be79	A	?addWidget@QGridLayout@@QAEXPAVQWidget@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+0003becb	A	?addItem@QGridLayout@@QAEXPAVQLayoutItem@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+0003bf1f	A	?setEditTriggers@QAbstractItemView@@QAEXV?$QFlags@W4EditTrigger@QAbstractItemView@@@@@Z
+0003bf79	A	??0QLabel@@QAE@PAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+0003bfb7	A	??1QLabel@@UAE@XZ
+0003bfcb	A	?setText@QLabel@@QAEXABVQString@@@Z
+0003bff1	A	?clear@QLabel@@QAEXXZ
+0003c009	A	?setText@QAbstractButton@@QAEXABVQString@@@Z
+0003c039	A	??0QPushButton@@QAE@PAVQWidget@@@Z
+0003c05f	A	??1QPushButton@@UAE@XZ
+0003c079	A	??0QStatusBar@@QAE@PAVQWidget@@@Z
+0003c09d	A	??1QStatusBar@@UAE@XZ
+0003c0b5	A	?showMessage@QStatusBar@@QAEXABVQString@@H@Z
+0003c0e3	A	v ?verticalHeader@QTableView@@QBEPAVQHeaderView@@XZ
+0003c119	A	?setColumnWidth@QTableView@@QAEXHH@Z
+0003c141	A	??0QTableWidgetItem@@QAE@H@Z
+0003c161	A	??0QTableWidgetItem@@QAE@ABVQString@@H@Z
+0003c18d	A	??1QTableWidgetItem@@UAE@XZ
+0003c1ab	A	?setText@QTableWidgetItem@@QAEXABVQString@@@Z
+0003c1db	A	??0QTableWidget@@QAE@PAVQWidget@@@Z
+0003c201	A	??1QTableWidget@@UAE@XZ
+0003c21b	A	?setRowCount@QTableWidget@@QAEXH@Z
+0003c241	A	?setColumnCount@QTableWidget@@QAEXH@Z
+0003c269	A	?columnCount@QTableWidget@@QBEHXZ
+0003c28d	A	?setItem@QTableWidget@@QAEXHHPAVQTableWidgetItem@@@Z
+0003c2c5	A	?horizontalHeaderItem@QTableWidget@@QBEPAVQTableWidgetItem@@H@Z
+0003c307	A	?setHorizontalHeaderItem@QTableWidget@@QAEXHPAVQTableWidgetItem@@@Z
+0003c34d	A	?currentRow@QTableWidget@@QBEHXZ
+0003c371	A	??MQTableWidgetItem@@UBE_NABV0@@Z
+0003c395	A	?actionEvent@QWidget@@MAEXPAVQActionEvent@@@Z
+0003c3c5	A	?addItem@QGridLayout@@MAEXPAVQLayoutItem@@@Z
+0003c3f5	A	?changeEvent@QAbstractButton@@MAEXPAVQEvent@@@Z
+0003c427	A	?changeEvent@QComboBox@@MAEXPAVQEvent@@@Z
+0003c453	A	?changeEvent@QFrame@@MAEXPAVQEvent@@@Z
+0003c47d	A	?changeEvent@QLabel@@MAEXPAVQEvent@@@Z
+0003c4a7	A	?changeEvent@QWidget@@MAEXPAVQEvent@@@Z
+0003c4d1	A	?checkStateSet@QAbstractButton@@MAEXXZ
+0003c4fb	A	?childEvent@QLayout@@MAEXPAVQChildEvent@@@Z
+0003c529	A	?clone@QTableWidgetItem@@UBEPAV1@XZ
+0003c54f	A	?closeEditor@QAbstractItemView@@MAEXPAVQWidget@@W4EndEditHint@QAbstractItemDelegate@@@Z
+0003c5a9	A	?closeEvent@QWidget@@MAEXPAVQCloseEvent@@@Z
+0003c5d7	A	?commitData@QAbstractItemView@@MAEXPAVQWidget@@@Z
+0003c60b	A	?contextMenuEvent@QAbstractScrollArea@@MAEXPAVQContextMenuEvent@@@Z
+0003c651	A	?contextMenuEvent@QComboBox@@MAEXPAVQContextMenuEvent@@@Z
+0003c68d	A	?contextMenuEvent@QLabel@@MAEXPAVQContextMenuEvent@@@Z
+0003c6c7	A	?contextMenuEvent@QMainWindow@@MAEXPAVQContextMenuEvent@@@Z
+0003c705	A	?contextMenuEvent@QWidget@@MAEXPAVQContextMenuEvent@@@Z
+0003c73f	A	?controlTypes@QLayout@@UBE?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ
+0003c787	A	?controlTypes@QLayoutItem@@UBE?AV?$QFlags@W4ControlType@QSizePolicy@@@@XZ
+0003c7d3	A	?count@QGridLayout@@UBEHXZ
+0003c7f1	A	?createPopupMenu@QMainWindow@@UAEPAVQMenu@@XZ
+0003c821	A	?currentChanged@QTableView@@MAEXABVQModelIndex@@0@Z
+0003c857	A	?data@QTableWidgetItem@@UBE?AVQVariant@@H@Z
+0003c885	A	?dataChanged@QAbstractItemView@@MAEXABVQModelIndex@@0ABV?$QVector@H@@@Z
+0003c8cf	A	?devType@QWidget@@UBEHXZ
+0003c8eb	A	?doItemsLayout@QTableView@@UAEXXZ
+0003c90f	A	?dragEnterEvent@QAbstractItemView@@MAEXPAVQDragEnterEvent@@@Z
+0003c94f	A	?dragEnterEvent@QWidget@@MAEXPAVQDragEnterEvent@@@Z
+0003c985	A	?dragLeaveEvent@QAbstractItemView@@MAEXPAVQDragLeaveEvent@@@Z
+0003c9c5	A	?dragLeaveEvent@QWidget@@MAEXPAVQDragLeaveEvent@@@Z
+0003c9fb	A	?dragMoveEvent@QAbstractItemView@@MAEXPAVQDragMoveEvent@@@Z
+0003ca39	A	?dragMoveEvent@QWidget@@MAEXPAVQDragMoveEvent@@@Z
+0003ca6d	A	?dropEvent@QTableWidget@@MAEXPAVQDropEvent@@@Z
+0003ca9f	A	?dropEvent@QWidget@@MAEXPAVQDropEvent@@@Z
+0003cacb	A	?dropMimeData@QTableWidget@@MAE_NHHPBVQMimeData@@W4DropAction@Qt@@@Z
+0003cb13	A	?edit@QAbstractItemView@@MAE_NABVQModelIndex@@W4EditTrigger@1@PAVQEvent@@@Z
+0003cb61	A	?editorDestroyed@QAbstractItemView@@MAEXPAVQObject@@@Z
+0003cb9b	A	?enterEvent@QWidget@@MAEXPAVQEvent@@@Z
+0003cbc5	A	?event@QComboBox@@UAE_NPAVQEvent@@@Z
+0003cbed	A	?event@QLabel@@MAE_NPAVQEvent@@@Z
+0003cc11	A	?event@QMainWindow@@MAE_NPAVQEvent@@@Z
+0003cc3b	A	?event@QPushButton@@MAE_NPAVQEvent@@@Z
+0003cc65	A	?event@QStatusBar@@MAE_NPAVQEvent@@@Z
+0003cc8d	A	?event@QTableWidget@@MAE_NPAVQEvent@@@Z
+0003ccb7	A	?event@QWidget@@MAE_NPAVQEvent@@@Z
+0003ccdd	A	?eventFilter@QAbstractScrollArea@@MAE_NPAVQObject@@PAVQEvent@@@Z
+0003cd21	A	?expandingDirections@QGridLayout@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ
+0003cd6b	A	?expandingDirections@QSpacerItem@@UBE?AV?$QFlags@W4Orientation@Qt@@@@XZ
+0003cdb5	A	?focusInEvent@QAbstractItemView@@MAEXPAVQFocusEvent@@@Z
+0003cdef	A	?focusInEvent@QComboBox@@MAEXPAVQFocusEvent@@@Z
+0003ce21	A	?focusInEvent@QLabel@@MAEXPAVQFocusEvent@@@Z
+0003ce51	A	?focusInEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z
+0003ce85	A	?focusInEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
+0003ceb5	A	?focusNextPrevChild@QAbstractItemView@@MAE_N_N@Z
+0003cee9	A	?focusNextPrevChild@QLabel@@MAE_N_N@Z
+0003cf11	A	?focusNextPrevChild@QWidget@@MAE_N_N@Z
+0003cf3b	A	?focusOutEvent@QAbstractItemView@@MAEXPAVQFocusEvent@@@Z
+0003cf77	A	?focusOutEvent@QComboBox@@MAEXPAVQFocusEvent@@@Z
+0003cfab	A	?focusOutEvent@QLabel@@MAEXPAVQFocusEvent@@@Z
+0003cfdb	A	?focusOutEvent@QPushButton@@MAEXPAVQFocusEvent@@@Z
+0003d011	A	?focusOutEvent@QWidget@@MAEXPAVQFocusEvent@@@Z
+0003d043	A	?geometry@QLayout@@UBE?AVQRect@@XZ
+0003d069	A	?geometry@QSpacerItem@@UBE?AVQRect@@XZ
+0003d093	A	?hasHeightForWidth@QGridLayout@@UBE_NXZ
+0003d0bd	A	?hasHeightForWidth@QLayoutItem@@UBE_NXZ
+0003d0e7	A	?hasHeightForWidth@QWidget@@UBE_NXZ
+0003d10d	A	?heightForWidth@QGridLayout@@UBEHH@Z
+0003d135	A	?heightForWidth@QLabel@@UBEHH@Z
+0003d157	A	?heightForWidth@QLayoutItem@@UBEHH@Z
+0003d17f	A	?heightForWidth@QWidget@@UBEHH@Z
+0003d1a3	A	?hideEvent@QComboBox@@MAEXPAVQHideEvent@@@Z
+0003d1d1	A	?hideEvent@QWidget@@MAEXPAVQHideEvent@@@Z
+0003d1fd	A	?hidePopup@QComboBox@@UAEXXZ
+0003d21d	A	?hitButton@QAbstractButton@@MBE_NABVQPoint@@@Z
+0003d24f	A	?horizontalOffset@QTableView@@MBEHXZ
+0003d277	A	?horizontalScrollbarAction@QTableView@@MAEXH@Z
+0003d2a9	A	?horizontalScrollbarValueChanged@QAbstractItemView@@MAEXH@Z
+0003d2e7	A	?indexAt@QTableView@@UBE?AVQModelIndex@@ABVQPoint@@@Z
+0003d31f	A	?indexOf@QLayout@@UBEHPAVQWidget@@@Z
+0003d347	A	?initPainter@QWidget@@MBEXPAVQPainter@@@Z
+0003d373	A	?inputMethodEvent@QAbstractItemView@@MAEXPAVQInputMethodEvent@@@Z
+0003d3b7	A	?inputMethodEvent@QComboBox@@MAEXPAVQInputMethodEvent@@@Z
+0003d3f3	A	?inputMethodEvent@QWidget@@MAEXPAVQInputMethodEvent@@@Z
+0003d42d	A	?inputMethodQuery@QAbstractItemView@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+0003d47f	A	?inputMethodQuery@QComboBox@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+0003d4c9	A	?inputMethodQuery@QWidget@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+0003d511	A	?invalidate@QGridLayout@@UAEXXZ
+0003d533	A	?invalidate@QLayoutItem@@UAEXXZ
+0003d555	A	?isEmpty@QLayout@@UBE_NXZ
+0003d571	A	?isEmpty@QSpacerItem@@UBE_NXZ
+0003d591	A	?isIndexHidden@QTableView@@MBE_NABVQModelIndex@@@Z
+0003d5c7	A	?itemAt@QGridLayout@@UBEPAVQLayoutItem@@H@Z
+0003d5f5	A	?keyPressEvent@QAbstractItemView@@MAEXPAVQKeyEvent@@@Z
+0003d62f	A	?keyPressEvent@QComboBox@@MAEXPAVQKeyEvent@@@Z
+0003d661	A	?keyPressEvent@QLabel@@MAEXPAVQKeyEvent@@@Z
+0003d68f	A	?keyPressEvent@QPushButton@@MAEXPAVQKeyEvent@@@Z
+0003d6c3	A	?keyPressEvent@QWidget@@MAEXPAVQKeyEvent@@@Z
+0003d6f3	A	?keyReleaseEvent@QAbstractButton@@MAEXPAVQKeyEvent@@@Z
+0003d72d	A	?keyReleaseEvent@QComboBox@@MAEXPAVQKeyEvent@@@Z
+0003d761	A	?keyReleaseEvent@QWidget@@MAEXPAVQKeyEvent@@@Z
+0003d793	A	?keyboardSearch@QAbstractItemView@@UAEXABVQString@@@Z
+0003d7cb	A	?layout@QLayout@@UAEPAV1@XZ
+0003d7e9	A	?layout@QLayoutItem@@UAEPAVQLayout@@XZ
+0003d813	A	?leaveEvent@QWidget@@MAEXPAVQEvent@@@Z
+0003d83d	A	?maximumSize@QGridLayout@@UBE?AVQSize@@XZ
+0003d869	A	?maximumSize@QSpacerItem@@UBE?AVQSize@@XZ
+0003d895	A	?metaObject@QComboBox@@UBEPBUQMetaObject@@XZ
+0003d8c5	A	?metaObject@QGridLayout@@UBEPBUQMetaObject@@XZ
+0003d8f7	A	?metaObject@QLabel@@UBEPBUQMetaObject@@XZ
+0003d923	A	?metaObject@QPushButton@@UBEPBUQMetaObject@@XZ
+0003d955	A	?metaObject@QStatusBar@@UBEPBUQMetaObject@@XZ
+0003d985	A	?metaObject@QTableWidget@@UBEPBUQMetaObject@@XZ
+0003d9b7	A	?metaObject@QWidget@@UBEPBUQMetaObject@@XZ
+0003d9e5	A	?metric@QWidget@@MBEHW4PaintDeviceMetric@QPaintDevice@@@Z
+0003da21	A	?mimeData@QTableWidget@@MBEPAVQMimeData@@V?$QList@PAVQTableWidgetItem@@@@@Z
+0003da6f	A	?mimeTypes@QTableWidget@@MBE?AVQStringList@@XZ
+0003daa1	A	?minimumHeightForWidth@QGridLayout@@UBEHH@Z
+0003dacf	A	?minimumHeightForWidth@QLayoutItem@@UBEHH@Z
+0003dafd	A	?minimumSize@QGridLayout@@UBE?AVQSize@@XZ
+0003db29	A	?minimumSize@QSpacerItem@@UBE?AVQSize@@XZ
+0003db55	A	?minimumSizeHint@QAbstractScrollArea@@UBE?AVQSize@@XZ
+0003db8d	A	?minimumSizeHint@QComboBox@@UBE?AVQSize@@XZ
+0003dbbb	A	?minimumSizeHint@QLabel@@UBE?AVQSize@@XZ
+0003dbe7	A	?minimumSizeHint@QPushButton@@UBE?AVQSize@@XZ
+0003dc17	A	?minimumSizeHint@QWidget@@UBE?AVQSize@@XZ
+0003dc43	A	?mouseDoubleClickEvent@QAbstractItemView@@MAEXPAVQMouseEvent@@@Z
+0003dc87	A	?mouseDoubleClickEvent@QWidget@@MAEXPAVQMouseEvent@@@Z
+0003dcc1	A	?mouseMoveEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z
+0003dcfb	A	?mouseMoveEvent@QAbstractItemView@@MAEXPAVQMouseEvent@@@Z
+0003dd37	A	?mouseMoveEvent@QLabel@@MAEXPAVQMouseEvent@@@Z
+0003dd69	A	?mouseMoveEvent@QWidget@@MAEXPAVQMouseEvent@@@Z
+0003dd9b	A	?mousePressEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z
+0003ddd7	A	?mousePressEvent@QAbstractItemView@@MAEXPAVQMouseEvent@@@Z
+0003de15	A	?mousePressEvent@QComboBox@@MAEXPAVQMouseEvent@@@Z
+0003de4b	A	?mousePressEvent@QLabel@@MAEXPAVQMouseEvent@@@Z
+0003de7d	A	?mousePressEvent@QWidget@@MAEXPAVQMouseEvent@@@Z
+0003deb1	A	?mouseReleaseEvent@QAbstractButton@@MAEXPAVQMouseEvent@@@Z
+0003deef	A	?mouseReleaseEvent@QAbstractItemView@@MAEXPAVQMouseEvent@@@Z
+0003df2f	A	?mouseReleaseEvent@QComboBox@@MAEXPAVQMouseEvent@@@Z
+0003df67	A	?mouseReleaseEvent@QLabel@@MAEXPAVQMouseEvent@@@Z
+0003df9b	A	?mouseReleaseEvent@QWidget@@MAEXPAVQMouseEvent@@@Z
+0003dfd1	A	?moveCursor@QTableView@@MAE?AVQModelIndex@@W4CursorAction@QAbstractItemView@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
+0003e047	A	?moveEvent@QWidget@@MAEXPAVQMoveEvent@@@Z
+0003e073	A	?nativeEvent@QWidget@@MAE_NABVQByteArray@@PAXPAJ@Z
+0003e0a9	A	?nextCheckState@QAbstractButton@@MAEXXZ
+0003e0d3	A	?paintEngine@QWidget@@UBEPAVQPaintEngine@@XZ
+0003e103	A	?paintEvent@QComboBox@@MAEXPAVQPaintEvent@@@Z
+0003e133	A	?paintEvent@QLabel@@MAEXPAVQPaintEvent@@@Z
+0003e161	A	?paintEvent@QPushButton@@MAEXPAVQPaintEvent@@@Z
+0003e193	A	?paintEvent@QStatusBar@@MAEXPAVQPaintEvent@@@Z
+0003e1c5	A	?paintEvent@QTableView@@MAEXPAVQPaintEvent@@@Z
+0003e1f7	A	?paintEvent@QWidget@@MAEXPAVQPaintEvent@@@Z
+0003e225	A	?qt_metacall@QComboBox@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e261	A	?qt_metacall@QGridLayout@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e29f	A	?qt_metacall@QLabel@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e2d7	A	?qt_metacall@QPushButton@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e315	A	?qt_metacall@QStatusBar@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e351	A	?qt_metacall@QTableWidget@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e38f	A	?qt_metacall@QWidget@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003e3c9	A	?qt_metacast@QComboBox@@UAEPAXPBD@Z
+0003e3ef	A	?qt_metacast@QGridLayout@@UAEPAXPBD@Z
+0003e417	A	?qt_metacast@QLabel@@UAEPAXPBD@Z
+0003e43b	A	?qt_metacast@QPushButton@@UAEPAXPBD@Z
+0003e463	A	?qt_metacast@QStatusBar@@UAEPAXPBD@Z
+0003e48b	A	?qt_metacast@QTableWidget@@UAEPAXPBD@Z
+0003e4b5	A	?qt_metacast@QWidget@@UAEPAXPBD@Z
+0003e4d9	A	?read@QTableWidgetItem@@UAEXAAVQDataStream@@@Z
+0003e50b	A	?redirected@QWidget@@MBEPAVQPaintDevice@@PAVQPoint@@@Z
+0003e545	A	?reset@QAbstractItemView@@UAEXXZ
+0003e569	A	?resizeEvent@QAbstractItemView@@MAEXPAVQResizeEvent@@@Z
+0003e5a3	A	?resizeEvent@QComboBox@@MAEXPAVQResizeEvent@@@Z
+0003e5d5	A	?resizeEvent@QStatusBar@@MAEXPAVQResizeEvent@@@Z
+0003e609	A	?resizeEvent@QWidget@@MAEXPAVQResizeEvent@@@Z
+0003e639	A	?rowsAboutToBeRemoved@QAbstractItemView@@MAEXABVQModelIndex@@HH@Z
+0003e67d	A	?rowsInserted@QAbstractItemView@@MAEXABVQModelIndex@@HH@Z
+0003e6b9	A	?scrollContentsBy@QTableView@@MAEXHH@Z
+0003e6e3	A	?scrollTo@QTableView@@UAEXABVQModelIndex@@W4ScrollHint@QAbstractItemView@@@Z
+0003e733	A	?selectAll@QAbstractItemView@@UAEXXZ
+0003e75b	A	?selectedIndexes@QTableView@@MBE?AV?$QList@VQModelIndex@@@@XZ
+0003e79b	A	?selectionChanged@QTableView@@MAEXABVQItemSelection@@0@Z
+0003e7d7	A	?selectionCommand@QAbstractItemView@@MBE?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@ABVQModelIndex@@PBVQEvent@@@Z
+0003e853	A	?setData@QTableWidgetItem@@UAEXHABVQVariant@@@Z
+0003e885	A	?setGeometry@QGridLayout@@UAEXABVQRect@@@Z
+0003e8b3	A	?setGeometry@QSpacerItem@@UAEXABVQRect@@@Z
+0003e8e1	A	?setModel@QTableWidget@@EAEXPAVQAbstractItemModel@@@Z
+0003e919	A	?setRootIndex@QTableView@@UAEXABVQModelIndex@@@Z
+0003e94d	A	?setSelection@QTableView@@MAEXABVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
+0003e9ab	A	?setSelectionModel@QTableView@@UAEXPAVQItemSelectionModel@@@Z
+0003e9eb	A	?setVisible@QWidget@@UAEX_N@Z
+0003ea0b	A	?setupViewport@QAbstractScrollArea@@UAEXPAVQWidget@@@Z
+0003ea45	A	?sharedPainter@QWidget@@MBEPAVQPainter@@XZ
+0003ea73	A	?showEvent@QComboBox@@MAEXPAVQShowEvent@@@Z
+0003eaa1	A	?showEvent@QStatusBar@@MAEXPAVQShowEvent@@@Z
+0003ead1	A	?showEvent@QWidget@@MAEXPAVQShowEvent@@@Z
+0003eafd	A	?showPopup@QComboBox@@UAEXXZ
+0003eb1d	A	?sizeHint@QAbstractScrollArea@@UBE?AVQSize@@XZ
+0003eb4f	A	?sizeHint@QComboBox@@UBE?AVQSize@@XZ
+0003eb77	A	?sizeHint@QGridLayout@@UBE?AVQSize@@XZ
+0003eba1	A	?sizeHint@QLabel@@UBE?AVQSize@@XZ
+0003ebc5	A	?sizeHint@QPushButton@@UBE?AVQSize@@XZ
+0003ebef	A	?sizeHint@QSpacerItem@@UBE?AVQSize@@XZ
+0003ec19	A	?sizeHint@QWidget@@UBE?AVQSize@@XZ
+0003ec3f	A	?sizeHintForColumn@QTableView@@MBEHH@Z
+0003ec69	A	?sizeHintForRow@QTableView@@MBEHH@Z
+0003ec8f	A	?spacerItem@QLayoutItem@@UAEPAVQSpacerItem@@XZ
+0003ecc1	A	?spacerItem@QSpacerItem@@UAEPAV1@XZ
+0003ece7	A	?startDrag@QAbstractItemView@@MAEXV?$QFlags@W4DropAction@Qt@@@@@Z
+0003ed2b	A	?supportedDropActions@QTableWidget@@MBE?AV?$QFlags@W4DropAction@Qt@@@@XZ
+0003ed77	A	?tabletEvent@QWidget@@MAEXPAVQTabletEvent@@@Z
+0003eda7	A	?takeAt@QGridLayout@@UAEPAVQLayoutItem@@H@Z
+0003edd5	A	?timerEvent@QAbstractButton@@MAEXPAVQTimerEvent@@@Z
+0003ee0b	A	?timerEvent@QTableView@@MAEXPAVQTimerEvent@@@Z
+0003ee3b	A	  ?updateEditorData@QAbstractItemView@@MAEXXZ
+0003ee69	A	! ?updateEditorGeometries@QAbstractItemView@@MAEXXZ
+0003ee9d	A	. ?updateGeometries@QTableView@@MAEXXZ
+0003eec5	A	| ?verticalOffset@QTableView@@MBEHXZ
+0003eeec	A	 ?verticalScrollbarAction@QTableView@@MAEXH@Z
+0003ef1c	A	 ?verticalScrollbarValueChanged@QAbstractItemView@@MAEXH@Z
+0003ef58	A	 ?viewOptions@QTableView@@MBE?AVQStyleOptionViewItem@@XZ
+0003ef92	A	 ?viewportEvent@QAbstractItemView@@MAE_NPAVQEvent@@@Z
+0003efca	A	 ?viewportSizeHint@QTableView@@MBE?AVQSize@@XZ
+0003effa	A	 ?visualRect@QTableView@@UBE?AVQRect@@ABVQModelIndex@@@Z
+0003f034	A	 ?visualRegionForSelection@QTableView@@MBE?AVQRegion@@ABVQItemSelection@@@Z
+0003f082	A	 ?wheelEvent@QAbstractScrollArea@@MAEXPAVQWheelEvent@@@Z
+0003f0bc	A	 ?wheelEvent@QComboBox@@MAEXPAVQWheelEvent@@@Z
+0003f0ec	A	 ?wheelEvent@QWidget@@MAEXPAVQWheelEvent@@@Z
+0003f11a	A	 ?widget@QLayoutItem@@UAEPAVQWidget@@XZ
+0003f143	A	.!?write@QTableWidgetItem@@UBEXAAVQDataStream@@@Z
+0003f177	A	?exec@QDialog@@UAEHXZ
+0003f18f	A	?text@QLineEdit@@QBE?AVQString@@XZ
+0003f1b5	A	??0QDialog@@QAE@PAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
+0003f1f3	A	??1QDialog@@UAE@XZ
+0003f209	A	??0QDialogButtonBox@@QAE@PAVQWidget@@@Z
+0003f233	A	??1QDialogButtonBox@@UAE@XZ
+0003f251	A	?setOrientation@QDialogButtonBox@@QAEXW4Orientation@Qt@@@Z
+0003f28f	A	?setStandardButtons@QDialogButtonBox@@QAEXV?$QFlags@W4StandardButton@QDialogButtonBox@@@@@Z
+0003f2ed	A	??0QLineEdit@@QAE@PAVQWidget@@@Z
+0003f311	A	??1QLineEdit@@UAE@XZ
+0003f329	A	?accept@QDialog@@UAEXXZ
+0003f343	A	?changeEvent@QDialogButtonBox@@MAEXPAVQEvent@@@Z
+0003f377	A	?changeEvent@QLineEdit@@MAEXPAVQEvent@@@Z
+0003f3a3	A	?closeEvent@QDialog@@MAEXPAVQCloseEvent@@@Z
+0003f3d1	A	?contextMenuEvent@QDialog@@MAEXPAVQContextMenuEvent@@@Z
+0003f40b	A	?contextMenuEvent@QLineEdit@@MAEXPAVQContextMenuEvent@@@Z
+0003f447	A	?done@QDialog@@UAEXH@Z
+0003f461	A	?dragEnterEvent@QLineEdit@@MAEXPAVQDragEnterEvent@@@Z
+0003f499	A	?dragLeaveEvent@QLineEdit@@MAEXPAVQDragLeaveEvent@@@Z
+0003f4d1	A	?dragMoveEvent@QLineEdit@@MAEXPAVQDragMoveEvent@@@Z
+0003f507	A	?dropEvent@QLineEdit@@MAEXPAVQDropEvent@@@Z
+0003f535	A	?event@QDialogButtonBox@@MAE_NPAVQEvent@@@Z
+0003f563	A	?event@QLineEdit@@UAE_NPAVQEvent@@@Z
+0003f58b	A	?eventFilter@QDialog@@MAE_NPAVQObject@@PAVQEvent@@@Z
+0003f5c3	A	?focusInEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z
+0003f5f5	A	?focusOutEvent@QLineEdit@@MAEXPAVQFocusEvent@@@Z
+0003f629	A	?inputMethodEvent@QLineEdit@@MAEXPAVQInputMethodEvent@@@Z
+0003f665	A	?inputMethodQuery@QLineEdit@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+0003f6af	A	?keyPressEvent@QDialog@@MAEXPAVQKeyEvent@@@Z
+0003f6df	A	?keyPressEvent@QLineEdit@@MAEXPAVQKeyEvent@@@Z
+0003f711	A	?metaObject@QDialogButtonBox@@UBEPBUQMetaObject@@XZ
+0003f747	A	?metaObject@QLineEdit@@UBEPBUQMetaObject@@XZ
+0003f777	A	?minimumSizeHint@QDialog@@UBE?AVQSize@@XZ
+0003f7a3	A	?minimumSizeHint@QLineEdit@@UBE?AVQSize@@XZ
+0003f7d1	A	?mouseDoubleClickEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z
+0003f80d	A	?mouseMoveEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z
+0003f841	A	?mousePressEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z
+0003f877	A	?mouseReleaseEvent@QLineEdit@@MAEXPAVQMouseEvent@@@Z
+0003f8af	A	?open@QDialog@@UAEXXZ
+0003f8c7	A	?paintEvent@QLineEdit@@MAEXPAVQPaintEvent@@@Z
+0003f8f7	A	?qt_metacall@QDialogButtonBox@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003f939	A	?qt_metacall@QLineEdit@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003f975	A	?qt_metacast@QDialogButtonBox@@UAEPAXPBD@Z
+0003f9a3	A	?qt_metacast@QLineEdit@@UAEPAXPBD@Z
+0003f9c9	A	?reject@QDialog@@UAEXXZ
+0003f9e3	A	?resizeEvent@QDialog@@MAEXPAVQResizeEvent@@@Z
+0003fa13	A	?setVisible@QDialog@@UAEX_N@Z
+0003fa33	A	?showEvent@QDialog@@MAEXPAVQShowEvent@@@Z
+0003fa5f	A	?sizeHint@QDialog@@UBE?AVQSize@@XZ
+0003fa85	A	?sizeHint@QLineEdit@@UBE?AVQSize@@XZ
+0003faad	A	?qt_metacast@QMainWindow@@UAEPAXPBD@Z
+0003fad5	A	?qt_metacall@QMainWindow@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003fb13	A	?staticMetaObject@QMainWindow@@2UQMetaObject@@B
+0003fb45	A	?qt_metacast@QDialog@@UAEPAXPBD@Z
+0003fb69	A	?qt_metacall@QDialog@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+0003fba3	A	?staticMetaObject@QDialog@@2UQMetaObject@@B
+0003fbcf	A	Qt5Widgets.dll
+0003fbe1	A	??0QFont@@QAE@XZ
+0003fbf5	A	??1QFont@@QAE@XZ
+0003fc08	A	G?setPointSize@QFont@@QAEXH@Z
+0003fc29	A	??0QIcon@@QAE@XZ
+0003fc3d	A	??0QIcon@@QAE@ABVQString@@@Z
+0003fc5d	A	??1QIcon@@QAE@XZ
+0003fc6f	A	Qt5Gui.dll
+0003fc7d	A	??0QMessageLogger@@QAE@PBDH0@Z
+0003fc9f	A	?debug@QMessageLogger@@QBAXPBDZZ
+0003fcc3	A	?debug@QMessageLogger@@QBE?AVQDebug@@XZ
+0003fced	A	?connectSlotsByName@QMetaObject@@SAXPAVQObject@@@Z
+0003fd23	A	??1Connection@QMetaObject@@QAE@XZ
+0003fd47	A	??0QString@@QAE@XZ
+0003fd5d	A	??0QString@@QAE@ABV0@@Z
+0003fd77	A	??1QString@@QAE@XZ
+0003fd8d	A	??4QString@@QAEAAV0@ABV0@@Z
+0003fdab	A	??0QString@@QAE@$$QAV0@@Z
+0003fdc7	A	??4QString@@QAEAAV0@$$QAV0@@Z
+0003fde7	A	?chop@QString@@QAEXH@Z
+0003fe01	A	?clear@QString@@QAEXXZ
+0003fe1b	A	?startsWith@QString@@QBE_NVQChar@@W4CaseSensitivity@Qt@@@Z
+0003fe59	A	?append@QString@@QAEAAV1@ABV1@@Z
+0003fe7d	A	?remove@QString@@QAEAAV1@HH@Z
+0003fe9d	A	?split@QString@@QBE?AVQStringList@@ABV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
+0003fef3	A	?split@QString@@QBE?AVQStringList@@VQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
+0003ff4b	A	?fromUtf8@QString@@SA?AV1@PBDH@Z
+0003ff6f	A	?toInt@QString@@QBEHPA_NH@Z
+0003ff8d	A	?number@QString@@SA?AV1@HH@Z
+0003ffad	A	?number@QString@@SA?AV1@NDH@Z
+0003ffcd	A	??8@YA_NABVQString@@0@Z
+0003ffe7	A	??4QString@@QAEAAV0@PBD@Z
+00040003	A	?prepend@QString@@QAEAAV1@PBD@Z
+00040025	A	??8QString@@QBE_NPBD@Z
+0004003f	A	?fromAscii_helper@QString@@CAPAU?$QTypedArrayData@G@@PBDH@Z
+0004007d	A	?detach@QListData@@QAEPAUData@1@H@Z
+000400a3	A	?detach_grow@QListData@@QAEPAUData@1@PAHH@Z
+000400d1	A	?dispose@QListData@@SAXPAUData@1@@Z
+000400f7	A	?erase@QListData@@QAEPAPAXPAPAX@Z
+0004011b	A	?append@QListData@@QAEPAPAXXZ
+0004013b	A	?objectName@QObject@@QBE?AVQString@@XZ
+00040165	A	?setObjectName@QObject@@QAEXABVQString@@@Z
+00040193	A	?connect@QObject@@SA?AVConnection@QMetaObject@@PBV1@PBD01W4ConnectionType@Qt@@@Z
+000401e7	A	?disconnect@QObject@@SA_NPBV1@PBD01@Z
+0004020f	A	??0QTimer@@QAE@PAVQObject@@@Z
+0004022f	A	??1QTimer@@UAE@XZ
+00040243	A	?singleShot@QTimer@@SAXHPBVQObject@@PBD@Z
+0004026f	A	?start@QTimer@@QAEXH@Z
+00040289	A	?stop@QTimer@@QAEXXZ
+000402a1	A	??0QVariant@@QAE@XZ
+000402b7	A	??1QVariant@@QAE@XZ
+000402cd	A	??0QEventLoop@@QAE@PAVQObject@@@Z
+000402f1	A	??1QEventLoop@@UAE@XZ
+00040309	A	?exec@QEventLoop@@QAEHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
+00040351	A	?translate@QCoreApplication@@SA?AVQString@@PBD00H@Z
+00040387	A	??1QDebug@@QAE@XZ
+0004039b	A	??6QDebug@@QAEAAV0@PBD@Z
+000403b7	A	??6QDebug@@QAEAAV0@ABVQString@@@Z
+000403db	A	?childEvent@QObject@@MAEXPAVQChildEvent@@@Z
+00040409	A	?connectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+0004043b	A	?customEvent@QObject@@MAEXPAVQEvent@@@Z
+00040465	A	?disconnectNotify@QObject@@MAEXABVQMetaMethod@@@Z
+00040499	A	?event@QObject@@UAE_NPAVQEvent@@@Z
+000404bf	A	?eventFilter@QObject@@UAE_NPAV1@PAVQEvent@@@Z
+000404ef	A	?metaObject@QTimer@@UBEPBUQMetaObject@@XZ
+0004051b	A	?qt_metacall@QTimer@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+00040553	A	?qt_metacast@QTimer@@UAEPAXPBD@Z
+00040577	A	?timerEvent@QObject@@MAEXPAVQTimerEvent@@@Z
+000405a5	A	?timerEvent@QTimer@@MAEXPAVQTimerEvent@@@Z
+000405d3	A	?shared_null@QListData@@2UData@1@B
+000405f9	A	?data@QArrayData@@QAEPAXXZ
+00040617	A	?deallocate@QArrayData@@SAXPAU1@II@Z
+0004063f	A	??1QByteArray@@QAE@XZ
+00040657	A	?constData@QByteArray@@QBEPBDXZ
+00040679	A	?right@QString@@QBE?AV1@H@Z
+00040697	A	?toLocal8Bit@QString@@QBE?AVQByteArray@@XZ
+000406c5	A	?fromLatin1@QString@@SA?AV1@PBDH@Z
+000406eb	A	?number@QString@@SA?AV1@IH@Z
+0004070b	A	??0QObject@@QAE@PAV0@@Z
+00040725	A	??1QObject@@UAE@XZ
+0004073b	A	??0QTextStream@@QAE@PAVQIODevice@@@Z
+00040763	A	??1QTextStream@@UAE@XZ
+0004077d	A	?atEnd@QTextStream@@QBE_NXZ
+0004079b	A	?readLine@QTextStream@@QAE?AVQString@@_J@Z
+000407c9	A	??6QTextStream@@QAEAAV0@ABVQString@@@Z
+000407f3	A	?close@QFileDevice@@UAEXXZ
+00040811	A	??0QFile@@QAE@ABVQString@@@Z
+00040831	A	??1QFile@@UAE@XZ
+00040845	A	?open@QFile@@UAE_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+00040883	A	?qBadAlloc@@YAXXZ
+00040897	A	?qsrand@@YAXI@Z
+000408a9	A	?qrand@@YAHXZ
+000408b9	A	?warning@QMessageLogger@@QBE?AVQDebug@@XZ
+000408e5	A	?allocate@QArrayData@@SAPAU1@IIIV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+00040935	A	?qChecksum@@YAGPBDI@Z
+0004094d	A	??0QByteArray@@QAE@XZ
+00040965	A	??0QByteArray@@QAE@PBDH@Z
+00040981	A	??0QByteArray@@QAE@ABV0@@Z
+0004099f	A	??4QByteArray@@QAEAAV0@ABV0@@Z
+000409c1	A	??0QByteArray@@QAE@$$QAV0@@Z
+000409e1	A	??4QByteArray@@QAEAAV0@$$QAV0@@Z
+00040a05	A	??BQByteArray@@QBEPBDXZ
+00040a1f	A	?at@QByteArray@@QBEDH@Z
+00040a39	A	??AQByteArray@@QAE?AVQByteRef@@H@Z
+00040a5f	A	?left@QByteArray@@QBE?AV1@H@Z
+00040a7f	A	?mid@QByteArray@@QBE?AV1@HH@Z
+00040a9f	A	?append@QByteArray@@QAEAAV1@D@Z
+00040ac1	A	?append@QByteArray@@QAEAAV1@ABV1@@Z
+00040ae7	A	?toBase64@QByteArray@@QBE?AV1@XZ
+00040b0b	A	?fromBase64@QByteArray@@SA?AV1@ABV1@@Z
+00040b35	A	?qUncompress@@YA?AVQByteArray@@PBEH@Z
+00040b5d	A	??BQByteRef@@QBEDXZ
+00040b73	A	??4QByteRef@@QAEAAV0@D@Z
+00040b8f	A	?qCompress@@YA?AVQByteArray@@PBEHH@Z
+00040bb7	A	?toLatin1@QString@@QBE?AVQByteArray@@XZ
+00040be1	A	?toUtf8@QString@@QBE?AVQByteArray@@XZ
+00040c09	A	?fromLatin1@QString@@SA?AV1@ABVQByteArray@@@Z
+00040c39	A	??0QDataStream@@QAE@PAVQByteArray@@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
+00040c87	A	??1QDataStream@@QAE@XZ
+00040ca1	A	??5QDataStream@@QAEAAV0@AAF@Z
+00040cc1	A	??6QDataStream@@QAEAAV0@F@Z
+00040cdf	A	?currentMSecsSinceEpoch@QDateTime@@SA_JXZ
+00040d0b	A	??0QCryptographicHash@@QAE@W4Algorithm@0@@Z
+00040d39	A	??1QCryptographicHash@@QAE@XZ
+00040d59	A	?addData@QCryptographicHash@@QAEXABVQByteArray@@@Z
+00040d8f	A	?result@QCryptographicHash@@QBE?AVQByteArray@@XZ
+00040dc3	A	?shared_null@QArrayData@@2QBU1@B
+00040de7	A	?qRegisterResourceData@@YA_NHPBE00@Z
+00040e0f	A	?qUnregisterResourceData@@YA_NHPBE00@Z
+00040e39	A	?dynamicMetaObject@QObjectData@@QBEPAUQMetaObject@@XZ
+00040e71	A	?activate@QMetaObject@@SAXPAVQObject@@PBU1@HPAPAX@Z
+00040ea7	A	?qt_metacast@QObject@@UAEPAXPBD@Z
+00040ecb	A	?qt_metacall@QObject@@UAEHW4Call@QMetaObject@@HPAPAX@Z
+00040f05	A	?staticMetaObject@QObject@@2UQMetaObject@@B
+00040f31	A	Qt5Core.dll
+00040f3f	A	?_Xbad_alloc@std@@YAXXZ
+00040f59	A	?_Xlength_error@std@@YAXPBD@Z
+00040f79	A	?_Xout_of_range@std@@YAXPBD@Z
+00040f99	A	?_Syserror_map@std@@YAPBDH@Z
+00040fb9	A	?_Winerror_map@std@@YAPBDH@Z
+00040fd7	A	MSVCP110.dll
+00040fe7	A	_purecall
+00040ff3	A	??2@YAPAXI@Z
+00041003	A	??3@YAXPAX@Z
+00041013	A	memmove
+0004101d	A	_CxxThrowException
+00041033	A	__CxxFrameHandler3
+00041049	A	memcpy
+00041053	A	__iob_func
+00041061	A	fprintf
+0004106b	A	strncmp
+00041075	A	_errno
+0004107f	A	free
+00041087	A	malloc
+00041091	A	realloc
+0004109b	A	memset
+000410a3	A	MSVCR110.dll
+000410b3	A	_lock
+000410bb	A	_unlock
+000410c5	A	_calloc_crt
+000410d3	A	__dllonexit
+000410e1	A	_onexit
+000410eb	A	??1type_info@@UAE@XZ
+00041103	A	_XcptFilter
+00041111	A	__crtGetShowWindowMode
+0004112b	A	_amsg_exit
+00041139	A	__getmainargs
+00041149	A	__set_app_type
+0004115b	A	exit
+00041163	A	_exit
+0004116b	A	_cexit
+00041175	A	_ismbblead
+00041183	A	_configthreadlocale
+00041199	A	__setusermatherr
+000411ad	A	_initterm_e
+000411bb	A	_initterm
+000411c7	A	_acmdln
+000411d1	A	_fmode
+000411db	A	_commode
+000411e7	A	_except_handler4_common
+00041201	A	_crt_debugger_hook
+00041217	A	__crtUnhandledException
+00041231	A	__crtTerminateProcess
+00041249	A	?terminate@@YAXXZ
+0004125d	A	__crtSetUnhandledExceptionFilter
+00041281	A	_invoke_watson
+00041293	A	_controlfp_s
+000412a3	A	GetSystemTimeAsFileTime
+000412bd	A	EncodePointer
+000412cd	A	DecodePointer
+000412dd	A	IsDebuggerPresent
+000412f1	A	IsProcessorFeaturePresent
+0004130d	A	QueryPerformanceCounter
+00041327	A	GetCurrentThreadId
+0004133d	A	GetTickCount64
+0004134d	A	KERNEL32.dll
+0004135d	A	?data@QByteArray@@QAEPADXZ
+0004137b	A	?fromWCharArray@QString@@SA?AV1@PB_WH@Z
+000413a5	A	?qWinMain@@YAXPAUHINSTANCE__@@0PADHAAHAAV?$QVector@PAD@@@Z
+000413e3	A	_strdup
+000413ed	A	GetCommandLineW
+0004144d	A	.?AVerror_category@std@@
+00041471	A	.?AV_Generic_error_category@std@@
+0004149d	A	.?AV_Iostream_error_category@std@@
+000414c9	A	.?AV_System_error_category@std@@
+000414f5	A	.?AVQWidget@@
+0004150d	A	.?AVQObject@@
+00041525	A	.?AVQPaintDevice@@
+00041541	A	.?AVQTimer@@
+00041559	A	.?AVQStatusBar@@
+00041575	A	.?AVMainWindow@@
+00041591	A	.?AVQMainWindow@@
+000415ad	A	.?AVQComboBox@@
+000415c5	A	.?AVQSpacerItem@@
+000415e1	A	.?AVQLayoutItem@@
+000415fd	A	.?AVQGridLayout@@
+00041619	A	.?AVQLayout@@
+00041631	A	.?AVQLabel@@
+00041649	A	.?AVQFrame@@
+00041661	A	.?AVQPushButton@@
+0004167d	A	.?AVQAbstractButton@@
+0004169d	A	.?AVQTableWidget@@
+000416b9	A	.?AVQTableView@@
+000416d5	A	.?AVQAbstractItemView@@
+000416f5	A	.?AVQAbstractScrollArea@@
+00041719	A	.?AVQTableWidgetItem@@
+00041739	A	.?AVUsbSerial@@
+00041751	A	.?AVQLineEdit@@
+00041769	A	.?AVQDialogButtonBox@@
+00041789	A	.?AVDialog@@
+000417a1	A	.?AVQDialog@@
+00041819	A	.?AVtype_info@@
+00041bb3	W	IDI_ICON1(
+00041c15	A	%)+M*13
+00041e69	A	+K/{
+00041ea9	A	$X%5
+0004208e	A	"#]"$&o$(*o(/0]/8:=K_`
+00042129	A	"%'g'-/
+000427d1	A	/79=,
+00042851	A	1;<M0
+000428d1	A	@LQO0
+00042951	A	I^]=:
+00043159	A	08:'3=?)DUV
+00043231	A	%)+y.579L`a
+00043301	A	$)+'&,.
+000446b5	A	)H.s
+00044775	A	2Y;7
+00045839	A	)/1_3=?3Mac
+00045949	A	%)+a19;'
+00045a55	A	"%';%+-
+0004729d	A	+35A
+0004739d	A	&,.e
+0004749d	A	&+-}
+0004799d	A	ANQ}
+00047a9d	A	7KC[
+00047b9d	A	B`S1
+00047f99	A	&S)[
+00048099	A	3f<#
+000498e3	A	PA<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+00049930	A	  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+00049968	A	    <security>
+00049978	A	      <requestedPrivileges>
+00049995	A	        <requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel>
+000499f5	A	      </requestedPrivileges>
+00049a13	A	    </security>
+00049a24	A	  </trustInfo>
+00049a34	A	  <dependency>
+00049a44	A	    <dependentAssembly>
+00049a5d	A	      <assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" publicKeyToken="6595b64144ccf1df" language="*" processorArchitecture="*"></assemblyIdentity>
+00049b1b	A	    </dependentAssembly>
+00049b35	A	  </dependency>
+00049b46	A	</assembly>PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX
+00049c42	A	060H0
+00049c62	A	3`4f4
+00049c72	A	5!616A6S6c6
+00049c86	A	7)7U7h7o7
+00049ca8	A	8.8@8d8n8
+00049cc6	A	9#919>9l9r9
+00049ce4	A	:B:I:x:
+00049cf6	A	;2;A;_;n;
+00049d0c	A	<"<@<O<m<|<
+00049d22	A	=*=<=Z=l=
+00049d38	A	>,>J>\>z>
+00049d4e	A	?:?L?j?|?
+00049d7e	A	181G1e1t1
+00049d94	A	2(2F2U2s2
+00049daa	A	3'363T3c3
+00049dc2	A	454D4b4q4
+00049dd8	A	5%5C5R5p5
+00049dee	A	6-6?6]6o6
+00049e04	A	7/7M7_7}7
+00049e1a	A	8=8O8m8
+00049e2e	A	9-9?9]9o9v9
+00049e4a	A	:+:G:S:k:}:
+00049e64	A	;5;<;B;[;w;
+00049e7e	A	<$<<<Q<q<x<~<
+00049e9a	A	=5=Q=]=u=
+00049eb4	A	>?>F>L>e>
+00049ece	A	?(?@?U?u?|?
+00049ef2	A	030O0[0s0
+00049f0c	A	1=1D1J1c1
+00049f26	A	2)2A2S2s2z2
+00049f42	A	373S3_3w3
+00049f5a	A	4!4A4H4N4g4
+00049f76	A	5'5?5Q5q5x5~5
+00049f92	A	6/6K6W6o6
+00049fac	A	797@7F7_7{7
+00049fc8	A	878I8i8p8v8
+00049ffa	A	;#<3<`<
+0004a00c	A	=.=N=n=
+0004a016	A	>%>E>e>
+0004a026	A	?%?F?V?
+0004a04c	A	1&171?1D1T1f1t1
+0004a076	A	2-2?2c2s2
+0004a094	A	3$3.383?3F3L3n3
+0004a0b0	A	3#4T4\4
+0004a0c6	A	5:5R5_5e5
+0004a0e4	A	616<6B6W6b6h6}6
+0004a106	A	7!7'7C7U7i7|7
+0004a11c	A	7B8a8t8
+0004a136	A	9(979V9i9x9
+0004a16a	A	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+0004a1b8	A	;$;F;X;
+0004a1c6	A	<(<P<
+0004a1dc	A	>(>W>
+0004a1e4	A	?T?p?
+0004a1f8	A	00070=0_0q0v0
+0004a21a	A	4?4|4
+0004a222	A	5(5b5
+0004a232	A	6E6T6
+0004a23e	A	8)8S8}8
+0004a24a	A	8%9Q9t9
+0004a256	A	9,:s:
+0004a274	A	>'>H>l>
+0004a284	A	?8?Y?z?
+0004a29a	A	0C0d0
+0004a2a4	A	0 1'1a1p1
+0004a2b6	A	1 2'2a2p2
+0004a2c8	A	2&3`3o3~3
+0004a2de	A	3=4L4S4Y4
+0004a2f2	A	6"616@6O6^6
+0004a304	A	7=7w7
+0004a31a	A	8H8W8^8
+0004a336	A	:G:V:c:h:r:
+0004a350	A	;6<<<
+0004a35e	A	<#=6=K=T=]=v=
+0004a37e	A	>&>1>H>Z>c>l>
+0004a398	A	?#?5?
+0004a3b2	A	0)0/060\0k0
+0004a3ca	A	1!1B1Q1
+0004a3d8	A	2B2Q2
+0004a3f2	A	4E4T4Y4u4
+0004a40a	A	4#5{5
+0004a420	A	6 6/6>6M6S6e6o6}6
+0004a43e	A	7!7P7m7
+0004a452	A	8'888f8
+0004a468	A	9.9F9n9
+0004a47a	A	:F:L:S:
+0004a490	A	;.;9;V;
+0004a4a4	A	<)<3<U<[<b<
+0004a4c8	A	4&6Y6}6
+0004a4d8	A	8.848W8{8
+0004a4e2	A	969G9h9
+0004a4f2	A	92:::E:t:|:
+0004a508	A	;3;E;c;o;u;
+0004a524	A	;#<(<2<8<
+0004a548	A	=)=3=
+0004a55c	A	>7>]>|>
+0004a578	A	>>?C?J?P?p?u?|?
+0004a5a0	A	000M0R0Y0_0f0
+0004a5bc	A	1*111B1`1r1~1
+0004a5d6	A	2:2q2
+0004a5e4	A	3*343:3@3R3d3
+0004a5f8	A	354D4J4h4z4
+0004a612	A	5$5S5[5w5
+0004a62e	A	6C6[6
+0004a63e	A	7(7c7u7
+0004a64e	A	8$8I8[8m8
+0004a664	A	9,919I9^9p9
+0004a67a	A	:":U:d:k:
+0004a686	A	:d;e=
+0004a692	A	>3>A>H>>?Y?y?
+0004a6aa	A	0=0u0
+0004a6ba	A	1a2w3
+0004a6e2	A	6F6\6
+0004a708	A	8M8]8i8o8y8S9
+0004a720	A	:4;d;
+0004a758	A	141P1V1`1
+0004a766	A	1/2I2
+0004a780	A	405=5J5P5Z5s5
+0004a79a	A	6.6N6n6
+0004a7ac	A	757S7a7y7
+0004a7c8	A	8&8J8]8e8
+0004a7dc	A	9D9J9Q9
+0004a7ee	A	:#:H:N:U:
+0004a81a	A	<6<\<h<
+0004a824	A	<C=R=u=
+0004a838	A	>'>>>c>t>
+0004a84e	A	?C?V?
+0004a870	A	0%060>0C0P0_0i0z0
+0004a890	A	1%1<1[1j1
+0004a8a8	A	2O2s2
+0004a8ba	A	2(373M3d3s3
+0004a8d0	A	474C4]4l4
+0004a8ea	A	5#5?5H5|5
+0004a8fa	A	62696J6Y6r6
+0004a912	A	7"7E7W7q7y7
+0004a92e	A	8C8S8
+0004a940	A	989C9c9n9
+0004a954	A	:I:[:i:~:
+0004a968	A	;>;s;{;
+0004a970	A	;K<|<
+0004a97a	A	<4=u=
+0004a98a	A	?*?Y?k?
+0004a9a6	A	0 0$0(0,0004080<0@0U0\0{0
+0004a9c4	A	1E1S1a1
+0004a9d8	A	2i4w4
+0004aa04	A	5*5?5k5p5
+0004aa22	A	6 6&6,62686>6D6J6P6V6\6b6h6n6t6z6
+0004aa78	A	7"7(7.747:7@7F7L7R7X7^7d7j7p7v7|7
+0004aace	A	8$8*80868<8B8H8N8T8Z8`8f8l8r8x8~8
+0004ab22	A	9 9&9,92989>9D9J9P9V9\9b9h9n9t9z9
+0004ab78	A	:":(:.:4:::@:F:L:R:X:^:d:j:p:v:|:
+0004abce	A	;$;*;0;6;<;B;H;N;T;Z;`;f;l;r;x;~;
+0004ac22	A	< <&<,<2<8<><D<J<P<V<\<b<h<n<t<z<
+0004ac74	A	=&=+=0=G=R=X=k=
+0004aca4	A	?'?-?6?<?A?F?K?S?X?j?r?x?
+0004ace2	A	040F0O0T0Y0{0
+0004ad08	A	191g1m1w1}1
+0004ad24	A	21282K2
+0004ad56	A	3.3>3N3W3e3
+0004ad62	A	324x4
+0004ad72	A	5+5?5E5
+0004ad7e	A	6&6/6<6k6s6
+0004ada4	A	7$7s7{7
+0004adb8	A	8I8Q8`8
+0004adca	A	9*959?9E9q9
+0004adda	A	:M:U:`:m:~:
+0004adee	A	:p;|;
+0004ae08	A	<'<3<<<H<T<]<i<u<~<
+0004ae36	A	=#=/=;=D=P=\=e=q=}=
+0004ae64	A	>">+>7>C>L>X>d>m>y>
+0004ae92	A	?.?E?Q?
+0004aeaa	A	0"0d0u0
+0004aec2	A	1 1B1b1
+0004aed4	A	132E2N2_2h2q2z2
+0004af02	A	3#3,353>3G3P3a3r3{3
+0004af28	A	4'40494B4X4u4~4
+0004af54	A	5&5/5E5U5i5}5
+0004af6a	A	6!676z6
+0004af7a	A	7%7;7U7^7g7p7y7
+0004afa4	A	888a8x8
+0004afbc	A	949E9[9u9~9
+0004afd4	A	:=:U:n:
+0004aff0	A	;';0;9;B;K;a;u;~;
+0004b018	A	<'<0<9<B<X<u<~<
+0004b038	A	=4=E=[=q=
+0004b05e	A	>!>&>2>6>B>F>R>V>a>f>k>s>
+0004b0a6	A	9 9$9(9,9094989<9@9D9`9d9h9l9p9t9x9
+0004b0ee	A	: :$:(:,:0:4:8:<:@:D:H:L:P:T:X:\:`:d:h:l:p:t:x:|:
+0004b16e	A	; ;$;(;,;0;4;8;<;@;D;H;L;P;T;X;\;`;d;h;l;p;t;x;|;
+0004b1ec	A	< <$<(<,<0<4<8<<<@<D<H<L<P<T<X<\<`<d<h<l<p<t<x<|<
+0004b26a	A	= =$=(=,=0=4=8=<=@=H=L=P=T=X=\=`=d=h=l=p=t=x=|=
+0004b2e6	A	> >$>(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+0004b366	A	? ?$?(?,?0?4?8?<?@?D?H?P?T?X?\?`?d?h?l?p?t?x?|?
+0004b3ec	A	0 0$0(0,0004080<0@0D0H0L0P0T0X0\0`0d0h0l0p0t0x0|0
+0004b46c	A	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0004b4d1	A	`6d6h6l6p6t6x6|6
+0004b4e8	A	6(>,>0>4>8><>@>D>H>L>P>T>X>\>`>d>h>l>p>t>x>|>
+0004b564	A	? ?$?(?,?0?4?8?<?@?D?H?L?P?T?X?\?`?d?h?l?p?t?x?|?
+0004b5f0	A	1 1$1(1,1014181<1@1D1H1L1P1T1X1\1`1d1h1l1p1t1x1|1
+0004b668	A	040D0H0X0\0`0h0
+0004b696	A	1 10141D1H1L1P1X1p1t1
+0004b6c4	A	2,20242<2T2d2h2x2|2
+0004b6fa	A	303@3D3H3L3P3d3h3x3|3
+0004b72e	A	4 484H4L4`4d4t4x4|4
+0004b75c	A	5 5$54585<5@5D5H5P5h5l5
+0004b798	A	606@6D6H6L6P6d6h6x6|6
+0004b7d8	A	747D7H7L7P7T7X7\7d7|7
+0004b80c	A	8$8(8,848L8\8`8p8t8x8|8
+0004b842	A	9,909@9D9H9L9P9T9\9t9x9
+0004b878	A	;0;8;\;p;x;
+0004b894	A	<0<D<\<
+0004b8a6	A	=0=@=d=p=x=
+0004b8bc	A	>,>4><>D>L>T>\>d>l>t>|>
+0004b8fa	A	?$?,?4?<?D?L?T?\?d?l?t?|?
+0004b944	A	0$0,040<0D0L0T0\0d0l0t0|0
+0004b984	A	1(1H1P1X1`1h1p1x1
+0004b9ae	A	2 2(20282@2H2P2X2`2h2p2x2
+0004b9ee	A	3 3(30383@3H3P3X3`3h3t3
+0004ba20	A	4 4(40484@4H4P4X4`4h4p4x4
+0004ba4c	A	5$5,545<5D5P5p5|5
+0004ba66	A	6,6X6`6
+0004ba7c	A	7$7,747<7D7L7T7\7d7l7t7|7
+0004bab4	A	8$8D8L8X8x8
+0004bad2	A	9(9L9l9t9|9
+0004bb04	A	:$:,:4:<:H:l:
+0004bb2c	A	;4;<;H;h;t;
+0004bb4c	A	<$<,<4<<<D<L<T<\<h<
+0004bb7e	A	=$=,=4=<=D=P=x=
+0004bb9c	A	>0>8>D>d>p>
+0004bbb2	A	?$?(?
+0004bbc8	A	000\0
+0004bbd8	A	141P1l1
+0004bbea	A	2 2<2\2x2
+0004bbfc	A	3(3H3`3|3
+0004c840	A	hZ[1*/
+0004c847	A	dp(/4,J7
