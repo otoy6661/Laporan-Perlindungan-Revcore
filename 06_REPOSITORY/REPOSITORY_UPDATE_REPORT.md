@@ -87,3 +87,18 @@ README.md
 - Tidak ada binary pihak ketiga baru; hanya screenshot yang sudah ada di repository.
 - `login.ini`, keygen, dan binary H-Diag tidak diunggah.
 - File lama masih dapat diakses melalui commit `9b7037e` dan sebelumnya.
+
+## 8. Pembaruan Tahap 2 (2026-11-19)
+
+Work order: DEEP AUTOPSY TAHAP 2 / H-Diag 2.1 & 3D Chart Graph Remap K-Line.
+
+| Item | Tindakan |
+|---|---|
+| Laporan Tahap 1 | Tidak diubah; tetap sebagai riwayat |
+| File baru | 7 dokumen Tahap 2 + 3 bukti Tahap 2 + `CHANGELOG.md` |
+| File diperbarui | `README.md` (indeks Tahap 2), `PUBLICATION_MANIFEST.csv` (hash ulang), laporan ini |
+| Commit | Commit normal di atas `89f8bde`; tanpa force push, tanpa hapus riwayat |
+| Isi sensitif | Tidak ada; algoritma kunci seed/key tidak diuraikan, keygen tidak disentuh |
+| Verifikasi | `HEAD == origin/main` dan `raw.githubusercontent.com` dicek setelah push |
+
+Rincian perubahan per file ada di `CHANGELOG.md`. Hash commit Tahap 2 dicatat pada laporan akhir yang disampaikan ke pemilik.
