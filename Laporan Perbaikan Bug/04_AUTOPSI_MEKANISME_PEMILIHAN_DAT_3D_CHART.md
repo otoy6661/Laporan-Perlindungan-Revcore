@@ -126,6 +126,8 @@ Panjang balasan yang diharapkan **tidak dideklarasikan** sebagai konstanta. Yang
 
 Status checksum mengacu pada `03_EVIDENCE/PROTOCOL_FRAME_VALIDATION_STAGE2.csv` baris dat10-datD1 (semua PASS dengan rumus Honda 8-bit).
 
+Seluruh offset, rumus, dan baris grid di §2.2-2.8 berstatus **TERBUKTI** karena dibaca langsung dari source. Kolom "Motor/ECU" berstatus **BELUM DIKETAHUI**: source tidak memuat pemetaan model ke kelompok. Kolom "Sensor utama" adalah ringkasan nama variabel di kode, bukan klaim bahwa sensor tersebut ada pada motor tertentu.
+
 ### 2.2 dat10 — `Diag.cs:563-605`
 
 | Parameter | Byte | Rumus | Baris grid |
@@ -226,7 +228,7 @@ Offset yang dibaca:
 | 20 | `Round(adv)` | tp1_0 | 19 |
 | 21-28 | default 0 | tp2_0 .. map21 | 20-27 |
 
-Selain salah baris, semua nilai AP/TP/ECT/IAT/MAP/baterai/injektor/advance dibulatkan ke bilangan bulat oleh `Math.Round` sebelum dikirim. Contoh: AP1V 0,98 volt menjadi 1, lalu ditampilkan sebagai "TPS1 1 Volt". **TERBUKTI** untuk mekanika.
+Selain salah baris, semua nilai AP/TP/ECT/IAT/MAP/baterai/injektor/advance dibulatkan ke bilangan bulat oleh `Math.Round` sebelum dikirim. Contoh: AP1V 0,98 volt menjadi 1, lalu ditampilkan sebagai "TPS1 1 Volt" jika dat16 menjadi penulis terakhir. **TERBUKTI** untuk mekanika.
 
 Penting untuk prioritas: `UpdateGridView` selalu menulis seluruh 28 baris, termasuk parameter opsional yang tidak diberikan (bernilai default 0). Karena dat17 dipanggil setelah dat16 dan mengirim 15 argumen, dat17 menimpa baris 0-14 sekaligus menulis nol ke baris 15-27. Jadi cacat pemetaan dat16 **hanya terlihat jika dat17 dimatikan**; jika dat17 aktif, hasil dat16 langsung tertimpa. **TERBUKTI** dari signature dan urutan pemanggilan.
 
