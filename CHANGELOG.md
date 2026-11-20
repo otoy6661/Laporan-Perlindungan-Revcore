@@ -2,6 +2,28 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [Laporan Teknis RevCore] — 2026-11-20
+
+Work order: `WORK ORDER — LAPORAN TEKNIS REVCORE` (upload laporan hasil
+pekerjaan dan investigasi bug). Dokumentasi saja: tidak ada source RevCore yang
+diubah, tidak ada Gate 10 yang diubah, tidak ada rahasia signing.
+
+### Added
+- `07_REVCORE_TEKNIS_2026-11-20/LAPORAN_TEKNIS_REVCORE_2026-11-20.md` — laporan utama (mode `0x5F`, disconnect, status, build/signing, regresi).
+- `07_REVCORE_TEKNIS_2026-11-20/INVESTIGASI_MODE_0x5F.md` — bukti lokasi tampilan, offset dat17, decoder `1..4`, perbandingan dengan referensi 3D Chart.
+- `07_REVCORE_TEKNIS_2026-11-20/INVESTIGASI_DISCONNECT_INTERMITTEN.md` — rantai USB/K-Line, timeout, backoff, state `SUSPECTED_LOSS`.
+- `07_REVCORE_TEKNIS_2026-11-20/MATRIKS_STATUS_17_PEKERJAAN.md` — tabel status jujur + catatan bahwa daftar asli tidak ditemukan.
+- `07_REVCORE_TEKNIS_2026-11-20/REGRESI_DAN_BUKTI.md` — regresi, batas klaim, prosedur reproduksi.
+- `07_REVCORE_TEKNIS_2026-11-20/bukti/` — log fail-closed signing, log unit test, verifikasi APK resmi (161126 & Keyless), ringkasan 330 test, SHA-256.
+
+### Changed
+- `README.md` — indeks folder 07 dan tautan laporan baru.
+- `PUBLICATION_MANIFEST.csv` — hash SHA-256 diperbarui dan entri folder 07 ditambahkan.
+
+### Preserved
+- Seluruh laporan Tahap 1/Tahap 2 dan riwayat Git tidak diubah.
+- Tidak ada APK/ZIP yang diunggah; hanya hash dan hasil verifikasi.
+
 ## [Tahap 2] — 2026-11-19
 
 Work order: DEEP AUTOPSY TAHAP 2 / H-Diag 2.1 & 3D Chart Graph Remap K-Line. Research only: tidak ada implementasi, patch, atau perubahan RevCore.

@@ -1,0 +1,71 @@
+REVCORE — VERIFIKASI APK UJI RESMI (KEYLESS ID READER)
+Tanggal verifikasi independen: 2026-11-20 (WIB)
+Artefak: hasil_build\RevCore-keyless-test-201126.apk
+Verifikator: apksigner + aapt2 dari Android SDK build-tools 36.0.0 (bukan output skrip build)
+
+=====================================================================
+1. apksigner verify --verbose --print-certs
+=====================================================================
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=RevCore Official, OU=Release, O=RevCore, L=Jakarta, ST=DKI Jakarta, C=ID
+Signer #1 certificate SHA-256 digest: c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+Signer #1 certificate SHA-1 digest: 388637719c378c3c4b9823c7784c093989b9bd6f
+Signer #1 certificate MD5 digest: 4617b9f089e6169df451e5b257c9a48d
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: debd3e8ed682223b4f1cd169cbf78a1e2bc07d8834ed01508a38e7c4f4f44b29
+Signer #1 public key SHA-1 digest: f7d62176a6296549018ad02b2b7570118f7f61bc
+Signer #1 public key MD5 digest: 36ed168217aefc8fa922c8dde45f9e9d
+
+Catatan: cert SHA-256 sama persis dengan pin resmi
+c649cb4fd7e67686a99c1df31936a489b89e62a877b8d6b358f64d027a18d098
+dan dengan sertifikat APK rilis 161126 (bukti/verifikasi_apk_161126.txt).
+
+=====================================================================
+2. SHA-256 APK
+=====================================================================
+sha256sum:
+3b68fe6a4129c7d49a4721990de03bf7d73b2154af170a247d9889bb4345306e  RevCore-keyless-test-201126.apk
+File checksum yang ditulis skrip build:
+3b68fe6a4129c7d49a4721990de03bf7d73b2154af170a247d9889bb4345306e  RevCore-keyless-test-201126.apk
+Kedua nilai identik. Ukuran: 39.722.410 byte.
+
+=====================================================================
+3. aapt2 dump badging (ringkas)
+=====================================================================
+package: name='com.revcore.android' versionCode='1' versionName='1.0' compileSdkVersion='36'
+targetSdkVersion:'36'
+application: label='RevCore'
+Flag debuggable: TIDAK ADA pada badging (application-debuggable false).
+
+=====================================================================
+4. Material kunci di dalam APK
+=====================================================================
+Pencarian entri berakhiran .p12/.jks/.keystore/.pem/.key di dalam ZIP APK:
+(tidak ada material kunci)
+
+Catatan: sertifikat publik dan public key memang selalu ada di blok signature APK;
+yang diperiksa di sini adalah private key/keystore/password yang tidak boleh ikut.
+
+=====================================================================
+5. Fitur Keyless ada di APK final
+=====================================================================
+String literal "btn_keyless_read" ditemukan di DEX APK final.
+Nama kelas Kotlin sudah di-obfuscate R8 pada build release (normal);
+bukti keberadaan fitur memakai string testTag yang tidak di-obfuscate.
+
+=====================================================================
+6. Status dist/ dan perangkat
+=====================================================================
+dist/ pada salinan kerja: tidak ada / tidak tersentuh oleh build uji
+(ekspor diarahkan ke hasil_build lewat REVCORE_OUTPUT_DIR).
+adb devices: "List of devices attached" tanpa perangkat.
+=> Pemeriksaan integritas (Gate 10) jalur normal pada perangkat BELUM dapat dijalankan.
+   Tidak ada hasil perangkat yang diklaim di dokumen ini.

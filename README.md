@@ -18,6 +18,16 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `04_FINAL_REPORTS/` | Laporan Tahap 1 (tujuh dokumen) + laporan Tahap 2 |
 | `05_ARTIFACTS/` | Artefak pendukung (screenshot lama yang dipertahankan) |
 | `06_REPOSITORY/` | Daftar file lama yang diganti + laporan pembaruan repository |
+| `07_REVCORE_TEKNIS_2026-11-20/` | Laporan teknis audit RevCore 2026-11-20 (Mode `0x5F`, disconnect, matriks status, build/signing, regresi) |
+
+## Laporan teknis RevCore (2026-11-20)
+
+- [LAPORAN_TEKNIS_REVCORE_2026-11-20.md](07_REVCORE_TEKNIS_2026-11-20/LAPORAN_TEKNIS_REVCORE_2026-11-20.md) — laporan utama
+- [INVESTIGASI_MODE_0x5F.md](07_REVCORE_TEKNIS_2026-11-20/INVESTIGASI_MODE_0x5F.md) — investigasi Mode Mesin `0x5F`
+- [INVESTIGASI_DISCONNECT_INTERMITTEN.md](07_REVCORE_TEKNIS_2026-11-20/INVESTIGASI_DISCONNECT_INTERMITTEN.md) — investigasi koneksi putus-putus
+- [MATRIKS_STATUS_17_PEKERJAAN.md](07_REVCORE_TEKNIS_2026-11-20/MATRIKS_STATUS_17_PEKERJAAN.md) — matriks status + catatan keterlacakan
+- [REGRESI_DAN_BUKTI.md](07_REVCORE_TEKNIS_2026-11-20/REGRESI_DAN_BUKTI.md) — regresi, bukti, batas klaim
+- [bukti/](07_REVCORE_TEKNIS_2026-11-20/bukti/) — log build/signing/verifikasi + ringkasan unit test
 
 ## Laporan wajib
 
