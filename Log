@@ -1,0 +1,180 @@
+Diki Ibrahim:
+REVCORE_LOG_VARIO 150 SMARTKEY (2018-2019) (30400-K59J-A71)_2026-11-20_07-57-07
+REVCORE MOTORCYCLE ECU DIAGNOSTIC - PROTOCOL COMMUNICATION LOG
+ECU Target  : VARIO 150 SMARTKEY (2018-2019) (30400-K59J-A71)
+Exported At : 2026-11-20 07:57:07.095
+Statistics  : Total Events=22759 | TX=6716 B | RX=25920 B | Errors=490
+Port Config : 10400/9600 8N1 (Virtual COM Port / PORTS COM & LPT mode, DTR=1, RTS=1, Latency=2ms)
+=========================================================================================================
+SESSION SUMMARY (evidence based, no status is inferred):
+  Highest evidence status : LIVE_DATA_VALID
+  Last observed status    : LIVE_DATA_VALID
+  TX frames               : 1270
+  RX frames valid         : 1096
+  RX frames invalid       : 4
+  Local echo detected     : 0
+  Timeouts                : 163
+  Retries                 : 0
+  USB errors              : 314
+  Parse failures          : 0
+  Init attempts           : 30
+  Init strategies tried   : fallback: HDS tester-present FE 04 72 8C; fallback: PGM-FI query 0x00/0xF0; fallback: live table 0x72/0x00
+  Final connection status : LIVE_DATA_VALID
+---------------------------------------------------------------------------------------------------------
+DIAGNOSTIC PIPELINE TIMELINE STAGES:
+  [PASSED] USB_DEVICE_DETECTED          : Device: /dev/bus/usb/001/004 [FTDI FT232R K-Line]
+  [PASSED] USB_PERMISSION_GRANTED       : USB permission confirmed for /dev/bus/usb/001/004
+  [PASSED] USB_INTERFACE_OPENED         : Port opened via FtdiSerialDriver (FTDI FT232R K-Line)
+  [PASSED] FTDI_INIT_COMPLETED          : Configured 10400 8N1 via FtdiSerialDriver
+  [PASSED] KLINE_INIT_STARTED           : Wake pulse baseline: BREAK LOW 70 ms / HIGH 130 ms (force=true)
+  [PASSED] USB_OUT_ATTEMPTED            : Transmitting 5 bytes: 72 05 71 17 01
+  [PASSED] USB_OUT_COMPLETED            : Transmitted 5 bytes in 0ms
+  [PASSED] USB_IN_COMPLETED             : Received 1 bytes in 2ms via FtdiSerialDriver
+  [PENDING] FTDI_STATUS_PROCESSED        : Pending
+  [PASSED] PROTOCOL_INIT_COMPLETED      : Query identifikasi baseline Honda pada 10400 bps
+  [PASSED] ECU_RESPONSE_RECEIVED        : Frame ECU valid: 02 18 71 17 00 00 16 00 FF FF FF FF 92 42 3C 00 00 58 80 00 00 00 00 64
+  [PASSED] ECU_IDENTIFIED               : ID cocok database: VARIO 150 SMARTKEY (2018-2019) [30400-K59J-A71] (Error: Entri database ini belum diverifikasi dengan pengujian hardware.)
+---------------------------------------------------------------------------------------------------------
+DLC & IGNITION TROUBLESHOOTING CHECKLIST:
+  1. Honda 4-pin DLC Connector: Pin 1 (+12V DC Battery), Pin 2 (GND Ground), Pin 3 (K-Line Data Serial).
+  2. Kunci Kontak (Ignition Switch) WAJIB dalam posisi ON agar ECM/ECU dialiri daya listrik.
+  3. Adapter USB FTDI FT232R / CH340 / CP2102 harus mendukung half-duplex K-Line transceiver (L9637D/MC33290).
+  4. Driver USB Serial Android disetel ke mode Virtual COM Port (PORTS COM & LPT) dengan buffer purge aktif.
+---------------------------------------------------------------------------------------------------------
+TIME         | CATEGORY | STAGE            | LEN  | HEX                              | DESCRIPTION
+---------------------------------------------------------------------------------------------------------
+07:56:59.709 | RX       | RAW_USB_IN       | 1    | 60                               | RX fragment 1 byte; total buffer 3 byte
+07:56:59.710 | RX       | RAW_USB_IN       | 2    | 00 F0                            | RX fragment 2 byte; total buffer 5 byte
+07:56:59.716 | RX       | RAW_USB_IN       | 1    | 02                               | RX fragment 1 byte; total buffer 6 byte
+07:56:59.718 | RX       | RAW_USB_IN       | 2    | 08 71                            | RX fragment 2 byte; total buffer 8 byte
+07:56:59.720 | RX       | RAW_USB_IN       | 2    | 20 BE                            | RX fragment 2 byte; total buffer 10 byte
+07:56:59.727 | RX       | RAW_USB_IN       | 2    | 80 00                            | RX fragment 2 byte; total buffer 12 byte
+07:56:59.730 | RX       | RA
+
+W_USB_IN       | 1    | 27                               | RX fragment 1 byte; total buffer 13 byte
+07:56:59.731 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Frame ECU checksum-valid diterima (8 byte, status=VALID_FRAME)
+07:56:59.732 | RX       | PARSED_RESPONSE  | 8    | 02 08 71 20 BE 80 00 27          | K-Line frame valid: header=0x02 declaredLen=8 actualLen=8 checksum=OK service=0x71
+07:56:59.734 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Live data parsed from ECU frame: RPM=0
+07:56:59.734 | PROTOCOL | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | Live data tabel 0x17 parsed: RPM=0 TPS=8.59375%
+07:56:59.897 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 17 01                   | Live data tabel cache 0x17
+07:56:59.898 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:56:59.904 | TX       | RAW_USB_OUT      | 5    | 72 05 71 17 01                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:56:59.908 | RX       | RAW_USB_IN       | 2    | 60 00                            | RX fragment 2 byte; total buffer 2 byte
+07:56:59.909 | RX       | RAW_USB_IN       | 1    | 60                               | RX fragment 1 byte; total buffer 3 byte
+07:56:59.911 | RX       | RAW_USB_IN       | 2    | 06 00                            | RX fragment 2 byte; total buffer 5 byte
+07:56:59.917 | RX       | RAW_USB_IN       | 2    | 02 18                            | RX fragment 2 byte; total buffer 7 byte
+07:56:59.919 | RX       | RAW_USB_IN       | 2    | 71 17                            | RX fragment 2 byte; total buffer 9 byte
+07:56:59.921 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 11 byte
+07:56:59.923 | RX       | RAW_USB_IN       | 1    | 16                               | RX fragment 1 byte; total buffer 12 byte
+07:56:59.925 | RX       | RAW_USB_IN       | 2    | 00 FF                            | RX fragment 2 byte; total buffer 14 byte
+07:56:59.927 | RX       | RAW_USB_IN       | 2    | FF FF                            | RX fragment 2 byte; total buffer 16 byte
+07:56:59.929 | RX       | RAW_USB_IN       | 2    | FF 92                            | RX fragment 2 byte; total buffer 18 byte
+07:56:59.931 | RX       | RAW_USB_IN       | 2    | 42 3C                            | RX fragment 2 byte; total buffer 20 byte
+07:56:59.933 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 21 byte
+07:56:59.935 | RX       | RAW_USB_IN       | 2    | 00 58                            | RX fragment 2 byte; total buffer 23 byte
+07:56:59.938 | RX       | RAW_USB_IN       | 2    | 80 00                            | RX fragment 2 byte; total buffer 25 byte
+07:56:59.939 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 27 byte
+07:56:59.941 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 28 byte
+07:56:59.943 | RX       | RAW_USB_IN       | 1    | 64                               | RX fragment 1 byte; total buffer 29 byte
+07:56:59.944 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Frame ECU checksum-valid diterima (24 byte, status=VALID_FRAME)
+07:56:59.945 | RX       | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | K-Line frame valid: header=0x02 declaredLen=24 actualLen=24 checksum=OK service=0x71
+07:56:59.946 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Live data parsed from ECU frame: RPM=0
+07:56:59.947 | PROTOCOL | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | Live data tabel 0x17 parsed: RPM=0 TPS=8.59375%
+07:57:00.098 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 17 01                   | Live data tabel cache 0x17
+07:57:00.099 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:57:00.106 |
+
+TX       | RAW_USB_OUT      | 5    | 72 05 71 17 01                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:57:00.111 | RX       | RAW_USB_IN       | 4    | 60 00 60 06                      | RX fragment 4 byte; total buffer 4 byte
+07:57:00.112 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 5 byte
+07:57:00.118 | RX       | RAW_USB_IN       | 1    | 02                               | RX fragment 1 byte; total buffer 6 byte
+07:57:00.120 | RX       | RAW_USB_IN       | 2    | 18 71                            | RX fragment 2 byte; total buffer 8 byte
+07:57:00.122 | RX       | RAW_USB_IN       | 1    | 17                               | RX fragment 1 byte; total buffer 9 byte
+07:57:00.124 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 11 byte
+07:57:00.126 | RX       | RAW_USB_IN       | 2    | 16 00                            | RX fragment 2 byte; total buffer 13 byte
+07:57:00.128 | RX       | RAW_USB_IN       | 2    | FF FF                            | RX fragment 2 byte; total buffer 15 byte
+07:57:00.130 | RX       | RAW_USB_IN       | 1    | FF                               | RX fragment 1 byte; total buffer 16 byte
+07:57:00.132 | RX       | RAW_USB_IN       | 2    | FF 92                            | RX fragment 2 byte; total buffer 18 byte
+07:57:00.134 | RX       | RAW_USB_IN       | 2    | 42 3C                            | RX fragment 2 byte; total buffer 20 byte
+07:57:00.136 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 22 byte
+07:57:00.138 | RX       | RAW_USB_IN       | 1    | 58                               | RX fragment 1 byte; total buffer 23 byte
+07:57:00.140 | RX       | RAW_USB_IN       | 2    | 80 00                            | RX fragment 2 byte; total buffer 25 byte
+07:57:00.142 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 27 byte
+07:57:00.144 | RX       | RAW_USB_IN       | 2    | 00 64                            | RX fragment 2 byte; total buffer 29 byte
+07:57:00.145 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Frame ECU checksum-valid diterima (24 byte, status=VALID_FRAME)
+07:57:00.146 | RX       | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | K-Line frame valid: header=0x02 declaredLen=24 actualLen=24 checksum=OK service=0x71
+07:57:00.147 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 20 F8                   | Live data tambahan tabel 0x20 (FLASHPRO dat20)
+07:57:00.148 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:57:00.154 | TX       | RAW_USB_OUT      | 5    | 72 05 71 20 F8                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:57:00.158 | RX       | RAW_USB_IN       | 2    | 60 00                            | RX fragment 2 byte; total buffer 2 byte
+07:57:00.159 | RX       | RAW_USB_IN       | 1    | 60                               | RX fragment 1 byte; total buffer 3 byte
+07:57:00.160 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 4 byte
+07:57:00.162 | RX       | RAW_USB_IN       | 1    | F0                               | RX fragment 1 byte; total buffer 5 byte
+07:57:00.166 | RX       | RAW_USB_IN       | 1    | 02                               | RX fragment 1 byte; total buffer 6 byte
+07:57:00.168 | RX       | RAW_USB_IN       | 2    | 08 71                            | RX fragment 2 byte; total buffer 8 byte
+07:57:00.170 | RX       | RAW_USB_IN       | 2    | 20 BE                            | RX fragment 2 byte; total buffer 10 byte
+07:57:00.172 | RX       | RAW_USB_IN       | 1    | 80                               | RX fragment 1 byte; total buffer 11 byte
+07:57:00.174 | RX       | RAW_USB_IN       | 2    | 00 27                            | RX fragment 2 byte; total buffer 13 byte
+07:57:00.174 | SYSTEM   | STATE_CHANGE     | 0    |
+
+| Frame ECU checksum-valid diterima (8 byte, status=VALID_FRAME)
+07:57:00.174 | RX       | PARSED_RESPONSE  | 8    | 02 08 71 20 BE 80 00 27          | K-Line frame valid: header=0x02 declaredLen=8 actualLen=8 checksum=OK service=0x71
+07:57:00.175 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Live data parsed from ECU frame: RPM=0
+07:57:00.175 | PROTOCOL | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | Live data tabel 0x17 parsed: RPM=0 TPS=8.59375%
+07:57:00.339 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 17 01                   | Live data tabel cache 0x17
+07:57:00.340 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:57:00.348 | TX       | RAW_USB_OUT      | 5    | 72 05 71 17 01                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:57:00.352 | RX       | RAW_USB_IN       | 2    | 60 00                            | RX fragment 2 byte; total buffer 2 byte
+07:57:00.353 | RX       | RAW_USB_IN       | 1    | 60                               | RX fragment 1 byte; total buffer 3 byte
+07:57:00.355 | RX       | RAW_USB_IN       | 2    | 06 00                            | RX fragment 2 byte; total buffer 5 byte
+07:57:00.364 | RX       | RAW_USB_IN       | 1    | 02                               | RX fragment 1 byte; total buffer 6 byte
+07:57:00.365 | RX       | RAW_USB_IN       | 4    | 18 71 17 00                      | RX fragment 4 byte; total buffer 10 byte
+07:57:00.366 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 11 byte
+07:57:00.367 | RX       | RAW_USB_IN       | 1    | 16                               | RX fragment 1 byte; total buffer 12 byte
+07:57:00.369 | RX       | RAW_USB_IN       | 2    | 00 FF                            | RX fragment 2 byte; total buffer 14 byte
+07:57:00.371 | RX       | RAW_USB_IN       | 1    | FF                               | RX fragment 1 byte; total buffer 15 byte
+07:57:00.373 | RX       | RAW_USB_IN       | 2    | FF FF                            | RX fragment 2 byte; total buffer 17 byte
+07:57:00.375 | RX       | RAW_USB_IN       | 2    | 92 42                            | RX fragment 2 byte; total buffer 19 byte
+07:57:00.377 | RX       | RAW_USB_IN       | 2    | 3C 00                            | RX fragment 2 byte; total buffer 21 byte
+07:57:00.379 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 22 byte
+07:57:00.381 | RX       | RAW_USB_IN       | 2    | 58 80                            | RX fragment 2 byte; total buffer 24 byte
+07:57:00.383 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 26 byte
+07:57:00.385 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 28 byte
+07:57:00.387 | RX       | RAW_USB_IN       | 1    | 64                               | RX fragment 1 byte; total buffer 29 byte
+07:57:00.388 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Frame ECU checksum-valid diterima (24 byte, status=VALID_FRAME)
+07:57:00.389 | RX       | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | K-Line frame valid: header=0x02 declaredLen=24 actualLen=24 checksum=OK service=0x71
+07:57:00.390 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Live data parsed from ECU frame: RPM=0
+07:57:00.391 | PROTOCOL | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | Live data tabel 0x17 parsed: RPM=0 TPS=8.59375%
+07:57:00.552 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 17 01                   | Live data tabel cache 0x17
+07:57:00.554 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:57:00.561 | TX       | RAW_USB_OUT      | 5    | 72 05 71 17 01                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:57:00.569 | RX       | RA
+
+W_USB_IN       | 3    | 60 00 60                         | RX fragment 3 byte; total buffer 3 byte
+07:57:00.570 | RX       | RAW_USB_IN       | 1    | 06                               | RX fragment 1 byte; total buffer 4 byte
+07:57:00.571 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 5 byte
+07:57:00.576 | RX       | RAW_USB_IN       | 1    | 02                               | RX fragment 1 byte; total buffer 6 byte
+07:57:00.579 | RX       | RAW_USB_IN       | 2    | 18 71                            | RX fragment 2 byte; total buffer 8 byte
+07:57:00.580 | RX       | RAW_USB_IN       | 2    | 17 00                            | RX fragment 2 byte; total buffer 10 byte
+07:57:00.582 | RX       | RAW_USB_IN       | 2    | 00 16                            | RX fragment 2 byte; total buffer 12 byte
+07:57:00.584 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 13 byte
+07:57:00.586 | RX       | RAW_USB_IN       | 2    | FF FF                            | RX fragment 2 byte; total buffer 15 byte
+07:57:00.588 | RX       | RAW_USB_IN       | 2    | FF FF                            | RX fragment 2 byte; total buffer 17 byte
+07:57:00.590 | RX       | RAW_USB_IN       | 2    | 92 42                            | RX fragment 2 byte; total buffer 19 byte
+07:57:00.592 | RX       | RAW_USB_IN       | 2    | 3C 00                            | RX fragment 2 byte; total buffer 21 byte
+07:57:00.594 | RX       | RAW_USB_IN       | 1    | 00                               | RX fragment 1 byte; total buffer 22 byte
+07:57:00.596 | RX       | RAW_USB_IN       | 2    | 58 80                            | RX fragment 2 byte; total buffer 24 byte
+07:57:00.598 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 26 byte
+07:57:00.600 | RX       | RAW_USB_IN       | 2    | 00 00                            | RX fragment 2 byte; total buffer 28 byte
+07:57:00.602 | RX       | RAW_USB_IN       | 1    | 64                               | RX fragment 1 byte; total buffer 29 byte
+07:57:00.602 | SYSTEM   | STATE_CHANGE     | 0    |                                  | Frame ECU checksum-valid diterima (24 byte, status=VALID_FRAME)
+07:57:00.602 | RX       | PARSED_RESPONSE  | 24   | 02 18 71 17 00 00 16 00 FF FF... | K-Line frame valid: header=0x02 declaredLen=24 actualLen=24 checksum=OK service=0x71
+07:57:00.602 | PROTOCOL | PROTOCOL_FRAME   | 5    | 72 05 71 20 F8                   | Live data tambahan tabel 0x20 (FLASHPRO dat20)
+07:57:00.603 | USB      | CONTROL_TRANSFER | 0    |                                  | Purged hardware RX & TX buffers via FtdiSerialDriver
+07:57:00.609 | TX       | RAW_USB_OUT      | 5    | 72 05 71 20 F8                   | K-Line TX 5 byte (percobaan 1/1, inter-byte 0 ms)
+07:57:00.613 | RX       | RAW_USB_IN       | 2    | 60 00                            | RX fragment 2 byte; total buffer 2 byte
+07:57:00.614 | RX       | RAW_USB_IN       | 1    | 60                               | RX fragment 1 byte; total buffer 3 byte
+07:57:00.616 | RX       | RAW_USB_IN       | 2    | 00 F0                            | RX fragment 2 byte; total buffer 5 byte
+07:57:00.622 | RX       | RAW_USB_IN       | 2    | 02 08                            | RX fragment 2 byte; total buffer 7 byte
+07:57:00.624 | RX       | RAW_USB_IN       | 2    | 71 20                            | RX fragment 2 byte; total buffer 9 byte
+07:57:00.626 | RX       | RAW_USB_IN       | 2    | BE 80                            | RX fragment 2 byte; total buff
