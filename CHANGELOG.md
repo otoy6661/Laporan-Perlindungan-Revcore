@@ -2,6 +2,31 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Full Reference Audit] — 2026-11-20
+
+Work order: `REVCORE FULL REFERENCE AUTOPSY & FTDI K-LINE COMPATIBILITY AUDIT`.
+Mode READ-ONLY: tidak ada perubahan source RevCore, tidak ada implementasi baru,
+tidak ada ZIP/publikasi APK, tidak ada klaim uji ECU (kelas D kosong).
+
+### Changed
+- Folder `08_REVCORE_NEXT_DEV_2026-11-20/` dihapus seluruhnya dan diganti
+  `08_REVCORE_REFERENCE_AUDIT_2026-11-20/`; file lama dan baru tidak dicampur.
+- `README.md` diperbarui ke set laporan audit referensi penuh.
+
+### Added
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/REVCORE_FULL_REFERENCE_AUDIT.md` — laporan induk.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/HDIAG_PC_FULL_CAPABILITY_REPORT.md` — kapabilitas H-Diag.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/HDIAG_LIVE_DATA_PARAMETER_MATRIX.md` — matriks parameter H-Diag.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/FLASHPRO_KEYLESS_ID_RESEARCH.md` — alur Keyless ID.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/FTDI_KLINE_COMPATIBILITY_REPORT.md` — kelayakan FTDI.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/REVCORE_IMPLEMENTATION_GAP_ANALYSIS.md` — gap matrix RevCore.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/RESEARCH_EVIDENCE_INDEX.md` — indeks bukti.
+- `08_REVCORE_REFERENCE_AUDIT_2026-11-20/UNRESOLVED_FINDINGS_AND_RISKS.md` — temuan terbuka.
+
+### Evidence
+- Delapan dokumen wajib work order; hash sumber tercatat di `RESEARCH_EVIDENCE_INDEX.md`.
+- Status ECU tetap UNVERIFIED; tidak ada upgrade status tanpa uji perangkat.
+
 ## [RevCore Next Development] — 2026-11-20
 
 Work order: `WORK ORDER — REVCORE NEXT DEVELOPMENT`. Implementasi lokal pada

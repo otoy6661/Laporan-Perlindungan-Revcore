@@ -19,7 +19,7 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `05_ARTIFACTS/` | Artefak pendukung (screenshot lama yang dipertahankan) |
 | `06_REPOSITORY/` | Daftar file lama yang diganti + laporan pembaruan repository |
 | `07_REVCORE_TEKNIS_2026-11-20/` | Laporan teknis audit RevCore 2026-11-20 (Mode `0x5F`, disconnect, matriks status, build/signing, regresi) |
-| `08_REVCORE_NEXT_DEV_2026-11-20/` | Laporan pengembangan RevCore 2026-11-20 (Keyless, Live Monitor, fitur log, kestabilan adapter, screen awake) |
+| `08_REVCORE_REFERENCE_AUDIT_2026-11-20/` | Laporan audit referensi penuh 2026-11-20 (H-Diag, FlashPro Keyless, FTDI K-Line, gap RevCore) |
 
 ## Laporan teknis RevCore (2026-11-20)
 
@@ -30,17 +30,20 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 - [REGRESI_DAN_BUKTI.md](07_REVCORE_TEKNIS_2026-11-20/REGRESI_DAN_BUKTI.md) — regresi, bukti, batas klaim
 - [bukti/](07_REVCORE_TEKNIS_2026-11-20/bukti/) — log build/signing/verifikasi + ringkasan unit test
 
-## Laporan pengembangan RevCore (2026-11-20)
+## Laporan audit referensi penuh (2026-11-20)
 
-Work order: `WORK ORDER — REVCORE NEXT DEVELOPMENT`.
+Work order: `REVCORE FULL REFERENCE AUTOPSY & FTDI K-LINE COMPATIBILITY AUDIT`
+(mode READ-ONLY, tanpa implementasi). Folder laporan Next Development sebelumnya
+telah dihapus dan diganti seluruhnya; tidak ada file lama dan baru yang dicampur.
 
-- [RINGKASAN_WORK_ORDER_2026-11-20.md](08_REVCORE_NEXT_DEV_2026-11-20/RINGKASAN_WORK_ORDER_2026-11-20.md) — status, perubahan source, bukti build, risiko
-- [LAPORAN_PEKERJAAN_1_KEYLESS_ID.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_1_KEYLESS_ID.md) — investigasi Keyless ID Reader
-- [LAPORAN_PEKERJAAN_2_LIVE_MONITOR.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_2_LIVE_MONITOR.md) — matriks parameter live data
-- [LAPORAN_PEKERJAAN_3_LOG_FEATURE.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_3_LOG_FEATURE.md) — filter error, Open Location, Share file
-- [LAPORAN_PEKERJAAN_4_KESTABILAN_ADAPTER.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_4_KESTABILAN_ADAPTER.md) — audit USB/serial lifecycle
-- [LAPORAN_PEKERJAAN_5_SCREEN_AWAKE.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_5_SCREEN_AWAKE.md) — mekanisme layar tetap aktif
-- [bukti/](08_REVCORE_NEXT_DEV_2026-11-20/bukti/) — log unit test, build, verifikasi APK/manifest
+- [REVCORE_FULL_REFERENCE_AUDIT.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/REVCORE_FULL_REFERENCE_AUDIT.md) — laporan induk
+- [HDIAG_PC_FULL_CAPABILITY_REPORT.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/HDIAG_PC_FULL_CAPABILITY_REPORT.md) — kapabilitas H-Diag
+- [HDIAG_LIVE_DATA_PARAMETER_MATRIX.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/HDIAG_LIVE_DATA_PARAMETER_MATRIX.md) — matriks parameter Live Data H-Diag
+- [FLASHPRO_KEYLESS_ID_RESEARCH.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/FLASHPRO_KEYLESS_ID_RESEARCH.md) — alur Keyless ID FlashPro
+- [FTDI_KLINE_COMPATIBILITY_REPORT.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/FTDI_KLINE_COMPATIBILITY_REPORT.md) — kelayakan FTDI K-Line
+- [REVCORE_IMPLEMENTATION_GAP_ANALYSIS.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/REVCORE_IMPLEMENTATION_GAP_ANALYSIS.md) — audit RevCore + gap matrix
+- [RESEARCH_EVIDENCE_INDEX.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/RESEARCH_EVIDENCE_INDEX.md) — indeks sumber dan bukti
+- [UNRESOLVED_FINDINGS_AND_RISKS.md](08_REVCORE_REFERENCE_AUDIT_2026-11-20/UNRESOLVED_FINDINGS_AND_RISKS.md) — temuan terbuka dan risiko
 
 ## Laporan wajib
 
