@@ -2,6 +2,40 @@
 
 Semua perubahan laporan pada repository ini. Format mengikuti Keep a Changelog secara ringkas; tanggal dalam ISO 8601.
 
+## [RevCore Next Development] — 2026-11-20
+
+Work order: `WORK ORDER — REVCORE NEXT DEVELOPMENT`. Implementasi lokal pada
+source RevCore ditambah laporan bukti. Tidak ada APK/ZIP publik, tidak ada
+perubahan identitas/branding, tidak ada perubahan Gate 10.
+
+### Added
+- `08_REVCORE_NEXT_DEV_2026-11-20/RINGKASAN_WORK_ORDER_2026-11-20.md` — status, perubahan, bukti, risiko.
+- `08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_1_KEYLESS_ID.md` — investigasi Keyless: tidak ada transaksi security di log, celah logging, perbaikan logging.
+- `08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_2_LIVE_MONITOR.md` — matriks 19 parameter versus implementasi RevCore dan H-Diag.
+- `08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_3_LOG_FEATURE.md` — filter error, Open Location, Share lampiran file.
+- `08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_4_KESTABILAN_ADAPTER.md` — audit lifecycle USB/serial + perbaikan idempotensi close.
+- `08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_5_SCREEN_AWAKE.md` — window flag tanpa wakelock.
+- `08_REVCORE_NEXT_DEV_2026-11-20/bukti/` — log unit test, build debug/release-Kotlin, verifikasi APK/manifest.
+
+### Changed (source RevCore, build lokal)
+- Predikat error tunggal + riwayat error 500 entri; ekspor hex lengkap dan bagian `ERROR HISTORY`.
+- Filter ERROR memakai predikat yang sama dengan penghitung error.
+- Share menulis file `.txt` ke cache dan memakai FileProvider + URI grant.
+- Open Location memeriksa izin, folder, `resolveActivity`, dan exception.
+- Frame Keyless TX/RX/ERROR/STATE masuk ke log ekspor.
+- `isOpen` volatile; `close()` synchronized/idempoten.
+- Keep-screen-on selama Activity terlihat.
+
+### Evidence
+- 335 unit test, 0 gagal.
+- `assembleDebug` dan `compileReleaseKotlin` berhasil.
+- APK debug SHA-256 `1d1566ba97b3a38b28751d36141fec96bdcff19e3742ced6cd33261c953acf37`.
+- Tidak ada pengujian hardware; pekerjaan berstatus PARTIAL.
+
+### Preserved
+- Riwayat Git, laporan Tahap 1/Tahap 2, identitas otoy, dan semua konfigurasi kendaraan.
+- Tidak ada signing key/credential yang diunggah.
+
 ## [Laporan Teknis RevCore] — 2026-11-20
 
 Work order: `WORK ORDER — LAPORAN TEKNIS REVCORE` (upload laporan hasil

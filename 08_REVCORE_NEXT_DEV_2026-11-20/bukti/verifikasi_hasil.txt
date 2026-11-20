@@ -1,0 +1,14 @@
+Total unit tests: 335
+Failures: 0
+-rw-r--r-- 1 Lord Otoy 197121 57213202 Nov 20 09:50 app/build/outputs/apk/debug/app-debug.apk
+1d1566ba97b3a38b28751d36141fec96bdcff19e3742ced6cd33261c953acf37 *app/build/outputs/apk/debug/app-debug.apk
+          E: provider (line=67)
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="androidx.core.content.FileProvider" (Raw: "androidx.core.content.FileProvider")
+            A: http://schemas.android.com/apk/res/android:exported(0x01010010)=false
+            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.revcore.android.fileprovider" (Raw: "com.revcore.android.fileprovider")
+            A: http://schemas.android.com/apk/res/android:grantUriPermissions(0x0101001b)=true
+              E: meta-data (line=72)
+                A: http://schemas.android.com/apk/res/android:name(0x01010003)="android.support.FILE_PROVIDER_PATHS" (Raw: "android.support.FILE_PROVIDER_PATHS")
+--
+          E: provider (line=76)
+            A: http://schemas.android.com/apk/res/android:name(0x01010003)="androidx.startup.InitializationProvider" (Raw: "androidx.startup.InitializationProvider")

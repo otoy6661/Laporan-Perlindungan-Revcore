@@ -19,6 +19,7 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 | `05_ARTIFACTS/` | Artefak pendukung (screenshot lama yang dipertahankan) |
 | `06_REPOSITORY/` | Daftar file lama yang diganti + laporan pembaruan repository |
 | `07_REVCORE_TEKNIS_2026-11-20/` | Laporan teknis audit RevCore 2026-11-20 (Mode `0x5F`, disconnect, matriks status, build/signing, regresi) |
+| `08_REVCORE_NEXT_DEV_2026-11-20/` | Laporan pengembangan RevCore 2026-11-20 (Keyless, Live Monitor, fitur log, kestabilan adapter, screen awake) |
 
 ## Laporan teknis RevCore (2026-11-20)
 
@@ -28,6 +29,18 @@ Laporan Tahap 1 dipertahankan utuh sebagai riwayat penelitian. Dokumen Tahap 2 m
 - [MATRIKS_STATUS_17_PEKERJAAN.md](07_REVCORE_TEKNIS_2026-11-20/MATRIKS_STATUS_17_PEKERJAAN.md) — matriks status + catatan keterlacakan
 - [REGRESI_DAN_BUKTI.md](07_REVCORE_TEKNIS_2026-11-20/REGRESI_DAN_BUKTI.md) — regresi, bukti, batas klaim
 - [bukti/](07_REVCORE_TEKNIS_2026-11-20/bukti/) — log build/signing/verifikasi + ringkasan unit test
+
+## Laporan pengembangan RevCore (2026-11-20)
+
+Work order: `WORK ORDER — REVCORE NEXT DEVELOPMENT`.
+
+- [RINGKASAN_WORK_ORDER_2026-11-20.md](08_REVCORE_NEXT_DEV_2026-11-20/RINGKASAN_WORK_ORDER_2026-11-20.md) — status, perubahan source, bukti build, risiko
+- [LAPORAN_PEKERJAAN_1_KEYLESS_ID.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_1_KEYLESS_ID.md) — investigasi Keyless ID Reader
+- [LAPORAN_PEKERJAAN_2_LIVE_MONITOR.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_2_LIVE_MONITOR.md) — matriks parameter live data
+- [LAPORAN_PEKERJAAN_3_LOG_FEATURE.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_3_LOG_FEATURE.md) — filter error, Open Location, Share file
+- [LAPORAN_PEKERJAAN_4_KESTABILAN_ADAPTER.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_4_KESTABILAN_ADAPTER.md) — audit USB/serial lifecycle
+- [LAPORAN_PEKERJAAN_5_SCREEN_AWAKE.md](08_REVCORE_NEXT_DEV_2026-11-20/LAPORAN_PEKERJAAN_5_SCREEN_AWAKE.md) — mekanisme layar tetap aktif
+- [bukti/](08_REVCORE_NEXT_DEV_2026-11-20/bukti/) — log unit test, build, verifikasi APK/manifest
 
 ## Laporan wajib
 
